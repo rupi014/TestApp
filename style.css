@@ -826,3 +826,340 @@ body {
 .toast.show {
   transform: translateX(-50%) translateY(0);
 }
+
+/* ========================
+   COMPETITIVE MODE
+   ======================== */
+.comp-header {
+  margin-bottom: 8px;
+}
+
+.comp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(255,184,0,0.15), rgba(255,107,0,0.15));
+  border: 1px solid rgba(255,184,0,0.4);
+  color: var(--warning);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 100px;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.comp-hint {
+  margin-top: -28px;
+  margin-bottom: 32px;
+}
+
+/* Competitive card in subject screen */
+.subject-card.comp-card {
+  background: linear-gradient(135deg, rgba(255,184,0,0.08), rgba(255,107,0,0.06));
+  border: 1px solid rgba(255,184,0,0.25);
+  grid-column: 1 / -1;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 32px;
+}
+
+.subject-card.comp-card:hover {
+  border-color: var(--warning);
+  box-shadow: 0 12px 40px rgba(255,184,0,0.15), 0 0 0 1px var(--warning);
+}
+
+.comp-card-text {
+  flex: 1;
+}
+
+.comp-card-text .card-name {
+  font-size: 1.2rem;
+  color: var(--warning);
+}
+
+.comp-card-text .card-abbr {
+  color: rgba(255,184,0,0.6);
+}
+
+.comp-card .card-icon {
+  font-size: 2.5rem;
+}
+
+.comp-card-cta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--warning);
+  background: rgba(255,184,0,0.1);
+  border: 1px solid rgba(255,184,0,0.3);
+  padding: 8px 16px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+/* ========================
+   SUBMIT SCREEN
+   ======================== */
+.submit-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.submit-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 48px;
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+  animation: slideUp 0.4s ease;
+}
+
+.submit-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+.submit-label {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+}
+
+.submit-input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.submit-input-row input {
+  flex: 1;
+  background: var(--bg-card2);
+  border: 1px solid var(--border-light);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+.submit-input-row input:focus {
+  border-color: var(--accent);
+}
+
+.submit-error {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--wrong);
+  margin-bottom: 8px;
+}
+
+#btn-skip-save {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* ========================
+   RANKING SCREEN
+   ======================== */
+.ranking-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: rgba(10,12,15,0.95);
+  backdrop-filter: blur(12px);
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.ranking-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: -0.02em;
+  flex: 1;
+}
+
+.ranking-select {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  outline: none;
+  cursor: pointer;
+  transition: border-color var(--transition);
+}
+
+.ranking-select:focus {
+  border-color: var(--accent);
+}
+
+.ranking-body {
+  padding: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.ranking-table thead tr {
+  border-bottom: 2px solid var(--border-light);
+}
+
+.ranking-table th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 10px 16px;
+  text-align: left;
+}
+
+.ranking-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.ranking-table tbody tr {
+  transition: background var(--transition);
+}
+
+.ranking-table tbody tr:hover {
+  background: var(--bg-card);
+}
+
+.rank-pos {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--text-dim);
+}
+
+.rank-pos.gold   { color: #ffd700; }
+.rank-pos.silver { color: #c0c0c0; }
+.rank-pos.bronze { color: #cd7f32; }
+
+.rank-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.rank-subj {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid var(--accent-glow);
+  padding: 3px 8px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.rank-score {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.rank-pct {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.rank-date {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.ranking-empty {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* Competitive mode chip in test header */
+.comp-chip {
+  background: linear-gradient(135deg, rgba(255,184,0,0.15), rgba(255,107,0,0.1));
+  border: 1px solid rgba(255,184,0,0.4);
+  color: var(--warning);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+  .ranking-body { padding: 16px; }
+  .ranking-table th:nth-child(3),
+  .ranking-table td:nth-child(3) { display: none; }
+  .ranking-table th:nth-child(6),
+  .ranking-table td:nth-child(6) { display: none; }
+  .submit-card { padding: 28px 20px; }
+  .subject-card.comp-card { flex-direction: column; align-items: flex-start; }
+  .comp-card-cta { display: none; }
+}
+
+/* Competitive header top row */
+.comp-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.btn-ranking {
+  background: transparent;
+  border: 1px solid rgba(255,184,0,0.35);
+  color: var(--warning);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.btn-ranking:hover {
+  background: rgba(255,184,0,0.1);
+  border-color: var(--warning);
+  transform: translateY(-1px);
+}

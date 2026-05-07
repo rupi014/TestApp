@@ -14,15 +14,12 @@
   <div id="screen-subject" class="screen active">
     <div class="bg-grid"></div>
     <header class="site-header">
-      <div class="logo"><span>ASIR</span>TEST<span>LAB</span></div>
-      <p class="tagline">Simulacros de examen · ASIR y Ciberseguridad · By Rubens Ballester</p>
+      <div class="logo">TEST<span>LAB</span></div>
+      <p class="tagline">Simulacros de examen · DAW/DAM/ASIX</p>
     </header>
-
     <main class="subject-grid-container">
       <h1 class="section-title">Elige una <em>asignatura</em></h1>
-      <div class="subject-grid" id="subject-grid">
-        <!-- Populated by JS -->
-      </div>
+      <div class="subject-grid" id="subject-grid"></div>
     </main>
   </div>
 
@@ -34,9 +31,7 @@
       <div class="subject-badge" id="selected-subject-badge"></div>
       <h2 class="section-title">¿Cuántas <em>preguntas</em>?</h2>
       <p class="hint-text">Disponibles: <span id="total-available">0</span> preguntas en el banco</p>
-      <div class="count-options" id="count-options">
-        <!-- Populated by JS -->
-      </div>
+      <div class="count-options" id="count-options"></div>
       <div class="custom-count-wrap">
         <label>Número personalizado:</label>
         <div class="custom-input-row">
@@ -61,25 +56,21 @@
         <span class="score-wrong" id="live-wrong">0</span>✗
       </div>
     </div>
-
     <div class="progress-bar-wrap">
       <div class="progress-bar" id="progress-bar"></div>
     </div>
-
     <main class="test-body">
       <div class="question-card" id="question-card">
         <p class="question-number" id="question-number">Pregunta 1</p>
         <p class="question-text" id="question-text"></p>
-        <div class="options-grid" id="options-grid">
-          <!-- Populated by JS -->
-        </div>
+        <div class="options-grid" id="options-grid"></div>
         <div class="explanation-box hidden" id="explanation-box"></div>
         <button class="btn-primary btn-next hidden" id="btn-next">Siguiente →</button>
       </div>
     </main>
   </div>
 
-  <!-- SCREEN 4: Results -->
+  <!-- SCREEN 4: Results (modo normal) -->
   <div id="screen-results" class="screen">
     <div class="bg-grid"></div>
     <main class="results-container">
@@ -94,33 +85,90 @@
           <div class="score-bar-fill" id="score-bar-fill"></div>
         </div>
         <p class="score-message" id="score-message"></p>
-
         <div class="result-stats">
-          <div class="stat">
-            <span class="stat-val green" id="stat-correct">0</span>
-            <span class="stat-label">Correctas</span>
-          </div>
-          <div class="stat">
-            <span class="stat-val red" id="stat-wrong">0</span>
-            <span class="stat-label">Incorrectas</span>
-          </div>
-          <div class="stat">
-            <span class="stat-val yellow" id="stat-skip">0</span>
-            <span class="stat-label">Sin responder</span>
-          </div>
+          <div class="stat"><span class="stat-val green" id="stat-correct">0</span><span class="stat-label">Correctas</span></div>
+          <div class="stat"><span class="stat-val red" id="stat-wrong">0</span><span class="stat-label">Incorrectas</span></div>
+          <div class="stat"><span class="stat-val yellow" id="stat-skip">0</span><span class="stat-label">Sin responder</span></div>
         </div>
-
         <div class="results-actions">
           <button class="btn-primary" id="btn-retry">Repetir test</button>
           <button class="btn-secondary" id="btn-new-subject">Nueva asignatura</button>
         </div>
-
-        <!-- Review -->
         <div class="review-section">
           <h3 class="review-title">Repaso de errores</h3>
           <div id="review-list"></div>
         </div>
       </div>
+    </main>
+  </div>
+
+  <!-- SCREEN 5: Competitive — Subject Selection -->
+  <div id="screen-competitive" class="screen">
+    <div class="bg-grid"></div>
+    <button class="btn-back" id="back-from-competitive">← Volver</button>
+    <main class="subject-grid-container">
+      <div class="comp-header">
+        <div class="comp-header-top">
+          <span class="comp-badge">⚡ MODO COMPETITIVO</span>
+          <button class="btn-ranking" id="btn-view-ranking">🏆 Ver ranking</button>
+        </div>
+        <h2 class="section-title">Elige una <em>asignatura</em></h2>
+        <p class="hint-text comp-hint">30 preguntas aleatorias · Tu resultado quedará en el ranking global</p>
+      </div>
+      <div class="subject-grid" id="comp-subject-grid"></div>
+    </main>
+  </div>
+
+  <!-- SCREEN 6: Competitive — Submit score -->
+  <div id="screen-submit" class="screen">
+    <div class="bg-grid"></div>
+    <main class="submit-container">
+      <div class="submit-card">
+        <div class="result-emoji" id="submit-emoji">🏆</div>
+        <h2 class="submit-title">¡Test completado!</h2>
+        <div class="score-display">
+          <span class="score-big" id="submit-percent">0%</span>
+          <span class="score-fraction" id="submit-fraction">0/30 correctas</span>
+        </div>
+        <div class="score-bar-wrap" style="margin-bottom:32px">
+          <div class="score-bar-fill" id="submit-bar"></div>
+        </div>
+        <p class="submit-label">Introduce tu nombre para guardar el resultado:</p>
+        <div class="submit-input-row">
+          <input type="text" id="player-name" maxlength="30" placeholder="Tu nombre…" autocomplete="off" />
+          <button class="btn-primary" id="btn-save-score">Guardar 🏅</button>
+        </div>
+        <p class="submit-error hidden" id="submit-error"></p>
+        <button class="btn-secondary" id="btn-skip-save">Omitir y ver ranking</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- SCREEN 7: Ranking -->
+  <div id="screen-ranking" class="screen">
+    <div class="bg-grid"></div>
+    <div class="ranking-header">
+      <button class="btn-back" id="back-from-ranking">← Inicio</button>
+      <h2 class="ranking-title">🏆 Ranking Global</h2>
+      <select id="ranking-filter" class="ranking-select">
+        <option value="all">Todas las asignaturas</option>
+        <option value="IPEI">IPEI</option>
+        <option value="BBDD">Bases de Datos</option>
+        <option value="SSOO">Sistemas Operativos</option>
+        <option value="LM">Lenguaje de Marcas</option>
+        <option value="IAW">Implementación Web</option>
+        <option value="SRI">Servicios de Red</option>
+      </select>
+    </div>
+    <main class="ranking-body">
+      <div class="loading-overlay" id="ranking-loading">Cargando ranking…</div>
+      <table class="ranking-table hidden" id="ranking-table">
+        <thead>
+          <tr><th>#</th><th>Nombre</th><th>Asignatura</th><th>Resultado</th><th>%</th><th>Fecha</th></tr>
+        </thead>
+        <tbody id="ranking-tbody"></tbody>
+      </table>
+      <p class="ranking-empty hidden" id="ranking-empty">No hay resultados todavía. ¡Sé el primero!</p>
     </main>
   </div>
 
