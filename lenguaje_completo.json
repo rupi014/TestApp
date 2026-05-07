@@ -1,0 +1,1931 @@
+{
+  "simulacro": "Simulacro Completo - Lenguaje de Marcas",
+  "total_preguntas": 175,
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "¿Qué uso se menciona para XML en un CRM?",
+      "opciones": {
+        "a": "Impedir la personalización mediante esquemas.",
+        "b": "Sustituir completamente las campañas y la analítica.",
+        "c": "Eliminar la necesidad de sincronización de datos.",
+        "d": "Representar datos de clientes e integrarlos con otros sistemas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "enunciado": "¿Qué permiten los predicados [ ] en XPath?",
+      "opciones": {
+        "a": "Filtrar nodos según condiciones.",
+        "b": "Declarar variables globales.",
+        "c": "Sustituir el atributo select.",
+        "d": "Convertir XML en PDF."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "enunciado": "¿Qué vulnerabilidad de seguridad se asocia a DTD?",
+      "opciones": {
+        "a": "CORS",
+        "b": "XXE",
+        "c": "CSRF",
+        "d": "SQL Injection"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "enunciado": "¿Qué permite el cifrado XML?",
+      "opciones": {
+        "a": "Transformar XML en HTML automáticamente.",
+        "b": "Eliminar la necesidad de claves criptográficas.",
+        "c": "Sustituir la firma digital por comentarios.",
+        "d": "Proteger elementos o atributos específicos del documento."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Qué elemento se utiliza para recibir valores externos en una hoja de estilos?",
+      "opciones": {
+        "a": "<xsl:when>",
+        "b": "<xsl:attribute-set>",
+        "c": "<xsl:param>",
+        "d": "<xsl:import>"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "enunciado": "¿Qué mecanismo de XSD permite crear jerarquías de tipos?",
+      "opciones": {
+        "a": "La extensión y la restricción.",
+        "b": "La omisión de namespaces.",
+        "c": "La sustitución de <xs:element> por comentarios.",
+        "d": "El uso exclusivo de #PCDATA."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Qué ventaja aporta indicar width y height en una imagen HTML?",
+      "opciones": {
+        "a": "Impide el uso de texto alternativo.",
+        "b": "Evita saltos de contenido durante la carga.",
+        "c": "Desactiva la carga diferida.",
+        "d": "Convierte automáticamente la imagen en SVG."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "enunciado": "¿Qué capacidad destaca en XSD respecto a los tipos de datos?",
+      "opciones": {
+        "a": "Admite exclusivamente enteros y decimales.",
+        "b": "Soporta más de 44 tipos primitivos.",
+        "c": "Solo reconoce cadenas de texto.",
+        "d": "Impide definir tipos derivados."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Qué caracteriza a EXI (Efficient XML Interchange)?",
+      "opciones": {
+        "a": "Sustituye a XQuery en consultas empresariales.",
+        "b": "Es una serialización binaria compacta con menor tamaño.",
+        "c": "Es un formato textual más verboso que XML.",
+        "d": "Solo se usa para maquetación HTML."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "enunciado": "¿Qué esquema se presenta como especialmente apropiado para APIs RESTful y aplicaciones web o móviles?",
+      "opciones": {
+        "a": "Schematron XML",
+        "b": "XSD",
+        "c": "DTD",
+        "d": "JSON Schema"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 11,
+      "enunciado": "¿Qué significa @ en XPath?",
+      "opciones": {
+        "a": "Que se selecciona la raíz absoluta.",
+        "b": "Que se seleccionan atributos.",
+        "c": "Que se inicia un comentario XSLT.",
+        "d": "Que se aplica una suma numérica."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué tipo de índice se cita para acelerar consultas en bases XML?",
+      "opciones": {
+        "a": "Índices de caminos XPath.",
+        "b": "Únicamente índices hash sobre imágenes.",
+        "c": "Solo claves externas relacionales.",
+        "d": "Índices CSS de selectores visuales."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 13,
+      "enunciado": "¿Qué representa la URI de un namespace?",
+      "opciones": {
+        "a": "El valor por defecto de todos los atributos.",
+        "b": "El título del documento XML.",
+        "c": "La identidad global del vocabulario.",
+        "d": "La posición del nodo actual en XPath."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 14,
+      "enunciado": "¿Qué combinación de formatos se propone como caso de coexistencia habitual?",
+      "opciones": {
+        "a": "XML para integraciones reguladas, JSON para APIs públicas y Protocol Buffers para microservicios internos.",
+        "b": "Solo Protocol Buffers para mejorar la legibilidad manual.",
+        "c": "Solo XML en todos los escenarios, sin excepciones.",
+        "d": "Solo JSON para documentos firmados y regulados."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué permiten almacenar los atributos data-*?",
+      "opciones": {
+        "a": "Únicamente URLs absolutas.",
+        "b": "Datos personalizados utilizables en scripts.",
+        "c": "La codificación del documento HTML.",
+        "d": "Metadatos reservados exclusivamente para CSS."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 16,
+      "enunciado": "¿Qué combinación mejora la accesibilidad de una tabla de datos?",
+      "opciones": {
+        "a": "Sustituir <th> por <td> para simplificar.",
+        "b": "Añadir <caption> y el atributo scope en los encabezados.",
+        "c": "Eliminar cualquier texto descriptivo.",
+        "d": "Usar solo bordes y colores llamativos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 17,
+      "enunciado": "¿Para qué sirve el atributo lang en la etiqueta <html>?",
+      "opciones": {
+        "a": "Para especificar el idioma principal del documento.",
+        "b": "Para definir el color principal de la página.",
+        "c": "Para activar la validación W3C automáticamente.",
+        "d": "Para indicar el framework CSS utilizado."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 18,
+      "enunciado": "¿Qué verifica principalmente la condición de 'bien formado' en XML?",
+      "opciones": {
+        "a": "La existencia de tipos de datos avanzados.",
+        "b": "La integración con múltiples esquemas JSON.",
+        "c": "La corrección sintáctica básica del documento.",
+        "d": "La conformidad con reglas de negocio condicionales."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "enunciado": "¿Qué característica es propia de una base relacional con soporte XML?",
+      "opciones": {
+        "a": "Utiliza un modelo de árbol o grafo como representación nativa principal.",
+        "b": "Elimina por completo la necesidad de transformar datos.",
+        "c": "No permite concurrencia ni transacciones.",
+        "d": "Suele almacenar el XML como texto o mediante mapeo a tablas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 20,
+      "enunciado": "¿Qué limitación se atribuye a XSLT 1.0 en comparación con versiones posteriores?",
+      "opciones": {
+        "a": "Falta de plantillas y condicionales.",
+        "b": "Imposibilidad total de usar XPath.",
+        "c": "Incapacidad para producir HTML.",
+        "d": "Tipos de datos más limitados y ausencia de funciones definidas por la persona usuaria."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 21,
+      "enunciado": "¿Qué aportó XSLT 2.0 respecto a XSLT 1.0?",
+      "opciones": {
+        "a": "Añadió tipos de datos más ricos y funciones avanzadas.",
+        "b": "Obligó a trabajar exclusivamente con JSON.",
+        "c": "Eliminó las expresiones regulares.",
+        "d": "Suprimió el uso de secuencias."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 22,
+      "enunciado": "¿Qué tipo de atributo DTD identifica un valor único dentro del documento?",
+      "opciones": {
+        "a": "NMTOKEN",
+        "b": "ID",
+        "c": "CDATA",
+        "d": "IDREFS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 23,
+      "enunciado": "¿Qué instrucción permite una selección múltiple similar a un 'switch'?",
+      "opciones": {
+        "a": "<xsl:choose>",
+        "b": "<xsl:comment>",
+        "c": "<xsl:number>",
+        "d": "<xsl:text>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 24,
+      "enunciado": "¿Qué describe WSDL en el contexto de SOAP?",
+      "opciones": {
+        "a": "Los servicios, operaciones y mensajes.",
+        "b": "La serialización binaria EXI.",
+        "c": "Las reglas de cascada de CSS.",
+        "d": "Los estilos tipográficos de un PDF."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 25,
+      "enunciado": "Según la UT1, ¿cuándo conviene usar un elemento en lugar de un atributo?",
+      "opciones": {
+        "a": "Cuando el dato es contenido principal o puede tener estructura compleja.",
+        "b": "Cuando se desea evitar cualquier anidamiento.",
+        "c": "Cuando el valor debe repetirse sin orden.",
+        "d": "Cuando se trata de metadatos breves o identificadores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 26,
+      "enunciado": "¿Qué práctica se recomienda respecto a los prefijos de namespace?",
+      "opciones": {
+        "a": "Usarlos solo en atributos y nunca en elementos.",
+        "b": "Cambiarlos en cada documento para evitar repetición.",
+        "c": "Sustituirlos por comentarios XML.",
+        "d": "Mantenerlos estables y consistentes."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 27,
+      "enunciado": "¿Qué herramienta detecta la capa de 'bien formado' en XML?",
+      "opciones": {
+        "a": "Una consulta SQL con extensiones XML.",
+        "b": "Un parser XML.",
+        "c": "Una hoja XSLT.",
+        "d": "Un navegador web en modo estricto."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 28,
+      "enunciado": "¿Cómo debe escribirse el salto de línea en XHTML según la unidad?",
+      "opciones": {
+        "a": "Como <line-break>.",
+        "b": "Como <br>.",
+        "c": "Como <lb></lb>.",
+        "d": "Como <br />."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 29,
+      "enunciado": "¿Qué indica el operador ? en DTD?",
+      "opciones": {
+        "a": "Cero o más ocurrencias.",
+        "b": "Cero o una ocurrencia.",
+        "c": "Exactamente una secuencia repetida.",
+        "d": "Una o más ocurrencias."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Qué hace <xsl:value-of>?",
+      "opciones": {
+        "a": "Declara un namespace por defecto.",
+        "b": "Inserta el valor textual de un nodo en la salida.",
+        "c": "Define un índice XPath.",
+        "d": "Bloquea la edición del documento origen."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿Qué instrucción se usa para una condición simple en XSLT?",
+      "opciones": {
+        "a": "<xsl:namespace-alias>",
+        "b": "<xsl:key>",
+        "c": "<xsl:mode>",
+        "d": "<xsl:if>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿Qué función cumplen los atributos en un documento XML?",
+      "opciones": {
+        "a": "Eliminan la necesidad de usar esquemas.",
+        "b": "Sustituyen siempre a los elementos hijos.",
+        "c": "Se usan únicamente para definir comentarios.",
+        "d": "Aportan metainformación en forma de pares clave-valor."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Para qué se emplea una transformación XML → HTML?",
+      "opciones": {
+        "a": "Para definir la cardinalidad de elementos XML.",
+        "b": "Para presentar datos estructurados en navegadores web.",
+        "c": "Para cifrar documentos SOAP.",
+        "d": "Para sustituir completamente CSS y JavaScript."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Qué combinación se presenta como especialmente adecuada para cubrir estructura, tipos y reglas de negocio?",
+      "opciones": {
+        "a": "DTD + SVG",
+        "b": "RSS + Atom",
+        "c": "XSD + Schematron",
+        "d": "HTML + CSS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 35,
+      "enunciado": "¿Qué práctica se considera correcta al usar encabezados HTML?",
+      "opciones": {
+        "a": "Mantener una jerarquía lógica sin saltarse niveles de forma arbitraria.",
+        "b": "Sustituir todos los encabezados por <div>.",
+        "c": "Empezar por <h3> para ahorrar espacio visual.",
+        "d": "Usar varios <h1> sin jerarquía."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 36,
+      "enunciado": "¿Qué metalenguaje histórico se presenta como origen de HTML y XML?",
+      "opciones": {
+        "a": "MathML",
+        "b": "SGML",
+        "c": "XSLT",
+        "d": "RSS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 37,
+      "enunciado": "¿Qué condición adicional debe cumplir un documento XML válido respecto a uno bien formado?",
+      "opciones": {
+        "a": "Debe tener al menos dos elementos raíz.",
+        "b": "Debe incluir siempre comentarios y CDATA.",
+        "c": "Debe prescindir de namespaces.",
+        "d": "Debe ajustarse a un esquema como XSD o Relax NG."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 38,
+      "enunciado": "¿Qué etiqueta se usa para contenido tangencial o complementario, como una barra lateral?",
+      "opciones": {
+        "a": "<footer>",
+        "b": "<main>",
+        "c": "<section>",
+        "d": "<aside>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 39,
+      "enunciado": "¿Qué tecnología se menciona para generar PDF a partir de XML con control de maquetación?",
+      "opciones": {
+        "a": "DTD",
+        "b": "WSDL",
+        "c": "ARIA",
+        "d": "XSL-FO"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 40,
+      "enunciado": "¿Qué es XSLT según la unidad?",
+      "opciones": {
+        "a": "Un lenguaje declarativo basado en XML para transformar documentos XML.",
+        "b": "Un formato binario alternativo a EXI.",
+        "c": "Un protocolo de red para servicios SOAP.",
+        "d": "Un motor de bases de datos relacional."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 41,
+      "enunciado": "¿Qué instrucción recorre un conjunto de nodos en XSLT?",
+      "opciones": {
+        "a": "<xsl:sort>",
+        "b": "<xsl:output>",
+        "c": "<xsl:for-each>",
+        "d": "<xsl:strip-space>"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 42,
+      "enunciado": "¿Qué caracteriza a SOAP?",
+      "opciones": {
+        "a": "No admite estándares adicionales de seguridad.",
+        "b": "Es un estilo arquitectónico sin estado basado solo en URLs.",
+        "c": "Es un protocolo basado en XML con formato rígido de encabezado y cuerpo.",
+        "d": "Obliga a usar JSON como formato único."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 43,
+      "enunciado": "¿Qué ventaja aporta declarar el namespace principal por defecto en el elemento raíz?",
+      "opciones": {
+        "a": "Reduce ruido en las etiquetas del vocabulario principal.",
+        "b": "Obliga a que todos los XPath funcionen sin configuración adicional.",
+        "c": "Convierte los prefijos en identidades globales.",
+        "d": "Evita por completo los errores de validación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 44,
+      "enunciado": "¿Qué regla tiene mayor especificidad según la UT2?",
+      "opciones": {
+        "a": "Un estilo en línea.",
+        "b": "Un selector por clase.",
+        "c": "Un selector por pseudo-elemento.",
+        "d": "Un selector por etiqueta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 45,
+      "enunciado": "¿Qué requisito es propio de un documento XML bien formado?",
+      "opciones": {
+        "a": "Tener un único elemento raíz.",
+        "b": "Validarse siempre con Schematron.",
+        "c": "Incluir solo atributos y no elementos.",
+        "d": "Usar obligatoriamente XSLT."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Qué rasgo sintáctico distingue a XHTML frente a HTML?",
+      "opciones": {
+        "a": "Permite omitir el cierre de etiquetas con mayor libertad.",
+        "b": "No admite atributos con valores entre comillas.",
+        "c": "Exige documentos bien formados conforme a reglas XML.",
+        "d": "No distingue entre mayúsculas y minúsculas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué ventaja destaca de JSON frente a XML en aplicaciones web y móviles?",
+      "opciones": {
+        "a": "Soporte nativo de namespaces complejos.",
+        "b": "Mayor ligereza y compacidad del formato.",
+        "c": "Mayor riqueza de contratos XSD que XML.",
+        "d": "Uso exclusivo en entornos regulados."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 48,
+      "enunciado": "¿Qué efecto tiene la compresión gzip sobre XML según la unidad?",
+      "opciones": {
+        "a": "Reduce el espacio ocupado con baja legibilidad.",
+        "b": "Elimina la necesidad de índices.",
+        "c": "Convierte el documento en una base de datos nativa.",
+        "d": "Aumenta la legibilidad y el tamaño del archivo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 49,
+      "enunciado": "¿Qué herramientas se mencionan para evaluar accesibilidad web?",
+      "opciones": {
+        "a": "DTD y XSD.",
+        "b": "WAVE y Lighthouse.",
+        "c": "Saxon y XMLmind.",
+        "d": "XPath y XQuery."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 50,
+      "enunciado": "¿Qué garantiza la firma digital XML?",
+      "opciones": {
+        "a": "Conversión a Protocol Buffers.",
+        "b": "Desaparición de la estructura jerárquica.",
+        "c": "Integridad y autenticidad del contenido firmado.",
+        "d": "Compresión binaria del mensaje."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 51,
+      "enunciado": "¿Qué herramienta se menciona como editor potente para edición y validación XML?",
+      "opciones": {
+        "a": "Bootstrap",
+        "b": "TailwindCSS",
+        "c": "WAVE",
+        "d": "Oxygen XML Editor"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 52,
+      "enunciado": "¿Qué papel desempeña XML en un ERP según la unidad?",
+      "opciones": {
+        "a": "Se limita exclusivamente a la presentación visual.",
+        "b": "Solo sirve para almacenar imágenes vectoriales.",
+        "c": "Impide la validación mediante XSD.",
+        "d": "Facilita la interoperabilidad entre módulos y sistemas externos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 53,
+      "enunciado": "¿Qué caracteriza a Protocol Buffers?",
+      "opciones": {
+        "a": "Alta legibilidad humana mediante etiquetas.",
+        "b": "Orientación exclusiva a documentos impresos.",
+        "c": "Ausencia total de esquemas.",
+        "d": "Formato binario muy compacto y de alto rendimiento."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Qué atributo de la etiqueta <a> especifica la URL de destino?",
+      "opciones": {
+        "a": "action",
+        "b": "src",
+        "c": "alt",
+        "d": "href"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 55,
+      "enunciado": "¿Qué añade la validez respecto a la mera bien formación?",
+      "opciones": {
+        "a": "La conversión automática a HTML.",
+        "b": "La eliminación de cualquier atributo.",
+        "c": "La conformidad con un esquema que define estructura y restricciones.",
+        "d": "La obligatoriedad de usar UTF-16."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Qué declaración DTD define un elemento?",
+      "opciones": {
+        "a": "<xs:element .../>",
+        "b": "<!DOCTYPE ...>",
+        "c": "<!ELEMENT nombre (modelo_contenido)>",
+        "d": "<!ATTLIST ...>"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 57,
+      "enunciado": "¿Qué significa / en XPath?",
+      "opciones": {
+        "a": "Selección de todos los atributos.",
+        "b": "Selección del nodo hermano siguiente.",
+        "c": "Operador de suma.",
+        "d": "Selección desde la raíz del documento."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Qué principio es característico de REST?",
+      "opciones": {
+        "a": "Dependencia de WSDL para cada operación.",
+        "b": "Formato XML rígido con encabezado obligatorio.",
+        "c": "Uso de recursos identificados por URL y métodos HTTP estándar.",
+        "d": "Transporte independiente de HTTP, SMTP o TCP como rasgo principal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 59,
+      "enunciado": "¿Para qué se utilizan los namespaces en XML?",
+      "opciones": {
+        "a": "Para evitar colisiones entre vocabularios.",
+        "b": "Para impedir el uso de atributos.",
+        "c": "Para sustituir la codificación UTF-8.",
+        "d": "Para convertir automáticamente XML en JSON."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué tipo de contenido DTD representa datos de texto?",
+      "opciones": {
+        "a": "EMPTY",
+        "b": "CDATA-ID",
+        "c": "ANY",
+        "d": "#PCDATA"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 61,
+      "enunciado": "¿Dónde se coloca el contenido visible para la persona usuaria en HTML5?",
+      "opciones": {
+        "a": "En <head>.",
+        "b": "En <meta>.",
+        "c": "En <title>.",
+        "d": "En <body>."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Qué hace <xsl:apply-templates>?",
+      "opciones": {
+        "a": "Elimina los nodos hijos del documento fuente.",
+        "b": "Invoca otras plantillas para procesar nodos seleccionados.",
+        "c": "Genera un esquema XSD automáticamente.",
+        "d": "Cifra el resultado de la transformación."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 63,
+      "enunciado": "¿Qué tipo de estructura generan etiquetas, atributos y texto en XML?",
+      "opciones": {
+        "a": "Una colección de procedimientos almacenados.",
+        "b": "Una secuencia binaria sin semántica.",
+        "c": "Una tabla relacional plana.",
+        "d": "Un árbol jerárquico de nodos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿Cuál es una ventaja principal de las herramientas online para XML según la unidad?",
+      "opciones": {
+        "a": "Permiten publicar datos sensibles sin riesgos de privacidad.",
+        "b": "Son útiles para validaciones rápidas, formateo y demostraciones.",
+        "c": "Sustituyen a los entornos de escritorio en proyectos serios.",
+        "d": "Garantizan automatización CI/CD completa en cualquier caso."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 65,
+      "enunciado": "¿En qué situación mantiene XML ventajas frente a JSON según la unidad?",
+      "opciones": {
+        "a": "Cuando se requieren contratos ricos, transformaciones deterministas y firma canónica.",
+        "b": "Cuando solo se desea reducir al máximo el tamaño del mensaje.",
+        "c": "Cuando únicamente se trabaja con estilos visuales.",
+        "d": "Cuando se prescinde de cualquier validación declarativa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 66,
+      "enunciado": "¿Qué atributo de la etiqueta <img> es esencial para la accesibilidad?",
+      "opciones": {
+        "a": "alt",
+        "b": "rel",
+        "c": "method",
+        "d": "target"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿En qué sector se cita la validación estricta de mensajes ISO 20022?",
+      "opciones": {
+        "a": "Sector editorial.",
+        "b": "Sector financiero.",
+        "c": "Sector turístico.",
+        "d": "Sector del diseño gráfico."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 68,
+      "enunciado": "¿Qué lenguaje se destaca en la unidad como formato extensible y validable para intercambio de datos?",
+      "opciones": {
+        "a": "SVG",
+        "b": "HTML",
+        "c": "XML",
+        "d": "CSS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 69,
+      "enunciado": "¿Dónde se usa habitualmente el atributo select en XSLT?",
+      "opciones": {
+        "a": "En instrucciones como <xsl:value-of> o <xsl:apply-templates>.",
+        "b": "Únicamente en comentarios de documentación.",
+        "c": "Exclusivamente en XSD.",
+        "d": "Solo en la declaración XML inicial."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 70,
+      "enunciado": "¿Qué significa // en XPath?",
+      "opciones": {
+        "a": "Selección de descendientes en cualquier nivel.",
+        "b": "Selección del nodo actual.",
+        "c": "Selección exclusiva de comentarios.",
+        "d": "Selección del nodo padre."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 71,
+      "enunciado": "¿Qué etiqueta semántica define áreas de navegación como menús o enlaces principales?",
+      "opciones": {
+        "a": "<aside>",
+        "b": "<header>",
+        "c": "<article>",
+        "d": "<nav>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 72,
+      "enunciado": "¿Qué elemento se emplea para almacenar un valor temporal en XSLT?",
+      "opciones": {
+        "a": "<xsl:result-document>",
+        "b": "<xsl:fallback>",
+        "c": "<xsl:copy>",
+        "d": "<xsl:variable>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 73,
+      "enunciado": "¿Qué estándar se menciona para proteger mensajes SOAP?",
+      "opciones": {
+        "a": "WS-Security",
+        "b": "JSON Schema",
+        "c": "Schematron",
+        "d": "Bootstrap"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 74,
+      "enunciado": "¿Qué caracteriza a un editor XML especializado frente a un editor básico?",
+      "opciones": {
+        "a": "Elimina la necesidad de validar el documento.",
+        "b": "Solo permite trabajar sin namespaces.",
+        "c": "Incorpora validación en tiempo real y autocompletado por esquema.",
+        "d": "Impide el uso de XSLT y XPath."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué ventaja aporta la etiqueta <label> asociada mediante el atributo for en un formulario?",
+      "opciones": {
+        "a": "Sustituye la validación del navegador.",
+        "b": "Permite activar el campo correspondiente al pulsar sobre la etiqueta.",
+        "c": "Evita tener que definir el atributo name.",
+        "d": "Convierte el formulario en una tabla accesible."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 76,
+      "enunciado": "¿Qué expresa la separación entre contenido y presentación en el caso de HTML?",
+      "opciones": {
+        "a": "Que la apariencia se delega habitualmente en CSS.",
+        "b": "Que el documento deja de ser interpretable por navegadores.",
+        "c": "Que los atributos sustituyen a las hojas de estilo.",
+        "d": "Que el contenido debe codificarse solo con JavaScript."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 77,
+      "enunciado": "¿Para qué sirven RSS y Atom según la unidad?",
+      "opciones": {
+        "a": "Para sustituir a HTML en la maquetación visual.",
+        "b": "Para validar formularios complejos en navegador.",
+        "c": "Para sindicar contenido y facilitar su actualización automática.",
+        "d": "Para definir la especificidad de CSS."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 78,
+      "enunciado": "¿Qué elemento se ubica normalmente en la sección <head>?",
+      "opciones": {
+        "a": "La etiqueta <meta charset=\"UTF-8\">.",
+        "b": "El menú de navegación.",
+        "c": "El contenido visible principal.",
+        "d": "La tabla de datos de la página."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 79,
+      "enunciado": "¿Qué contiene una hoja de estilos XSLT?",
+      "opciones": {
+        "a": "Plantillas que definen cómo transformar nodos.",
+        "b": "Solo reglas CSS incrustadas.",
+        "c": "Exclusivamente declaraciones de namespaces sin instrucciones.",
+        "d": "Únicamente consultas SQL sobre XML."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 80,
+      "enunciado": "¿Qué define a una base de datos nativa XML?",
+      "opciones": {
+        "a": "Preserva la estructura jerárquica y semántica del documento XML.",
+        "b": "Solo admite consultas SQL clásicas.",
+        "c": "Trabaja exclusivamente con mensajes SOAP.",
+        "d": "Convierte obligatoriamente el XML en tablas relacionales."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 81,
+      "enunciado": "¿Qué tipo de lista debe utilizarse cuando el orden de los elementos es relevante?",
+      "opciones": {
+        "a": "<dl>",
+        "b": "<menu>",
+        "c": "<ul>",
+        "d": "<ol>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 82,
+      "enunciado": "¿Qué modelo de diseño se describe como unidimensional?",
+      "opciones": {
+        "a": "Table Layout",
+        "b": "Grid",
+        "c": "Flexbox",
+        "d": "Float Layout"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 83,
+      "enunciado": "¿Qué capacidad destaca en XSLT 3.0?",
+      "opciones": {
+        "a": "Soporte de streaming e integración completa con JSON.",
+        "b": "Desaparición del atributo match.",
+        "c": "Uso exclusivo de XPath 1.0.",
+        "d": "Imposibilidad de reutilizar código."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Qué construye un <xs:complexType>?",
+      "opciones": {
+        "a": "La serialización binaria de XML.",
+        "b": "Elementos que pueden contener otros elementos y atributos.",
+        "c": "Solo comentarios de documentación.",
+        "d": "Tipos de datos exclusivamente numéricos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 85,
+      "enunciado": "¿Qué aporta XQuery frente a XPath?",
+      "opciones": {
+        "a": "La imposibilidad de ordenar o agrupar.",
+        "b": "Solo navegación simple sin construcción de resultados.",
+        "c": "Únicamente el acceso a atributos.",
+        "d": "Un lenguaje más completo para consultar y construir resultados XML."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Qué declaración DTD se usa para definir atributos?",
+      "opciones": {
+        "a": "<!ATTLIST ...>",
+        "b": "<!GROUP ...>",
+        "c": "<!ELEMENT ...>",
+        "d": "<!ENTITY ...>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 87,
+      "enunciado": "¿Qué ventaja fundamental tiene XSD frente a DTD?",
+      "opciones": {
+        "a": "Prohíbe las restricciones por patrón.",
+        "b": "Su sintaxis es XML nativa.",
+        "c": "Solo permite texto plano.",
+        "d": "No admite modularidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué atributo o elemento se relaciona con la definición del espacio de nombres propio del esquema?",
+      "opciones": {
+        "a": "targetNamespace",
+        "b": "viewport",
+        "c": "scope",
+        "d": "lang"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 89,
+      "enunciado": "¿Para qué se utiliza XPath en este contexto?",
+      "opciones": {
+        "a": "Para comprimir XML en formato gzip.",
+        "b": "Para definir estilos visuales de interfaces web.",
+        "c": "Para navegar y seleccionar nodos dentro de documentos XML.",
+        "d": "Para firmar digitalmente mensajes SOAP."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 90,
+      "enunciado": "¿Qué caracteriza principalmente a un lenguaje de marcas según la UT1?",
+      "opciones": {
+        "a": "Ejecuta instrucciones imperativas para resolver algoritmos.",
+        "b": "Impide la reutilización del contenido en distintos canales.",
+        "c": "Describe y estructura la información con semántica explícita.",
+        "d": "Sustituye a los sistemas operativos en la gestión de datos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 91,
+      "enunciado": "¿Qué limitación se atribuye a los atributos frente a los elementos?",
+      "opciones": {
+        "a": "No son repetibles por nombre dentro del mismo elemento.",
+        "b": "No admiten valores simples tipados.",
+        "c": "Pueden contener hijos y texto mixto con mayor riqueza estructural.",
+        "d": "Conservan mejor el orden lógico que los elementos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 92,
+      "enunciado": "¿Qué indica la declaración <!DOCTYPE html> en un documento HTML5?",
+      "opciones": {
+        "a": "Que el documento es obligatoriamente XHTML 1.0 Strict.",
+        "b": "Que el documento solo puede renderizarse en modo XML.",
+        "c": "Que el documento utiliza únicamente CSS embebido.",
+        "d": "Que el documento debe interpretarse como HTML5."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 93,
+      "enunciado": "¿Qué valor por defecto DTD hace obligatorio un atributo?",
+      "opciones": {
+        "a": "DEFAULT",
+        "b": "#REQUIRED",
+        "c": "#FIXED",
+        "d": "#IMPLIED"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Qué recomendación se ofrece para optimizar consultas XML?",
+      "opciones": {
+        "a": "Usar índices y filtros concretos en lugar de rutas demasiado amplias.",
+        "b": "Reducir la precisión de los índices.",
+        "c": "Usar // de forma indiscriminada en cualquier expresión.",
+        "d": "Evitar filtros precisos para no limitar resultados."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Qué indica el operador + en DTD?",
+      "opciones": {
+        "a": "Una o más ocurrencias.",
+        "b": "Ausencia obligatoria del elemento.",
+        "c": "Cero o una ocurrencia.",
+        "d": "Cero o más ocurrencias."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 96,
+      "enunciado": "¿Qué función cumple <xsl:template>?",
+      "opciones": {
+        "a": "Define reglas de transformación para nodos concretos.",
+        "b": "Valida el documento con XSD.",
+        "c": "Compila el XML a lenguaje máquina.",
+        "d": "Sustituye a XPath en la selección de nodos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 97,
+      "enunciado": "¿Qué limitación importante presenta DTD frente a XSD?",
+      "opciones": {
+        "a": "No soporta namespaces.",
+        "b": "No tiene ninguna vulnerabilidad conocida.",
+        "c": "Permite demasiados tipos de datos primitivos.",
+        "d": "Soporta namespaces de forma completa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 98,
+      "enunciado": "¿Qué propiedad se menciona para las transacciones en entornos XML empresariales?",
+      "opciones": {
+        "a": "Obligatoriedad de usar formato JSON.",
+        "b": "Sustitución de todo bloqueo por edición libre.",
+        "c": "Eliminación del control de cambios.",
+        "d": "Adaptación de modelos ACID a operaciones XML."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 99,
+      "enunciado": "¿Qué elemento de XSD se utiliza para imponer un patrón como cinco dígitos?",
+      "opciones": {
+        "a": "<xs:attribute>",
+        "b": "<xs:sequence>",
+        "c": "<xs:include>",
+        "d": "<xs:pattern>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 100,
+      "enunciado": "¿Cuál es la unidad básica de un lenguaje de marcas?",
+      "opciones": {
+        "a": "El procedimiento compilado en binario.",
+        "b": "El elemento delimitado por una etiqueta de apertura y otra de cierre.",
+        "c": "La variable declarada con tipo estricto.",
+        "d": "La consulta SQL de una sola tabla."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 101,
+      "enunciado": "¿Cuál fue el antecesor histórico del XML y HTML?",
+      "opciones": {
+        "a": "YAML",
+        "b": "SGML",
+        "c": "JSON",
+        "d": "CSS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué característica distingue a un documento XML válido?",
+      "opciones": {
+        "a": "Está en formato binario.",
+        "b": "No incluye namespaces.",
+        "c": "Contiene solo datos numéricos.",
+        "d": "Cumple las reglas definidas en su esquema."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 103,
+      "enunciado": "¿Qué lenguaje permite seleccionar nodos dentro de un documento XML?",
+      "opciones": {
+        "a": "XPath",
+        "b": "CSS",
+        "c": "XSLT",
+        "d": "XQuery"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 104,
+      "enunciado": "¿Cuál de los siguientes pares de lenguajes se usan juntos para publicar y dar estilo a contenidos web?",
+      "opciones": {
+        "a": "XML y JSON",
+        "b": "HTML y CSS",
+        "c": "XSD y XSLT",
+        "d": "DTD y Schematron"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 105,
+      "enunciado": "¿Cuál de las siguientes herramientas es un editor profesional XML?",
+      "opciones": {
+        "a": "Notepad clásico",
+        "b": "Oxygen XML Editor",
+        "c": "Excel",
+        "d": "Paint"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 106,
+      "enunciado": "¿Qué lenguaje se utiliza principalmente para estructurar páginas web?",
+      "opciones": {
+        "a": "HTML",
+        "b": "JSON",
+        "c": "CSV",
+        "d": "XML"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 107,
+      "enunciado": "¿Cuál de las siguientes opciones describe mejor JSON frente a XML?",
+      "opciones": {
+        "a": "Solo se usa en impresión.",
+        "b": "Es más pesado pero más formal.",
+        "c": "Es más ligero y orientado a APIs.",
+        "d": "No admite jerarquía."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 108,
+      "enunciado": "¿Qué papel cumplen los espacios de nombres (namespaces) en XML?",
+      "opciones": {
+        "a": "Permiten definir estilos visuales.",
+        "b": "Limitan el número de etiquetas por documento.",
+        "c": "Controlan el tamaño del archivo.",
+        "d": "Evitan colisiones entre vocabularios distintos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 109,
+      "enunciado": "¿Cuál de los siguientes NO es un lenguaje de marcas?",
+      "opciones": {
+        "a": "XML",
+        "b": "HTML",
+        "c": "Python",
+        "d": "XSD"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 110,
+      "enunciado": "¿Qué extensión tienen normalmente los esquemas XML?",
+      "opciones": {
+        "a": ".xsd",
+        "b": ".json",
+        "c": ".css",
+        "d": ".html"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 111,
+      "enunciado": "¿Qué representa la etiqueta <!DOCTYPE html>?",
+      "opciones": {
+        "a": "La definición del tipo de documento HTML.",
+        "b": "Una declaración de codificación XML.",
+        "c": "Un espacio de nombres por defecto.",
+        "d": "Un comentario de autoría."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 112,
+      "enunciado": "¿Qué significa que un documento XML esté \"bien formado\"?",
+      "opciones": {
+        "a": "Cumple las reglas de un esquema XSD.",
+        "b": "Está validado con Schematron.",
+        "c": "Contiene datos numéricos válidos.",
+        "d": "Tiene etiquetas correctamente anidadas y cerradas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 113,
+      "enunciado": "¿Qué editor gratuito puede configurarse con plugins XML en entornos docentes?",
+      "opciones": {
+        "a": "Oxygen XML Editor",
+        "b": "XMLSpy",
+        "c": "Dreamweaver",
+        "d": "VS Code"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 114,
+      "enunciado": "¿Qué caracteriza a un lenguaje de marcas?",
+      "opciones": {
+        "a": "Define estructura y significado del contenido mediante etiquetas.",
+        "b": "Es un lenguaje de programación imperativo.",
+        "c": "Describe cómo ejecutar operaciones.",
+        "d": "Se utiliza solo para cálculos numéricos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 115,
+      "enunciado": "¿Cuál es la diferencia principal entre HTML y XML?",
+      "opciones": {
+        "a": "HTML permite errores; XML exige corrección total.",
+        "b": "XML no usa etiquetas.",
+        "c": "XML solo se usa en navegadores.",
+        "d": "HTML es binario; XML es textual."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 116,
+      "enunciado": "¿Qué atributo define el idioma del documento HTML?",
+      "opciones": {
+        "a": "type",
+        "b": "lang",
+        "c": "dir",
+        "d": "charset"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 117,
+      "enunciado": "¿Qué propiedad CSS define el espacio interno entre el contenido y el borde?",
+      "opciones": {
+        "a": "spacing",
+        "b": "margin",
+        "c": "border",
+        "d": "padding"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 118,
+      "enunciado": "¿Qué formato de fecha utiliza Atom para las actualizaciones?",
+      "opciones": {
+        "a": "RFC 822",
+        "b": "DD/MM/YYYY",
+        "c": "Unix timestamp",
+        "d": "ISO 8601"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 119,
+      "enunciado": "¿Qué elemento HTML agrupa contenido temático?",
+      "opciones": {
+        "a": "<div>",
+        "b": "<section>",
+        "c": "<meta>",
+        "d": "<footer>"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 120,
+      "enunciado": "¿Cuál es la principal diferencia entre HTML y XHTML?",
+      "opciones": {
+        "a": "HTML requiere etiquetas cerradas siempre",
+        "b": "HTML es incompatible con navegadores modernos",
+        "c": "XHTML no necesita DOCTYPE",
+        "d": "XHTML es más estricto y sigue las reglas de XML"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 121,
+      "enunciado": "¿Qué atributo de la etiqueta <img> mejora la accesibilidad describiendo la imagen?",
+      "opciones": {
+        "a": "label",
+        "b": "title",
+        "c": "src",
+        "d": "alt"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 122,
+      "enunciado": "¿Cuál es la sintaxis correcta de un comentario en CSS?",
+      "opciones": {
+        "a": "/* comentario */",
+        "b": "# comentario",
+        "c": "// comentario",
+        "d": "<!-- comentario -->"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 123,
+      "enunciado": "¿Qué formato de sindicación utiliza una estructura XML con etiquetas <channel> y <item>?",
+      "opciones": {
+        "a": "Atom",
+        "b": "JSON",
+        "c": "RSS",
+        "d": "SOAP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 124,
+      "enunciado": "¿Qué modelo de diseño CSS se usa para crear layouts flexibles en una sola dirección?",
+      "opciones": {
+        "a": "Grid",
+        "b": "Flexbox",
+        "c": "Table",
+        "d": "Float"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 125,
+      "enunciado": "¿Qué lenguaje se usa para definir la presentación visual de un documento HTML?",
+      "opciones": {
+        "a": "CSS",
+        "b": "XML",
+        "c": "JSON",
+        "d": "PHP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 126,
+      "enunciado": "¿Qué propiedad CSS controla el color del texto?",
+      "opciones": {
+        "a": "text-color",
+        "b": "font-color",
+        "c": "foreground",
+        "d": "color"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 127,
+      "enunciado": "¿Qué framework CSS utiliza un sistema de 12 columnas y componentes predefinidos?",
+      "opciones": {
+        "a": "Foundation",
+        "b": "Tailwind",
+        "c": "Bulma",
+        "d": "Bootstrap"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 128,
+      "enunciado": "¿Qué etiqueta identifica de forma única una entrada en un feed RSS?",
+      "opciones": {
+        "a": "<guid>",
+        "b": "<id>",
+        "c": "<ref>",
+        "d": "<unique>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 129,
+      "enunciado": "¿Qué etiqueta se usa para definir un enlace en HTML?",
+      "opciones": {
+        "a": "<href>",
+        "b": "<link>",
+        "c": "<a>",
+        "d": "<connect>"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 130,
+      "enunciado": "¿Qué propiedad CSS controla la disposición de elementos en filas y columnas bidimensionales?",
+      "opciones": {
+        "a": "Display",
+        "b": "Flexbox",
+        "c": "Float",
+        "d": "Grid"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 131,
+      "enunciado": "¿Qué es una transformación XML?",
+      "opciones": {
+        "a": "El proceso de encriptar datos XML",
+        "b": "El proceso de convertir un documento XML en otro formato",
+        "c": "El proceso de eliminar etiquetas XML",
+        "d": "El proceso de validar documentos XML"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 132,
+      "enunciado": "¿Qué etiqueta se utiliza en un esquema XSD para definir un elemento?",
+      "opciones": {
+        "a": "<xs:element>",
+        "b": "<xs:data>",
+        "c": "<xs:rule>",
+        "d": "<xs:item>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 133,
+      "enunciado": "¿Qué elemento XSLT permite realizar condiciones?",
+      "opciones": {
+        "a": "<xsl:when>",
+        "b": "<xsl:if>",
+        "c": "<xsl:case>",
+        "d": "<xsl:choose>"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 134,
+      "enunciado": "¿Qué etiqueta XSLT se usa para iterar sobre nodos repetidos?",
+      "opciones": {
+        "a": "<xsl:for-each>",
+        "b": "<xsl:loop>",
+        "c": "<xsl:cycle>",
+        "d": "<xsl:repeat>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 135,
+      "enunciado": "¿Cuál es la función principal de XPath en XSLT?",
+      "opciones": {
+        "a": "Seleccionar nodos dentro de un documento XML",
+        "b": "Comprimir datos XML",
+        "c": "Traducir etiquetas XML a HTML",
+        "d": "Crear atributos nuevos en el XML"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 136,
+      "enunciado": "¿Qué atributo en XSLT permite definir el formato de salida?",
+      "opciones": {
+        "a": "<xsl:output>",
+        "b": "<xsl:format>",
+        "c": "<xsl:template>",
+        "d": "<xsl:style>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 137,
+      "enunciado": "¿Qué lenguaje permite definir reglas lógicas de validación?",
+      "opciones": {
+        "a": "JSON",
+        "b": "XMLPath",
+        "c": "XSLT",
+        "d": "Schematron"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 138,
+      "enunciado": "¿Qué herramienta del W3C valida documentos XML contra XSD?",
+      "opciones": {
+        "a": "W3C XML Schema Validator",
+        "b": "XML Beautifier",
+        "c": "HTML Linter",
+        "d": "XSLT Transformer"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 139,
+      "enunciado": "¿Qué elemento de XSLT se utiliza para aplicar una plantilla?",
+      "opciones": {
+        "a": "<xsl:apply-templates>",
+        "b": "<xsl:use-template>",
+        "c": "<xsl:template-call>",
+        "d": "<xsl:for-each>"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 140,
+      "enunciado": "¿Qué lenguaje se utiliza para realizar transformaciones XML?",
+      "opciones": {
+        "a": "XSD",
+        "b": "DTD",
+        "c": "CSS",
+        "d": "XSLT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 141,
+      "enunciado": "¿Qué atributo en XSD permite indicar el número mínimo de ocurrencias?",
+      "opciones": {
+        "a": "minOccurs",
+        "b": "minRepeat",
+        "c": "minCount",
+        "d": "lowerBound"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 142,
+      "enunciado": "¿Cuál es la función principal de DTD?",
+      "opciones": {
+        "a": "Definir la presentación visual de un documento XML",
+        "b": "Definir la estructura y los elementos permitidos de un documento XML",
+        "c": "Transformar XML a HTML",
+        "d": "Crear estilos CSS para XML"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 143,
+      "enunciado": "¿Qué combinación de tecnologías permite validar tanto estructura como reglas lógicas?",
+      "opciones": {
+        "a": "XPath y HTML",
+        "b": "XSLT y XQuery",
+        "c": "XSD y Schematron",
+        "d": "DTD y CSS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 144,
+      "enunciado": "¿Qué significa XSLT?",
+      "opciones": {
+        "a": "Extended Style Layout Table",
+        "b": "Extensible Stylesheet Language Transformations",
+        "c": "XHTML Source Language Transformation",
+        "d": "XML Structure Language Tool"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 145,
+      "enunciado": "¿Qué ventaja tiene XSD sobre DTD?",
+      "opciones": {
+        "a": "Tiene una sintaxis más simple que DTD",
+        "b": "No requiere validación",
+        "c": "Es menos estricto en la sintaxis",
+        "d": "Permite definir tipos de datos y restricciones"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 146,
+      "enunciado": "¿Qué tipo de lenguaje es XPath?",
+      "opciones": {
+        "a": "Un lenguaje de programación imperativo",
+        "b": "Un lenguaje de consulta para navegar por estructuras XML",
+        "c": "Un lenguaje de marcado",
+        "d": "Un lenguaje de validación de esquemas"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 147,
+      "enunciado": "¿Qué función cumple la indexación en bases de datos XML?",
+      "opciones": {
+        "a": "Mejorar la velocidad de búsqueda y recuperación de datos",
+        "b": "Reducir el tamaño de los documentos",
+        "c": "Aumentar el nivel de seguridad",
+        "d": "Convertir XML a texto plano"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 148,
+      "enunciado": "¿Qué lenguaje se utiliza para seleccionar nodos dentro de un documento XML?",
+      "opciones": {
+        "a": "SQL",
+        "b": "XSL-FO",
+        "c": "XPath",
+        "d": "JSONPath"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 149,
+      "enunciado": "¿Qué función tiene la cláusula ORDER BY en XQuery?",
+      "opciones": {
+        "a": "Validar un esquema XSD",
+        "b": "Crear nuevas etiquetas XML",
+        "c": "Filtrar los nodos XML por nombre",
+        "d": "Ordenar los resultados de una consulta"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 150,
+      "enunciado": "¿Qué ventaja ofrecen las bases de datos nativas XML frente a las relacionales?",
+      "opciones": {
+        "a": "Utilizan menor espacio en disco",
+        "b": "Almacenan y consultan XML directamente sin necesidad de conversión",
+        "c": "Permiten solo lectura de datos",
+        "d": "No requieren índices ni esquemas"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 151,
+      "enunciado": "¿Qué caracteriza a la serialización binaria de XML?",
+      "opciones": {
+        "a": "Genera documentos XML legibles por humanos",
+        "b": "Requiere validación con DTD",
+        "c": "Permite editar XML con cualquier editor de texto",
+        "d": "Representa datos XML en formato compacto y eficiente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 152,
+      "enunciado": "¿Qué es la conversión XML-relacional?",
+      "opciones": {
+        "a": "El proceso de mapear estructuras XML en tablas de una base de datos relacional",
+        "b": "El proceso de cifrar datos XML",
+        "c": "La validación de esquemas XML",
+        "d": "El proceso de transformar HTML a XML"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 153,
+      "enunciado": "¿Qué es una base de datos nativa XML (NXD)?",
+      "opciones": {
+        "a": "Un sistema diseñado específicamente para almacenar y consultar documentos XML",
+        "b": "Una base de datos relacional tradicional con soporte parcial para XML",
+        "c": "Un formato binario de compresión de datos",
+        "d": "Un repositorio de texto plano sin estructura"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 154,
+      "enunciado": "¿Qué hace la cláusula WHERE en una consulta FLWOR?",
+      "opciones": {
+        "a": "Devuelve los datos transformados",
+        "b": "Filtra los resultados según una condición",
+        "c": "Define el orden de los resultados",
+        "d": "Crea variables locales"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 155,
+      "enunciado": "¿Qué extensión de SQL permite combinar datos XML y relacionales?",
+      "opciones": {
+        "a": "SQL/XML",
+        "b": "XML/DB",
+        "c": "XSD/SQL",
+        "d": "SQL/JSON"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 156,
+      "enunciado": "¿Qué estructura define el lenguaje XQuery?",
+      "opciones": {
+        "a": "FLWOR (For, Let, Where, Order, Return)",
+        "b": "LOOP-IF-END",
+        "c": "TRY-CATCH",
+        "d": "SELECT-FROM-WHERE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 157,
+      "enunciado": "¿Qué formato de almacenamiento permite mayor interoperabilidad entre sistemas?",
+      "opciones": {
+        "a": "CSV",
+        "b": "PDF",
+        "c": "BIN",
+        "d": "XML"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 158,
+      "enunciado": "¿Cuál es el propósito de la serialización XML?",
+      "opciones": {
+        "a": "Transformar XML a JSON",
+        "b": "Validar la sintaxis de un documento XML",
+        "c": "Cifrar datos XML",
+        "d": "Convertir documentos XML en una secuencia de bytes para almacenamiento o transmisión"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 159,
+      "enunciado": "¿Qué herramienta permite indexar documentos XML para acelerar consultas?",
+      "opciones": {
+        "a": "El motor de base de datos nativa XML",
+        "b": "Un editor de texto",
+        "c": "Un transformador XSLT",
+        "d": "Un compilador SQL"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 160,
+      "enunciado": "¿Qué permite realizar SQL/XML?",
+      "opciones": {
+        "a": "Validar documentos XML en bases relacionales",
+        "b": "Convertir datos JSON a XML",
+        "c": "Transformar XML en CSS",
+        "d": "Consultas híbridas que combinan SQL y XPath/XQuery"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 161,
+      "enunciado": "¿Qué lenguajes se utilizan principalmente para realizar consultas en bases de datos XML?",
+      "opciones": {
+        "a": "XSLT y DTD",
+        "b": "SQL y JSONPath",
+        "c": "XPath y XQuery",
+        "d": "REST y SOAP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 162,
+      "enunciado": "¿Qué herramienta se usa para probar servicios web y validar esquemas XML?",
+      "opciones": {
+        "a": "Docker",
+        "b": "SoapUI",
+        "c": "Photoshop",
+        "d": "Notepad++"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 163,
+      "enunciado": "¿Qué rol cumple XML en sistemas ERP?",
+      "opciones": {
+        "a": "Generar interfaces gráficas de usuario",
+        "b": "Sustituir los esquemas SQL existentes",
+        "c": "Reemplazar completamente las bases de datos relacionales",
+        "d": "Facilitar la interoperabilidad entre módulos y sistemas externos mediante un formato estándar"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 164,
+      "enunciado": "¿Qué diferencia principal existe entre una base de datos nativa XML y una relacional con soporte XML?",
+      "opciones": {
+        "a": "Ambas almacenan datos XML del mismo modo.",
+        "b": "La relacional tiene mejor rendimiento en consultas jerárquicas.",
+        "c": "La nativa no soporta XPath ni XQuery.",
+        "d": "La nativa almacena documentos XML completos, mientras que la relacional los fragmenta en tablas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 165,
+      "enunciado": "¿Qué técnica mejora el rendimiento de las consultas en bases de datos XML?",
+      "opciones": {
+        "a": "Comprimir el XML con gzip",
+        "b": "Indexación de caminos y valores",
+        "c": "Desactivar validaciones XSD",
+        "d": "Eliminar etiquetas XML redundantes"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 166,
+      "enunciado": "¿Qué protocolo usa mensajes estructurados en formato XML con encabezado y cuerpo definidos?",
+      "opciones": {
+        "a": "FTP",
+        "b": "JSON-RPC",
+        "c": "SOAP",
+        "d": "REST"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 167,
+      "enunciado": "¿Qué lenguaje se usa en la orquestación de servicios web?",
+      "opciones": {
+        "a": "SQL",
+        "b": "JSONPath",
+        "c": "BPEL",
+        "d": "XSD"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 168,
+      "enunciado": "¿Qué característica distingue a las plataformas EAI (Enterprise Application Integration)?",
+      "opciones": {
+        "a": "Facilitan la comunicación entre sistemas heterogéneos mediante transformación y orquestación de datos",
+        "b": "Funcionan solo con datos JSON",
+        "c": "Sustituyen los sistemas ERP existentes",
+        "d": "No requieren configuración de seguridad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 169,
+      "enunciado": "¿Qué herramienta permite convertir XML a JSON utilizando plantillas?",
+      "opciones": {
+        "a": "XSLT 3.0",
+        "b": "JSON Schema",
+        "c": "SQL/XML",
+        "d": "XMLSpy"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 170,
+      "enunciado": "¿Qué componente centraliza las peticiones a microservicios en una arquitectura distribuida?",
+      "opciones": {
+        "a": "BaseX",
+        "b": "DTD",
+        "c": "ESB",
+        "d": "API Gateway"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 171,
+      "enunciado": "¿Qué formato es más compacto y rápido para la serialización de datos?",
+      "opciones": {
+        "a": "Protocol Buffers",
+        "b": "XML",
+        "c": "JSON",
+        "d": "YAML"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 172,
+      "enunciado": "¿Qué formato utiliza esquemas estrictos definidos en archivos .proto?",
+      "opciones": {
+        "a": "Protocol Buffers",
+        "b": "XML",
+        "c": "JSON",
+        "d": "XSLT"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 173,
+      "enunciado": "¿Qué es un pipeline de integración?",
+      "opciones": {
+        "a": "Un protocolo de autenticación entre APIs",
+        "b": "Un servicio de correo automatizado",
+        "c": "Un flujo automatizado de tareas de validación, transformación y despliegue",
+        "d": "Una tabla que almacena XML comprimido"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 174,
+      "enunciado": "¿Qué estilo arquitectónico usa los métodos HTTP y puede transmitir datos en XML o JSON?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "REST",
+        "c": "SOAP",
+        "d": "RPC"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 175,
+      "enunciado": "¿Qué garantiza la gestión de transacciones en bases de datos XML?",
+      "opciones": {
+        "a": "La transformación automática de XML",
+        "b": "La compresión de datos XML",
+        "c": "La integridad y consistencia de los datos en operaciones concurrentes",
+        "d": "El cifrado de los mensajes SOAP"
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

@@ -1,0 +1,2250 @@
+{
+  "simulacro": "Simulacro Completo - Sistemas Operativos",
+  "total_preguntas": 204,
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "¿Cuál es la función principal de un bastion host?",
+      "opciones": {
+        "a": "Sustituir al sistema de directorio.",
+        "b": "Reindexar bases de datos LDAP.",
+        "c": "Centralizar y controlar el acceso administrativo a recursos internos.",
+        "d": "Actuar como impresora lógica principal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "enunciado": "¿Qué ventaja principal tienen los servicios no orientados a sesión, como playbooks o catálogos declarativos?",
+      "opciones": {
+        "a": "Sustituyen a los protocolos seguros.",
+        "b": "Eliminan la necesidad de registrar cambios.",
+        "c": "No requieren control de acceso.",
+        "d": "Favorecen idempotencia, reproducibilidad y logs estructurados."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "enunciado": "¿Qué comando de PowerShell instala el rol de servidor de impresión en Windows Server?",
+      "opciones": {
+        "a": "Restart-Service spooler",
+        "b": "Get-PrintJob -PrinterName Impresora1",
+        "c": "Add-PrinterPermission -PrinterName Impresora1",
+        "d": "Install-WindowsFeature Print-Services -IncludeManagementTools"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "enunciado": "¿Qué herramienta se utiliza para comprobar la identidad del bind realizado?",
+      "opciones": {
+        "a": "tasklist",
+        "b": "dscreate",
+        "c": "ldapwhoami",
+        "d": "slapindex"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Qué comando refleja el patrón de salto a un host interno a través de un bastion descrito en la unidad?",
+      "opciones": {
+        "a": "journalctl -J admin@bastion.corp.example",
+        "b": "ssh -J admin@bastion.corp.example admin@10.0.50.10",
+        "c": "scp admin@10.0.50.10 bastion.corp.example",
+        "d": "ssh -L bastion.corp.example 10.0.50.10"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "enunciado": "¿Qué función principal cumple un servicio de directorio en un entorno corporativo?",
+      "opciones": {
+        "a": "Sustituir completamente al sistema operativo.",
+        "b": "Gestionar exclusivamente colas de impresión locales.",
+        "c": "Centralizar identidades, recursos y políticas de acceso.",
+        "d": "Eliminar la necesidad de autenticación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Qué directiva de SSH permite confiar en la clave pública de una autoridad certificadora para validar certificados de usuario?",
+      "opciones": {
+        "a": "PasswordAuthentication",
+        "b": "ChallengeResponseAuthentication",
+        "c": "TrustedUserCAKeys",
+        "d": "AllowTcpForwarding"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "enunciado": "¿Qué es un proceso en un sistema operativo?",
+      "opciones": {
+        "a": "Una copia de seguridad del sistema de archivos.",
+        "b": "Un controlador de dispositivo en espera.",
+        "c": "La unidad básica de trabajo que ejecuta instrucciones de un programa.",
+        "d": "Un registro del kernel sin recursos asociados."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Qué señal de Linux solicita una terminación ordenada del proceso?",
+      "opciones": {
+        "a": "SIGCONT.",
+        "b": "SIGKILL.",
+        "c": "SIGTERM.",
+        "d": "SIGSTOP."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "enunciado": "¿Qué comando se usa para cancelar trabajos de impresión en CUPS?",
+      "opciones": {
+        "a": "lpstat",
+        "b": "lpadmin",
+        "c": "Get-Printer",
+        "d": "cancel"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 11,
+      "enunciado": "¿Qué ventaja aporta una herramienta gráfica o centralizada como Rundeck según la unidad?",
+      "opciones": {
+        "a": "Impide la ejecución en varios hosts.",
+        "b": "Sustituye la necesidad de exportar y versionar los jobs.",
+        "c": "Facilita la creación de tareas y centraliza el historial de ejecuciones.",
+        "d": "Reduce la posibilidad de auditoría."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué describe mejor el acceso JIT (Just-In-Time)?",
+      "opciones": {
+        "a": "Privilegios permanentes para reducir tiempos de solicitud.",
+        "b": "Acceso anónimo a través de VPN.",
+        "c": "Desactivación de la MFA durante mantenimientos.",
+        "d": "Concesión temporal de privilegios vinculada a ticket y expiración automática."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 13,
+      "enunciado": "¿Qué propiedad de un script permite ejecutarlo varias veces sin generar efectos no deseados adicionales?",
+      "opciones": {
+        "a": "Serialización.",
+        "b": "Idempotencia.",
+        "c": "Interactividad.",
+        "d": "Persistencia."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 14,
+      "enunciado": "¿Qué situación describe mejor a un proceso zombie?",
+      "opciones": {
+        "a": "Proceso finalizado cuyo estado no ha sido recogido por el proceso padre.",
+        "b": "Proceso que consume CPU de forma ininterrumpida.",
+        "c": "Proceso suspendido manualmente para depuración.",
+        "d": "Proceso en espera por E/S de disco."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué rasgo se atribuye a una licencia libre o de código abierto?",
+      "opciones": {
+        "a": "Impide el acceso al código fuente.",
+        "b": "Está restringida a sistemas con microkernel.",
+        "c": "Permite acceder al código fuente y modificarlo según sus condiciones.",
+        "d": "Solo puede utilizarse en el aula."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 16,
+      "enunciado": "¿Qué función del sistema operativo se relaciona con la asignación, protección y ampliación de la RAM mediante memoria virtual?",
+      "opciones": {
+        "a": "Gestión de impresión.",
+        "b": "Gestión de memoria.",
+        "c": "Gestión de procesos.",
+        "d": "Gestión de auditoría externa."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 17,
+      "enunciado": "¿Qué define el esquema del directorio?",
+      "opciones": {
+        "a": "Los objectClasses y atributos permitidos.",
+        "b": "Las reglas del planificador de CPU.",
+        "c": "Las impresoras lógicas disponibles.",
+        "d": "La tabla de rutas del sistema operativo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 18,
+      "enunciado": "¿Qué utilidad se usa para fijar la afinidad de CPU de un proceso en Linux?",
+      "opciones": {
+        "a": "pkill",
+        "b": "nohup",
+        "c": "taskset",
+        "d": "pgrep"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "enunciado": "¿Qué afirmación es correcta sobre los hipervisores?",
+      "opciones": {
+        "a": "Los de tipo 1 se ejecutan sobre otro sistema operativo como aplicación de usuario.",
+        "b": "Los de tipo 1 se ejecutan directamente sobre el hardware.",
+        "c": "Los de tipo 2 son exclusivos de sistemas móviles.",
+        "d": "Los de tipo 2 no pueden alojar varias máquinas virtuales."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 20,
+      "enunciado": "¿Para qué tipo de ejecución está pensada la herramienta at?",
+      "opciones": {
+        "a": "Reinicios del sistema tras cada tarea.",
+        "b": "Ejecuciones recurrentes con control de concurrencia integrado.",
+        "c": "Ejecuciones puntuales en un momento concreto.",
+        "d": "Tareas exclusivas de Windows."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 21,
+      "enunciado": "¿Qué mecanismo permite reutilizar funciones de una librería en Bash según la unidad?",
+      "opciones": {
+        "a": "Register-ScheduledTask /ruta/lib.sh",
+        "b": "Import-Module /ruta/lib.sh",
+        "c": "Get-Process /ruta/lib.sh",
+        "d": "source /ruta/lib.sh"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "enunciado": "¿Qué mecanismo se recomienda para aumentar la confianza en la identidad antes de conceder acceso remoto o privilegios?",
+      "opciones": {
+        "a": "LDIF",
+        "b": "Loopback",
+        "c": "MFA",
+        "d": "Spooler"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 23,
+      "enunciado": "¿Qué práctica es coherente con la gestión segura de secretos en automatización?",
+      "opciones": {
+        "a": "Sustituir los logs por mensajes manuales del operador/la operadora.",
+        "b": "Usar gestores de secretos o vaults en lugar de texto plano.",
+        "c": "Hardcodear las credenciales en todos los playbooks.",
+        "d": "Evitar la rotación de credenciales para no interrumpir los servicios."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 24,
+      "enunciado": "¿Qué información mínima debe acompañar a una grabación de sesión o a un acceso administrativo trazable?",
+      "opciones": {
+        "a": "Solo la contraseña cifrada del operador/la operadora.",
+        "b": "Solo el nombre del host sin usuario ni hora.",
+        "c": "Usuario/a, ticket_id o request_id, host destino y marcas temporales.",
+        "d": "Únicamente la dirección MAC del servidor."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 25,
+      "enunciado": "¿Qué comando genera un hash de contraseña para el atributo userPassword?",
+      "opciones": {
+        "a": "slapcat -n 1",
+        "b": "slappasswd -s",
+        "c": "ldapdelete -x",
+        "d": "ldapsearch -x"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 26,
+      "enunciado": "¿Qué requisito se establece para las sesiones privilegiadas en un bastion seguro?",
+      "opciones": {
+        "a": "Evitar cualquier grabación para no afectar al rendimiento.",
+        "b": "Session recording obligatorio con metadatos y control de acceso.",
+        "c": "Usar autenticación por contraseña como opción preferente.",
+        "d": "Permitir cuentas compartidas permanentes sin trazabilidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 27,
+      "enunciado": "¿Qué afirma correctamente la diferencia entre modo usuario y modo núcleo?",
+      "opciones": {
+        "a": "El modo núcleo dispone de privilegios completos y el modo usuario no.",
+        "b": "El modo usuario gestiona directamente interrupciones de hardware.",
+        "c": "El modo núcleo se utiliza solo para aplicaciones gráficas.",
+        "d": "Ambos tienen los mismos privilegios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 28,
+      "enunciado": "¿Qué protocolo de Windows para compartir archivos e impresoras utiliza los puertos TCP 139 y 445?",
+      "opciones": {
+        "a": "LPD",
+        "b": "SMB/CIFS",
+        "c": "IPP",
+        "d": "JetDirect"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 29,
+      "enunciado": "¿Qué directiva se recomienda restringir por defecto para limitar el pivoting mediante túneles SSH?",
+      "opciones": {
+        "a": "LogLevel",
+        "b": "SyslogFacility",
+        "c": "PidFile",
+        "d": "AllowTcpForwarding"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Qué componente del sistema operativo se encarga de las funciones privilegiadas y del control directo del hardware?",
+      "opciones": {
+        "a": "El explorador de archivos.",
+        "b": "La interfaz gráfica.",
+        "c": "El kernel.",
+        "d": "La utilidad de copia de seguridad."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿Qué comando de CUPS permite añadir una impresora IPP con el modelo genérico everywhere?",
+      "opciones": {
+        "a": "lpstat -o Impresora1 -m everywhere",
+        "b": "cupsctl --remote-any Impresora1",
+        "c": "cancel -a Impresora1",
+        "d": "lpadmin -p Impresora1 -E -v ipp://192.168.1.50/ipp/print -m everywhere"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿Qué estructura de PowerShell permite múltiples casos de selección?",
+      "opciones": {
+        "a": "switch",
+        "b": "source",
+        "c": "foreach-object -NoSwitch",
+        "d": "trapcase"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Qué comando se usa como ejemplo en Bash para consultar el espacio en disco?",
+      "opciones": {
+        "a": "Get-LocalUser",
+        "b": "schtasks /Create",
+        "c": "df -h",
+        "d": "Restart-Service"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Qué herramienta de análisis estático se menciona para detectar errores comunes en scripts Bash?",
+      "opciones": {
+        "a": "Task Scheduler",
+        "b": "slapcat",
+        "c": "ShellCheck",
+        "d": "Procmon"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 35,
+      "enunciado": "¿Qué comando se usa para modificar atributos de una entrada existente desde un archivo LDIF?",
+      "opciones": {
+        "a": "ldapdelete",
+        "b": "slapadd",
+        "c": "systemctl status slapd",
+        "d": "ldapmodify"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 36,
+      "enunciado": "Si solo el departamento de facturación debe imprimir en una impresora concreta, ¿qué medida es coherente con la unidad?",
+      "opciones": {
+        "a": "Permitir impresión sin autenticación para evitar incidencias.",
+        "b": "Eliminar la cola y reiniciar el spooler como solución permanente.",
+        "c": "Desactivar el registro de impresiones.",
+        "d": "Asignar permisos de impresión a un grupo del directorio y documentar la configuración."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 37,
+      "enunciado": "Si la administradora/el administrador desea terminar de forma controlada un proceso colgado y solo forzarlo si no responde, ¿qué secuencia es la adecuada?",
+      "opciones": {
+        "a": "Enviar SIGTERM, esperar y usar SIGKILL solo si el proceso continúa activo.",
+        "b": "Ejecutar únicamente journalctl -b.",
+        "c": "Enviar primero SIGKILL y después SIGTERM.",
+        "d": "Aplicar taskset y después systemd-analyze."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 38,
+      "enunciado": "¿Qué aspecto se recomienda para la automatización de servicios básicos?",
+      "opciones": {
+        "a": "Ejecución manual obligatoria de cada reinicio.",
+        "b": "Configuración sin versionado ni pruebas.",
+        "c": "Despliegue sin validación ni healthchecks.",
+        "d": "Healthchecks, políticas de reinicio y límites de recursos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 39,
+      "enunciado": "Si la administradora/el administrador quiere crear la estructura base con unidades organizativas para personas usuarias y grupos, ¿qué procedimiento se ajusta a la unidad?",
+      "opciones": {
+        "a": "Crear índices en cn=config sin definir OUs.",
+        "b": "Configurar Print Management Console en Windows Server.",
+        "c": "Usar únicamente slapcat para generar la estructura.",
+        "d": "Definir las entradas en un archivo LDIF y aplicarlas con ldapadd."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 40,
+      "enunciado": "¿Qué característica define a un sistema operativo multiusuario?",
+      "opciones": {
+        "a": "No necesita mecanismos de autenticación.",
+        "b": "Está limitado a dispositivos móviles.",
+        "c": "Solo ejecuta una aplicación a la vez.",
+        "d": "Permite que varias personas usuarias utilicen recursos del sistema con control de acceso."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 41,
+      "enunciado": "¿Qué afirmación es correcta sobre la secuencia de arranque simplificada en Linux con systemd?",
+      "opciones": {
+        "a": "journalctl sustituye al gestor de arranque.",
+        "b": "systemd se convierte en PID 1 tras la carga del kernel e inicia servicios y targets.",
+        "c": "La BIOS solo interviene después de cargar systemd.",
+        "d": "El kernel se carga después de iniciar sesión la persona usuaria."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 42,
+      "enunciado": "¿Qué diferencia operativa distingue, según la unidad, un enfoque agentless de uno agent-based?",
+      "opciones": {
+        "a": "Agent-based solo puede utilizarse en impresoras de red.",
+        "b": "Agent-based no necesita certificados ni enrolamiento.",
+        "c": "Agentless requiere un agente persistente en cada endpoint.",
+        "d": "Agentless no instala daemon adicional en el endpoint y suele apoyarse en SSH o WinRM."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 43,
+      "enunciado": "¿Qué comando de PowerShell permite compartir una impresora ya creada para que sea accesible en la red?",
+      "opciones": {
+        "a": "Get-Printer",
+        "b": "Set-Printer -Name \"Impresora1\" -Shared $true -ShareName \"Impresora1\"",
+        "c": "Add-PrinterPort -Name \"IP_192.168.1.50\" -PrinterHostAddress \"192.168.1.50\"",
+        "d": "Remove-PrintJob -PrinterName \"Impresora1\" -ID 1"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 44,
+      "enunciado": "¿Qué sistema de autenticación se menciona para implementar SSO junto al servicio de directorio?",
+      "opciones": {
+        "a": "JetDirect",
+        "b": "SMB",
+        "c": "LPD",
+        "d": "Kerberos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 45,
+      "enunciado": "¿Qué cmdlet de PowerShell se cita para listar servicios?",
+      "opciones": {
+        "a": "Get-Service",
+        "b": "Export-ModuleMember",
+        "c": "Set-PSDebug",
+        "d": "Get-PrintJob"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Qué ventaja se asocia al diseño monolítico del kernel según los contenidos?",
+      "opciones": {
+        "a": "Uso exclusivo en entornos embebidos.",
+        "b": "Eliminación de la necesidad de módulos y drivers.",
+        "c": "Comunicación interna más rápida entre componentes del sistema.",
+        "d": "Mayor aislamiento entre todos los servicios fuera del kernel."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué ventaja principal aporta la automatización a la administración del sistema?",
+      "opciones": {
+        "a": "Convierte tareas repetitivas en procesos verificables y consistentes.",
+        "b": "Reduce la reproducibilidad de los cambios.",
+        "c": "Evita la necesidad de documentar operaciones.",
+        "d": "Incrementa el error humano para detectar incidencias."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 48,
+      "enunciado": "¿Qué comando se utiliza para añadir entradas nuevas a partir de un archivo LDIF?",
+      "opciones": {
+        "a": "slapcat",
+        "b": "ldapadd",
+        "c": "ldapwhoami",
+        "d": "ldapmodify"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 49,
+      "enunciado": "Si un script de provisión incluye contraseñas en texto plano, no valida entradas y no registra operaciones, ¿qué mejora es coherente con las buenas prácticas de la unidad?",
+      "opciones": {
+        "a": "Eliminar cualquier log para reducir consumo de disco.",
+        "b": "Ejecutarlo siempre como root sin controles adicionales.",
+        "c": "Mantener las contraseñas embebidas para simplificar el despliegue.",
+        "d": "Incorporar gestión de secretos, validación de entradas, logging y, cuando proceda, modo dry-run."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 50,
+      "enunciado": "¿Qué estructura de control de Bash se recomienda para múltiples condiciones basadas en patrones?",
+      "opciones": {
+        "a": "chmod",
+        "b": "trap",
+        "c": "case",
+        "d": "grep"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 51,
+      "enunciado": "¿Qué elemento identifica de forma única una entrada en el árbol del directorio?",
+      "opciones": {
+        "a": "El número de puerto del servicio.",
+        "b": "El PID del proceso slapd.",
+        "c": "El nombre del host donde reside el directorio.",
+        "d": "El DN o Distinguished Name."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 52,
+      "enunciado": "¿Qué herramienta ofrece una vista interactiva del uso de CPU, memoria y estado de procesos?",
+      "opciones": {
+        "a": "lpadmin",
+        "b": "dsconfigad",
+        "c": "slapcat",
+        "d": "htop"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 53,
+      "enunciado": "¿Qué comando permite consultar los logs del arranque más reciente en un sistema Linux con systemd?",
+      "opciones": {
+        "a": "top -H -p 1",
+        "b": "taskset -cp 1 100",
+        "c": "journalctl -b",
+        "d": "ps -eo pid,ppid,stat,cmd"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Qué acción se utiliza para reutilizar funciones contenidas en un módulo .psm1 de PowerShell?",
+      "opciones": {
+        "a": "source ./ServiceUtils.psm1",
+        "b": "cron ./ServiceUtils.psm1",
+        "c": "Import-Module ./ServiceUtils.psm1",
+        "d": "bash -x ./ServiceUtils.psm1"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 55,
+      "enunciado": "¿Qué opción describe mejor la función de la shell?",
+      "opciones": {
+        "a": "Sustituir a los drivers de dispositivos.",
+        "b": "Proporcionar una interfaz para interactuar con el sistema operativo.",
+        "c": "Administrar la memoria física sin intervención del kernel.",
+        "d": "Mantener el journaling del sistema de archivos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Qué práctica es correcta al diseñar tareas programadas?",
+      "opciones": {
+        "a": "Usar siempre comandos inline extensos en lugar de scripts versionados.",
+        "b": "Centralizar logs y métricas de ejecución.",
+        "c": "Evitar documentar propietario, horario y propósito.",
+        "d": "Guardar credenciales en texto plano para simplificar la automatización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 57,
+      "enunciado": "¿Qué finalidad tiene crear impresoras lógicas según la unidad?",
+      "opciones": {
+        "a": "Eliminar los permisos de impresión y usar acceso anónimo.",
+        "b": "Sustituir los protocolos de impresión por scripts locales.",
+        "c": "Agrupar o segmentar impresoras físicas según necesidades y facilitar su selección.",
+        "d": "Evitar el uso de descripciones y ubicaciones."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Qué control mínimo debe incluir un script de gestión de usuarios según la unidad?",
+      "opciones": {
+        "a": "Eliminación de cualquier registro de auditoría.",
+        "b": "Creación ciega de cuentas sin comprobar existencia.",
+        "c": "Almacenamiento de contraseñas en texto plano dentro del script.",
+        "d": "Comprobación de existencia previa para mantener idempotencia."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 59,
+      "enunciado": "¿Qué medida es adecuada para tareas críticas que modifican recursos compartidos o bases de datos?",
+      "opciones": {
+        "a": "Definir políticas de reintentos, timeouts y control de concurrencia.",
+        "b": "Omitir timeouts y reintentos para que el proceso nunca se detenga.",
+        "c": "Ejecutarlas siempre en paralelo sin locking.",
+        "d": "Eliminar el inventario centralizado de tareas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué proceso se identifica como PID 1 en Linux con systemd?",
+      "opciones": {
+        "a": "systemd",
+        "b": "services.exe",
+        "c": "winlogon",
+        "d": "launchd"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 61,
+      "enunciado": "¿Qué herramienta clásica se utiliza para programar tareas periódicas en sistemas Unix/Linux?",
+      "opciones": {
+        "a": "at",
+        "b": "cron o crontab",
+        "c": "journalctl",
+        "d": "systemctl isolate"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Qué protocolo de impresión opera habitualmente sobre el puerto TCP 631?",
+      "opciones": {
+        "a": "SMB/CIFS",
+        "b": "LPD",
+        "c": "IPP",
+        "d": "JetDirect"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 63,
+      "enunciado": "¿Qué lenguaje se presenta como intérprete de comandos estándar en la mayoría de sistemas Unix/Linux y también disponible en macOS?",
+      "opciones": {
+        "a": "Groovy",
+        "b": "Bash",
+        "c": "PowerShell",
+        "d": "Perl"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿Cuál es la diferencia esencial entre proceso e hilo?",
+      "opciones": {
+        "a": "No existe diferencia práctica entre ambos conceptos.",
+        "b": "El hilo comparte recursos con su proceso y el proceso tiene mayor aislamiento.",
+        "c": "El proceso comparte memoria con todos los demás procesos por defecto.",
+        "d": "El hilo tiene espacio de direcciones independiente y el proceso no."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 65,
+      "enunciado": "¿Qué describe mejor una máquina virtual frente a un contenedor?",
+      "opciones": {
+        "a": "Emula o virtualiza un sistema completo con su propio entorno operativo.",
+        "b": "Se limita a aplicaciones web.",
+        "c": "No puede ejecutar sistemas operativos completos.",
+        "d": "Comparte siempre el kernel del host y no virtualiza el hardware."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 66,
+      "enunciado": "¿Qué ajuste de hardening es coherente con la unidad para reducir la exposición de SSH?",
+      "opciones": {
+        "a": "Forzar únicamente autenticación por contraseña.",
+        "b": "PermitRootLogin yes y PasswordAuthentication yes.",
+        "c": "Desactivar el cifrado y permitir cualquier túnel.",
+        "d": "Establecer PasswordAuthentication no y PermitRootLogin no."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿Qué lenguaje se menciona como apropiado para automatización avanzada, APIs y monitorización?",
+      "opciones": {
+        "a": "SMB",
+        "b": "LPD",
+        "c": "cron",
+        "d": "Python"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 68,
+      "enunciado": "¿Qué comando permite ejecutar un script Bash mostrando cada orden interpretada durante la depuración?",
+      "opciones": {
+        "a": "cron -x script.sh",
+        "b": "df -x script.sh",
+        "c": "bash -x script.sh",
+        "d": "grep -x script.sh"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 69,
+      "enunciado": "¿Qué comando de Windows se usa para crear una tarea programada diaria desde línea de comandos?",
+      "opciones": {
+        "a": "Import-Module",
+        "b": "schtasks /Create",
+        "c": "Set-PSDebug -Trace 1",
+        "d": "Get-PrintJob"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 70,
+      "enunciado": "¿Qué comando se utiliza para buscar entradas en un directorio LDAP?",
+      "opciones": {
+        "a": "slappasswd",
+        "b": "slapindex",
+        "c": "ldapdelete",
+        "d": "ldapsearch"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 71,
+      "enunciado": "¿Qué comando permite modificar la prioridad de un proceso ya existente en Linux?",
+      "opciones": {
+        "a": "systemd-analyze",
+        "b": "journalctl",
+        "c": "renice",
+        "d": "taskset"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 72,
+      "enunciado": "¿Qué componente traduce la complejidad del hardware a interfaces utilizables por el sistema operativo?",
+      "opciones": {
+        "a": "Las bibliotecas de usuario.",
+        "b": "La papelera de reciclaje.",
+        "c": "Los drivers o controladores.",
+        "d": "Los archivos temporales."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 73,
+      "enunciado": "¿Qué técnica se recomienda para evitar solapamientos en tareas programadas con cron?",
+      "opciones": {
+        "a": "Usar flock o mecanismos equivalentes de locking.",
+        "b": "Ejecutar siempre las tareas como root sin control.",
+        "c": "Desactivar los logs del sistema.",
+        "d": "Lanzar varias instancias simultáneas para asegurar la ejecución."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 74,
+      "enunciado": "¿Qué sistema de impresión se describe como estándar en Linux y macOS?",
+      "opciones": {
+        "a": "Puppet",
+        "b": "Active Directory",
+        "c": "WSL",
+        "d": "CUPS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué parámetros de cn=config se muestran para forzar el uso de TLS en OpenLDAP?",
+      "opciones": {
+        "a": "uid y cn",
+        "b": "loglevel y database",
+        "c": "olcDbIndex y olcAccess",
+        "d": "olcTLSCertificateFile y olcTLSCertificateKeyFile"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 76,
+      "enunciado": "¿Qué finalidad tiene la replicación en un servicio de directorio?",
+      "opciones": {
+        "a": "Asegurar alta disponibilidad y tolerancia a fallos.",
+        "b": "Sustituir el cifrado TLS.",
+        "c": "Eliminar la necesidad de índices.",
+        "d": "Reducir el tamaño de los DN."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 77,
+      "enunciado": "Si la organización necesita remediación continua y reporting granular de cumplimiento, ¿qué enfoque se ajusta mejor a la comparativa de la unidad?",
+      "opciones": {
+        "a": "Eliminación del inventario y de la CM.",
+        "b": "Edición manual de configuraciones en cada equipo.",
+        "c": "Uso exclusivo de sesiones RDP sin automatización.",
+        "d": "Modelo agent-based."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 78,
+      "enunciado": "¿Qué ajuste de Bash detiene la ejecución del script ante el primer error?",
+      "opciones": {
+        "a": "set -e",
+        "b": "set -o vi",
+        "c": "set -x",
+        "d": "set -m"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 79,
+      "enunciado": "¿Qué función principal cumple un servidor de impresión en una organización?",
+      "opciones": {
+        "a": "Eliminar la necesidad de protocolos de red.",
+        "b": "Centralizar la gestión de impresoras y trabajos de impresión.",
+        "c": "Sustituir el servicio de directorio.",
+        "d": "Ejecutar scripts de PowerShell en segundo plano."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 80,
+      "enunciado": "¿Cuál es la función principal de un sistema operativo como intermediario entre aplicaciones y hardware?",
+      "opciones": {
+        "a": "Gestionar recursos y ofrecer un entorno estable de ejecución.",
+        "b": "Eliminar la necesidad de controladores de dispositivo.",
+        "c": "Sustituir completamente a las aplicaciones de usuario.",
+        "d": "Convertir todos los equipos en sistemas distribuidos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 81,
+      "enunciado": "¿Qué comando de PowerShell habilita una traza línea a línea durante la depuración?",
+      "opciones": {
+        "a": "Write-Debug -Force 1",
+        "b": "Start-Debug Trace",
+        "c": "Get-Trace -PowerShell",
+        "d": "Set-PSDebug -Trace 1"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 82,
+      "enunciado": "¿Qué comando de CUPS se utiliza para consultar impresoras configuradas?",
+      "opciones": {
+        "a": "lpadmin -d",
+        "b": "cancel -a",
+        "c": "cupsctl --share-printers",
+        "d": "lpstat -p"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 83,
+      "enunciado": "¿Qué objetivo tiene integrar el servicio de impresión con LDAP o Active Directory?",
+      "opciones": {
+        "a": "Eliminar el control de acceso sobre las colas.",
+        "b": "Sustituir los drivers por filtros LDAP.",
+        "c": "Convertir impresoras físicas en contenedores.",
+        "d": "Centralizar autenticación, autorización y asignación de permisos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Qué caracteriza a un servicio orientado a sesión en administración remota?",
+      "opciones": {
+        "a": "Ejecuta acciones declarativas sin contexto interactivo.",
+        "b": "Está diseñado exclusivamente para impresión en red.",
+        "c": "Solo funciona en redes locales sin autenticación.",
+        "d": "Ofrece un contexto interactivo entre operador/a y sistema."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 85,
+      "enunciado": "¿Qué utilidad se emplea para exportar la base de datos de OpenLDAP a un archivo LDIF?",
+      "opciones": {
+        "a": "ldapwhoami",
+        "b": "slapcat",
+        "c": "ldapsearch",
+        "d": "slappasswd"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Qué comando se indica como ejemplo de listado de procesos en Bash?",
+      "opciones": {
+        "a": "Get-Service",
+        "b": "ps aux",
+        "c": "Import-Module",
+        "d": "Register-ScheduledTask"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 87,
+      "enunciado": "¿Qué herramienta se utiliza para detectar qué unidades han ralentizado el arranque en systemd?",
+      "opciones": {
+        "a": "nohup",
+        "b": "renice -n -5",
+        "c": "kill -15",
+        "d": "systemd-analyze blame"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué herramienta se asocia en los contenidos con un modelo agentless para administración centralizada?",
+      "opciones": {
+        "a": "slapcat",
+        "b": "Ansible",
+        "c": "taskset",
+        "d": "Puppet como único ejemplo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 89,
+      "enunciado": "Si una tarea programada debe permitir a personal no técnico programarla, auditarla y exportarla para versionado, ¿qué opción encaja mejor?",
+      "opciones": {
+        "a": "Usar at y eliminar el historial al finalizar.",
+        "b": "Usar una plataforma centralizada como Rundeck o Task Scheduler con exportación.",
+        "c": "Editar crontabs manualmente en todos los servidores.",
+        "d": "Reemplazar toda planificación por sesiones SSH interactivas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 90,
+      "enunciado": "¿En qué estado se encuentra un proceso preparado para ejecutarse, pero aún sin CPU asignada?",
+      "opciones": {
+        "a": "Bloqueado.",
+        "b": "Listo.",
+        "c": "Terminado.",
+        "d": "Suspendido."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 91,
+      "enunciado": "¿Qué mecanismo se presenta como más adecuado cuando se desea versionado declarativo y mejor trazabilidad que cron o at?",
+      "opciones": {
+        "a": "systemd timers o Kubernetes CronJobs",
+        "b": "grep",
+        "c": "tail -f",
+        "d": "nohup"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 92,
+      "enunciado": "¿Qué característica diferencia a PowerShell frente a shells basados principalmente en texto?",
+      "opciones": {
+        "a": "La imposibilidad de ejecutar tareas remotas.",
+        "b": "Su paradigma orientado a objetos basado en .NET.",
+        "c": "El uso exclusivo en Linux.",
+        "d": "La ausencia total de funciones."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 93,
+      "enunciado": "¿Qué elemento del sistema operativo organiza datos persistentes en discos y otros soportes?",
+      "opciones": {
+        "a": "El hipervisor.",
+        "b": "El planificador de CPU.",
+        "c": "La tabla ARP.",
+        "d": "El sistema de archivos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Qué operación de mantenimiento se recomienda tras cambios en índices antes de reiniciar el servicio?",
+      "opciones": {
+        "a": "tail -f /var/log/syslog",
+        "b": "slapindex -n 1",
+        "c": "ldapdelete -x",
+        "d": "ldapwhoami -x"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Qué tipo de sistema operativo prioriza el cumplimiento de plazos temporales por encima del rendimiento medio?",
+      "opciones": {
+        "a": "De tiempo real.",
+        "b": "Monousuario.",
+        "c": "Distribuido.",
+        "d": "Multiusuario."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 96,
+      "enunciado": "¿Qué protocolo propietario de HP envía datos de impresión directamente a la impresora por el puerto TCP 9100?",
+      "opciones": {
+        "a": "JetDirect (RAW)",
+        "b": "Kerberos",
+        "c": "LDAP",
+        "d": "AirPrint"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 97,
+      "enunciado": "¿Qué comando permite ver los trabajos de impresión en cola en Windows Server?",
+      "opciones": {
+        "a": "Get-PrintJob -PrinterName \"Impresora1\"",
+        "b": "whoami",
+        "c": "Get-Process -Name spooler",
+        "d": "tasklist /v"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 98,
+      "enunciado": "¿Qué combinación de llamadas se presenta como base de la creación de procesos en Unix/Linux?",
+      "opciones": {
+        "a": "chmod() y chown().",
+        "b": "fork() y execve().",
+        "c": "CreateProcess() y StopProcess().",
+        "d": "spawn() y waitpid()."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 99,
+      "enunciado": "¿Qué protocolo tradicional de impresión en red usa habitualmente el puerto TCP 515?",
+      "opciones": {
+        "a": "IPP",
+        "b": "AirPrint",
+        "c": "LPD",
+        "d": "SMB/CIFS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 100,
+      "enunciado": "¿Qué característica diferencia a los contenedores de las máquinas virtuales en los contenidos?",
+      "opciones": {
+        "a": "Sustituyen por completo al sistema operativo anfitrión.",
+        "b": "No son útiles en entornos cloud.",
+        "c": "Requieren un hipervisor tipo 1 en todos los casos.",
+        "d": "Comparten el kernel del sistema anfitrión y aíslan aplicaciones."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 101,
+      "enunciado": "¿Cuál de los siguientes es un ejemplo de sistema operativo monolítico?",
+      "opciones": {
+        "a": "MINIX",
+        "b": "Linux",
+        "c": "Windows NT",
+        "d": "QNX"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué política de planificación en Linux busca repartir el tiempo de CPU de forma “justa”?",
+      "opciones": {
+        "a": "Round Robin clásico",
+        "b": "SCHED_FIFO",
+        "c": "SCHED_RR",
+        "d": "CFS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 103,
+      "enunciado": "¿Cuál es un ejemplo de licencia de software permisiva?",
+      "opciones": {
+        "a": "MIT",
+        "b": "AGPL",
+        "c": "GPLv2",
+        "d": "GPLv3"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 104,
+      "enunciado": "¿Qué componente del sistema operativo decide qué proceso usa la CPU y cuándo?",
+      "opciones": {
+        "a": "Shell",
+        "b": "Driver de E/S",
+        "c": "Sistema de archivos",
+        "d": "Planificador"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 105,
+      "enunciado": "¿Qué característica es propia de los sistemas operativos de servidor?",
+      "opciones": {
+        "a": "Reducen el soporte de redes",
+        "b": "Priorizan la experiencia multimedia",
+        "c": "Eliminan la multitarea",
+        "d": "Optimizan estabilidad y seguridad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 106,
+      "enunciado": "¿Qué herramienta de Linux permite observar el uso de memoria y caché en tiempo real?",
+      "opciones": {
+        "a": "uname",
+        "b": "chmod",
+        "c": "free -h",
+        "d": "lsblk"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 107,
+      "enunciado": "¿Qué elemento realiza la traducción de direcciones virtuales a físicas?",
+      "opciones": {
+        "a": "Driver",
+        "b": "DMA",
+        "c": "Scheduler",
+        "d": "MMU"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 108,
+      "enunciado": "¿Qué caracteriza a los sistemas operativos de microkernel?",
+      "opciones": {
+        "a": "No soportan multitarea",
+        "b": "La mayoría de servicios se ejecutan en modo kernel",
+        "c": "Ofrecen menor aislamiento ante fallos",
+        "d": "Mantienen drivers y servicios como procesos separados"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 109,
+      "enunciado": "¿Qué tipo de licencia obliga a publicar modificaciones si se redistribuyen binarios modificados?",
+      "opciones": {
+        "a": "BSD",
+        "b": "MIT",
+        "c": "GPL",
+        "d": "Apache 2.0"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 110,
+      "enunciado": "¿Qué indica la presencia de “buff/cache” alta en Linux?",
+      "opciones": {
+        "a": "Uso normal de caché para acelerar accesos",
+        "b": "Error de paginación",
+        "c": "Swapping intensivo",
+        "d": "Falta grave de RAM"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 111,
+      "enunciado": "¿Qué técnica permite que los procesos utilicen más memoria de la disponible físicamente?",
+      "opciones": {
+        "a": "Fragmentación dinámica",
+        "b": "Multiplexación",
+        "c": "Memoria virtual",
+        "d": "Conmutación de tareas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 112,
+      "enunciado": "¿Qué mecanismo permite que un dispositivo avise al procesador cuando requiere atención?",
+      "opciones": {
+        "a": "Paging",
+        "b": "Interrupción",
+        "c": "Swap",
+        "d": "Caching"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 113,
+      "enunciado": "¿Qué ventaja principal ofrece un microkernel en sistemas críticos?",
+      "opciones": {
+        "a": "Menor complejidad del sistema",
+        "b": "Aislamiento y robustez ante fallos",
+        "c": "Mayor rendimiento que un monolítico",
+        "d": "Drivers más rápidos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 114,
+      "enunciado": "¿Qué modo de operación tiene acceso total al hardware?",
+      "opciones": {
+        "a": "Modo usuario",
+        "b": "Modo supervisor deshabilitado",
+        "c": "Modo gráfico",
+        "d": "Modo kernel"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 115,
+      "enunciado": "¿Qué sistema de archivos usa journaling para reducir la corrupción tras apagones?",
+      "opciones": {
+        "a": "ext2",
+        "b": "FAT32",
+        "c": "NTFS",
+        "d": "UFS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 116,
+      "enunciado": "¿Qué herramienta de Windows permite listar procesos y su consumo?",
+      "opciones": {
+        "a": "tasklist",
+        "b": "chmod",
+        "c": "sysctl",
+        "d": "mount"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 117,
+      "enunciado": "¿Qué señal en Linux solicita una terminación ordenada del proceso?",
+      "opciones": {
+        "a": "SIGUSR1",
+        "b": "SIGKILL",
+        "c": "SIGTERM",
+        "d": "SIGSTOP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 118,
+      "enunciado": "¿Cuál de las siguientes acciones forma parte de la recolección de evidencia ante un proceso sospechoso?",
+      "opciones": {
+        "a": "Cambiar la prioridad del proceso",
+        "b": "Reiniciar el sistema operativo",
+        "c": "Matar el proceso inmediatamente",
+        "d": "Obtener un volcado de memoria con gcore"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 119,
+      "enunciado": "¿Cuál es el estado en el que un proceso espera por un evento externo o E/S?",
+      "opciones": {
+        "a": "Terminado",
+        "b": "Listo",
+        "c": "En ejecución",
+        "d": "Bloqueado"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 120,
+      "enunciado": "¿Qué estado indica un proceso zombie?",
+      "opciones": {
+        "a": "Finalizó pero el padre no recogió su estado",
+        "b": "Consume mucha CPU",
+        "c": "Se encuentra detenido por el kernel",
+        "d": "Está esperando E/S"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 121,
+      "enunciado": "¿Cuál es la diferencia principal entre proceso e hilo?",
+      "opciones": {
+        "a": "Los hilos no pueden ejecutarse en paralelo",
+        "b": "Los hilos necesitan más recursos que los procesos",
+        "c": "Los procesos tienen su propio espacio de direcciones; los hilos lo comparten",
+        "d": "Los procesos comparten memoria y los hilos no"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 122,
+      "enunciado": "¿Qué comando permite ver los hilos de un proceso en Linux?",
+      "opciones": {
+        "a": "ps -eLf",
+        "b": "ps -eo pid",
+        "c": "top -d 1",
+        "d": "kill -STOP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 123,
+      "enunciado": "¿Qué comando permite enviar señales basadas en el nombre del proceso?",
+      "opciones": {
+        "a": "nice",
+        "b": "pgrep",
+        "c": "uname",
+        "d": "pkill"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 124,
+      "enunciado": "¿Cuál es el comando recomendado para reiniciar un servicio gestionado por systemd?",
+      "opciones": {
+        "a": "systemctl restart <servicio>",
+        "b": "stop-service",
+        "c": "sc restart",
+        "d": "service --reload"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 125,
+      "enunciado": "¿Qué herramienta en Linux permite ver estados como R, S, D, T y Z?",
+      "opciones": {
+        "a": "nano",
+        "b": "tail",
+        "c": "chmod",
+        "d": "ps"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 126,
+      "enunciado": "¿Cuál es la finalidad del archivo /proc/<pid>/status en Linux?",
+      "opciones": {
+        "a": "Guardar métricas de red",
+        "b": "Asignar prioridades automáticamente",
+        "c": "Borrar procesos obsoletos",
+        "d": "Mostrar información detallada del proceso"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 127,
+      "enunciado": "¿Qué herramienta permite identificar conexiones abiertas por un proceso?",
+      "opciones": {
+        "a": "free -h",
+        "b": "lsof -i",
+        "c": "top -H",
+        "d": "lsblk"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 128,
+      "enunciado": "¿Qué representa un proceso en un sistema operativo?",
+      "opciones": {
+        "a": "Un programa en ejecución con memoria y recursos asociados",
+        "b": "Un archivo binario almacenado en disco",
+        "c": "Un hilo de ejecución sin recursos asignados",
+        "d": "Una instrucción individual enviada a la CPU"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 129,
+      "enunciado": "¿Qué herramienta permite trazar llamadas al sistema para diagnosticar problemas?",
+      "opciones": {
+        "a": "strace",
+        "b": "iptables",
+        "c": "df -h",
+        "d": "rm -rf"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 130,
+      "enunciado": "¿Qué estado refleja la marca “D” en ps?",
+      "opciones": {
+        "a": "Proceso detenido manualmente",
+        "b": "Proceso en ejecución",
+        "c": "Proceso zombie",
+        "d": "Proceso en espera no interrumpible (I/O)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 131,
+      "enunciado": "¿Qué comando se usa para programar una tarea puntual en Linux?",
+      "opciones": {
+        "a": "at",
+        "b": "flock",
+        "c": "cron",
+        "d": "timerctl"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 132,
+      "enunciado": "¿Qué herramienta se usa en Linux para programar tareas periódicas?",
+      "opciones": {
+        "a": "ldapsync",
+        "b": "cron",
+        "c": "systemd-analyze",
+        "d": "dsconfig"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 133,
+      "enunciado": "¿Qué opción de Bash ayuda a detectar errores tempranos en scripts?",
+      "opciones": {
+        "a": "set -vx",
+        "b": "set -euo pipefail",
+        "c": "nohup",
+        "d": "unset ALL"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 134,
+      "enunciado": "¿Qué riesgo común se mitiga usando flock en tareas programadas?",
+      "opciones": {
+        "a": "Fallos en logs",
+        "b": "Ejecuciones superpuestas",
+        "c": "Pérdida de variables de entorno",
+        "d": "Permisos incorrectos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 135,
+      "enunciado": "¿Qué archivo define en systemd cómo debe ejecutarse un servicio?",
+      "opciones": {
+        "a": "/usr/local/service.map",
+        "b": "/etc/services.conf",
+        "c": "/etc/systemd/table.map",
+        "d": "Unit file .service"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 136,
+      "enunciado": "¿Qué técnica permite detectar procesos anómalos en ejercicios avanzados de automatización?",
+      "opciones": {
+        "a": "Desactivar logs",
+        "b": "Revisión manual de servicios",
+        "c": "Scripts de análisis de CPU y conexiones",
+        "d": "Reiniciar el sistema regularmente"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 137,
+      "enunciado": "¿Cuál es una ventaja de los systemd timers frente a cron?",
+      "opciones": {
+        "a": "No pueden reiniciarse servicios",
+        "b": "No requieren unit files",
+        "c": "Ofrecen trazabilidad integrada mediante journal",
+        "d": "No soportan recurrencia"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 138,
+      "enunciado": "¿Qué herramienta permite recuperar un secreto seguro en Bash según el ejemplo de UT3?",
+      "opciones": {
+        "a": "vault",
+        "b": "ldapquery",
+        "c": "passkeyctl",
+        "d": "cfgtool"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 139,
+      "enunciado": "¿Qué tipo de política evita reinicios infinitos en servicios automatizados?",
+      "opciones": {
+        "a": "restart never",
+        "b": "restart immediate sin delay",
+        "c": "restart always",
+        "d": "restart on-failure con umbrales definidos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 140,
+      "enunciado": "¿Qué mecanismo permite validar configuraciones antes de un despliegue automatizado?",
+      "opciones": {
+        "a": "Ejecución sin logs",
+        "b": "Dry-run o pre-flight checks",
+        "c": "Eliminación del estado previo",
+        "d": "Reinicio forzado del servicio"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 141,
+      "enunciado": "¿Qué parámetro en systemd permite limitar el número de descriptores abiertos?",
+      "opciones": {
+        "a": "TimeoutStartSec",
+        "b": "RestrictFileDescriptor",
+        "c": "LimitNOFILE",
+        "d": "CPUQuota"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 142,
+      "enunciado": "¿Cuál es uno de los beneficios principales de la automatización en administración del sistema?",
+      "opciones": {
+        "a": "Aumentar la intervención manual",
+        "b": "Evitar el uso de CI/CD",
+        "c": "Reducir errores y mejorar la consistencia operativa",
+        "d": "Eliminar la necesidad de logs"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 143,
+      "enunciado": "¿Qué ventaja principal ofrece PowerShell respecto a Bash?",
+      "opciones": {
+        "a": "No soporta scripting modular",
+        "b": "Soporta menos cmdlets",
+        "c": "No permite validación de parámetros",
+        "d": "Usa un modelo basado en objetos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 144,
+      "enunciado": "¿Qué ventaja ofrece documentar y versionar tareas programadas?",
+      "opciones": {
+        "a": "Permite reproducir configuraciones y auditar cambios",
+        "b": "Impide modificar horarios",
+        "c": "Reemplaza los logs",
+        "d": "Evita la ejecución de scripts"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 145,
+      "enunciado": "¿Qué protocolo se menciona como esencial para sincronizar tiempos en sistemas distribuidos?",
+      "opciones": {
+        "a": "NTP",
+        "b": "SNMP",
+        "c": "FTP",
+        "d": "SMB"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 146,
+      "enunciado": "¿Qué función cumple OCSP en criptografía operativa?",
+      "opciones": {
+        "a": "Generar claves privadas",
+        "b": "Gestionar estados de revocación",
+        "c": "Crear VPNs",
+        "d": "Firmar playbooks"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 147,
+      "enunciado": "¿Qué define el principio de idempotencia?",
+      "opciones": {
+        "a": "No requiere repositorio Git",
+        "b": "La ejecución repetida produce el mismo estado",
+        "c": "Cada ejecución puede producir efectos distintos",
+        "d": "No requiere configuración previa"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 148,
+      "enunciado": "¿Cuál es un ejemplo de mala práctica en bastion hosts?",
+      "opciones": {
+        "a": "Session recording activo",
+        "b": "TrustedUserCAKeys configurado",
+        "c": "Integración con SIEM",
+        "d": "Permitir acceso directo root"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 149,
+      "enunciado": "¿Qué ventaja ofrece Puppet respecto a Ansible?",
+      "opciones": {
+        "a": "Orquestación ad-hoc más simple",
+        "b": "Pull automático y reporting continuo",
+        "c": "No requiere certificado",
+        "d": "Menor necesidad de agente"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 150,
+      "enunciado": "¿Qué riesgo existe en WireGuard si AllowedIPs está mal configurado?",
+      "opciones": {
+        "a": "No funciona el DNS",
+        "b": "Un peer puede reclamar rutas indebidas",
+        "c": "Se pierde la clave privada",
+        "d": "No se podrá levantar la interfaz"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 151,
+      "enunciado": "¿Qué debe incluir un runbook?",
+      "opciones": {
+        "a": "Contraseñas en texto claro",
+        "b": "Cambios sin registro",
+        "c": "Pasos reproducibles y criterios de verificación",
+        "d": "Opiniones personales"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 152,
+      "enunciado": "¿Qué característica distingue a los servicios orientados a sesión?",
+      "opciones": {
+        "a": "Permiten interacción directa y continua",
+        "b": "No permiten registro de actividades",
+        "c": "No requieren autenticación",
+        "d": "Son completamente idempotentes"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 153,
+      "enunciado": "¿Qué herramienta proporciona reporting de compliance en Puppet?",
+      "opciones": {
+        "a": "Git",
+        "b": "PuppetDB",
+        "c": "SSH",
+        "d": "Nmap"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 154,
+      "enunciado": "¿Cuál es una medida de hardening típica en SSH?",
+      "opciones": {
+        "a": "Usar algoritmos modernos como chacha20-poly1305",
+        "b": "Habilitar PasswordAuthentication",
+        "c": "Permitir AllowTcpForwarding siempre",
+        "d": "Usar RSA 1024"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 155,
+      "enunciado": "¿Qué patrón operativo evita almacenar secretos en repositorios?",
+      "opciones": {
+        "a": "Claves codificadas en base64",
+        "b": "Uso exclusivo de SSH",
+        "c": "Uso de Vault con inyección dinámica",
+        "d": "Variables en texto plano"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 156,
+      "enunciado": "¿Qué elemento es fundamental en una arquitectura de bastion host?",
+      "opciones": {
+        "a": "Deshabilitar MFA",
+        "b": "Acceso root por contraseña",
+        "c": "Session recording obligatorio",
+        "d": "Permitir túneles sin control"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 157,
+      "enunciado": "¿Qué elemento es clave en un despliegue canary?",
+      "opciones": {
+        "a": "Monitorización de métricas antes de avanzar",
+        "b": "Deshabilitar health checks",
+        "c": "Promover sin verificación",
+        "d": "Exponer toda la flota a la vez"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 158,
+      "enunciado": "¿Qué práctica reduce la exposición de credenciales privilegiadas?",
+      "opciones": {
+        "a": "Permisos permanentes",
+        "b": "Sesiones sin MFA",
+        "c": "Claves compartidas entre equipos",
+        "d": "JIT con certificados de corta duración"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 159,
+      "enunciado": "¿Cuál es un riesgo de sesiones orientadas a interacción?",
+      "opciones": {
+        "a": "Siempre cifran el tráfico",
+        "b": "Son siempre idempotentes",
+        "c": "Pueden introducir cambios no reproducibles",
+        "d": "No requieren auditoría"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 160,
+      "enunciado": "¿Qué ventaja principal ofrece un modelo agentless como Ansible?",
+      "opciones": {
+        "a": "Reporting nativo avanzado",
+        "b": "Remediación continua sin programación",
+        "c": "No requiere agentes instalados",
+        "d": "Mayor resiliencia en redes inestables"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 161,
+      "enunciado": "¿Qué comando permite realizar búsquedas en OpenLDAP?",
+      "opciones": {
+        "a": "ldapmodify",
+        "b": "ldapdelete",
+        "c": "slapindex",
+        "d": "ldapsearch"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 162,
+      "enunciado": "¿Qué comando permite generar contraseñas cifradas para LDAP?",
+      "opciones": {
+        "a": "ldapsearch",
+        "b": "slappasswd",
+        "c": "ldapadd",
+        "d": "slapindex"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 163,
+      "enunciado": "¿Qué opción en SSSD fuerza el uso de certificados TLS?",
+      "opciones": {
+        "a": "enumerate",
+        "b": "cache_credentials",
+        "c": "ldap_tls_reqcert",
+        "d": "id_provider"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 164,
+      "enunciado": "¿Qué comando permite restaurar datos desde un archivo LDIF?",
+      "opciones": {
+        "a": "slapadd",
+        "b": "ldapmodify",
+        "c": "ldapdelete",
+        "d": "sssdctl"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 165,
+      "enunciado": "¿Qué parámetro debe configurarse para asegurar comunicación cifrada en OpenLDAP?",
+      "opciones": {
+        "a": "olcTLSCertificateFile",
+        "b": "olcOverlay",
+        "c": "olcDbIndex",
+        "d": "olcAuditlogSuccess"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 166,
+      "enunciado": "¿Qué elemento se recomienda documentar siempre en una implantación de directorio?",
+      "opciones": {
+        "a": "Logs de red",
+        "b": "Archivo swap",
+        "c": "Dirección MAC de los equipos clientes",
+        "d": "Estructura del árbol LDAP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 167,
+      "enunciado": "¿Qué componente define qué atributos y objectClasses pueden existir en el directorio?",
+      "opciones": {
+        "a": "LDIF",
+        "b": "ACLs",
+        "c": "Bind DN",
+        "d": "Esquema"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 168,
+      "enunciado": "¿Cuál es una buena práctica al configurar cuentas de servicio (Bind DN)?",
+      "opciones": {
+        "a": "Dar permisos de administrador total",
+        "b": "Permitir acceso anónimo",
+        "c": "Utilizar permisos mínimos necesarios",
+        "d": "Evitar el uso de TLS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 169,
+      "enunciado": "¿Qué identifica de forma única a cada entrada en un servicio LDAP?",
+      "opciones": {
+        "a": "CN=config",
+        "b": "ObjectClass",
+        "c": "UID Number",
+        "d": "Distinguished Name (DN)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 170,
+      "enunciado": "¿Qué filtro LDAP buscaría todos los usuarios activos con objectClass posixAccount?",
+      "opciones": {
+        "a": "(cn=*)",
+        "b": "(uidNumber>=1000)",
+        "c": "(&(objectClass=posixAccount)(accountStatus=active))",
+        "d": "(objectClass=groupOfNames)"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 171,
+      "enunciado": "¿Qué comando permite comprobar la identidad con la que se ejecuta un bind LDAP?",
+      "opciones": {
+        "a": "slapcat",
+        "b": "ldapwhoami",
+        "c": "ldapsearch",
+        "d": "ldapmodify"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 172,
+      "enunciado": "¿Qué mecanismo permite registrar cambios realizados en OpenLDAP?",
+      "opciones": {
+        "a": "ppolicy",
+        "b": "slappasswd",
+        "c": "overlay auditlog",
+        "d": "sssd cache"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 173,
+      "enunciado": "¿Qué archivo contiene entradas LDIF para crear usuarios en OpenLDAP?",
+      "opciones": {
+        "a": "add-user.ldif",
+        "b": "audit.log",
+        "c": "/etc/sssd/sssd.conf",
+        "d": "tls.ldif"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 174,
+      "enunciado": "¿Qué comando PowerShell permite unir un equipo Windows a un dominio AD?",
+      "opciones": {
+        "a": "Register-Domain",
+        "b": "Connect-AD",
+        "c": "Add-Computer",
+        "d": "Join-ADGroup"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 175,
+      "enunciado": "¿Qué tipo de grupo en LDAP suele incluir memberUid?",
+      "opciones": {
+        "a": "inetOrgPerson",
+        "b": "posixGroup",
+        "c": "groupOfNames",
+        "d": "shadowAccount"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 176,
+      "enunciado": "¿Qué se recomienda documentar en un servidor de impresión?",
+      "opciones": {
+        "a": "La marca de la impresora únicamente",
+        "b": "Solo la IP del servidor",
+        "c": "Contraseñas en texto claro",
+        "d": "Arquitectura, permisos, colas, políticas y backups"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 177,
+      "enunciado": "¿Qué archivo configura la conexión LDAP para CUPS?",
+      "opciones": {
+        "a": "/etc/cups/users.conf",
+        "b": "/etc/cups/printers.conf",
+        "c": "/var/lib/ldap/config",
+        "d": "/etc/cups/ldap.conf"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 178,
+      "enunciado": "¿Cuál es la función principal de un servidor de impresión en entornos corporativos?",
+      "opciones": {
+        "a": "Aumentar la velocidad de red",
+        "b": "Eliminar la necesidad de autenticación",
+        "c": "Sustituir al servidor DNS",
+        "d": "Centralizar la gestión de impresoras y trabajos de impresión"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 179,
+      "enunciado": "¿Qué permite una impresora lógica?",
+      "opciones": {
+        "a": "Agrupar impresoras físicas bajo una misma cola lógica",
+        "b": "Deshabilitar permisos",
+        "c": "Convertir una impresora USB en red",
+        "d": "Sustituir automáticamente drivers"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 180,
+      "enunciado": "¿Qué protocolo moderno de impresión utiliza HTTP/HTTPS y soporta cifrado TLS?",
+      "opciones": {
+        "a": "IPP",
+        "b": "JetDirect",
+        "c": "LPD",
+        "d": "SMB/CIFS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 181,
+      "enunciado": "¿Cuál es el puerto asociado al protocolo JetDirect (RAW)?",
+      "opciones": {
+        "a": "515",
+        "b": "9100",
+        "c": "631",
+        "d": "8443"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 182,
+      "enunciado": "¿Qué comando permite cancelar un trabajo específico en Linux?",
+      "opciones": {
+        "a": "cancel <job-id>",
+        "b": "stopjob",
+        "c": "rm -rf /print",
+        "d": "print-del"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 183,
+      "enunciado": "¿Qué sistema operativo utiliza CUPS como base de impresión?",
+      "opciones": {
+        "a": "Windows",
+        "b": "Android",
+        "c": "FreeBSD únicamente",
+        "d": "macOS y Linux"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 184,
+      "enunciado": "¿Qué servicio debe reiniciarse en Windows cuando existen errores en las colas de impresión?",
+      "opciones": {
+        "a": "dhcp",
+        "b": "spooler",
+        "c": "dns",
+        "d": "firewall"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 185,
+      "enunciado": "¿Qué comando en macOS permite unir el sistema a un dominio AD?",
+      "opciones": {
+        "a": "ad-connect",
+        "b": "dsconfigad",
+        "c": "mac-join",
+        "d": "adjoin"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 186,
+      "enunciado": "¿Qué comando permite unir un servidor Linux a un dominio Active Directory?",
+      "opciones": {
+        "a": "ldap-add",
+        "b": "join-ad",
+        "c": "realmd join",
+        "d": "cups-ad-connect"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 187,
+      "enunciado": "¿Dónde se configuran los permisos de impresión en CUPS?",
+      "opciones": {
+        "a": "/var/log/cups/error.log",
+        "b": "/etc/shadow",
+        "c": "/usr/share/cups/drivers",
+        "d": "/etc/cups/cupsd.conf"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 188,
+      "enunciado": "¿En qué puerto trabaja tradicionalmente LPD?",
+      "opciones": {
+        "a": "515",
+        "b": "631",
+        "c": "445",
+        "d": "9100"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 189,
+      "enunciado": "¿Qué arquitectura utilizan los sistemas de impresión en red?",
+      "opciones": {
+        "a": "Anillo token",
+        "b": "Broadcast masivo",
+        "c": "Peer-to-peer",
+        "d": "Cliente-servidor"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 190,
+      "enunciado": "¿Qué lenguaje se destaca en la UT por su uso en automatización avanzada y APIs?",
+      "opciones": {
+        "a": "Groovy",
+        "b": "Perl",
+        "c": "Ruby",
+        "d": "Python"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 191,
+      "enunciado": "¿Qué opción permite depurar un script Bash mostrando cada comando ejecutado?",
+      "opciones": {
+        "a": "trap",
+        "b": "bash -x",
+        "c": "shellcheck",
+        "d": "set -e"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 192,
+      "enunciado": "¿Cuál es el objetivo principal del uso de lenguajes de scripting en la administración de sistemas?",
+      "opciones": {
+        "a": "Automatizar tareas repetitivas y reducir errores humanos",
+        "b": "Mejorar la interfaz gráfica del sistema",
+        "c": "Incrementar el consumo de recursos",
+        "d": "Sustituir por completo al sistema operativo"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 193,
+      "enunciado": "¿Qué herramienta analiza scripts Bash y detecta errores y malas prácticas?",
+      "opciones": {
+        "a": "awk",
+        "b": "ShellCheck",
+        "c": "grep",
+        "d": "cron"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 194,
+      "enunciado": "¿Qué cmdlet permite listar los servicios en PowerShell?",
+      "opciones": {
+        "a": "Get-Process",
+        "b": "Register-ScheduledTask",
+        "c": "Get-Service",
+        "d": "Get-LocalUser"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 195,
+      "enunciado": "¿Qué utilidad permite programar tareas periódicas en sistemas Linux?",
+      "opciones": {
+        "a": "cron",
+        "b": "systemctl",
+        "c": "ps",
+        "d": "df"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 196,
+      "enunciado": "¿Qué característica debe cumplir un proyecto integrador de scripting según la UT?",
+      "opciones": {
+        "a": "No incluir documentación",
+        "b": "Ser modular y escalable",
+        "c": "Usar un único sistema operativo",
+        "d": "Ser monolítico"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 197,
+      "enunciado": "PowerShell se basa técnicamente en:",
+      "opciones": {
+        "a": "Python",
+        "b": "Java",
+        "c": ".NET",
+        "d": "GNU"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 198,
+      "enunciado": "¿Qué criterio NO se menciona en la UT para elegir un lenguaje de scripting?",
+      "opciones": {
+        "a": "Complejidad de la tarea",
+        "b": "Preferencias personales del administrador",
+        "c": "Sistema operativo",
+        "d": "Infraestructura existente"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 199,
+      "enunciado": "¿Qué estructura se utiliza en PowerShell para el manejo de errores?",
+      "opciones": {
+        "a": "switch",
+        "b": "if / else",
+        "c": "try / catch / finally",
+        "d": "for"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 200,
+      "enunciado": "El diseño de scripts modulares mejora principalmente:",
+      "opciones": {
+        "a": "La compatibilidad hardware",
+        "b": "El rendimiento gráfico",
+        "c": "La mantenibilidad y reutilización del código",
+        "d": "El consumo de memoria"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 201,
+      "enunciado": "¿Qué estructura permite repetir acciones mientras se cumpla una condición en Bash?",
+      "opciones": {
+        "a": "case",
+        "b": "for",
+        "c": "while",
+        "d": "if"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 202,
+      "enunciado": "¿Cuál de las siguientes es una estructura condicional válida en Bash?",
+      "opciones": {
+        "a": "select-if",
+        "b": "choose",
+        "c": "case",
+        "d": "switch"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 203,
+      "enunciado": "¿Qué elemento permite encapsular tareas reutilizables dentro de un script?",
+      "opciones": {
+        "a": "Arrays",
+        "b": "Variables",
+        "c": "Comentarios",
+        "d": "Funciones"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 204,
+      "enunciado": "¿Qué lenguaje se utiliza habitualmente en Jenkins para automatización CI/CD?",
+      "opciones": {
+        "a": "Ruby",
+        "b": "Bash",
+        "c": "Groovy",
+        "d": "Perl"
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

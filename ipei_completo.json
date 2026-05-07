@@ -1,0 +1,2261 @@
+{
+  "simulacro": "Simulacro Completo - IPEI",
+  "total_preguntas": 205,
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "¿Qué ejemplo corresponde a riesgo psicosocial según el temario?",
+      "opciones": {
+        "a": "Iluminación inadecuada",
+        "b": "Manipulación de cargas",
+        "c": "Contacto con disolventes",
+        "d": "Estrés por sobrecarga y falta de apoyo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "enunciado": "¿Qué elemento debe incluir el Plan de Prevención según el temario?",
+      "opciones": {
+        "a": "Únicamente listado de salarios",
+        "b": "Solo sanciones disciplinarias",
+        "c": "Estructura organizativa, responsabilidades, procedimientos, recursos y control",
+        "d": "Solo horarios y descansos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "enunciado": "¿Qué criterio compone el nivel de riesgo según el temario?",
+      "opciones": {
+        "a": "Probabilidad y severidad del daño",
+        "b": "Antigüedad y vacaciones",
+        "c": "Categoría y puesto",
+        "d": "Edad y salario"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Según el temario, el Derecho del Trabajo regula relaciones laborales cuando el trabajo se presta:",
+      "opciones": {
+        "a": "Solo en actividades de amistad",
+        "b": "Solo por cuenta propia",
+        "c": "De forma voluntaria, por cuenta ajena, bajo dependencia y a cambio de retribución",
+        "d": "Solo en el sector público"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Qué diferencia el temario entre formación reglada y no reglada?",
+      "opciones": {
+        "a": "Reglada no mejora empleabilidad",
+        "b": "Ambas son equivalentes en reconocimiento",
+        "c": "Reglada conduce a titulación oficial; no reglada aporta competencias complementarias sin título oficial",
+        "d": "No reglada siempre es ilegal"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "enunciado": "¿Qué obligación de la persona trabajadora se recoge en el temario?",
+      "opciones": {
+        "a": "Decidir la modalidad preventiva de la empresa",
+        "b": "Eliminar señalización por estética",
+        "c": "Informar de inmediato de anomalías o riesgos detectados",
+        "d": "Modificar unilateralmente el plan preventivo"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Qué derecho de la persona trabajadora se recoge en el temario en materia preventiva?",
+      "opciones": {
+        "a": "Renunciar a la formación preventiva",
+        "b": "Sustituir la evaluación de riesgos por experiencia",
+        "c": "Ocultar anomalías detectadas",
+        "d": "Interrumpir la actividad ante riesgo grave e inminente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "enunciado": "¿Qué acción concreta se recomienda para gestionar la huella digital?",
+      "opciones": {
+        "a": "Ignorar resultados de búsqueda",
+        "b": "Mantener perfiles desactualizados",
+        "c": "Buscar el propio nombre, ajustar privacidad y separar uso personal/profesional cuando sea necesario",
+        "d": "Publicar datos sensibles para aumentar visibilidad"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "enunciado": "Según el temario, ¿cuál es una característica del trabajo por cuenta ajena?",
+      "opciones": {
+        "a": "Ausencia total de derechos laborales",
+        "b": "Obligación de constituir una cooperativa",
+        "c": "Asunción del riesgo empresarial y de la gestión fiscal propia",
+        "d": "Dependencia jurídica y organizativa con retribución salarial periódica"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "enunciado": "Según el temario, una autoestima profesional saludable se asocia a:",
+      "opciones": {
+        "a": "Negar cualquier limitación",
+        "b": "Depender siempre de validación externa",
+        "c": "Aceptar críticas sin desvalorización y aprender del error",
+        "d": "Evitar responsabilidades para no fallar"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 11,
+      "enunciado": "En el temario, ¿qué relación se establece entre PLE y empleabilidad?",
+      "opciones": {
+        "a": "El PLE elimina la necesidad de formación",
+        "b": "El PLE se limita a redes de ocio",
+        "c": "El PLE sustituye la experiencia laboral",
+        "d": "Un PLE bien diseñado facilita aprendizaje autónomo, acceso a contenidos actualizados y redes profesionales"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué habilidad digital esencial se destaca en el temario para evitar la infoxicación?",
+      "opciones": {
+        "a": "Búsqueda y evaluación crítica de información",
+        "b": "Eliminar contrastes de fuentes",
+        "c": "Compartir enlaces no verificados",
+        "d": "Copiar sin citar"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 13,
+      "enunciado": "Según el temario, ¿qué contenido mínimo debe incluir un plan de emergencia (RD 393/2007) citado?",
+      "opciones": {
+        "a": "Clasificación profesional",
+        "b": "Identificación de riesgos, medios de protección y organización de equipos de emergencia",
+        "c": "Tablas salariales del convenio",
+        "d": "Cálculo de cotizaciones"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 14,
+      "enunciado": "¿Qué documento establece el marco de actuación de la empresa en PRL según el temario?",
+      "opciones": {
+        "a": "Registro de jornada",
+        "b": "Plan de Prevención de Riesgos Laborales",
+        "c": "Carta de presentación",
+        "d": "Parte de vacaciones"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué ejemplo es una meta operativa según el temario?",
+      "opciones": {
+        "a": "“Mejorar sin concretar cómo”",
+        "b": "“Cambiar de sector sin analizar opciones”",
+        "c": "“Alcanzar B1 de idioma en 12 meses para optar a prácticas”",
+        "d": "“Tener éxito profesional algún día”"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 16,
+      "enunciado": "¿Qué entidad gestiona y administra principalmente las prestaciones económicas de la Seguridad Social según el temario?",
+      "opciones": {
+        "a": "ISM",
+        "b": "INSS",
+        "c": "SMAC",
+        "d": "TGSS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 17,
+      "enunciado": "Un/a alumno/a analiza una oferta y observa que exige manejo de software profesional y aplicación de normativa sectorial. ¿A qué tipo de competencia se refiere el temario?",
+      "opciones": {
+        "a": "Competencias extrasalariales",
+        "b": "Competencias de ocio digital",
+        "c": "Competencias técnicas (hard skills)",
+        "d": "Competencias de representación sindical"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 18,
+      "enunciado": "¿Qué partes componen la nómina según el temario?",
+      "opciones": {
+        "a": "Oferta, demanda, intermediación y emprendimiento",
+        "b": "Objetivos, DAFO, plan de acción y PLE",
+        "c": "Encabezado, devengos, deducciones y bases de cotización",
+        "d": "Entradas, salidas, turnos y vacaciones"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "enunciado": "Según el temario, ante una persona inconsciente que respira, la actuación básica es:",
+      "opciones": {
+        "a": "Dar alimentos y bebida",
+        "b": "Provocar el vómito",
+        "c": "Colocar en posición lateral de seguridad",
+        "d": "Introducir objetos en la boca"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 20,
+      "enunciado": "Según el temario, ¿qué es la prevención de riesgos laborales (PRL)?",
+      "opciones": {
+        "a": "Conjunto de medidas para evitar o disminuir riesgos derivados del trabajo en todas las fases de actividad",
+        "b": "Documento salarial mensual",
+        "c": "Proceso exclusivo de la persona trabajadora sin intervención empresarial",
+        "d": "Conjunto de sanciones aplicadas tras un accidente"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 21,
+      "enunciado": "¿Qué acción refleja el ajuste estratégico del perfil sin renunciar a aspiraciones?",
+      "opciones": {
+        "a": "Mantener objetivos sin considerar el mercado",
+        "b": "Reducir la red de contactos",
+        "c": "Eliminar formación complementaria",
+        "d": "Iniciar experiencias puente (voluntariado/prácticas) mientras se refuerzan competencias requeridas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "enunciado": "¿Qué ejemplo es un hito vital con valor profesionalizador según el temario?",
+      "opciones": {
+        "a": "No realizar aprendizaje informal",
+        "b": "Evitar toda responsabilidad fuera del empleo",
+        "c": "Cuidado de familiares desarrollando organización y empatía",
+        "d": "No participar en actividades comunitarias"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 23,
+      "enunciado": "¿Qué describe el temario como planificación de la actividad preventiva?",
+      "opciones": {
+        "a": "Negociar cláusulas de permanencia",
+        "b": "Publicar ofertas de empleo",
+        "c": "Secuenciar actuaciones derivadas de la evaluación de riesgos con plazos, responsables y recursos",
+        "d": "Redactar el currículum"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 24,
+      "enunciado": "¿Qué define el temario como cultura preventiva?",
+      "opciones": {
+        "a": "Cumplimiento mínimo sin integración en decisiones",
+        "b": "Reacción puntual ante incidentes",
+        "c": "Conjunto de valores, actitudes y prácticas que priorizan la seguridad y la salud en todos los niveles",
+        "d": "Uso exclusivo de EPIs sin evaluación"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 25,
+      "enunciado": "¿Qué enunciado refleja correctamente el concepto de ZDP (zona de desarrollo próximo) aplicado al ámbito profesional?",
+      "opciones": {
+        "a": "Lista cerrada de competencias inmodificables",
+        "b": "Conjunto de tareas que solo pueden hacerse sin apoyo",
+        "c": "Sustituto del aprendizaje continuo",
+        "d": "Distancia entre lo que una persona hace sola y lo que logra con ayuda y práctica supervisada"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 26,
+      "enunciado": "En el temario, ¿qué figura representa a las personas trabajadoras en prevención?",
+      "opciones": {
+        "a": "Juzgado de lo Social",
+        "b": "Tesorería General",
+        "c": "Delegados/as de prevención",
+        "d": "Comisión de selección"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 27,
+      "enunciado": "¿Qué número máximo de horas extraordinarias al año recoge el temario?",
+      "opciones": {
+        "a": "100",
+        "b": "80",
+        "c": "No existe límite",
+        "d": "60"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 28,
+      "enunciado": "¿Para qué se utiliza el triaje según el temario?",
+      "opciones": {
+        "a": "Determinar vacaciones",
+        "b": "Asignar categorías profesionales",
+        "c": "Clasificar víctimas para priorizar atención según gravedad y posibilidad de supervivencia",
+        "d": "Calcular salario neto"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 29,
+      "enunciado": "¿Qué diferencia establece el temario entre motivación intrínseca y extrínseca?",
+      "opciones": {
+        "a": "Intrínseca: solo salario; extrínseca: solo aprendizaje",
+        "b": "Intrínseca: interés por la tarea; extrínseca: impulso por recompensas externas",
+        "c": "La extrínseca no influye en empleabilidad",
+        "d": "Son equivalentes"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Qué describe el temario como suspensión del contrato?",
+      "opciones": {
+        "a": "Finalización definitiva del vínculo",
+        "b": "Renuncia a derechos adquiridos",
+        "c": "Interrupción temporal de la prestación laboral, conservando antigüedad y en algunos casos cotización",
+        "d": "Cambio de convenio colectivo"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 31,
+      "enunciado": "Según el temario, ¿qué dimensión suele incluir una meta dentro del plan de acción?",
+      "opciones": {
+        "a": "Formación, experiencia, competencias y recursos de empleabilidad",
+        "b": "Solo salario y vacaciones",
+        "c": "Solo afiliación a sindicatos",
+        "d": "Solo sanciones y controles"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿Qué paso se incluye en el diseño personalizado de un PLE según el temario?",
+      "opciones": {
+        "a": "Autoevaluación inicial de necesidades y competencias digitales",
+        "b": "Evitar la conexión con otras personas",
+        "c": "Usar muchas herramientas sin criterio",
+        "d": "Eliminar fuentes de información"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Cuál de los siguientes factores se presenta en el temario como motor de transformación del entorno productivo?",
+      "opciones": {
+        "a": "Estabilidad absoluta de procesos y perfiles",
+        "b": "Innovación tecnológica (digitalización, automatización, IA)",
+        "c": "Eliminación de la normativa laboral",
+        "d": "Desaparición de la transición ecológica"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 34,
+      "enunciado": "Según el temario, ¿qué son las redes de apoyo?",
+      "opciones": {
+        "a": "Sustitutos del aprendizaje autónomo",
+        "b": "Solo redes sociales de ocio",
+        "c": "Únicamente contactos de la empresa actual",
+        "d": "Personas y recursos que acompañan, orientan o conectan con oportunidades"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 35,
+      "enunciado": "¿Qué describe el temario como acreditación de competencias?",
+      "opciones": {
+        "a": "Plan de evacuación",
+        "b": "Permiso retribuido por matrimonio",
+        "c": "Contrato indefinido con periodo de prueba",
+        "d": "Procedimiento oficial para reconocer experiencia y formación no formal con validez"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 36,
+      "enunciado": "Según el temario, ¿qué se entiende por perfil profesional en la construcción de la empleabilidad?",
+      "opciones": {
+        "a": "Solo el salario deseado",
+        "b": "Únicamente la edad y la nacionalidad",
+        "c": "Exclusivamente la titulación sin experiencia",
+        "d": "Conjunto de competencias, valores y objetivos laborales de una persona"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 37,
+      "enunciado": "¿Cuál es una fase del proceso de evaluación de riesgos recogida en el temario?",
+      "opciones": {
+        "a": "Identificación de peligros",
+        "b": "Registro mercantil",
+        "c": "Cálculo del IRPF",
+        "d": "Negociación colectiva"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 38,
+      "enunciado": "¿Cuál es una finalidad del autodiagnóstico competencial según el temario?",
+      "opciones": {
+        "a": "Fijar metas vagas e indefinidas",
+        "b": "Evitar el feedback",
+        "c": "Conocer el nivel propio y fijar objetivos de mejora medibles",
+        "d": "Sustituir la práctica por teoría"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 39,
+      "enunciado": "¿Qué define el temario como enfermedad profesional?",
+      "opciones": {
+        "a": "Cualquier enfermedad padecida durante la vida laboral",
+        "b": "Lesión súbita por caída",
+        "c": "Solo la causada por estrés",
+        "d": "La contraída por cuenta ajena en actividades del cuadro legal y causada por agentes indicados"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 40,
+      "enunciado": "Según el temario, ¿qué es un proyecto profesional?",
+      "opciones": {
+        "a": "Planificación personal y estratégica desde la situación actual al objetivo laboral deseado",
+        "b": "Lista de sanciones disciplinarias",
+        "c": "Registro de cotizaciones",
+        "d": "Documento salarial anual"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 41,
+      "enunciado": "Según el temario, una meta SMART debe ser:",
+      "opciones": {
+        "a": "Dependiente solo del azar",
+        "b": "General, subjetiva, indefinida y abierta",
+        "c": "Inalcanzable para aumentar exigencia",
+        "d": "Específica, medible, alcanzable, relevante y temporal"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 42,
+      "enunciado": "Según el temario, ¿qué afirmación es correcta sobre el empleo público?",
+      "opciones": {
+        "a": "Se accede siempre por autocandidatura en la web corporativa",
+        "b": "Se limita al tercer sector",
+        "c": "Se caracteriza por estabilidad y acceso regulado por igualdad, mérito y capacidad",
+        "d": "No requiere procedimientos selectivos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 43,
+      "enunciado": "Según el temario, ¿qué tres elementos básicos se requieren para hablar de accidente de trabajo?",
+      "opciones": {
+        "a": "Voluntariedad, nocturnidad y turnicidad",
+        "b": "Innovación, digitalización y sostenibilidad",
+        "c": "Lesión corporal, trabajo por cuenta ajena y relación causal trabajo-lesión",
+        "d": "Antigüedad, salario y convenio"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 44,
+      "enunciado": "¿Qué estrategia práctica para reforzar motivación se recoge en el temario?",
+      "opciones": {
+        "a": "Eliminar toda meta para evitar presión",
+        "b": "Definir objetivos a corto, medio y largo plazo y registrar avances",
+        "c": "Comparación constante con otras personas",
+        "d": "Evitar redes de apoyo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 45,
+      "enunciado": "En el temario, ¿qué tendencia emergente se asocia a nuevas formas de organización del trabajo?",
+      "opciones": {
+        "a": "Prohibición de plataformas digitales",
+        "b": "Reducción de la personalización orientada a la persona usuaria",
+        "c": "Auge del teletrabajo y trabajo por proyectos",
+        "d": "Sustitución total del trabajo colaborativo por tareas aisladas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Qué opción describe correctamente una entidad del tercer sector según el temario?",
+      "opciones": {
+        "a": "Empresa de economía extractiva del sector primario",
+        "b": "Empresa privada con objetivo principal de lucro",
+        "c": "Administración pública con acceso por oposición",
+        "d": "ONG, asociación o fundación sin ánimo de lucro orientada al bien común"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 47,
+      "enunciado": "Un/a alumno/a decide usar un servicio de intermediación laboral gestionado por la administración. ¿Qué opción se corresponde con el servicio público indicado en el temario?",
+      "opciones": {
+        "a": "Servicio público de empleo integrado en el sistema nacional (SEPE y servicios autonómicos)",
+        "b": "Registro mercantil de sociedades",
+        "c": "Colegio profesional obligatorio para todas las ocupaciones",
+        "d": "Agencia de publicidad comercial"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 48,
+      "enunciado": "En la distinción de perfiles profesionales, ¿qué combinación se presenta como parte del perfil de Técnico/a en Gestión Administrativa?",
+      "opciones": {
+        "a": "Extracción de sangre autorizada y análisis en laboratorio",
+        "b": "Mediación comunitaria y acompañamiento grupal",
+        "c": "Tramitación documental y atención al cliente",
+        "d": "Movilizaciones e higiene personal"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 49,
+      "enunciado": "¿Cuál de las siguientes opciones se ajusta al autoempleo según el temario?",
+      "opciones": {
+        "a": "Contrato de sustitución en empresa privada",
+        "b": "Actividad económica por cuenta propia asumiendo riesgo y gestión",
+        "c": "Relación laboral bajo dirección empresarial",
+        "d": "Acceso por oposición con estabilidad estatutaria"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 50,
+      "enunciado": "¿Cuál es una fuente del Derecho del Trabajo mencionada en el temario?",
+      "opciones": {
+        "a": "Constitución, leyes, reglamentos, convenios, contrato y costumbres",
+        "b": "Opiniones en redes sociales",
+        "c": "Publicidad de empresas",
+        "d": "Reglamento interno no comunicado"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 51,
+      "enunciado": "¿Qué describe el temario como aprendizaje permanente (lifelong learning)?",
+      "opciones": {
+        "a": "Formación exclusiva en etapas iniciales",
+        "b": "Disposición continua a adquirir, actualizar y aplicar conocimientos en distintos contextos",
+        "c": "Actividad solo formal con titulación",
+        "d": "Aprendizaje limitado al aula"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 52,
+      "enunciado": "¿Cuándo debe constituirse el Comité de Seguridad y Salud, según el temario?",
+      "opciones": {
+        "a": "A partir de 6 trabajadores/as",
+        "b": "Solo en empresas con contrato temporal",
+        "c": "A partir de 50 trabajadores/as",
+        "d": "Solo en empresas públicas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 53,
+      "enunciado": "Según el temario, el plan individual de mejora profesional incluye fases como:",
+      "opciones": {
+        "a": "Autodiagnóstico, definición de metas SMART, plan de acción y seguimiento/ajuste",
+        "b": "Inscripción mercantil y estatutos sociales",
+        "c": "Negociación colectiva, huelga y sanción",
+        "d": "Alta en TGSS, nómina y finiquito"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Qué competencia pertenece al bloque interpersonal según el temario?",
+      "opciones": {
+        "a": "Capacidad de análisis",
+        "b": "Gestión del tiempo",
+        "c": "Empatía",
+        "d": "Orientación a resultados"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 55,
+      "enunciado": "En el temario, ¿qué se considera un factor diferencial de empleabilidad?",
+      "opciones": {
+        "a": "Memorizar definiciones sin aplicarlas",
+        "b": "Evitar el aprendizaje permanente",
+        "c": "Competencias transversales y actitudinales como responsabilidad y mejora continua",
+        "d": "Ignorar tendencias de digitalización"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Qué estructura básica debe tener una acción planificada en el plan de empleabilidad?",
+      "opciones": {
+        "a": "Solo resultados esperados sin acciones",
+        "b": "Solo listado de herramientas digitales",
+        "c": "Solo intención general sin plazos",
+        "d": "Meta asociada, acción concreta, plazo y indicador de logro"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 57,
+      "enunciado": "Según el temario, ¿qué instrumento visual ayuda a planificar itinerarios por etapas?",
+      "opciones": {
+        "a": "Recibo de salario",
+        "b": "Línea de tiempo o cronograma del itinerario",
+        "c": "Tabla de cotización",
+        "d": "Parte de accidente"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Cuál es el objetivo principal del análisis del sector profesional en la inserción laboral, según el temario?",
+      "opciones": {
+        "a": "Identificar transformaciones, perfiles demandados y competencias requeridas para anticipar itinerarios de desarrollo",
+        "b": "Evitar la reflexión sobre competencias transversales",
+        "c": "Elegir un convenio colectivo sin relación con el sector",
+        "d": "Reducir la búsqueda de empleo a un único portal"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 59,
+      "enunciado": "Según el temario, ¿qué modalidad de organización preventiva puede asumir el empresario/ la empresaria en empresas de hasta 10 trabajadores/as (o hasta 25 en ciertos casos)?",
+      "opciones": {
+        "a": "Servicio de prevención propio obligatorio",
+        "b": "Asunción personal por el empresario/la empresaria con capacitación adecuada",
+        "c": "Mutua exclusivamente",
+        "d": "Comisión negociadora del convenio"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué criterio sobre el botiquín básico aparece en el temario?",
+      "opciones": {
+        "a": "Debe guardarse en un lugar oculto para evitar uso",
+        "b": "Debe estar visible, señalizado, sin llave y revisado periódicamente",
+        "c": "Debe incluir medicación sin control",
+        "d": "Debe permanecer cerrado con cerradura"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 61,
+      "enunciado": "La vigilancia de la salud se rige, según el temario, por principios como:",
+      "opciones": {
+        "a": "Acceso libre de la empresa a historiales clínicos",
+        "b": "Finalidad diagnóstica clínica para la empresa",
+        "c": "Voluntariedad (con excepciones), confidencialidad y finalidad preventiva",
+        "d": "Obligatoriedad absoluta sin justificación"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Qué principio de la acción preventiva (art. 15 LPRL) aparece en el temario?",
+      "opciones": {
+        "a": "Omitir instrucciones para fomentar autonomía",
+        "b": "Aumentar la exposición para acostumbrarse",
+        "c": "Eliminar descansos",
+        "d": "Priorizar protección colectiva frente a individual"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 63,
+      "enunciado": "¿Cuál es un efecto habitual de una autoestima baja descrito en el temario?",
+      "opciones": {
+        "a": "Mayor iniciativa para innovar",
+        "b": "Alta tolerancia a la frustración",
+        "c": "Mejor negociación de condiciones",
+        "d": "Evitación de retos y dificultad para defender derechos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿Qué diferencia establece el temario entre huella digital activa y pasiva?",
+      "opciones": {
+        "a": "No hay diferencias",
+        "b": "Activa: lo que publica la persona; pasiva: lo que registran otros o la navegación",
+        "c": "Activa: solo mensajes privados; pasiva: inexistente",
+        "d": "Activa: solo cookies; pasiva: solo publicaciones"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 65,
+      "enunciado": "Según el temario, ¿qué son los devengos?",
+      "opciones": {
+        "a": "Conjunto de percepciones que forman el salario bruto",
+        "b": "Solo la base de cotización por desempleo",
+        "c": "Solo los gastos suplidos",
+        "d": "Únicamente las retenciones de IRPF"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 66,
+      "enunciado": "¿Qué afirmación describe mejor el autoconocimiento como punto de partida?",
+      "opciones": {
+        "a": "Elegir un empleo sin analizar afinidades",
+        "b": "Copiar perfiles ajenos sin adaptación",
+        "c": "Sustituir reflexión por improvisación",
+        "d": "Identificar intereses, motivaciones, habilidades y límites para decidir con realismo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿Qué fase forma parte del proceso de elaboración de un proyecto profesional según el temario?",
+      "opciones": {
+        "a": "Tramitación de bajas en TGSS",
+        "b": "Autoconocimiento y exploración del entorno",
+        "c": "Emisión de nóminas",
+        "d": "Inscripción en el registro mercantil"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 68,
+      "enunciado": "Según el temario, el finiquito es:",
+      "opciones": {
+        "a": "Documento de inscripción en la TGSS",
+        "b": "Contrato de formación en alternancia",
+        "c": "Plan de prevención de riesgos",
+        "d": "Propuesta de liquidación de cantidades adeudadas al extinguirse la relación laboral"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 69,
+      "enunciado": "En el temario, ¿qué se recomienda al describir hitos vitales en entrevistas?",
+      "opciones": {
+        "a": "Traducir la experiencia a términos competenciales claros y relevantes",
+        "b": "Evitar ejemplos concretos",
+        "c": "Usar descripciones emocionales sin relación con competencias",
+        "d": "Omitirlos siempre por no ser empleo formal"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 70,
+      "enunciado": "Según el temario, ¿cuál es la duración máxima de la jornada ordinaria semanal de promedio en cómputo anual?",
+      "opciones": {
+        "a": "35 horas semanales",
+        "b": "40 horas semanales",
+        "c": "30 horas semanales",
+        "d": "48 horas semanales"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 71,
+      "enunciado": "Según el temario, el descanso mínimo entre jornadas es:",
+      "opciones": {
+        "a": "12 horas",
+        "b": "24 horas",
+        "c": "8 horas",
+        "d": "6 horas"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 72,
+      "enunciado": "¿Qué establece el principio in dubio pro operario según el temario?",
+      "opciones": {
+        "a": "Ante duda, decide siempre la empresa",
+        "b": "La duda anula el contrato",
+        "c": "Se aplica la interpretación más restrictiva",
+        "d": "Ante duda interpretativa, se aplica la interpretación más favorable a la persona trabajadora"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 73,
+      "enunciado": "Según el temario, la identidad digital es:",
+      "opciones": {
+        "a": "Conjunto de datos, interacciones y contenidos que existen sobre una persona en internet",
+        "b": "La nómina digitalizada",
+        "c": "Solo el historial académico",
+        "d": "Únicamente el DNI"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 74,
+      "enunciado": "Según el temario, ¿qué aporta un proyecto profesional bien definido en procesos de selección?",
+      "opciones": {
+        "a": "Elimina la importancia del CV",
+        "b": "Mayor claridad para explicar el valor aportado y coherencia en decisiones formativas y laborales",
+        "c": "Evita la necesidad de preparar entrevistas",
+        "d": "Sustituye la experiencia requerida"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué protocolo de actuación inmediata en primeros auxilios recoge el temario?",
+      "opciones": {
+        "a": "PAS: Proteger–Avisar–Socorrer",
+        "b": "SMART: Specific–Measurable–Achievable–Relevant–Time",
+        "c": "DAFO: Debilidades–Amenazas–Fortalezas–Oportunidades",
+        "d": "PLE: Personal Learning Environment"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 76,
+      "enunciado": "¿Qué función asigna el temario al equipo de primera intervención?",
+      "opciones": {
+        "a": "Gestionar nóminas",
+        "b": "Controlar el conato en los primeros instantes (extintores, corte de energía)",
+        "c": "Negociar el convenio",
+        "d": "Realizar entrevistas de selección"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 77,
+      "enunciado": "En el principio de norma mínima, ¿qué implica según el temario?",
+      "opciones": {
+        "a": "El contrato puede reducir vacaciones por debajo del mínimo legal",
+        "b": "La costumbre anula la ley",
+        "c": "La norma de rango superior fija mínimos que deben respetarse",
+        "d": "Se aplica siempre la norma menos favorable"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 78,
+      "enunciado": "Según el temario, ¿qué obligación tiene el empresario/la empresaria respecto a la afiliación y altas?",
+      "opciones": {
+        "a": "Realizar el trámite solo al finalizar el contrato",
+        "b": "Dar de alta y tramitar afiliación/altas/bajas en TGSS",
+        "c": "Omitir la inscripción de la empresa",
+        "d": "Delegar siempre en la persona trabajadora"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 79,
+      "enunciado": "¿Qué estrategia se propone en el temario para desarrollar la ZDP?",
+      "opciones": {
+        "a": "Observación de modelos competentes y retroalimentación constructiva",
+        "b": "Evitar la retroalimentación para no condicionar el aprendizaje",
+        "c": "Sustituir la formación continua por improvisación",
+        "d": "Eliminar la autoevaluación guiada"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 80,
+      "enunciado": "En la diferencia peligro/riesgo, ¿qué opción coincide con el temario?",
+      "opciones": {
+        "a": "Son sinónimos",
+        "b": "Peligro es la fuente con capacidad de daño; riesgo es la probabilidad de daño en condiciones concretas",
+        "c": "Peligro es la probabilidad; riesgo es la fuente",
+        "d": "Solo existen tras un accidente"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 81,
+      "enunciado": "¿Qué criterio se recomienda para seleccionar formación complementaria?",
+      "opciones": {
+        "a": "Contenido actualizado y alineado con el perfil objetivo, entidad reconocida y modalidad compatible",
+        "b": "Evitar certificaciones",
+        "c": "Acumular cursos sin coherencia",
+        "d": "Elegir por moda sin relación con objetivos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "enunciado": "Según el temario, ¿quién no puede realizar horas extraordinarias?",
+      "opciones": {
+        "a": "La persona trabajadora indefinida",
+        "b": "La persona trabajadora mayor de 26 años",
+        "c": "La persona trabajadora a tiempo parcial",
+        "d": "La persona trabajadora menor de 18 años"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 83,
+      "enunciado": "Un/a alumno/a identifica que su ciclo se orienta principalmente a servicios educativos, sociales, sanitarios o administrativos. ¿En qué sector económico se ubica de forma general esta inserción, según el temario?",
+      "opciones": {
+        "a": "Sector terciario",
+        "b": "Cuarto sector exclusivamente",
+        "c": "Sector secundario",
+        "d": "Sector primario"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Qué finalidad tiene alinear proyecto profesional y empleabilidad según el temario?",
+      "opciones": {
+        "a": "Sustituir metas por deseos",
+        "b": "Conectar metas con perfiles demandados y ajustar estrategia a oportunidades reales",
+        "c": "Reducir el plan a un único canal",
+        "d": "Ignorar el mercado para mantener aspiraciones"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 85,
+      "enunciado": "¿Qué práctica de seguimiento se recomienda en el temario?",
+      "opciones": {
+        "a": "No revisar el plan para mantenerlo estable",
+        "b": "Evitar feedback externo",
+        "c": "Revisión periódica (por ejemplo trimestral) y ajuste del plan según resultados",
+        "d": "Eliminar el registro de logros"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Cuál es un ejemplo de competencia personal y social (soft skill) valorada en el temario?",
+      "opciones": {
+        "a": "Manejo de instrumental específico",
+        "b": "Aplicación de un PNT (procedimiento normalizado)",
+        "c": "Trabajo en equipo y habilidades comunicativas",
+        "d": "Cálculo de bases de cotización"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 87,
+      "enunciado": "Según el temario, ¿para qué sirve el DAFO personal en empleabilidad?",
+      "opciones": {
+        "a": "Determinar la base de cotización",
+        "b": "Detectar fortalezas/debilidades internas y oportunidades/amenazas externas para ajustar el perfil",
+        "c": "Definir la jornada laboral",
+        "d": "Calcular el salario neto"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué ejemplo es una meta no operativa según el temario?",
+      "opciones": {
+        "a": "“Enviar 3 candidaturas semanales durante 8 semanas”",
+        "b": "“Mejorar como persona y profesional”",
+        "c": "“Obtener certificado antes de fin de trimestre”",
+        "d": "“Realizar 2 simulaciones de entrevista antes del día X”"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 89,
+      "enunciado": "¿Cuál es el límite general de jornada diaria ordinaria indicado en el temario?",
+      "opciones": {
+        "a": "9 horas diarias",
+        "b": "8 horas diarias para cualquier edad",
+        "c": "10 horas diarias",
+        "d": "12 horas diarias"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 90,
+      "enunciado": "Según el temario, ¿qué diferencia es correcta entre prevención y protección?",
+      "opciones": {
+        "a": "Prevención solo se aplica tras el daño",
+        "b": "Prevención actúa antes reduciendo probabilidad; protección minimiza consecuencias cuando el riesgo persiste",
+        "c": "No existe jerarquía entre ambas",
+        "d": "Protección siempre sustituye a la prevención"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 91,
+      "enunciado": "¿Qué competencia pertenece al bloque organizativo según el temario?",
+      "opciones": {
+        "a": "Autocontrol",
+        "b": "Planificación",
+        "c": "Escucha activa",
+        "d": "Empatía"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 92,
+      "enunciado": "¿Qué norma se identifica en el temario como base de la PRL en España?",
+      "opciones": {
+        "a": "Ley 31/1995 de Prevención de Riesgos Laborales",
+        "b": "Ley 10/2021 de trabajo a distancia",
+        "c": "Real Decreto 1493/2012 de recibo de salario",
+        "d": "Código de Comercio"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 93,
+      "enunciado": "Según el temario, aprender profesionalmente implica:",
+      "opciones": {
+        "a": "Dependencia total de supervisión",
+        "b": "Memorización aislada únicamente",
+        "c": "Actividad ocasional sin reflexión",
+        "d": "Acción, proceso y actitud sostenida"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Cuál es un componente del PLE según el temario?",
+      "opciones": {
+        "a": "Redes y conexiones de aprendizaje",
+        "b": "Base de cotización",
+        "c": "Calendario laboral oficial",
+        "d": "Indemnización por despido"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Qué tipo de riesgo se asocia en el temario a exposición a virus, bacterias u hongos?",
+      "opciones": {
+        "a": "Riesgo financiero",
+        "b": "Riesgo ergonómico",
+        "c": "Riesgo biológico",
+        "d": "Riesgo químico"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 96,
+      "enunciado": "¿Qué supuesto se incluye como accidente de trabajo según el temario?",
+      "opciones": {
+        "a": "Conflicto privado fuera de la empresa sin relación causal",
+        "b": "Enfermedad común sin relación con el trabajo",
+        "c": "Desgaste no vinculado a actividad laboral",
+        "d": "Accidente in itinere (ir o volver del trabajo)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 97,
+      "enunciado": "¿Qué característica define un simulacro eficaz según el temario?",
+      "opciones": {
+        "a": "Improvisación para simular realismo",
+        "b": "Participación solo de mandos",
+        "c": "Repetir siempre el mismo escenario sin revisar resultados",
+        "d": "Planificación previa y evaluación posterior con propuestas de mejora"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 98,
+      "enunciado": "En el temario, ¿por qué se considera el plan de acción una “brújula”?",
+      "opciones": {
+        "a": "Porque sustituye el aprendizaje",
+        "b": "Porque guía aunque se ajusten metas y acciones ante cambios",
+        "c": "Porque elimina la necesidad de evaluar",
+        "d": "Porque no admite modificaciones"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 99,
+      "enunciado": "¿Qué estrategia se propone para identificar habilidades propias?",
+      "opciones": {
+        "a": "Evitar listados de competencias",
+        "b": "Ignorar experiencias no laborales",
+        "c": "Análisis de experiencias previas y feedback externo",
+        "d": "No registrar evidencias de desempeño"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 100,
+      "enunciado": "¿En qué caso el temario indica obligación de Servicio de Prevención Propio?",
+      "opciones": {
+        "a": "Solo en organizaciones del tercer sector",
+        "b": "Cualquier empresa con menos de 10 trabajadores/as",
+        "c": "Más de 500 trabajadores/as o más de 250 con actividades peligrosas",
+        "d": "Solo en teletrabajo"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 101,
+      "enunciado": "Un contrato temporal implica:",
+      "opciones": {
+        "a": "Exclusión del derecho a vacaciones",
+        "b": "Limitación en el tiempo de vigencia",
+        "c": "Estabilidad profesional garantizada",
+        "d": "Una duración indefinida"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué característica distingue al empleo público frente al privado?",
+      "opciones": {
+        "a": "El acceso se realiza por oposición o concurso",
+        "b": "Ofrece mayor flexibilidad horaria",
+        "c": "Requiere carnet de conducir",
+        "d": "No tiene requisitos de titulación"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 103,
+      "enunciado": "El emprendimiento es:",
+      "opciones": {
+        "a": "Contrario al desarrollo profesional",
+        "b": "Exclusivo del ámbito público",
+        "c": "Incompatible con la formación profesional",
+        "d": "Una forma de trabajo autónomo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 104,
+      "enunciado": "Un ejemplo de servicio del tercer sector es:",
+      "opciones": {
+        "a": "Centro de día para mayores gestionado por una ONG",
+        "b": "Servicio de paquetería exprés",
+        "c": "Plataforma de compraventa online",
+        "d": "Consultoría financiera"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 105,
+      "enunciado": "La resiliencia en el entorno laboral implica:",
+      "opciones": {
+        "a": "Rechazar cambios organizativos",
+        "b": "Superar situaciones difíciles y adaptarse",
+        "c": "Asumir tareas fuera del perfil profesional",
+        "d": "Cambiar de trabajo frecuentemente"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 106,
+      "enunciado": "¿Cuál de los siguientes sectores corresponde al sector terciario?",
+      "opciones": {
+        "a": "Comercio y servicios",
+        "b": "Agricultura y pesca",
+        "c": "Construcción y manufactura",
+        "d": "Minería e industria pesada"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 107,
+      "enunciado": "Las agencias privadas de colocación:",
+      "opciones": {
+        "a": "Solo ofrecen empleo público",
+        "b": "Actúan como intermediarias laborales autorizadas",
+        "c": "Sustituyen a los sindicatos",
+        "d": "Son ilegales en España"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 108,
+      "enunciado": "¿Cuál de las siguientes acciones es coherente con una actitud de aprendizaje permanente?",
+      "opciones": {
+        "a": "Buscar formación continua para mejorar el perfil",
+        "b": "Rechazar críticas constructivas",
+        "c": "Evitar cualquier cambio en el entorno digital",
+        "d": "Esperar a que el empleador proponga formación"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 109,
+      "enunciado": "¿Qué documento regula las condiciones laborales en el empleo privado?",
+      "opciones": {
+        "a": "Código penal",
+        "b": "Convenio colectivo",
+        "c": "Contrato mercantil",
+        "d": "Decreto ley laboral"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 110,
+      "enunciado": "Una actitud profesional valorada en cualquier sector es:",
+      "opciones": {
+        "a": "Dependencia total del equipo",
+        "b": "Proactividad y mejora continua",
+        "c": "Impuntualidad justificada",
+        "d": "Evitación del aprendizaje digital"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 111,
+      "enunciado": "¿Cuál de las siguientes es una fuente oficial de búsqueda de empleo público?",
+      "opciones": {
+        "a": "LinkedIn",
+        "b": "SEPE",
+        "c": "InfoJobs",
+        "d": "Indeed"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 112,
+      "enunciado": "Una actitud de “tolerancia activa” implica:",
+      "opciones": {
+        "a": "Valorar las diferencias como una riqueza",
+        "b": "Soportar las ideas de los demás en silencio",
+        "c": "Evitar opinar en temas controvertidos",
+        "d": "Impedir el conflicto a toda costa"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 113,
+      "enunciado": "Las competencias técnicas también se denominan:",
+      "opciones": {
+        "a": "Habilidades emocionales",
+        "b": "Soft skills",
+        "c": "Hard skills",
+        "d": "Competencias blandas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 114,
+      "enunciado": "Una función habitual de un técnico en integración social es:",
+      "opciones": {
+        "a": "Diseñar intervenciones socioeducativas",
+        "b": "Emitir diagnósticos clínicos",
+        "c": "Aplicar políticas fiscales",
+        "d": "Calcular amortizaciones de préstamos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 115,
+      "enunciado": "¿Cuál de las siguientes NO es una competencia transversal?",
+      "opciones": {
+        "a": "Resolución de conflictos",
+        "b": "Responsabilidad",
+        "c": "Escucha activa",
+        "d": "Soldadura TIG"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 116,
+      "enunciado": "¿Qué principio preventivo dice \"combatir los riesgos en su origen\"?",
+      "opciones": {
+        "a": "Un principio de calidad total",
+        "b": "Una técnica de emergencia",
+        "c": "Una norma del Estatuto del Trabajador",
+        "d": "Uno de los principios básicos de la Ley 31/1995"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 117,
+      "enunciado": "¿Cuál es el primer paso en la evaluación de riesgos?",
+      "opciones": {
+        "a": "Identificar los peligros",
+        "b": "Formar al trabajador",
+        "c": "Comprar EPI",
+        "d": "Entregar un parte de accidente"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 118,
+      "enunciado": "¿Cuál de los siguientes riesgos es de tipo físico?",
+      "opciones": {
+        "a": "Estrés por sobrecarga laboral",
+        "b": "Tareas repetitivas",
+        "c": "Contacto con sustancias tóxicas",
+        "d": "Ruido constante en el lugar de trabajo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 119,
+      "enunciado": "¿Qué es una enfermedad profesional?",
+      "opciones": {
+        "a": "Un resfriado durante la jornada laboral",
+        "b": "Una patología común",
+        "c": "Una enfermedad hereditaria",
+        "d": "Una dolencia causada por la exposición prolongada a riesgos laborales"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 120,
+      "enunciado": "¿Qué prioridad tiene la protección colectiva respecto a la individual?",
+      "opciones": {
+        "a": "Es prioritaria frente a la individual",
+        "b": "Tiene la misma prioridad",
+        "c": "No tiene relevancia",
+        "d": "Es secundaria"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 121,
+      "enunciado": "¿Qué debe hacer toda empresa respecto a la PRL?",
+      "opciones": {
+        "a": "Usarla solo en caso de inspección",
+        "b": "Subcontratarla completamente sin seguimiento",
+        "c": "Integrarla en todos los niveles de la organización",
+        "d": "Ignorarla si tiene menos de cinco empleados"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 122,
+      "enunciado": "¿Qué es una medida preventiva?",
+      "opciones": {
+        "a": "Una acción que busca evitar o reducir riesgos",
+        "b": "Un chequeo médico periódico",
+        "c": "Un castigo por incumplir normas",
+        "d": "Un manual de bienvenida"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 123,
+      "enunciado": "¿Qué es la cultura preventiva?",
+      "opciones": {
+        "a": "El cartel de emergencias obligatorio",
+        "b": "La contratación de un técnico PRL",
+        "c": "La integración real de la prevención en la organización",
+        "d": "La vigilancia de la salud"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 124,
+      "enunciado": "¿Qué documento establece la normativa básica en prevención en España?",
+      "opciones": {
+        "a": "Ley 31/1995 de Prevención de Riesgos Laborales",
+        "b": "Estatuto de los Trabajadores",
+        "c": "Código Penal",
+        "d": "Manual de la empresa"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 125,
+      "enunciado": "¿Qué caracteriza a un buen entorno de trabajo?",
+      "opciones": {
+        "a": "Presión constante",
+        "b": "Falta de supervisión",
+        "c": "Alta exigencia y silencio",
+        "d": "Seguridad, salud y bienestar de los trabajadores"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 126,
+      "enunciado": "¿Qué tipo de riesgo es levantar peso de forma incorrecta?",
+      "opciones": {
+        "a": "Psicosocial",
+        "b": "Ergonómico",
+        "c": "Biológico",
+        "d": "Químico"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 127,
+      "enunciado": "¿Qué medida es más eficaz?",
+      "opciones": {
+        "a": "Eliminar el riesgo en su origen",
+        "b": "Usar guantes aunque no sean adecuados",
+        "c": "Cambiar el turno del trabajador",
+        "d": "Poner un cartel de aviso"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 128,
+      "enunciado": "¿Qué función tiene un equipo de protección individual?",
+      "opciones": {
+        "a": "Detectar fugas de gas",
+        "b": "Minimizar el daño si el riesgo no puede eliminarse",
+        "c": "Eliminar completamente el riesgo",
+        "d": "Proteger el material de trabajo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 129,
+      "enunciado": "¿Cuál es una señal de mala cultura preventiva?",
+      "opciones": {
+        "a": "Participación de los trabajadores",
+        "b": "Formación periódica",
+        "c": "Señalización adecuada",
+        "d": "Ignorar los riesgos conocidos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 130,
+      "enunciado": "¿Qué incluye una buena cultura preventiva?",
+      "opciones": {
+        "a": "Multas y normativas escritas",
+        "b": "Inspecciones esporádicas",
+        "c": "Sanciones y manuales obligatorios",
+        "d": "Formación, participación y compromiso"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 131,
+      "enunciado": "¿Qué herramienta digital puedes usar para hacer una infografía?",
+      "opciones": {
+        "a": "Google Maps",
+        "b": "WordPad",
+        "c": "Excel",
+        "d": "Canva"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 132,
+      "enunciado": "¿Qué derecho tiene toda persona trabajadora respecto a su salud?",
+      "opciones": {
+        "a": "A recibir tratamiento médico de urgencia en casa",
+        "b": "A exigir la baja médica siempre que lo desee",
+        "c": "A ser informada y a dar consentimiento sobre cualquier reconocimiento médico",
+        "d": "A negarse a usar medidas preventivas en todo caso"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 133,
+      "enunciado": "¿Qué prueba es habitual en trabajos con exposición al ruido?",
+      "opciones": {
+        "a": "Radiografía",
+        "b": "Endoscopia",
+        "c": "Audiometría",
+        "d": "Electrocardiograma"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 134,
+      "enunciado": "¿Cuál es una función de los delegados de prevención?",
+      "opciones": {
+        "a": "Coordinar horarios laborales",
+        "b": "Participar en inspecciones y promover mejoras",
+        "c": "Gestionar nóminas",
+        "d": "Controlar fichajes"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 135,
+      "enunciado": "¿Qué tipo de riesgo es una superficie mojada en una entrada?",
+      "opciones": {
+        "a": "Riesgo biológico",
+        "b": "Riesgo físico",
+        "c": "Riesgo psicosocial",
+        "d": "Riesgo químico"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 136,
+      "enunciado": "¿Qué contenido es obligatorio incluir en un plan de emergencia?",
+      "opciones": {
+        "a": "Horario laboral del personal",
+        "b": "Inventario del material de oficina",
+        "c": "Formación académica de los trabajadores",
+        "d": "Organización de la respuesta ante emergencias"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 137,
+      "enunciado": "¿Quién debe activar la alarma en un protocolo de emergencia?",
+      "opciones": {
+        "a": "Personal externo",
+        "b": "Cualquier persona asignada en el plan de emergencia",
+        "c": "El último en evacuar",
+        "d": "Solo el director del centro"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 138,
+      "enunciado": "¿Qué modalidad preventiva permite al empresario asumir directamente la actividad preventiva?",
+      "opciones": {
+        "a": "Modalidad mixta",
+        "b": "Asunción personal por el empresario",
+        "c": "Servicio de prevención ajeno",
+        "d": "Comité de prevención"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 139,
+      "enunciado": "¿Qué paso debe realizarse primero según el protocolo PAS?",
+      "opciones": {
+        "a": "Retirar a la víctima",
+        "b": "Socorrer",
+        "c": "Avisar",
+        "d": "Proteger"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 140,
+      "enunciado": "¿Qué tipo de evaluación médica se realiza antes de iniciar una actividad laboral?",
+      "opciones": {
+        "a": "Evaluación postcontractual",
+        "b": "Evaluación aleatoria",
+        "c": "Evaluación inicial o de ingreso",
+        "d": "Evaluación extraordinaria"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 141,
+      "enunciado": "¿Qué herramienta se utiliza para facilitar la evacuación en caso de emergencia?",
+      "opciones": {
+        "a": "Parte de accidentes",
+        "b": "Registro de ausencias",
+        "c": "Ficha de nómina",
+        "d": "Croquis o plano de evacuación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 142,
+      "enunciado": "¿Qué personas deben recibir formación en primeros auxilios en la empresa?",
+      "opciones": {
+        "a": "Solamente la dirección",
+        "b": "Solo los administrativos",
+        "c": "Todos los trabajadores, según su función",
+        "d": "Solo personal sanitario"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 143,
+      "enunciado": "¿Cuál es un error común en la aplicación de primeros auxilios?",
+      "opciones": {
+        "a": "Lavar una herida con suero fisiológico",
+        "b": "Retirar objetos clavados de una herida",
+        "c": "Cubrir una quemadura con gasa estéril",
+        "d": "Llamar al 112"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 144,
+      "enunciado": "¿Qué medida es un ejemplo de protección colectiva?",
+      "opciones": {
+        "a": "Uso de guantes",
+        "b": "Botiquín personal",
+        "c": "Barandillas en escaleras",
+        "d": "Gafas de seguridad"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 145,
+      "enunciado": "¿Cuál de las siguientes situaciones justifica legalmente una vigilancia de la salud obligatoria?",
+      "opciones": {
+        "a": "Cuando lo pide un compañero",
+        "b": "En cualquier empresa con más de 50 personas",
+        "c": "Cuando el trabajador lo rechaza expresamente",
+        "d": "Cuando es necesaria para proteger a terceros"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 146,
+      "enunciado": "¿Qué derecho garantiza el equilibrio entre la vida personal y laboral en el teletrabajo?",
+      "opciones": {
+        "a": "Trabajo parcial",
+        "b": "Reducción de jornada",
+        "c": "Desconexión digital",
+        "d": "Indemnización por despido"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 147,
+      "enunciado": "¿Qué documento debe entregarse al trabajador con las condiciones esenciales del contrato?",
+      "opciones": {
+        "a": "Copia del DNI del empleador",
+        "b": "Justificante bancario",
+        "c": "Carta de recomendación",
+        "d": "Documento de información laboral"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 148,
+      "enunciado": "¿Qué modalidad contractual tiene carácter prioritario según la legislación actual?",
+      "opciones": {
+        "a": "Contrato eventual por circunstancias de la producción",
+        "b": "Contrato para sustitución",
+        "c": "Contrato indefinido",
+        "d": "Contrato de interinidad"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 149,
+      "enunciado": "¿Qué tipo de contrato está pensado para jóvenes en formación?",
+      "opciones": {
+        "a": "Contrato de prácticas extracurriculares",
+        "b": "Contrato de relevo",
+        "c": "Contrato por obra y servicio",
+        "d": "Contrato de formación en alternancia"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 150,
+      "enunciado": "¿Qué entidad pública puede resolver un conflicto laboral antes del juicio?",
+      "opciones": {
+        "a": "SEPE",
+        "b": "SMAC",
+        "c": "TGSS",
+        "d": "INE"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 151,
+      "enunciado": "¿Qué parte de la Seguridad Social gestiona las prestaciones por jubilación?",
+      "opciones": {
+        "a": "ITSS",
+        "b": "SEPE",
+        "c": "TGSS",
+        "d": "INSS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 152,
+      "enunciado": "¿Qué debe incluir siempre un contrato laboral escrito?",
+      "opciones": {
+        "a": "Las referencias de empleos anteriores",
+        "b": "La voluntad de renovar el contrato",
+        "c": "Identificación de las partes y condiciones esenciales",
+        "d": "El estado civil del trabajador"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 153,
+      "enunciado": "¿Qué apartado de la nómina recoge los salarios brutos?",
+      "opciones": {
+        "a": "Devengos",
+        "b": "Deducciones",
+        "c": "Observaciones",
+        "d": "Liquidación"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 154,
+      "enunciado": "¿Qué es un contrato indefinido?",
+      "opciones": {
+        "a": "Aquel que se firma solo verbalmente",
+        "b": "Aquel vinculado a la formación dual",
+        "c": "Aquel que no tiene fecha de finalización",
+        "d": "Aquel que dura menos de un año"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 155,
+      "enunciado": "¿Qué parte del contrato debe definir el centro de trabajo y jornada laboral?",
+      "opciones": {
+        "a": "Convenio paralelo",
+        "b": "Documento de renuncia",
+        "c": "Cláusulas esenciales",
+        "d": "Anexos informativos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 156,
+      "enunciado": "¿Cuál es el sistema principal de cotización para trabajadores por cuenta ajena?",
+      "opciones": {
+        "a": "Régimen Especial de Autónomos",
+        "b": "Régimen del Mar",
+        "c": "Régimen General",
+        "d": "Régimen de Minería"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 157,
+      "enunciado": "¿Qué principio rige la protección de las personas en el sistema de Seguridad Social?",
+      "opciones": {
+        "a": "Ahorro fiscal",
+        "b": "Solidaridad colectiva",
+        "c": "Competencia entre afiliados",
+        "d": "Rentabilidad del ahorro"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 158,
+      "enunciado": "¿Qué incluye la base de cotización?",
+      "opciones": {
+        "a": "Solo salario base",
+        "b": "Solo pagas extra",
+        "c": "Solo percepciones extrasalariales",
+        "d": "Salario base y complementos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 159,
+      "enunciado": "¿Qué es el convenio colectivo?",
+      "opciones": {
+        "a": "Una norma pactada entre trabajadores y empresarios",
+        "b": "Un contrato privado entre empleado y empresa",
+        "c": "Un acuerdo informal sin validez legal",
+        "d": "Un listado de empleos disponibles"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 160,
+      "enunciado": "¿Qué mecanismo permite denunciar irregularidades laborales de forma anónima?",
+      "opciones": {
+        "a": "Inspección de Trabajo",
+        "b": "Tribunal Constitucional",
+        "c": "Oficina del Censo",
+        "d": "Servicio de Estadística Laboral"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 161,
+      "enunciado": "La iniciativa profesional implica:",
+      "opciones": {
+        "a": "Esperar instrucciones constantes del superior.",
+        "b": "Evitar asumir responsabilidades nuevas.",
+        "c": "Proponer ideas y anticiparse a los problemas.",
+        "d": "Limitarse a cumplir lo estrictamente asignado."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 162,
+      "enunciado": "La autoestima profesional se construye sobre:",
+      "opciones": {
+        "a": "Éxitos laborales y recompensas externas.",
+        "b": "Perfeccionismo y exigencia extrema.",
+        "c": "Autoconocimiento, autoaceptación y autoconfianza.",
+        "d": "Comparación constante con los compañeros."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 163,
+      "enunciado": "La resiliencia profesional significa:",
+      "opciones": {
+        "a": "Rechazar las críticas o los retos.",
+        "b": "Evitar cambios en la trayectoria profesional.",
+        "c": "Recuperarse ante los fracasos y aprender de la experiencia.",
+        "d": "No cometer nunca errores."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 164,
+      "enunciado": "La propuesta de valor profesional se define como:",
+      "opciones": {
+        "a": "Los objetivos a largo plazo de la empresa.",
+        "b": "La cantidad de títulos académicos obtenidos.",
+        "c": "Las funciones básicas del puesto de trabajo.",
+        "d": "El conjunto de competencias, actitudes y aportaciones que te diferencian como profesional."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 165,
+      "enunciado": "Las redes de apoyo profesional incluyen:",
+      "opciones": {
+        "a": "Solo las instituciones públicas de empleo.",
+        "b": "Familia, amistades, docentes y contactos laborales.",
+        "c": "Los compañeros con los que se compite.",
+        "d": "Exclusivamente las plataformas digitales."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 166,
+      "enunciado": "Las competencias personales se relacionan con:",
+      "opciones": {
+        "a": "La especialización académica.",
+        "b": "Las habilidades informáticas y técnicas.",
+        "c": "La gestión de uno mismo y la autonomía profesional.",
+        "d": "Las normas internas de una organización."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 167,
+      "enunciado": "Un ejemplo de competencia social es:",
+      "opciones": {
+        "a": "Empatía.",
+        "b": "Organización.",
+        "c": "Responsabilidad.",
+        "d": "Iniciativa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 168,
+      "enunciado": "La motivación intrínseca se caracteriza por:",
+      "opciones": {
+        "a": "Basarse en la presión social.",
+        "b": "Nacer del interés o placer por la propia tarea.",
+        "c": "Centrarse únicamente en resultados económicos.",
+        "d": "Depender de recompensas externas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 169,
+      "enunciado": "Las competencias sociales se centran en:",
+      "opciones": {
+        "a": "El conocimiento técnico especializado.",
+        "b": "La evaluación del desempeño individual.",
+        "c": "La interacción y comunicación eficaz con otras personas.",
+        "d": "La gestión administrativa interna."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 170,
+      "enunciado": "El aprendizaje continuo consiste en:",
+      "opciones": {
+        "a": "Mantener una actitud de actualización y formación permanente.",
+        "b": "Repetir los mismos métodos laborales durante años.",
+        "c": "Estudiar únicamente durante los estudios reglados.",
+        "d": "Evitar nuevos retos formativos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 171,
+      "enunciado": "El DAFO personal sirve para:",
+      "opciones": {
+        "a": "Analizar fortalezas, debilidades, amenazas y oportunidades propias.",
+        "b": "Calcular la rentabilidad de una empresa.",
+        "c": "Organizar las tareas diarias.",
+        "d": "Evaluar únicamente los logros profesionales."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 172,
+      "enunciado": "La adaptabilidad consiste en:",
+      "opciones": {
+        "a": "Rechazar el aprendizaje continuo.",
+        "b": "Evitar los entornos desconocidos.",
+        "c": "Mantener rutinas invariables de trabajo.",
+        "d": "Ajustarse con flexibilidad a cambios, equipos o tareas nuevas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 173,
+      "enunciado": "Los valores personales en el trabajo representan:",
+      "opciones": {
+        "a": "Las normas impuestas por la empresa.",
+        "b": "Los objetivos a corto plazo.",
+        "c": "Los conocimientos técnicos adquiridos.",
+        "d": "Los principios que guían nuestras decisiones y actitudes."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 174,
+      "enunciado": "Los intereses profesionales se refieren a:",
+      "opciones": {
+        "a": "Las tareas o actividades que generan curiosidad y satisfacción personal.",
+        "b": "Los beneficios económicos de un empleo.",
+        "c": "Las relaciones jerárquicas dentro de una empresa.",
+        "d": "Las obligaciones laborales de un contrato."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 175,
+      "enunciado": "La motivación extrínseca se basa en:",
+      "opciones": {
+        "a": "El placer personal de realizar una tarea.",
+        "b": "Recompensas externas como el salario o el reconocimiento.",
+        "c": "La autorreflexión y el aprendizaje.",
+        "d": "La cooperación sin incentivos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 176,
+      "enunciado": "¿Qué tipo de formación conduce a titulaciones oficiales?",
+      "opciones": {
+        "a": "Formación informal",
+        "b": "Formación voluntaria",
+        "c": "Formación reglada",
+        "d": "Formación no formal"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 177,
+      "enunciado": "La mejora continua en el ámbito profesional se basa en:",
+      "opciones": {
+        "a": "Buscar solo estabilidad",
+        "b": "Estudiar sin aplicar nada",
+        "c": "Cambiar de empresa cada año",
+        "d": "Revisar y adaptar acciones para crecer y mejorar"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 178,
+      "enunciado": "El aprendizaje permanente implica:",
+      "opciones": {
+        "a": "Aprender de forma continua a lo largo de toda la vida",
+        "b": "Repetir los mismos cursos",
+        "c": "Estar siempre en una universidad",
+        "d": "Estudiar solo hasta obtener un título"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 179,
+      "enunciado": "¿Qué actitud demuestra empleabilidad sostenible?",
+      "opciones": {
+        "a": "Espera pasiva de ofertas de empleo",
+        "b": "Enviar el mismo CV a todos los sectores",
+        "c": "Adaptación, formación constante y proactividad",
+        "d": "Rechazar cambios o aprendizajes nuevos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 180,
+      "enunciado": "¿Cuál es una herramienta útil para diseñar un PLE visual?",
+      "opciones": {
+        "a": "Excel sin formato",
+        "b": "Un cuaderno en blanco",
+        "c": "Canva",
+        "d": "Word"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 181,
+      "enunciado": "La empleabilidad es:",
+      "opciones": {
+        "a": "Tener acceso a Internet para buscar trabajo",
+        "b": "La capacidad de conseguir, mantener y mejorar un empleo",
+        "c": "Ser titulado en formación reglada",
+        "d": "Ser mayor de edad y estar disponible"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 182,
+      "enunciado": "El entorno personal de aprendizaje (PLE) está formado por:",
+      "opciones": {
+        "a": "Herramientas, recursos y redes que usamos para aprender",
+        "b": "Los contenidos de clase del módulo",
+        "c": "Las prácticas obligatorias del ciclo",
+        "d": "El aula física donde estudiamos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 183,
+      "enunciado": "El plan de acción profesional debe incluir:",
+      "opciones": {
+        "a": "Solo cursos futuros",
+        "b": "Metas, acciones, plazos y recursos",
+        "c": "Contactos familiares",
+        "d": "Los errores pasados"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 184,
+      "enunciado": "¿Cuál de estas afirmaciones refleja compromiso con el desarrollo profesional?",
+      "opciones": {
+        "a": "Esperar a que el centro proponga actividades",
+        "b": "Aprender solo cuando es obligatorio",
+        "c": "Usar IA para todo el trabajo",
+        "d": "Buscar activamente nuevas fuentes de aprendizaje"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 185,
+      "enunciado": "Las metas a largo plazo suelen abarcar:",
+      "opciones": {
+        "a": "Solo tareas del presente",
+        "b": "Más de tres años",
+        "c": "Exclusivamente la formación inicial",
+        "d": "Menos de seis meses"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 186,
+      "enunciado": "Un itinerario formativo bien elegido debe:",
+      "opciones": {
+        "a": "Ser presencial obligatoriamente",
+        "b": "Ser gratuito",
+        "c": "Estar alineado con el perfil profesional y metas personales",
+        "d": "Tener más prestigio que otros"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 187,
+      "enunciado": "¿Qué permite el uso de objetivos SMART en un proyecto?",
+      "opciones": {
+        "a": "Evitar responsabilidades",
+        "b": "Clarificar qué se quiere lograr y cómo",
+        "c": "No tener que planificar",
+        "d": "Dejar todo abierto a la suerte"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 188,
+      "enunciado": "¿Qué es la acreditación de competencias?",
+      "opciones": {
+        "a": "Una entrevista con orientadores",
+        "b": "Reconocimiento oficial de la experiencia y formación no reglada",
+        "c": "Obtener un certificado digital de un curso",
+        "d": "La validación de estudios anteriores"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 189,
+      "enunciado": "¿Qué es una acción de mejora en el plan de acción?",
+      "opciones": {
+        "a": "Una tarea concreta para avanzar hacia una meta",
+        "b": "Un resumen de actividades pasadas",
+        "c": "Una teoría sobre el futuro del trabajo",
+        "d": "Un deseo general de cambiar"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 190,
+      "enunciado": "Un ejemplo de fuente de formación no reglada sería:",
+      "opciones": {
+        "a": "Un curso del SEPE",
+        "b": "Un examen de acceso",
+        "c": "Un ciclo de FP oficial",
+        "d": "Un máster universitario"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 191,
+      "enunciado": "¿Qué característica define un objetivo SMART?",
+      "opciones": {
+        "a": "Que sea complejo, subjetivo, idealista y sin fecha.",
+        "b": "Que sea específico, medible, alcanzable, relevante y con plazo definido.",
+        "c": "Que dependa de la opinión de otros.",
+        "d": "Que sea improvisado y sin revisión."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 192,
+      "enunciado": "¿Qué representa una red profesional en el entorno digital?",
+      "opciones": {
+        "a": "Un conjunto de personas o plataformas con las que se comparte conocimiento.",
+        "b": "Un grupo privado sin interacción.",
+        "c": "Cuentas seguidas sin propósito claro.",
+        "d": "Usuarios ajenos al aprendizaje."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 193,
+      "enunciado": "¿Qué criterio hace útil un recurso formativo digital?",
+      "opciones": {
+        "a": "Que sea visualmente atractivo aunque irrelevante.",
+        "b": "Que esté actualizado y sea relevante para los objetivos profesionales.",
+        "c": "Que lo usen muchas personas.",
+        "d": "Que esté de moda."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 194,
+      "enunciado": "¿Qué se entiende por aprendizaje autónomo?",
+      "opciones": {
+        "a": "La capacidad de aprender por cuenta propia, gestionando recursos y tiempos.",
+        "b": "El aprendizaje supervisado por un docente en todo momento.",
+        "c": "El aprendizaje que solo ocurre en la escuela o el trabajo.",
+        "d": "La repetición mecánica de contenidos sin reflexión."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 195,
+      "enunciado": "¿Qué plataforma es especialmente útil para el posicionamiento profesional?",
+      "opciones": {
+        "a": "Netflix.",
+        "b": "TikTok.",
+        "c": "LinkedIn.",
+        "d": "WhatsApp."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 196,
+      "enunciado": "¿Qué tipo de recurso permite reflexionar y valorar la evolución del aprendizaje?",
+      "opciones": {
+        "a": "Un formulario sin contexto.",
+        "b": "Un audio sin autoría ni explicación.",
+        "c": "Diario de aprendizaje o bitácora reflexiva.",
+        "d": "Un videojuego de ocio."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 197,
+      "enunciado": "¿Qué elemento forma parte de una auditoría digital personal?",
+      "opciones": {
+        "a": "Valoración de noticias generales.",
+        "b": "Revisión de los resultados de búsqueda con nuestro nombre.",
+        "c": "Lista de vídeos musicales.",
+        "d": "Recuento de seguidores."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 198,
+      "enunciado": "¿Qué función cumple la identidad digital?",
+      "opciones": {
+        "a": "Garantizar el anonimato online.",
+        "b": "Representar nuestro DNI físico.",
+        "c": "Reflejar cómo nos mostramos y somos percibidos en internet.",
+        "d": "Evitar cualquier contacto en redes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 199,
+      "enunciado": "¿Qué elemento representa una fuente de información en un PLE?",
+      "opciones": {
+        "a": "Una playlist musical sin contexto de aprendizaje.",
+        "b": "Un perfil de Instagram privado.",
+        "c": "Un videojuego sin relación formativa.",
+        "d": "Un canal de YouTube con contenidos educativos del sector profesional."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 200,
+      "enunciado": "¿Qué es la huella digital activa?",
+      "opciones": {
+        "a": "La información que otros publican sobre nosotros sin saberlo.",
+        "b": "Registros automáticos invisibles.",
+        "c": "Todo lo que publicamos conscientemente en la red.",
+        "d": "Datos que dejan los dispositivos al navegar."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 201,
+      "enunciado": "¿Cuál de estas es una habilidad asociada a la competencia digital?",
+      "opciones": {
+        "a": "Descargar contenidos sin validarlos.",
+        "b": "Navegar sin discriminar la fuente.",
+        "c": "Buscar, seleccionar y evaluar información en internet.",
+        "d": "Usar el móvil solo para redes sociales."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 202,
+      "enunciado": "¿Qué representa una actitud proactiva en el desarrollo profesional?",
+      "opciones": {
+        "a": "Esperar que la empresa organice toda la formación.",
+        "b": "Evitar enfrentarse a nuevos aprendizajes.",
+        "c": "Diseñar un plan personal de mejora basado en metas claras.",
+        "d": "Negarse a usar herramientas digitales."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 203,
+      "enunciado": "¿Qué elemento debe analizarse al evaluar la identidad digital?",
+      "opciones": {
+        "a": "La cantidad de fotos de ocio compartidas.",
+        "b": "La coherencia entre los perfiles públicos y el perfil profesional deseado.",
+        "c": "Los seguidores que tenemos en redes.",
+        "d": "El número de memes publicados."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 204,
+      "enunciado": "¿Por qué es importante el diseño visual del PLE?",
+      "opciones": {
+        "a": "Porque sustituye al contenido.",
+        "b": "Porque lo exige el profesor.",
+        "c": "Porque ayuda a comprender la estructura y los vínculos del entorno de aprendizaje.",
+        "d": "Porque debe ser artístico, sin más."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 205,
+      "enunciado": "¿Qué puede incluirse en un plan individual de mejora profesional?",
+      "opciones": {
+        "a": "Solo intenciones generales.",
+        "b": "Actividades no relacionadas con el desarrollo.",
+        "c": "Objetivos, acciones concretas y plazos definidos.",
+        "d": "Críticas sin fundamento."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

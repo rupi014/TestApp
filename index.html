@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TestLab — Simulacros de Examen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SCREEN 1: Subject Selection -->
+  <div id="screen-subject" class="screen active">
+    <div class="bg-grid"></div>
+    <header class="site-header">
+      <div class="logo">TEST<span>LAB</span></div>
+      <p class="tagline">Simulacros de examen · ASIR y Ciberseguridad · By Rubens Ballester</p>
+    </header>
+
+    <main class="subject-grid-container">
+      <h1 class="section-title">Elige una <em>asignatura</em></h1>
+      <div class="subject-grid" id="subject-grid">
+        <!-- Populated by JS -->
+      </div>
+    </main>
+  </div>
+
+  <!-- SCREEN 2: Question Count Selection -->
+  <div id="screen-count" class="screen">
+    <div class="bg-grid"></div>
+    <button class="btn-back" id="back-to-subject">← Volver</button>
+    <main class="count-container">
+      <div class="subject-badge" id="selected-subject-badge"></div>
+      <h2 class="section-title">¿Cuántas <em>preguntas</em>?</h2>
+      <p class="hint-text">Disponibles: <span id="total-available">0</span> preguntas en el banco</p>
+      <div class="count-options" id="count-options">
+        <!-- Populated by JS -->
+      </div>
+      <div class="custom-count-wrap">
+        <label>Número personalizado:</label>
+        <div class="custom-input-row">
+          <input type="number" id="custom-count" min="1" placeholder="Ej: 42" />
+          <button class="btn-primary" id="btn-custom-start">Empezar</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- SCREEN 3: Test -->
+  <div id="screen-test" class="screen">
+    <div class="bg-grid"></div>
+    <div class="test-header">
+      <button class="btn-back" id="back-to-count">← Salir</button>
+      <div class="test-meta">
+        <span class="subject-chip" id="test-subject-chip"></span>
+        <span class="progress-text"><span id="q-current">1</span> / <span id="q-total">10</span></span>
+      </div>
+      <div class="score-live">
+        <span class="score-correct" id="live-correct">0</span>✓
+        <span class="score-wrong" id="live-wrong">0</span>✗
+      </div>
+    </div>
+
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <main class="test-body">
+      <div class="question-card" id="question-card">
+        <p class="question-number" id="question-number">Pregunta 1</p>
+        <p class="question-text" id="question-text"></p>
+        <div class="options-grid" id="options-grid">
+          <!-- Populated by JS -->
+        </div>
+        <div class="explanation-box hidden" id="explanation-box"></div>
+        <button class="btn-primary btn-next hidden" id="btn-next">Siguiente →</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- SCREEN 4: Results -->
+  <div id="screen-results" class="screen">
+    <div class="bg-grid"></div>
+    <main class="results-container">
+      <div class="results-card">
+        <div class="result-emoji" id="result-emoji">🎉</div>
+        <h2 class="results-title">Resultado</h2>
+        <div class="score-display">
+          <span class="score-big" id="score-percent">0%</span>
+          <span class="score-fraction" id="score-fraction">0/0 correctas</span>
+        </div>
+        <div class="score-bar-wrap">
+          <div class="score-bar-fill" id="score-bar-fill"></div>
+        </div>
+        <p class="score-message" id="score-message"></p>
+
+        <div class="result-stats">
+          <div class="stat">
+            <span class="stat-val green" id="stat-correct">0</span>
+            <span class="stat-label">Correctas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-val red" id="stat-wrong">0</span>
+            <span class="stat-label">Incorrectas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-val yellow" id="stat-skip">0</span>
+            <span class="stat-label">Sin responder</span>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button class="btn-primary" id="btn-retry">Repetir test</button>
+          <button class="btn-secondary" id="btn-new-subject">Nueva asignatura</button>
+        </div>
+
+        <!-- Review -->
+        <div class="review-section">
+          <h3 class="review-title">Repaso de errores</h3>
+          <div id="review-list"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

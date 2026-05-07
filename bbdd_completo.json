@@ -1,0 +1,1524 @@
+{
+  "simulacro": "Simulacro Completo - Bases de Datos",
+  "total_preguntas": 138,
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "¿Qué modelo de control de acceso asigna permisos a roles?",
+      "opciones": {
+        "a": "RBAC",
+        "b": "MAC",
+        "c": "ACL",
+        "d": "DAC"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "enunciado": "¿Qué acción es recomendable tras instalar un SGBD?",
+      "opciones": {
+        "a": "Eliminar los logs",
+        "b": "Verificar el servicio y probar conexiones",
+        "c": "Desactivar usuarios",
+        "d": "Dejar la contraseña por defecto"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "enunciado": "¿Qué comando muestra los privilegios efectivos de un usuario en MySQL?",
+      "opciones": {
+        "a": "DESCRIBE USER",
+        "b": "SHOW GRANTS",
+        "c": "SHOW USER",
+        "d": "SHOW ROLES"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "enunciado": "¿Qué métrica indica problemas de concurrencia?",
+      "opciones": {
+        "a": "CPU",
+        "b": "Locks",
+        "c": "Cache",
+        "d": "Logs"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Cuál es un caso de uso habitual de un SGBD en una empresa?",
+      "opciones": {
+        "a": "Diseño gráfico",
+        "b": "Compilación de programas",
+        "c": "Gestión de clientes y pedidos",
+        "d": "Edición de vídeo"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "enunciado": "¿Qué riesgo supone usar la cuenta root para tareas diarias?",
+      "opciones": {
+        "a": "Escalada de privilegios en caso de ataque",
+        "b": "Bajo rendimiento",
+        "c": "Mayor consumo de RAM",
+        "d": "Problemas de compatibilidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Qué comando se utiliza para retirar un privilegio concedido?",
+      "opciones": {
+        "a": "REVOKE",
+        "b": "DENY",
+        "c": "DROP",
+        "d": "REMOVE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "enunciado": "¿Qué motor de almacenamiento MySQL soporta transacciones?",
+      "opciones": {
+        "a": "MyISAM",
+        "b": "CSV",
+        "c": "InnoDB",
+        "d": "Memory"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Qué modelo de base de datos organiza la información en tablas relacionadas?",
+      "opciones": {
+        "a": "Jerárquico",
+        "b": "Documental",
+        "c": "Orientado a grafos",
+        "d": "Relacional"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "enunciado": "¿Qué componente del SGBD garantiza las propiedades ACID?",
+      "opciones": {
+        "a": "Gestor de usuarios",
+        "b": "Procesador de consultas",
+        "c": "Gestor de transacciones",
+        "d": "Subsistema de seguridad"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 11,
+      "enunciado": "¿Qué comando se utiliza para crear un usuario en MySQL?",
+      "opciones": {
+        "a": "ADD USER",
+        "b": "NEW USER",
+        "c": "CREATE USER",
+        "d": "INSERT USER"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué ventaja principal aporta la replicación?",
+      "opciones": {
+        "a": "Mejora la disponibilidad",
+        "b": "Elimina backups",
+        "c": "Aumenta errores",
+        "d": "Reduce la seguridad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 13,
+      "enunciado": "¿Qué concepto describe la capacidad de crecer según la carga del sistema?",
+      "opciones": {
+        "a": "Auditoría",
+        "b": "Escalabilidad",
+        "c": "Fragmentación",
+        "d": "Normalización"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 14,
+      "enunciado": "¿Qué umbral de CPU suele considerarse crítico?",
+      "opciones": {
+        "a": "30 %",
+        "b": "50 %",
+        "c": "80 %",
+        "d": "100 %"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué archivo de configuración principal utiliza MySQL?",
+      "opciones": {
+        "a": "init.ora",
+        "b": "my.cnf",
+        "c": "mongod.conf",
+        "d": "postgresql.conf"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 16,
+      "enunciado": "¿Qué sincronización prioriza rendimiento frente a consistencia inmediata?",
+      "opciones": {
+        "a": "Síncrona",
+        "b": "Forzada",
+        "c": "Manual",
+        "d": "Asíncrona"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 17,
+      "enunciado": "¿Qué privilegio permite leer datos de una tabla?",
+      "opciones": {
+        "a": "INSERT",
+        "b": "DELETE",
+        "c": "UPDATE",
+        "d": "SELECT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 18,
+      "enunciado": "¿Qué información debería registrar un sistema de auditoría?",
+      "opciones": {
+        "a": "Solo accesos externos",
+        "b": "Solo errores críticos",
+        "c": "Usuario, acción, fecha y resultado",
+        "d": "Solo consultas SELECT"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "enunciado": "¿Qué herramienta externa permite monitorización y alertas?",
+      "opciones": {
+        "a": "Excel",
+        "b": "Bash",
+        "c": "phpMyAdmin",
+        "d": "Nagios"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 20,
+      "enunciado": "¿Qué arquitectura de replicación tiene un nodo maestro?",
+      "opciones": {
+        "a": "Todos escriben",
+        "b": "Maestro escribe y esclavos replican",
+        "c": "Ninguno escribe",
+        "d": "Escritura paralela"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 21,
+      "enunciado": "¿Qué objetivo persigue la alta disponibilidad?",
+      "opciones": {
+        "a": "Centralizar accesos",
+        "b": "Eliminar copias",
+        "c": "Reducir usuarios",
+        "d": "Continuidad del servicio"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "enunciado": "¿Cuál es una ventaja de los SGBD relacionales?",
+      "opciones": {
+        "a": "No necesitan estructura",
+        "b": "Garantizan integridad de los datos",
+        "c": "No utilizan SQL",
+        "d": "No permiten índices"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 23,
+      "enunciado": "¿Qué componente del SGBD optimiza y ejecuta las consultas SQL?",
+      "opciones": {
+        "a": "Subsistema de seguridad",
+        "b": "Motor de backup",
+        "c": "Gestor de transacciones",
+        "d": "Procesador de consultas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 24,
+      "enunciado": "¿Qué verifica un sistema heartbeat?",
+      "opciones": {
+        "a": "Estado de los nodos",
+        "b": "Rendimiento",
+        "c": "Usuarios activos",
+        "d": "Índices"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 25,
+      "enunciado": "¿Qué normativa regula la protección de datos personales en la UE?",
+      "opciones": {
+        "a": "LOPD 1999",
+        "b": "ENS",
+        "c": "ISO 27001",
+        "d": "RGPD"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 26,
+      "enunciado": "¿Qué mecanismo redirige conexiones al fallar el nodo principal?",
+      "opciones": {
+        "a": "Cache",
+        "b": "Backup",
+        "c": "Log",
+        "d": "Failover"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 27,
+      "enunciado": "¿Qué herramienta muestra el plan de ejecución de una consulta?",
+      "opciones": {
+        "a": "PROFILE",
+        "b": "STATUS",
+        "c": "EXPLAIN",
+        "d": "LOG"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 28,
+      "enunciado": "¿Qué protocolo asegura la coherencia en transacciones distribuidas?",
+      "opciones": {
+        "a": "2PC",
+        "b": "RAID",
+        "c": "SSL",
+        "d": "TCP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 29,
+      "enunciado": "¿Qué puerto utiliza MySQL por defecto?",
+      "opciones": {
+        "a": "3306",
+        "b": "1521",
+        "c": "27017",
+        "d": "1433"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Qué ventaja aporta el uso de discos SSD en un servidor de bases de datos?",
+      "opciones": {
+        "a": "Menor número de usuarios",
+        "b": "Mejor rendimiento de E/S",
+        "c": "Mayor seguridad lógica",
+        "d": "Eliminación de índices"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿Qué métrica indica carga del procesador?",
+      "opciones": {
+        "a": "Locks",
+        "b": "I/O",
+        "c": "Logs",
+        "d": "CPU"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿Qué inconveniente tiene un exceso de índices?",
+      "opciones": {
+        "a": "Ralentizan inserciones y actualizaciones",
+        "b": "Eliminan bloqueos",
+        "c": "Mejoran siempre el rendimiento",
+        "d": "Reducen el uso de disco"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Qué tipo de base de datos utiliza MongoDB?",
+      "opciones": {
+        "a": "Documental NoSQL",
+        "b": "Jerárquica",
+        "c": "Relacional",
+        "d": "Distribuida relacional"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Qué tipo de índice es el más común?",
+      "opciones": {
+        "a": "Hash",
+        "b": "Fulltext",
+        "c": "B-Tree",
+        "d": "Bitmap"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 35,
+      "enunciado": "¿Qué objeto permite mostrar solo determinadas columnas de una tabla?",
+      "opciones": {
+        "a": "Trigger",
+        "b": "Vista",
+        "c": "Índice",
+        "d": "Rol"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 36,
+      "enunciado": "¿Cuál es el principio de seguridad que establece otorgar solo los permisos necesarios?",
+      "opciones": {
+        "a": "Mínimo privilegio",
+        "b": "Acceso obligatorio",
+        "c": "Acceso jerárquico",
+        "d": "Acceso global"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 37,
+      "enunciado": "¿Qué herramienta permite realizar backups en caliente en PostgreSQL?",
+      "opciones": {
+        "a": "pg_basebackup",
+        "b": "mysqldump",
+        "c": "tar",
+        "d": "rsync"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 38,
+      "enunciado": "¿Qué técnica divide una tabla grande para mejorar rendimiento?",
+      "opciones": {
+        "a": "Replicación",
+        "b": "Normalización",
+        "c": "Indexación",
+        "d": "Particionado"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 39,
+      "enunciado": "¿Qué tipo de fragmentación divide registros por filas?",
+      "opciones": {
+        "a": "Mixta",
+        "b": "Vertical",
+        "c": "Lógica",
+        "d": "Horizontal"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 40,
+      "enunciado": "¿Qué técnica reduce accesos a disco?",
+      "opciones": {
+        "a": "Eliminar índices",
+        "b": "Aumentar logs",
+        "c": "Uso de caché",
+        "d": "Reiniciar el servidor"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 41,
+      "enunciado": "¿Qué tipo de ataque manipula consultas SQL?",
+      "opciones": {
+        "a": "Phishing",
+        "b": "Inyección SQL",
+        "c": "Fuerza bruta",
+        "d": "Spoofing"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 42,
+      "enunciado": "¿Qué es una base de datos distribuida?",
+      "opciones": {
+        "a": "Una copia local",
+        "b": "Una base sin red",
+        "c": "Datos repartidos en varios nodos coordinados",
+        "d": "Una base en un solo servidor"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 43,
+      "enunciado": "¿Cuál es la función principal de un Sistema Gestor de Bases de Datos (SGBD)?",
+      "opciones": {
+        "a": "Ejecutar únicamente consultas SELECT",
+        "b": "Sustituir al sistema operativo",
+        "c": "Diseñar interfaces gráficas",
+        "d": "Gestionar el almacenamiento, acceso y seguridad de los datos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 44,
+      "enunciado": "¿Qué opción asegura que los datos insertados cumplen la condición de la vista?",
+      "opciones": {
+        "a": "STRICT VIEW",
+        "b": "SAFE INSERT",
+        "c": "FORCE VIEW",
+        "d": "WITH CHECK OPTION"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 45,
+      "enunciado": "¿Qué herramienta permite comprobar el estado del servicio MySQL en Linux?",
+      "opciones": {
+        "a": "mysql status",
+        "b": "systemctl status mysql",
+        "c": "netstat mysql",
+        "d": "service mysql install"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Qué objetivo tiene la monitorización de un SGBD?",
+      "opciones": {
+        "a": "Detectar cuellos de botella y prevenir fallos",
+        "b": "Eliminar usuarios",
+        "c": "Crear bases de datos",
+        "d": "Reducir permisos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué comando recarga los privilegios en MySQL?",
+      "opciones": {
+        "a": "FLUSH PRIVILEGES",
+        "b": "RESET USERS",
+        "c": "RELOAD USERS",
+        "d": "APPLY GRANTS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 48,
+      "enunciado": "¿Qué propiedad ACID garantiza que una transacción se ejecuta completamente o no se ejecuta?",
+      "opciones": {
+        "a": "Atomicidad",
+        "b": "Aislamiento",
+        "c": "Durabilidad",
+        "d": "Consistencia"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 49,
+      "enunciado": "¿Qué función cumple el motor de almacenamiento de un SGBD?",
+      "opciones": {
+        "a": "Gestionar el almacenamiento físico de los datos",
+        "b": "Ejecutar sentencias de red",
+        "c": "Interpretar lenguaje HTML",
+        "d": "Visualizar el esquema de la base de datos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 50,
+      "enunciado": "¿Qué herramienta se utiliza habitualmente para instalar MySQL en Windows?",
+      "opciones": {
+        "a": "Docker Compose",
+        "b": "MySQL Installer",
+        "c": "SQL Developer",
+        "d": "PGAdmin"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 51,
+      "enunciado": "¿Qué aspecto se debe evitar al elegir un SGBD para producción?",
+      "opciones": {
+        "a": "Verificar compatibilidad con el sistema",
+        "b": "Ignorar requisitos de rendimiento y escalabilidad",
+        "c": "Confirmar soporte técnico",
+        "d": "Considerar la seguridad"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 52,
+      "enunciado": "¿Qué tipo de base de datos es MongoDB?",
+      "opciones": {
+        "a": "Relacional",
+        "b": "Documental NoSQL",
+        "c": "Orientada a objetos",
+        "d": "Grafos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 53,
+      "enunciado": "¿Qué propiedad NO forma parte de las transacciones ACID?",
+      "opciones": {
+        "a": "Integridad",
+        "b": "Consistencia",
+        "c": "Atomicidad",
+        "d": "Durabilidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Cuál de las siguientes acciones NO forma parte de la preparación del entorno?",
+      "opciones": {
+        "a": "Reservar espacio para logs y backups",
+        "b": "Desactivar el puerto de red",
+        "c": "Crear usuario específico para el SGBD",
+        "d": "Descargar el instalador desde la web oficial"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 55,
+      "enunciado": "¿Qué representa un error común tras una instalación de SGBD?",
+      "opciones": {
+        "a": "\"404: página no encontrada\"",
+        "b": "\"File not found: documento.txt\"",
+        "c": "\"Fatal error: division by zero\"",
+        "d": "\"Access denied for user 'root'@'localhost'\""
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Qué se recomienda al documentar una instalación de SGBD?",
+      "opciones": {
+        "a": "Usar una guía oficial sin cambios",
+        "b": "Redactar un texto breve sin capturas",
+        "c": "Describir solo el sistema operativo",
+        "d": "Anotar pasos, comandos, resultados y capturas propias"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 57,
+      "enunciado": "¿Qué puerto se utiliza por defecto en PostgreSQL?",
+      "opciones": {
+        "a": "3306",
+        "b": "1521",
+        "c": "5432",
+        "d": "8080"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Qué base de datos sería más adecuada para una tienda online de tamaño medio?",
+      "opciones": {
+        "a": "Neo4j",
+        "b": "MySQL",
+        "c": "SQLite",
+        "d": "Oracle Autonomous DB"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 59,
+      "enunciado": "¿Cuál es el propósito de una comprobación funcional tras instalar un SGBD?",
+      "opciones": {
+        "a": "Verificar que el sistema responde correctamente a consultas básicas",
+        "b": "Confirmar que los logs se han vaciado",
+        "c": "Asegurar la compatibilidad con el navegador",
+        "d": "Cambiar el sistema de archivos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué acción debe realizarse tras modificar el archivo de configuración de un SGBD?",
+      "opciones": {
+        "a": "Volver a compilar la base de datos",
+        "b": "Reiniciar el servicio del gestor",
+        "c": "Eliminar todos los usuarios",
+        "d": "Cambiar de sistema operativo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 61,
+      "enunciado": "¿Cuál es un caso de uso típico de una base de datos relacional?",
+      "opciones": {
+        "a": "Almacenamiento de sensores IoT en tiempo real",
+        "b": "Recomendaciones personalizadas en redes sociales",
+        "c": "Sistema de gestión académica",
+        "d": "Mapas de relaciones entre usuarios"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Cuál es la ubicación típica del archivo de log de errores de MySQL en Linux?",
+      "opciones": {
+        "a": "/var/log/mysql/error.log",
+        "b": "/etc/mysql/logfile",
+        "c": "/usr/bin/mysql/logs",
+        "d": "/home/mysql/logs"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 63,
+      "enunciado": "¿Cuál de las siguientes opciones representa un requisito de hardware recomendado para SGBD?",
+      "opciones": {
+        "a": "512 MB de RAM",
+        "b": "Unidad óptica",
+        "c": "4 núcleos de CPU",
+        "d": "Teclado inalámbrico"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿Cuál de los siguientes archivos de log registra las consultas lentas en MySQL?",
+      "opciones": {
+        "a": "general log",
+        "b": "error log",
+        "c": "binary log",
+        "d": "slow query log"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 65,
+      "enunciado": "¿Qué función cumple el registro de cambios en la documentación técnica?",
+      "opciones": {
+        "a": "Controlar las modificaciones realizadas y su responsable",
+        "b": "Mostrar los errores del sistema operativo",
+        "c": "Listar usuarios activos",
+        "d": "Verificar los permisos de acceso"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 66,
+      "enunciado": "¿Cuál es el puerto por defecto de Oracle Database?",
+      "opciones": {
+        "a": "1521",
+        "b": "1433",
+        "c": "5432",
+        "d": "3306"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿Cuál es la finalidad principal de los comandos de inicio y parada en un SGBD?",
+      "opciones": {
+        "a": "Garantizar la disponibilidad y estabilidad del servicio",
+        "b": "Eliminar bases de datos inactivas",
+        "c": "Cambiar los privilegios de usuario",
+        "d": "Actualizar los índices de la base de datos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 68,
+      "enunciado": "¿Qué se debe hacer antes de modificar un archivo de configuración de un SGBD?",
+      "opciones": {
+        "a": "Crear una copia de seguridad del archivo",
+        "b": "Reiniciar el servicio",
+        "c": "Borrar el archivo anterior",
+        "d": "Cerrar todas las conexiones de usuario"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 69,
+      "enunciado": "¿Qué tipo de archivo almacena todas las transacciones de MySQL y permite replicación?",
+      "opciones": {
+        "a": "Error log",
+        "b": "Audit log",
+        "c": "Binary log",
+        "d": "General log"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 70,
+      "enunciado": "¿Qué comando de MySQL se usa para detener el servidor desde la línea de comandos?",
+      "opciones": {
+        "a": "dbstop mysql",
+        "b": "mysqladmin shutdown",
+        "c": "service stop mysql",
+        "d": "mysql stop"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 71,
+      "enunciado": "¿Qué elemento garantiza la trazabilidad y coherencia en la administración del SGBD?",
+      "opciones": {
+        "a": "Documentación y versionado de configuraciones",
+        "b": "Automatización de tareas",
+        "c": "Cifrado de contraseñas",
+        "d": "Uso de contraseñas temporales"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 72,
+      "enunciado": "¿Qué parámetro en MySQL controla el tiempo máximo de inactividad de una conexión?",
+      "opciones": {
+        "a": "delay_time",
+        "b": "wait_timeout",
+        "c": "max_delay",
+        "d": "connect_time"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 73,
+      "enunciado": "En PostgreSQL, el parámetro max_connections define:",
+      "opciones": {
+        "a": "El número máximo de bases de datos instaladas",
+        "b": "El número máximo de conexiones simultáneas al servidor",
+        "c": "El tamaño máximo de las consultas",
+        "d": "El límite de espacio en disco por base de datos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 74,
+      "enunciado": "¿Qué define el parámetro bind_address en un archivo de configuración?",
+      "opciones": {
+        "a": "La ruta de los datos",
+        "b": "La dirección IP desde la que el servidor acepta conexiones",
+        "c": "El nombre del archivo de log",
+        "d": "La contraseña del administrador"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué ventaja ofrece automatizar el arranque de un SGBD al iniciar el sistema operativo?",
+      "opciones": {
+        "a": "Garantiza la disponibilidad inmediata del servicio tras reinicio",
+        "b": "Aumenta la seguridad de los usuarios",
+        "c": "Reduce el tamaño de los archivos de datos",
+        "d": "Elimina la necesidad de supervisión"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 76,
+      "enunciado": "¿Qué archivo define los permisos de conexión en PostgreSQL?",
+      "opciones": {
+        "a": "connect.conf",
+        "b": "pg_access.ini",
+        "c": "pg_hba.conf",
+        "d": "pg_log.conf"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 77,
+      "enunciado": "¿Qué herramienta gráfica se emplea normalmente para gestionar MySQL?",
+      "opciones": {
+        "a": "MySQL Workbench",
+        "b": "pgAdmin",
+        "c": "Oracle Grid Control",
+        "d": "SQL Developer"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 78,
+      "enunciado": "¿Qué herramienta se recomienda para el versionado de archivos de configuración?",
+      "opciones": {
+        "a": "Git",
+        "b": "Workbench",
+        "c": "SQL Developer",
+        "d": "Oracle Cloud Shell"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 79,
+      "enunciado": "¿Qué vista de base de datos se usa para ofrecer acceso limitado a ciertas columnas o filas?",
+      "opciones": {
+        "a": "Perfil",
+        "b": "Vista",
+        "c": "Sinónimo",
+        "d": "Alias"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 80,
+      "enunciado": "¿Qué comando SQL se usa para otorgar permisos a un usuario?",
+      "opciones": {
+        "a": "REVOKE",
+        "b": "ALLOW",
+        "c": "PERMIT",
+        "d": "GRANT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 81,
+      "enunciado": "¿Qué comando se emplea para eliminar una cuenta de usuario?",
+      "opciones": {
+        "a": "DROP USER",
+        "b": "ERASE USER",
+        "c": "DELETE USER",
+        "d": "REMOVE USER"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "enunciado": "¿Qué comando se utiliza en MySQL para crear un nuevo usuario?",
+      "opciones": {
+        "a": "NEW USER",
+        "b": "INSERT USER",
+        "c": "CREATE USER",
+        "d": "ADD USER"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 83,
+      "enunciado": "¿Qué significa trazabilidad en un sistema de base de datos?",
+      "opciones": {
+        "a": "Capacidad para copiar datos",
+        "b": "Capacidad para controlar tiempos de ejecución",
+        "c": "Capacidad de registrar y reconstruir acciones sobre los datos",
+        "d": "Capacidad para realizar backups automáticos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Cuál de los siguientes modelos de control de acceso se basa en la asignación de permisos a roles?",
+      "opciones": {
+        "a": "MAC",
+        "b": "RBAC",
+        "c": "DAC",
+        "d": "ABAC"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 85,
+      "enunciado": "En MySQL, ¿qué comando se usa para retirar un privilegio?",
+      "opciones": {
+        "a": "DENY",
+        "b": "REVOKE",
+        "c": "REMOVE",
+        "d": "UNGRANT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Qué práctica se considera esencial para garantizar la seguridad en la gestión de accesos?",
+      "opciones": {
+        "a": "Asignar privilegios globales a todos los usuarios",
+        "b": "Usar contraseñas predeterminadas",
+        "c": "Documentar, auditar y aplicar el principio de mínimo privilegio",
+        "d": "Permitir conexiones sin cifrado"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 87,
+      "enunciado": "¿Cuál de los siguientes privilegios es de tipo \"sistema\" en MySQL?",
+      "opciones": {
+        "a": "DELETE",
+        "b": "CREATE TABLE",
+        "c": "SELECT",
+        "d": "SUPER"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué comando se utiliza para asignar un rol a un usuario?",
+      "opciones": {
+        "a": "ATTACH ROLE",
+        "b": "GRANT rol TO usuario",
+        "c": "ENABLE ROLE",
+        "d": "USE ROLE"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 89,
+      "enunciado": "¿Qué tipo de privilegio permite crear y eliminar tablas en una base de datos?",
+      "opciones": {
+        "a": "ALTER",
+        "b": "UPDATE",
+        "c": "CREATE",
+        "d": "DELETE"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 90,
+      "enunciado": "¿Qué principio indica que cada usuario debe tener solo los permisos estrictamente necesarios?",
+      "opciones": {
+        "a": "Principio de mínimo privilegio",
+        "b": "Principio de trazabilidad",
+        "c": "Principio de auditoría",
+        "d": "Principio de mínima exposición"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 91,
+      "enunciado": "¿Qué comando muestra los privilegios de un usuario en MySQL?",
+      "opciones": {
+        "a": "SHOW GRANTS",
+        "b": "DISPLAY ACCESS",
+        "c": "SHOW USERS",
+        "d": "LIST PRIVILEGES"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 92,
+      "enunciado": "¿Cuál es el propósito del comando FLUSH PRIVILEGES?",
+      "opciones": {
+        "a": "Recargar los privilegios desde las tablas del sistema",
+        "b": "Eliminar todos los usuarios",
+        "c": "Crear roles predeterminados",
+        "d": "Reiniciar el servidor"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 93,
+      "enunciado": "¿Qué tipo de objeto permite renombrar o simplificar el nombre real de una tabla o vista?",
+      "opciones": {
+        "a": "Índice",
+        "b": "Rol",
+        "c": "Sinónimo",
+        "d": "Perfil"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Qué tipo de trigger se ejecuta una sola vez por sentencia DML?",
+      "opciones": {
+        "a": "Column-level",
+        "b": "Statement-level",
+        "c": "Global-level",
+        "d": "Row-level"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 95,
+      "enunciado": "En PL/SQL, ¿qué tipo de bloque no se almacena en la base de datos?",
+      "opciones": {
+        "a": "Procedimiento",
+        "b": "Función",
+        "c": "Bloque anónimo",
+        "d": "Paquete"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 96,
+      "enunciado": "¿Qué instrucción permite manejar errores personalizados en PL/SQL?",
+      "opciones": {
+        "a": "RAISE",
+        "b": "THROW",
+        "c": "PRINT",
+        "d": "EXEC"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 97,
+      "enunciado": "¿Cuál de los siguientes es un ejemplo de excepción predefinida en PL/SQL?",
+      "opciones": {
+        "a": "TOO_FEW_ROWS",
+        "b": "INVALID_TRIGGER",
+        "c": "TABLE_NOT_FOUND",
+        "d": "ZERO_DIVIDE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 98,
+      "enunciado": "¿Qué medida garantiza la consistencia de los datos automatizados?",
+      "opciones": {
+        "a": "Usar restricciones, validaciones y control ACID",
+        "b": "Ejecutar sin manejo de excepciones",
+        "c": "Eliminar las claves foráneas",
+        "d": "Permitir duplicados para mayor flexibilidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 99,
+      "enunciado": "¿Qué sentencia se usa para revertir los cambios realizados en una transacción?",
+      "opciones": {
+        "a": "RETURN",
+        "b": "ROLLBACK",
+        "c": "ABORT",
+        "d": "UNDO LOG"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 100,
+      "enunciado": "¿Qué diferencia principal existe entre un procedimiento y una función en PL/SQL?",
+      "opciones": {
+        "a": "La función devuelve un valor, el procedimiento no necesariamente",
+        "b": "La función no puede recibir parámetros",
+        "c": "El procedimiento devuelve siempre un valor, la función no",
+        "d": "El procedimiento solo se usa en SELECT"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 101,
+      "enunciado": "¿Qué palabras clave permiten acceder a los valores antes y después del trigger?",
+      "opciones": {
+        "a": "IN y OUT",
+        "b": "THIS y THAT",
+        "c": "NEW y OLD",
+        "d": "PRE y POST"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué propiedad de las transacciones asegura que todas las operaciones se completan o se deshacen juntas?",
+      "opciones": {
+        "a": "Consistencia",
+        "b": "Aislamiento",
+        "c": "Durabilidad",
+        "d": "Atomicidad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 103,
+      "enunciado": "¿Qué práctica se recomienda al programar scripts complejos?",
+      "opciones": {
+        "a": "Modularizar código en funciones pequeñas y claras",
+        "b": "No documentar para ahorrar tiempo",
+        "c": "Evitar los comentarios",
+        "d": "Ejecutar siempre en modo anónimo"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 104,
+      "enunciado": "¿Qué instrucción se utiliza para capturar errores en un bloque PL/SQL?",
+      "opciones": {
+        "a": "ON FAILURE",
+        "b": "WHEN ERROR",
+        "c": "HANDLE_ERROR",
+        "d": "EXCEPTION"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 105,
+      "enunciado": "En un trigger de nivel fila (Row-level), ¿qué estructura permite referirse al valor antiguo?",
+      "opciones": {
+        "a": ":LAST",
+        "b": ":PREVIOUS",
+        "c": ":OLD",
+        "d": ":AFTER"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 106,
+      "enunciado": "¿Qué estructura condicional permite manejar múltiples alternativas de ejecución?",
+      "opciones": {
+        "a": "RETURN",
+        "b": "IF-THEN",
+        "c": "CASE",
+        "d": "LOOP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 107,
+      "enunciado": "¿Qué evento puede activar un trigger DML?",
+      "opciones": {
+        "a": "INSERT, UPDATE o DELETE",
+        "b": "ALTER DATABASE",
+        "c": "SELECT",
+        "d": "CREATE TABLE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 108,
+      "enunciado": "¿Cuál es el principal objetivo de la automatización en la administración de bases de datos?",
+      "opciones": {
+        "a": "Sustituir al DBA en todas sus funciones",
+        "b": "Eliminar la interacción entre usuarios y base de datos",
+        "c": "Aumentar la dependencia del hardware",
+        "d": "Reducir errores, mejorar la eficiencia y garantizar continuidad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 109,
+      "enunciado": "¿Qué comando en MySQL permite visualizar las métricas de uso general del servidor?",
+      "opciones": {
+        "a": "SHOW INDEXES.",
+        "b": "SHOW STATUS.",
+        "c": "LIST QUERIES.",
+        "d": "DESCRIBE SERVER."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 110,
+      "enunciado": "¿Qué métrica se considera crítica cuando supera el 80 % de uso?",
+      "opciones": {
+        "a": "Locks.",
+        "b": "CPU.",
+        "c": "Memoria compartida.",
+        "d": "I/O."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 111,
+      "enunciado": "¿Qué herramienta ofrece paneles y alertas configurables para bases de datos y redes?",
+      "opciones": {
+        "a": "Jenkins.",
+        "b": "Oracle Profiler.",
+        "c": "Zabbix.",
+        "d": "PostgreSQL Monitor."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 112,
+      "enunciado": "¿Qué técnica se utiliza para agrupar los datos en función de un rango de fechas?",
+      "opciones": {
+        "a": "Clustering.",
+        "b": "Normalización.",
+        "c": "Particionado.",
+        "d": "Fragmentación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 113,
+      "enunciado": "¿Qué cláusula puede obligar a MySQL a usar un índice en una consulta?",
+      "opciones": {
+        "a": "USE INDEX.",
+        "b": "FORCE INDEX.",
+        "c": "ENABLE INDEX.",
+        "d": "REQUIRE INDEX."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 114,
+      "enunciado": "¿Qué herramienta en Oracle permite obtener el plan de ejecución de una consulta?",
+      "opciones": {
+        "a": "ANALYZE PLAN.",
+        "b": "EXPLAIN PLAN.",
+        "c": "TRACE SQL.",
+        "d": "RUN PROFILE."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 115,
+      "enunciado": "¿Qué política energética se recomienda aplicar en un servidor de bases de datos?",
+      "opciones": {
+        "a": "Máximo rendimiento.",
+        "b": "Ahorro de energía.",
+        "c": "Equilibrada.",
+        "d": "Predeterminada del sistema operativo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 116,
+      "enunciado": "¿Qué herramienta externa permite definir alertas automáticas para recursos del sistema?",
+      "opciones": {
+        "a": "Grafana Cloud únicamente.",
+        "b": "Power BI.",
+        "c": "Netbeans.",
+        "d": "Nagios."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 117,
+      "enunciado": "¿Qué métrica indica el número de operaciones de lectura y escritura realizadas en disco?",
+      "opciones": {
+        "a": "I/O.",
+        "b": "Memory usage.",
+        "c": "Locks.",
+        "d": "CPU."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 118,
+      "enunciado": "¿Qué ajuste de sistema operativo mejora el rendimiento de red en Linux?",
+      "opciones": {
+        "a": "Desactivar los puertos activos.",
+        "b": "Reducir el tamaño del buffer TCP.",
+        "c": "Incrementar net.core.rmem_max y net.core.wmem_max.",
+        "d": "Ejecutar consultas en paralelo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 119,
+      "enunciado": "¿Cuál es el propósito de la reescritura de consultas?",
+      "opciones": {
+        "a": "Modificar la estructura de la tabla.",
+        "b": "Eliminar restricciones de integridad.",
+        "c": "Reducir el tiempo de ejecución sin cambiar el resultado.",
+        "d": "Cambiar el motor de almacenamiento."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 120,
+      "enunciado": "¿Qué objetivo principal tiene la monitorización en un SGBD?",
+      "opciones": {
+        "a": "Detectar fallos y optimizar el rendimiento antes de que afecten al servicio.",
+        "b": "Sustituir hardware antiguo.",
+        "c": "Cambiar el motor de base de datos.",
+        "d": "Reducir el tamaño de la base de datos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 121,
+      "enunciado": "¿Qué parámetro controla la memoria disponible por consulta en PostgreSQL?",
+      "opciones": {
+        "a": "sql_mem_size.",
+        "b": "query_size.",
+        "c": "cache_buffer.",
+        "d": "work_mem."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 122,
+      "enunciado": "¿Qué motor de almacenamiento de MySQL es más adecuado para operaciones transaccionales?",
+      "opciones": {
+        "a": "InnoDB.",
+        "b": "Memory.",
+        "c": "MyISAM.",
+        "d": "Archive."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 123,
+      "enunciado": "¿Qué herramienta de PostgreSQL permite visualizar las consultas activas en ejecución?",
+      "opciones": {
+        "a": "V$SESSION.",
+        "b": "pg_stat_activity.",
+        "c": "EXPLAIN ANALYZE.",
+        "d": "SHOW PROCESSLIST."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 124,
+      "enunciado": "El mecanismo de heartbeat sirve para:",
+      "opciones": {
+        "a": "Verificar los logs de consultas.",
+        "b": "Realizar backups automáticos.",
+        "c": "Detectar la caída de nodos mediante señales periódicas.",
+        "d": "Controlar los permisos de usuarios."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 125,
+      "enunciado": "Los backups en caliente:",
+      "opciones": {
+        "a": "Requieren detener el sistema completo.",
+        "b": "Se realizan mientras la base de datos está en funcionamiento.",
+        "c": "Solo pueden ejecutarse desde el nodo maestro.",
+        "d": "No incluyen archivos de log."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 126,
+      "enunciado": "Las bases de datos distribuidas se caracterizan por:",
+      "opciones": {
+        "a": "Distribuir los datos en varios nodos coordinados.",
+        "b": "Almacenar los datos en un único servidor centralizado.",
+        "c": "Impedir la sincronización entre nodos.",
+        "d": "No admitir consultas simultáneas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 127,
+      "enunciado": "La replicación en cadena consiste en:",
+      "opciones": {
+        "a": "Sincronizar sin logs.",
+        "b": "Encadenar los nodos para que cada uno replique al siguiente.",
+        "c": "Conectar todos los esclavos directamente al maestro.",
+        "d": "Replicar los datos de manera aleatoria."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 128,
+      "enunciado": "La fragmentación horizontal divide:",
+      "opciones": {
+        "a": "Las tablas entre diferentes bases.",
+        "b": "Las consultas entre usuarios.",
+        "c": "Las columnas de una tabla.",
+        "d": "Las filas o registros de una tabla."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 129,
+      "enunciado": "El protocolo Three-Phase Commit (3PC):",
+      "opciones": {
+        "a": "No asegura tolerancia a fallos.",
+        "b": "Añade una fase adicional para evitar bloqueos.",
+        "c": "Es más simple que el 2PC.",
+        "d": "Se usa solo en sistemas centralizados."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 130,
+      "enunciado": "Un nodo esclavo tiene como función:",
+      "opciones": {
+        "a": "Coordinar las escrituras.",
+        "b": "Eliminar transacciones duplicadas.",
+        "c": "Mantener la base de datos inactiva.",
+        "d": "Recibir y aplicar las actualizaciones del maestro."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 131,
+      "enunciado": "El objetivo principal de la replicación es:",
+      "opciones": {
+        "a": "Evitar la sincronización de datos.",
+        "b": "Reducir el número de servidores.",
+        "c": "Aumentar la redundancia y disponibilidad.",
+        "d": "Eliminar los backups tradicionales."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 132,
+      "enunciado": "En una base de datos distribuida homogénea:",
+      "opciones": {
+        "a": "Solo un nodo contiene la base completa.",
+        "b": "Se impide la replicación entre nodos.",
+        "c": "Todos los nodos usan el mismo SGBD.",
+        "d": "Cada nodo usa un sistema gestor diferente."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 133,
+      "enunciado": "La verificación de logs y métricas en sistemas distribuidos permite:",
+      "opciones": {
+        "a": "Apagar los nodos innecesarios.",
+        "b": "Confirmar la correcta sincronización y rendimiento del sistema.",
+        "c": "Eliminar las transacciones viejas.",
+        "d": "Reiniciar los procesos de replicación automáticamente."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 134,
+      "enunciado": "En la arquitectura maestro-esclavo de MySQL:",
+      "opciones": {
+        "a": "No se permite replicación automática.",
+        "b": "Ambos servidores realizan escrituras simultáneas.",
+        "c": "El maestro escribe y los esclavos replican las lecturas.",
+        "d": "Los esclavos gestionan los commits."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 135,
+      "enunciado": "El protocolo Two-Phase Commit (2PC):",
+      "opciones": {
+        "a": "Se usa solo para copias de seguridad.",
+        "b": "Garantiza la coherencia en transacciones distribuidas.",
+        "c": "No requiere comunicación entre nodos.",
+        "d": "Elimina la necesidad de logs."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 136,
+      "enunciado": "La principal ventaja de una base de datos distribuida es:",
+      "opciones": {
+        "a": "El aislamiento completo de los datos.",
+        "b": "La mejora de disponibilidad y rendimiento.",
+        "c": "La reducción del espacio de almacenamiento.",
+        "d": "La simplicidad en su configuración."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 137,
+      "enunciado": "La fragmentación vertical se aplica cuando:",
+      "opciones": {
+        "a": "Se divide una base de datos por índices.",
+        "b": "Se desean separar columnas en diferentes fragmentos.",
+        "c": "Se distribuyen filas según región.",
+        "d": "Se copian todas las tablas completas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 138,
+      "enunciado": "Un nodo maestro es responsable de:",
+      "opciones": {
+        "a": "Solo ejecutar consultas de lectura.",
+        "b": "Realizar copias de seguridad manuales.",
+        "c": "Controlar el acceso de usuarios.",
+        "d": "Coordinar escrituras y replicar los cambios a los esclavos."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

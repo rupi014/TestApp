@@ -1,0 +1,2636 @@
+{
+  "simulacro": "Simulacro Completo - Servicios en Red",
+  "total_preguntas": 219,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": "UT8",
+      "enunciado": "¿Qué ejemplo de servidor de aplicaciones Java se menciona?",
+      "opciones": {
+        "a": "MailEnable",
+        "b": "IIS",
+        "c": "vsftpd",
+        "d": "Tomcat"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "unidad": "UT3",
+      "enunciado": "En Apache, ¿dónde se recomienda ubicar ficheros .conf de Virtual Hosts para habilitarlos?",
+      "opciones": {
+        "a": "/etc/apache2/sites-available (y enlaces en sites-enabled)",
+        "b": "/etc/dhcp",
+        "c": "/var/www/html",
+        "d": "/etc/hosts"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "unidad": "UT6",
+      "enunciado": "XMPP (Jabber) se describe como:",
+      "opciones": {
+        "a": "Estándar abierto, distribuido, extensible y con soporte SSL/TLS",
+        "b": "Propietario y cerrado",
+        "c": "Un servidor web",
+        "d": "Solo para redes IPv6"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "unidad": "UT1",
+      "enunciado": "Antes de consultar un servidor DNS, ¿qué elemento local puede contener resoluciones manuales?",
+      "opciones": {
+        "a": "Archivo dhcpd.conf",
+        "b": "Archivo tomcat-users.xml",
+        "c": "Archivo ports.conf",
+        "d": "Archivo hosts"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "unidad": "UT1",
+      "enunciado": "¿Qué característica se atribuye a la zona secundaria?",
+      "opciones": {
+        "a": "Se crea únicamente en el cliente",
+        "b": "Se utiliza solo para DHCP",
+        "c": "Lectura-escritura",
+        "d": "Solo lectura (copia de la primaria)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "unidad": "UT1",
+      "enunciado": "Para alta disponibilidad DNS, ¿qué debe configurarse en los clientes?",
+      "opciones": {
+        "a": "Solo DNS alternativo",
+        "b": "DNS preferido y DNS alternativo",
+        "c": "Sin DNS (solo IP)",
+        "d": "Solo DNS preferido"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo usa el puerto 110 sin cifrado y 995 con SSL?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "IMAP",
+        "c": "FTP",
+        "d": "POP3"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "unidad": "UT4",
+      "enunciado": "¿Qué opción configura \"jaulas\" para que todos los usuarios queden enjaulados por defecto?",
+      "opciones": {
+        "a": "chroot_local_user=NO y chroot_list_enable=YES",
+        "b": "chroot_local_user=YES y chroot_list_enable=NO",
+        "c": "local_umask=022 y write_enable=YES",
+        "d": "anon_upload_enable=YES y listen=YES"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "unidad": "UT6",
+      "enunciado": "¿Qué identifica de forma única a un usuario XMPP?",
+      "opciones": {
+        "a": "TTL",
+        "b": "MAC",
+        "c": "JID",
+        "d": "IP privada"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "unidad": "UT5",
+      "enunciado": "¿Qué agente se define como el servidor que transfiere mensajes entre máquinas (encaminador)?",
+      "opciones": {
+        "a": "MTA",
+        "b": "MUA",
+        "c": "MDA",
+        "d": "Resolver DNS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 11,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando aplica cambios de configuración sin interrumpir conexiones activas en Apache?",
+      "opciones": {
+        "a": "reload",
+        "b": "restart",
+        "c": "stop",
+        "d": "enable"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 12,
+      "unidad": "UT4",
+      "enunciado": "¿Qué alternativa segura se menciona como sustitución habitual en entornos modernos?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "SFTP o FTPS",
+        "c": "TFTP",
+        "d": "Telnet"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 13,
+      "unidad": "UT7",
+      "enunciado": "¿Qué servidor se usa en la UT para distribución de audio en Ubuntu Server?",
+      "opciones": {
+        "a": "OpenFire",
+        "b": "Bind9",
+        "c": "Dovecot",
+        "d": "Icecast"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 14,
+      "unidad": "UT7",
+      "enunciado": "En la configuración de Icecast, ¿qué puerto se verifica como valor típico?",
+      "opciones": {
+        "a": "25",
+        "b": "443",
+        "c": "8000",
+        "d": "53"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 15,
+      "unidad": "UT4",
+      "enunciado": "¿Qué archivo contiene la lista de usuarios enjaulados cuando se usa chroot_list_file?",
+      "opciones": {
+        "a": "/etc/dhcp/dhcpd.conf",
+        "b": "/etc/vsftpd.chroot_list",
+        "c": "/etc/apache2/ports.conf",
+        "d": "/etc/bind/named.conf.local"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 16,
+      "unidad": "UT4",
+      "enunciado": "¿Qué modo de FTP suele dar problemas con NAT/cortafuegos por conexiones entrantes al cliente?",
+      "opciones": {
+        "a": "Seguro",
+        "b": "Anónimo",
+        "c": "Pasivo",
+        "d": "Activo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 17,
+      "unidad": "UT4",
+      "enunciado": "¿Qué objetivo del servicio FTP se menciona explícitamente en el material?",
+      "opciones": {
+        "a": "Autenticación SSO",
+        "b": "Ejecución de scripts PHP",
+        "c": "Resolución inversa PTR",
+        "d": "Reanudar transferencias interrumpidas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 18,
+      "unidad": "UT3",
+      "enunciado": "Para autenticación básica en Apache, ¿qué herramienta se utiliza para crear usuarios (según el material de clase)?",
+      "opciones": {
+        "a": "htpasswd",
+        "b": "openssl",
+        "c": "useradd",
+        "d": "nslookup"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 19,
+      "unidad": "UT6",
+      "enunciado": "¿Qué característica se atribuye a IRC en el material?",
+      "opciones": {
+        "a": "Permite canales y puede ocultar identidad con nicknames",
+        "b": "Es un protocolo exclusivo de videoconferencia",
+        "c": "Requiere identificación única siempre",
+        "d": "Usa DNS MX"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 20,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de Virtual Host sirve contenidos diferentes usando una misma IP y distinguiendo por nombre?",
+      "opciones": {
+        "a": "Basado en nombre",
+        "b": "Caché recursiva",
+        "c": "Balanceado round robin",
+        "d": "Basado en IP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 21,
+      "unidad": "UT4",
+      "enunciado": "¿Qué línea deshabilita el acceso anónimo en /etc/vsftpd.conf?",
+      "opciones": {
+        "a": "local_enable=NO",
+        "b": "listen=NO",
+        "c": "write_enable=NO",
+        "d": "anonymous_enable=NO"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "unidad": "UT6",
+      "enunciado": "¿Qué objetivo tiene un servidor de listas (p. ej., Mailman/Sympa) según el índice de la UT?",
+      "opciones": {
+        "a": "Gestionar suscripción y envío de mensajes a listas",
+        "b": "Asignar concesiones DHCP",
+        "c": "Transferir archivos por FTP",
+        "d": "Resolver nombres DNS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 23,
+      "unidad": "UT8",
+      "enunciado": "En la estructura típica de una aplicación PHP indicada, ¿qué directorio es DocumentRoot (archivos públicos)?",
+      "opciones": {
+        "a": "/storage",
+        "b": "/vendor",
+        "c": "/public",
+        "d": "/src"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 24,
+      "unidad": "UT8",
+      "enunciado": "En buenas prácticas de permisos para aplicaciones PHP, ¿qué permisos se recomiendan típicamente para archivos?",
+      "opciones": {
+        "a": "400",
+        "b": "644",
+        "c": "600",
+        "d": "777"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 25,
+      "unidad": "UT6",
+      "enunciado": "¿Qué servidor XMPP se instala en Windows y se administra desde navegador?",
+      "opciones": {
+        "a": "Bind9",
+        "b": "Dovecot",
+        "c": "Icecast",
+        "d": "OpenFire"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 26,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo usa los puertos 143 (sin SSL) y 993 (con SSL)?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "IMAP",
+        "c": "POP3",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 27,
+      "unidad": "UT5",
+      "enunciado": "¿Qué objetivo tienen mecanismos como SPF/DKIM/DMARC en el material?",
+      "opciones": {
+        "a": "Configurar VoIP",
+        "b": "Crear Virtual Hosts",
+        "c": "Asignar IP",
+        "d": "Evitar usos indebidos y reducir spam/suplantación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 28,
+      "unidad": "UT1",
+      "enunciado": "¿Qué puerto utiliza DNS habitualmente para consultas rápidas?",
+      "opciones": {
+        "a": "80/TCP",
+        "b": "53/UDP",
+        "c": "443/TCP",
+        "d": "67/UDP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 29,
+      "unidad": "UT1",
+      "enunciado": "En DNS, ¿qué representa el registro SOA (Start of Authority)?",
+      "opciones": {
+        "a": "El servidor de correo del dominio",
+        "b": "Información de control de la zona y servidor principal",
+        "c": "La IP del cliente",
+        "d": "Un alias de un host"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 30,
+      "unidad": "UT6",
+      "enunciado": "¿Qué inconveniente de XMPP se menciona?",
+      "opciones": {
+        "a": "No admite clientes gráficos",
+        "b": "No soporta cifrado",
+        "c": "No permite usuarios múltiples",
+        "d": "Genera bastante tráfico por notificación de presencia"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 31,
+      "unidad": "UT8",
+      "enunciado": "¿Qué mecanismo de autenticación se menciona como \"básica\" HTTP y requiere HTTPS para ser más segura?",
+      "opciones": {
+        "a": "Kerberos nativo",
+        "b": "Tokens JWT con firma",
+        "c": "Credenciales codificadas en Base64",
+        "d": "SLAAC"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 32,
+      "unidad": "UT5",
+      "enunciado": "¿Qué puerto usa SMTP según el material?",
+      "opciones": {
+        "a": "110",
+        "b": "993",
+        "c": "143",
+        "d": "25"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 33,
+      "unidad": "UT7",
+      "enunciado": "¿Qué modelo descarga solo fragmentos necesarios en tiempo real y adapta calidad?",
+      "opciones": {
+        "a": "Descarga directa",
+        "b": "SLAAC",
+        "c": "Descarga progresiva",
+        "d": "Streaming"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 34,
+      "unidad": "UT2",
+      "enunciado": "¿Qué puerto utiliza el cliente DHCP para solicitar configuración?",
+      "opciones": {
+        "a": "68",
+        "b": "53",
+        "c": "80",
+        "d": "67"
+      },
+      "respuesta_correcta": "a",
+      "nota": "El sistema marcó esta respuesta como incorrecta, posiblemente por un error en la clave de corrección. Técnicamente, el puerto del cliente DHCP es el 68 (UDP)."
+    },
+    {
+      "numero": 35,
+      "unidad": "UT5",
+      "enunciado": "¿Qué agente es el cliente final de correo (programa que usa el usuario/la usuaria)?",
+      "opciones": {
+        "a": "NS",
+        "b": "MUA",
+        "c": "MDA",
+        "d": "MTA"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 36,
+      "unidad": "UT6",
+      "enunciado": "En Pidgin, si no se acepta el certificado SSL del dominio, ¿qué efecto se describe?",
+      "opciones": {
+        "a": "Se reinicia el servidor DHCP",
+        "b": "Se cambia automáticamente el JID",
+        "c": "Las conexiones fallan y debe gestionarse en \"Certificados\"",
+        "d": "El servicio funciona igual"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 37,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tipo de dirección se asigna cuando no hay respuesta DHCP (autoconfiguración)?",
+      "opciones": {
+        "a": "127.0.0.1/8",
+        "b": "192.168.0.0/16",
+        "c": "169.254.0.0/16 (APIPA)",
+        "d": "10.0.0.0/8"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 38,
+      "unidad": "UT2",
+      "enunciado": "¿Qué mensaje DHCP libera una concesión por parte del cliente?",
+      "opciones": {
+        "a": "DHCPRELEASE",
+        "b": "DHCPACK",
+        "c": "DHCPDISCOVER",
+        "d": "DHCPOFFER"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 39,
+      "unidad": "UT7",
+      "enunciado": "¿Qué desafío técnico de VoIP se menciona junto a pérdida de paquetes y retardo?",
+      "opciones": {
+        "a": "TTL",
+        "b": "Jitter",
+        "c": "Lease",
+        "d": "CNAME"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 40,
+      "unidad": "UT5",
+      "enunciado": "¿Qué diferencia se indica entre POP3 e IMAP respecto al almacenamiento?",
+      "opciones": {
+        "a": "POP3 mantiene el correo en el servidor siempre",
+        "b": "POP3 descarga y por defecto borra; IMAP mantiene en servidor hasta que el usuario/la usuaria lo elimine",
+        "c": "IMAP borra el correo del servidor al descargar",
+        "d": "Ambos funcionan igual"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 41,
+      "unidad": "UT3",
+      "enunciado": "¿Qué puerto utiliza HTTPS por defecto?",
+      "opciones": {
+        "a": "80/TCP",
+        "b": "110/TCP",
+        "c": "53/UDP",
+        "d": "443/TCP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 42,
+      "unidad": "UT6",
+      "enunciado": "¿Qué cliente se menciona para conectarse a OpenFire?",
+      "opciones": {
+        "a": "VLC",
+        "b": "Spark",
+        "c": "FileZilla",
+        "d": "Outlook"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 43,
+      "unidad": "UT2",
+      "enunciado": "¿Cuál es el orden correcto del proceso DORA en DHCP?",
+      "opciones": {
+        "a": "OFFER → DISCOVER → ACK → REQUEST",
+        "b": "DISCOVER → OFFER → REQUEST → ACK",
+        "c": "DISCOVER → REQUEST → OFFER → ACK",
+        "d": "REQUEST → DISCOVER → OFFER → ACK"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 44,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de cliente de correo permite acceso desde navegador web?",
+      "opciones": {
+        "a": "Cliente FTP",
+        "b": "Cliente DHCP",
+        "c": "Cliente instalado",
+        "d": "Cliente vía web (webmail)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 45,
+      "unidad": "UT6",
+      "enunciado": "¿Qué puerto de administración se cita como ejemplo para OpenFire?",
+      "opciones": {
+        "a": "53",
+        "b": "8000",
+        "c": "9090",
+        "d": "443"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 46,
+      "unidad": "UT2",
+      "enunciado": "DHCP se basa históricamente en el protocolo:",
+      "opciones": {
+        "a": "BOOTP",
+        "b": "IMAP",
+        "c": "HTTP",
+        "d": "SLAAC"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 47,
+      "unidad": "UT1",
+      "enunciado": "¿Qué registro DNS identifica servidores de correo para un dominio?",
+      "opciones": {
+        "a": "TXT",
+        "b": "HINFO",
+        "c": "A",
+        "d": "MX"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 48,
+      "unidad": "UT8",
+      "enunciado": "¿Qué diferencia se establece entre servidor web y servidor de aplicaciones?",
+      "opciones": {
+        "a": "Servidor web asigna IP; servidor de aplicaciones gestiona DNS",
+        "b": "Servidor web sirve estático; servidor de aplicaciones ejecuta lógica y gestiona sesiones",
+        "c": "Ambos solo sirven contenido estático",
+        "d": "Servidor web ejecuta lógica de negocio; servidor de aplicaciones solo sirve HTML"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 49,
+      "unidad": "UT8",
+      "enunciado": "¿Qué herramienta se menciona para verificar módulos PHP instalados?",
+      "opciones": {
+        "a": "ip a",
+        "b": "php -m",
+        "c": "nslookup",
+        "d": "ftp -h"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 50,
+      "unidad": "UT4",
+      "enunciado": "En Ubuntu, ¿qué servicio se instala habitualmente como servidor FTP?",
+      "opciones": {
+        "a": "dovecot",
+        "b": "vsftpd",
+        "c": "openfire",
+        "d": "bind9"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 51,
+      "unidad": "UT7",
+      "enunciado": "En VoIP, ¿qué protocolo de señalización se desarrolla en detalle en la UT?",
+      "opciones": {
+        "a": "SIP",
+        "b": "SMTP",
+        "c": "FTP",
+        "d": "DHCP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 52,
+      "unidad": "UT5",
+      "enunciado": "¿Qué registro DNS se utiliza en el encaminamiento del correo electrónico?",
+      "opciones": {
+        "a": "CNAME",
+        "b": "PTR",
+        "c": "SOA",
+        "d": "MX"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 53,
+      "unidad": "UT5",
+      "enunciado": "¿Qué ventaja se menciona de POP3 para el usuario/la usuaria?",
+      "opciones": {
+        "a": "Permite ver el correo sin estar conectado/a a Internet tras la descarga",
+        "b": "Balancea carga DNS",
+        "c": "Permite videoconferencia",
+        "d": "Proporciona cifrado por defecto"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 54,
+      "unidad": "UT3",
+      "enunciado": "¿Qué módulo se activa en Apache para habilitar SSL/HTTPS?",
+      "opciones": {
+        "a": "rewrite",
+        "b": "proxy",
+        "c": "ssl",
+        "d": "headers"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 55,
+      "unidad": "UT2",
+      "enunciado": "¿Qué método de asignación usa el par (IP, MAC) para fijar una IP?",
+      "opciones": {
+        "a": "Asignación automática e ilimitada",
+        "b": "Asignación manual o estática con reserva",
+        "c": "Asignación dinámica y limitada",
+        "d": "Asignación APIPA"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 56,
+      "unidad": "UT8",
+      "enunciado": "¿Qué directiva de Apache se usa en el ejemplo para evitar listado de directorios?",
+      "opciones": {
+        "a": "ServerRoot",
+        "b": "Listen 80",
+        "c": "User apache",
+        "d": "Options -Indexes"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 57,
+      "unidad": "UT1",
+      "enunciado": "¿Qué define un registro NS en una zona DNS?",
+      "opciones": {
+        "a": "Dirección IPv4 de un host",
+        "b": "Servidor de correo con prioridad",
+        "c": "Servidores con autoridad sobre la zona",
+        "d": "Texto descriptivo para SPF"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 58,
+      "unidad": "UT4",
+      "enunciado": "¿Qué opción limita el número máximo de clientes conectados en vsftpd?",
+      "opciones": {
+        "a": "max_clients",
+        "b": "local_max_rate",
+        "c": "anon_max_rate",
+        "d": "ftpd_banner"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 59,
+      "unidad": "UT2",
+      "enunciado": "¿Qué es una exclusión en DHCP?",
+      "opciones": {
+        "a": "Una IP que se asigna a routers",
+        "b": "Un alias DNS",
+        "c": "Una concesión ilimitada",
+        "d": "Un rango de IP que el servidor no puede conceder"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 60,
+      "unidad": "UT1",
+      "enunciado": "¿Qué utilidad básica tiene la herramienta nslookup?",
+      "opciones": {
+        "a": "Cambiar la puerta de enlace del host",
+        "b": "Configurar un Virtual Host en Apache",
+        "c": "Asignar una IP por DHCP manualmente",
+        "d": "Consultar traducciones de nombres de dominio a IP y viceversa"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 61,
+      "unidad": "UT5",
+      "enunciado": "¿Qué agente reparte mensajes del servidor al buzón del usuario (mailbox)?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "MUA",
+        "c": "MTA",
+        "d": "MDA"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 62,
+      "unidad": "UT7",
+      "enunciado": "¿Qué modelo de descarga permite reproducción simultánea a la descarga?",
+      "opciones": {
+        "a": "Descarga directa",
+        "b": "Descarga progresiva",
+        "c": "SMTP",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 63,
+      "unidad": "UT3",
+      "enunciado": "¿Qué directiva define el directorio base desde el que se sirve el contenido?",
+      "opciones": {
+        "a": "ServerAdmin",
+        "b": "ErrorLog",
+        "c": "Listen",
+        "d": "DocumentRoot"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 64,
+      "unidad": "UT2",
+      "enunciado": "¿Qué mensaje DHCP se envía para solicitar la renovación manteniendo parámetros asignados?",
+      "opciones": {
+        "a": "DHCPREQUEST",
+        "b": "DHCPOFFER",
+        "c": "DHCPNAK",
+        "d": "DHCPDISCOVER"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 65,
+      "unidad": "UT2",
+      "enunciado": "¿Qué puerto utiliza el servidor DHCP para responder?",
+      "opciones": {
+        "a": "67",
+        "b": "25",
+        "c": "443",
+        "d": "68"
+      },
+      "respuesta_correcta": "a",
+      "nota": "Posible error en la clave de corrección del examen. Técnicamente el puerto del servidor DHCP es el 67/UDP."
+    },
+    {
+      "numero": 66,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando se utiliza para habilitar un sitio en Apache en el ejemplo de despliegue PHP?",
+      "opciones": {
+        "a": "nslookup",
+        "b": "a2ensite",
+        "c": "useradd",
+        "d": "ftp"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 67,
+      "unidad": "UT6",
+      "enunciado": "¿Dónde se encuentra el archivo principal de configuración de ejabberd según el material?",
+      "opciones": {
+        "a": "/etc/vsftpd.conf",
+        "b": "/etc/apache2/apache2.conf",
+        "c": "/etc/dhcp/dhcpd.conf",
+        "d": "/etc/ejabberd/ejabberd.yml"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 68,
+      "unidad": "UT7",
+      "enunciado": "En el fichero de servicio de Icecast, ¿qué variable debe estar en YES para habilitar el servicio?",
+      "opciones": {
+        "a": "LISTEN",
+        "b": "STARTTLS",
+        "c": "ENABLE",
+        "d": "CHROOT"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 69,
+      "unidad": "UT2",
+      "enunciado": "¿Qué es una concesión (lease) en DHCP?",
+      "opciones": {
+        "a": "Un certificado digital",
+        "b": "Una tabla ARP",
+        "c": "Un nombre de dominio",
+        "d": "La asignación temporal de una IP durante un intervalo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 70,
+      "unidad": "UT3",
+      "enunciado": "¿Qué código HTTP indica \"Not Found\"?",
+      "opciones": {
+        "a": "200",
+        "b": "404",
+        "c": "301",
+        "d": "500"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 71,
+      "unidad": "UT8",
+      "enunciado": "En el despliegue de Tomcat, ¿qué se copia en /opt/tomcat/webapps/ para desplegar una app Java?",
+      "opciones": {
+        "a": "Un archivo TXT",
+        "b": "Un archivo MP3",
+        "c": "Un archivo WAR",
+        "d": "Un archivo ISO"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 72,
+      "unidad": "UT2",
+      "enunciado": "¿Qué significa Lease Time en DHCP?",
+      "opciones": {
+        "a": "Tiempo durante el cual una dirección IP queda concedida a un cliente",
+        "b": "Tiempo máximo de respuesta del servidor",
+        "c": "Intervalo en el que el cliente reinicia su interfaz",
+        "d": "Tiempo de vida de una entrada en hosts"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 73,
+      "unidad": "UT7",
+      "enunciado": "¿Qué describe \"Bitrate\"?",
+      "opciones": {
+        "a": "Puerto del servidor",
+        "b": "Cantidad de bits transmitidos por segundo",
+        "c": "Número de canales de audio",
+        "d": "Nombre del punto de montaje"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 74,
+      "unidad": "UT2",
+      "enunciado": "¿Qué parámetros básicos debe entregar DHCP para conectividad TCP/IP según el material?",
+      "opciones": {
+        "a": "Solo DNS y puerta de enlace",
+        "b": "IP y puertos",
+        "c": "IP, máscara, puerta de enlace y DNS",
+        "d": "Solo IP y máscara"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 75,
+      "unidad": "UT3",
+      "enunciado": "¿Qué directiva permite redirigir todo el tráfico de un sitio a otro según el material?",
+      "opciones": {
+        "a": "RewriteCond",
+        "b": "ProxyPass",
+        "c": "AliasMatch",
+        "d": "Redirect"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 76,
+      "unidad": "UT2",
+      "enunciado": "Si hay dos servidores DHCP en una red y ambos responden, ¿qué comportamiento se describe?",
+      "opciones": {
+        "a": "El cliente rechaza ambas ofertas",
+        "b": "El cliente elige el que responde primero",
+        "c": "El cliente elige siempre el de mayor rango",
+        "d": "El cliente fusiona ofertas"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 77,
+      "unidad": "UT1",
+      "enunciado": "¿Qué tipo de registro DNS se utiliza para resolver una dirección IPv4 a nombre de host (resolución inversa)?",
+      "opciones": {
+        "a": "MX",
+        "b": "A",
+        "c": "CNAME",
+        "d": "PTR"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 78,
+      "unidad": "UT7",
+      "enunciado": "¿Qué diferencia se indica entre CBR y VBR?",
+      "opciones": {
+        "a": "Ambos solo aplican a DNS",
+        "b": "CBR es fijo y VBR es variable/adaptativo",
+        "c": "Ambos son idénticos",
+        "d": "CBR es adaptativo y VBR es fijo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 79,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál es el directorio por defecto donde Apache almacena el contenido web en Ubuntu según el material?",
+      "opciones": {
+        "a": "/opt/apache/www",
+        "b": "/home/www",
+        "c": "/var/www/html",
+        "d": "/srv/www"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 80,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando se recomienda para aplicar cambios del sitio sin detener Apache en el ejemplo?",
+      "opciones": {
+        "a": "systemctl status bind9",
+        "b": "systemctl stop apache2",
+        "c": "systemctl reload apache2",
+        "d": "systemctl disable apache2"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 81,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo se utiliza en las salas de chat clásicas según el material?",
+      "opciones": {
+        "a": "IRC",
+        "b": "XMPP",
+        "c": "SMTP",
+        "d": "SIP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo se menciona como comunicación en tiempo real en navegadores con latencia muy baja?",
+      "opciones": {
+        "a": "IMAP",
+        "b": "WebRTC",
+        "c": "BOOTP",
+        "d": "DNS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 83,
+      "unidad": "UT7",
+      "enunciado": "¿Qué concepto describe el número de muestras por segundo en digitalización de audio?",
+      "opciones": {
+        "a": "Jitter",
+        "b": "Codec",
+        "c": "Frecuencia de muestreo",
+        "d": "Bit depth (cuantificación)"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 84,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es el inconveniente principal del FTP tradicional?",
+      "opciones": {
+        "a": "Envía credenciales y datos en texto plano sin cifrado",
+        "b": "No permite ficheros grandes",
+        "c": "No admite usuarios locales",
+        "d": "No funciona sobre TCP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 85,
+      "unidad": "UT8",
+      "enunciado": "¿Qué concepto se menciona para permitir inicio de sesión único?",
+      "opciones": {
+        "a": "SSO (Single Sign-On)",
+        "b": "APIPA",
+        "c": "DORA",
+        "d": "Round Robin"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 86,
+      "unidad": "UT1",
+      "enunciado": "¿Qué técnica permite balanceo de carga básico en DNS en Windows Server según el material?",
+      "opciones": {
+        "a": "Proxy inverso",
+        "b": "Transferencia incremental",
+        "c": "NAT estático",
+        "d": "Round Robin"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 87,
+      "unidad": "UT3",
+      "enunciado": "¿Qué describe correctamente el modelo de comunicación de un servidor web?",
+      "opciones": {
+        "a": "Token-ring",
+        "b": "Broadcast sin respuesta",
+        "c": "Peer-to-peer",
+        "d": "Cliente-servidor (navegador-servidor web)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 88,
+      "unidad": "UT7",
+      "enunciado": "Según el material, ¿qué frecuencia de muestreo es típica en CD de audio?",
+      "opciones": {
+        "a": "44.100 Hz",
+        "b": "8.000 Hz",
+        "c": "192.000 Hz",
+        "d": "96.000 Hz"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 89,
+      "unidad": "UT4",
+      "enunciado": "¿Qué significa local_umask=022 en el contexto indicado?",
+      "opciones": {
+        "a": "Se activa el puerto 22",
+        "b": "Se cifra el canal de control",
+        "c": "Se desactiva el acceso local",
+        "d": "Los ficheros subidos quedan con permisos típicos 755"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 90,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es la finalidad principal del sistema DNS en una red?",
+      "opciones": {
+        "a": "Transferir archivos entre cliente y servidor mediante TCP",
+        "b": "Cifrar la comunicación HTTP mediante TLS",
+        "c": "Traducir nombres de dominio a direcciones IP y viceversa",
+        "d": "Asignar direcciones IP automáticamente a los equipos cliente"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 91,
+      "unidad": "UT1",
+      "enunciado": "¿Qué registro DNS se utiliza para definir un alias hacia un nombre canónico?",
+      "opciones": {
+        "a": "NS",
+        "b": "CNAME",
+        "c": "PTR",
+        "d": "SOA"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 92,
+      "unidad": "UT6",
+      "enunciado": "En GNU/Linux, ¿qué servidor XMPP se utiliza como ejemplo?",
+      "opciones": {
+        "a": "Apache",
+        "b": "Postfix",
+        "c": "vsftpd",
+        "d": "ejabberd"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 93,
+      "unidad": "UT3",
+      "enunciado": "HTTP se describe como un protocolo sin estado (stateless). ¿Qué se usa para mantener sesiones?",
+      "opciones": {
+        "a": "Registros MX",
+        "b": "Cookies o mecanismos de sesión",
+        "c": "ARP",
+        "d": "PTR"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 94,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando FTP se utiliza para subir un archivo al servidor?",
+      "opciones": {
+        "a": "get",
+        "b": "ls",
+        "c": "pwd",
+        "d": "put"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 95,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo se utiliza para intercambiar mensajes entre servidores de correo?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "HTTP",
+        "c": "IMAP",
+        "d": "POP3"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 96,
+      "unidad": "UT1",
+      "enunciado": "En una infraestructura con zona primaria y zona secundaria, ¿qué configuración del cliente mejora la disponibilidad?",
+      "opciones": {
+        "a": "Configurar el DNS preferido apuntando siempre a la zona secundaria",
+        "b": "Configurar únicamente el DNS alternativo",
+        "c": "Desactivar la caché DNS local para forzar consultas autoritativas",
+        "d": "Configurar DNS preferido (primaria) y DNS alternativo (secundaria)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 97,
+      "unidad": "UT4",
+      "enunciado": "¿Qué cliente gráfico se cita como opción de comprobación en Windows Server?",
+      "opciones": {
+        "a": "VLC",
+        "b": "Thunderbird",
+        "c": "FileZilla",
+        "d": "Spark"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 98,
+      "unidad": "UT8",
+      "enunciado": "¿Qué tecnología se cita para autenticación centralizada en aplicaciones web corporativas?",
+      "opciones": {
+        "a": "FTP",
+        "b": "ARP",
+        "c": "DHCP",
+        "d": "LDAP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 99,
+      "unidad": "UT7",
+      "enunciado": "En streaming en directo (live), ¿qué característica se considera crítica?",
+      "opciones": {
+        "a": "Resolución inversa PTR",
+        "b": "Latencia mínima",
+        "c": "Asignación de IP por reserva",
+        "d": "Persistencia del correo en el servidor"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 100,
+      "unidad": "UT3",
+      "enunciado": "En IIS, para habilitar HTTPS en un sitio web es necesario:",
+      "opciones": {
+        "a": "Cambiar a FTP",
+        "b": "Tener un certificado instalado y crear un binding en 443",
+        "c": "Desactivar el puerto 80",
+        "d": "Eliminar DocumentRoot"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál de los siguientes NO es un TLD genérico (gTLD)?",
+      "opciones": {
+        "a": ".com",
+        "b": ".org",
+        "c": ".fr",
+        "d": ".edu"
+      },
+      "respuesta_correcta": "c",
+      "numero": 101
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué elemento se debe configurar para permitir que un servidor secundario reciba la zona?",
+      "opciones": {
+        "a": "SOA extendido",
+        "b": "TTL reducido",
+        "c": "Puerto alternativo",
+        "d": "Transferencia de zona"
+      },
+      "respuesta_correcta": "d",
+      "numero": 102
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es la función principal del sistema DNS?",
+      "opciones": {
+        "a": "Gestionar direcciones públicas",
+        "b": "Traducir direcciones MAC a direcciones IP",
+        "c": "Almacenar configuraciones de red",
+        "d": "Traducir nombres de dominio a direcciones IP y viceversa"
+      },
+      "respuesta_correcta": "d",
+      "numero": 103
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué parámetro disminuye considerablemente en una segunda consulta gracias a la caché DNS?",
+      "opciones": {
+        "a": "El tiempo de respuesta",
+        "b": "El tamaño del paquete",
+        "c": "El TTL",
+        "d": "La prioridad MX"
+      },
+      "respuesta_correcta": "a",
+      "numero": 104
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué registro define los servidores de correo de un dominio?",
+      "opciones": {
+        "a": "CNAME",
+        "b": "MX",
+        "c": "A",
+        "d": "PTR"
+      },
+      "respuesta_correcta": "b",
+      "numero": 105
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué papel desempeñan los reenviadores en un servidor DNS?",
+      "opciones": {
+        "a": "Crear zonas automáticamente",
+        "b": "Reemplazar la caché local",
+        "c": "Resolver consultas internas",
+        "d": "Consultar servidores externos cuando el servidor local no sabe la respuesta"
+      },
+      "respuesta_correcta": "d",
+      "numero": 106
+    },
+    {
+      "unidad": null,
+      "enunciado": "Antes de existir DNS, ¿qué archivo contenía todas las asociaciones nombre–IP?",
+      "opciones": {
+        "a": "resolve.cfg",
+        "b": "dnszone.conf",
+        "c": "netconfig.txt",
+        "d": "hosts.txt"
+      },
+      "respuesta_correcta": "d",
+      "numero": 107
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué registro permite realizar una resolución inversa?",
+      "opciones": {
+        "a": "MX",
+        "b": "CNAME",
+        "c": "PTR",
+        "d": "SOA"
+      },
+      "respuesta_correcta": "c",
+      "numero": 108
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué herramienta de Linux valida los archivos de zona DNS?",
+      "opciones": {
+        "a": "validate-zone",
+        "b": "dnscheck",
+        "c": "named-checkzone",
+        "d": "dig-check"
+      },
+      "respuesta_correcta": "c",
+      "numero": 109
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué técnica distribuye carga utilizando varias IP para un mismo nombre?",
+      "opciones": {
+        "a": "Iteración",
+        "b": "NAT",
+        "c": "Reenviadores",
+        "d": "Round Robin"
+      },
+      "respuesta_correcta": "d",
+      "numero": 110
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué componente se consulta primero antes de usar un servidor DNS?",
+      "opciones": {
+        "a": "Reenviadores",
+        "b": "Archivo hosts",
+        "c": "Servidores secundarios",
+        "d": "Root servers"
+      },
+      "respuesta_correcta": "b",
+      "numero": 111
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué comando en Linux permite vaciar la caché DNS local?",
+      "opciones": {
+        "a": "dnsreset",
+        "b": "systemd-resolve --flush-caches",
+        "c": "clearcache",
+        "d": "flushdns"
+      },
+      "respuesta_correcta": "b",
+      "numero": 112
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cómo se denomina el nombre de dominio completo que incluye todos los niveles hasta la raíz?",
+      "opciones": {
+        "a": "ccTLD",
+        "b": "Alias",
+        "c": "TLD",
+        "d": "FQDN"
+      },
+      "respuesta_correcta": "d",
+      "numero": 113
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué es una zona secundaria en DNS?",
+      "opciones": {
+        "a": "Una copia de la zona primaria usada para redundancia",
+        "b": "La zona donde se crean registros automáticamente",
+        "c": "Un dominio interno",
+        "d": "Un servidor de nombres público"
+      },
+      "respuesta_correcta": "a",
+      "numero": 114
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué registro identifica el servidor principal de una zona DNS?",
+      "opciones": {
+        "a": "CNAME",
+        "b": "SOA",
+        "c": "A",
+        "d": "MX"
+      },
+      "respuesta_correcta": "b",
+      "numero": 115
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿En qué RFC se define el protocolo DHCP?",
+      "opciones": {
+        "a": "RFC 2616",
+        "b": "RFC 2131",
+        "c": "RFC 1035",
+        "d": "RFC 1918"
+      },
+      "respuesta_correcta": "b",
+      "numero": 116
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mensaje envía el cliente para liberar una dirección IP?",
+      "opciones": {
+        "a": "DHCPDISCOVER",
+        "b": "DHCPRELEASE",
+        "c": "DHCPREQUEST",
+        "d": "DHCPINFORM"
+      },
+      "respuesta_correcta": "b",
+      "numero": 117
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es el primer mensaje del proceso DHCP?",
+      "opciones": {
+        "a": "DHCPACK",
+        "b": "DHCPDISCOVER",
+        "c": "DHCPREQUEST",
+        "d": "DHCPRELEASE"
+      },
+      "respuesta_correcta": "b",
+      "numero": 118
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué modelo de funcionamiento utiliza DHCP?",
+      "opciones": {
+        "a": "Cliente-servidor",
+        "b": "Peer to peer",
+        "c": "Bus",
+        "d": "Anillo"
+      },
+      "respuesta_correcta": "a",
+      "numero": 119
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué parámetro identifica de forma única a un host dentro de una red?",
+      "opciones": {
+        "a": "DNS",
+        "b": "Dirección IP",
+        "c": "Gateway",
+        "d": "Broadcast"
+      },
+      "respuesta_correcta": "b",
+      "numero": 120
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué tipo de asignación IP permite asociar una IP fija a una dirección MAC?",
+      "opciones": {
+        "a": "Asignación pública",
+        "b": "Asignación automática",
+        "c": "Reserva DHCP",
+        "d": "Asignación dinámica"
+      },
+      "respuesta_correcta": "c",
+      "numero": 121
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué dispositivo permite a los clientes acceder a otras redes o a Internet?",
+      "opciones": {
+        "a": "Switch",
+        "b": "Puerta de enlace",
+        "c": "DNS",
+        "d": "Bridge"
+      },
+      "respuesta_correcta": "b",
+      "numero": 122
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mensaje indica que el servidor rechaza una concesión de IP?",
+      "opciones": {
+        "a": "DHCPNACK",
+        "b": "DHCPREQUEST",
+        "c": "DHCPDISCOVER",
+        "d": "DHCPACK"
+      },
+      "respuesta_correcta": "a",
+      "numero": 123
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué comando permite ver la configuración IP en Linux?",
+      "opciones": {
+        "a": "traceroute",
+        "b": "ip addr show",
+        "c": "netstat",
+        "d": "ls"
+      },
+      "respuesta_correcta": "b",
+      "numero": 124
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo de transporte utiliza DHCP?",
+      "opciones": {
+        "a": "UDP",
+        "b": "IP",
+        "c": "TCP",
+        "d": "ICMP"
+      },
+      "respuesta_correcta": "a",
+      "numero": 125
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué comando permite ver la configuración IP en Windows?",
+      "opciones": {
+        "a": "route",
+        "b": "ipconfig /all",
+        "c": "netstat",
+        "d": "ping"
+      },
+      "respuesta_correcta": "b",
+      "numero": 126
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué ocurre cuando un cliente no encuentra un servidor DHCP?",
+      "opciones": {
+        "a": "Se asigna una dirección APIPA",
+        "b": "Se asigna una IP pública",
+        "c": "Se reinicia el equipo",
+        "d": "Se apaga la red"
+      },
+      "respuesta_correcta": "a",
+      "numero": 127
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué dirección se utiliza normalmente en el mensaje DHCPDISCOVER?",
+      "opciones": {
+        "a": "127.0.0.1",
+        "b": "192.168.1.1",
+        "c": "255.255.255.255",
+        "d": "8.8.8.8"
+      },
+      "respuesta_correcta": "c",
+      "numero": 128
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué parámetro permite identificar qué parte de una dirección IP corresponde a la red?",
+      "opciones": {
+        "a": "MAC",
+        "b": "Máscara de subred",
+        "c": "DNS",
+        "d": "Gateway"
+      },
+      "respuesta_correcta": "b",
+      "numero": 129
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es el puerto por defecto utilizado por HTTPS?",
+      "opciones": {
+        "a": "443",
+        "b": "22",
+        "c": "80",
+        "d": "21"
+      },
+      "respuesta_correcta": "a",
+      "numero": 130
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué servicio gratuito permite obtener certificados SSL automáticamente?",
+      "opciones": {
+        "a": "Apache",
+        "b": "Cloudflare",
+        "c": "GitHub",
+        "d": "Let's Encrypt"
+      },
+      "respuesta_correcta": "d",
+      "numero": 131
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo se utiliza principalmente para transferir páginas web?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "HTTP",
+        "c": "DNS",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b",
+      "numero": 132
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué servidor web es uno de los más utilizados en Internet?",
+      "opciones": {
+        "a": "PostgreSQL",
+        "b": "MySQL",
+        "c": "Oracle",
+        "d": "Apache"
+      },
+      "respuesta_correcta": "d",
+      "numero": 133
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué archivo registra todas las peticiones recibidas por Apache?",
+      "opciones": {
+        "a": "access.log",
+        "b": "server.log",
+        "c": "request.log",
+        "d": "error.log"
+      },
+      "respuesta_correcta": "a",
+      "numero": 134
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué característica describe mejor al protocolo HTTP?",
+      "opciones": {
+        "a": "Es un protocolo orientado a sesión",
+        "b": "Solo funciona en redes privadas",
+        "c": "No utiliza puertos",
+        "d": "Es un protocolo sin estado"
+      },
+      "respuesta_correcta": "d",
+      "numero": 135
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué directiva define el puerto o IP en el que escucha Apache?",
+      "opciones": {
+        "a": "Redirect",
+        "b": "Alias",
+        "c": "ServerRoot",
+        "d": "Listen"
+      },
+      "respuesta_correcta": "d",
+      "numero": 136
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué directiva define el directorio raíz de publicación de una web en Apache?",
+      "opciones": {
+        "a": "DirectoryIndex",
+        "b": "DocumentRoot",
+        "c": "ServerName",
+        "d": "Listen"
+      },
+      "respuesta_correcta": "b",
+      "numero": 137
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué directiva especifica el nombre de dominio de un sitio en Apache?",
+      "opciones": {
+        "a": "DocumentRoot",
+        "b": "ServerName",
+        "c": "ServerAlias",
+        "d": "Listen"
+      },
+      "respuesta_correcta": "b",
+      "numero": 138
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿En qué directorio se almacena por defecto el contenido web en Apache en Ubuntu?",
+      "opciones": {
+        "a": "/var/www/html",
+        "b": "/etc/apache",
+        "c": "/home/apache",
+        "d": "/usr/apache"
+      },
+      "respuesta_correcta": "a",
+      "numero": 139
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué significa HTTPS?",
+      "opciones": {
+        "a": "HyperText Transfer Protocol Secure",
+        "b": "HyperText Transport Public System",
+        "c": "Hyper Transfer Protocol System",
+        "d": "HyperText Transfer Private Server"
+      },
+      "respuesta_correcta": "a",
+      "numero": 140
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué es un servidor web?",
+      "opciones": {
+        "a": "Un sistema operativo especializado",
+        "b": "Un protocolo de transferencia de archivos",
+        "c": "Un servicio que publica contenidos web y responde a peticiones de clientes",
+        "d": "Un programa que gestiona bases de datos"
+      },
+      "respuesta_correcta": "c",
+      "numero": 141
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué módulo de Apache permite utilizar HTTPS?",
+      "opciones": {
+        "a": "mod_proxy",
+        "b": "mod_ssl",
+        "c": "mod_security",
+        "d": "mod_headers"
+      },
+      "respuesta_correcta": "b",
+      "numero": 142
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es el puerto por defecto del protocolo HTTP?",
+      "opciones": {
+        "a": "21",
+        "b": "443",
+        "c": "80",
+        "d": "25"
+      },
+      "respuesta_correcta": "c",
+      "numero": 143
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué es un Virtual Host en Apache?",
+      "opciones": {
+        "a": "Un servidor virtual dentro de una máquina virtual",
+        "b": "Un sistema de bases de datos virtual",
+        "c": "Un mecanismo para alojar varios sitios web en un mismo servidor",
+        "d": "Un sistema de virtualización"
+      },
+      "respuesta_correcta": "c",
+      "numero": 144
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué riesgo se mitiga al segmentar redes mediante VLANs y firewalls internos?",
+      "opciones": {
+        "a": "Pérdida de rendimiento gráfico",
+        "b": "Colisiones de red",
+        "c": "Propagación lateral de ataques",
+        "d": "Fallos en DHCP"
+      },
+      "respuesta_correcta": "c",
+      "numero": 145
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es la función del proxy inverso?",
+      "opciones": {
+        "a": "Analizar logs de tráfico",
+        "b": "Traducir direcciones privadas a públicas",
+        "c": "Filtrar DNS",
+        "d": "Proteger y distribuir tráfico hacia servidores internos"
+      },
+      "respuesta_correcta": "d",
+      "numero": 146
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué elemento del firewall determina qué tráfico se permite o se bloquea?",
+      "opciones": {
+        "a": "SLA",
+        "b": "DNS forwarding",
+        "c": "NAT Overload",
+        "d": "ACL o lista de control de acceso"
+      },
+      "respuesta_correcta": "d",
+      "numero": 147
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué variante de NAT permite que muchas IP internas usen una sola IP pública mediante puertos?",
+      "opciones": {
+        "a": "DNAT",
+        "b": "Proxy ARP",
+        "c": "PAT",
+        "d": "NAT estático"
+      },
+      "respuesta_correcta": "c",
+      "numero": 148
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué método se utiliza para permitir acceso remoto seguro a la red interna?",
+      "opciones": {
+        "a": "FTP sin cifrar",
+        "b": "Telnet",
+        "c": "Proxy inverso sin SSL",
+        "d": "VPN"
+      },
+      "respuesta_correcta": "d",
+      "numero": 149
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué propiedad caracteriza a un proxy caché?",
+      "opciones": {
+        "a": "Gestiona claves criptográficas",
+        "b": "Almacena contenido para acelerar accesos posteriores",
+        "c": "Cambia direcciones IP de origen",
+        "d": "Actúa como cortafuegos físico"
+      },
+      "respuesta_correcta": "b",
+      "numero": 150
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué característica tiene un proxy transparente?",
+      "opciones": {
+        "a": "No permite caché",
+        "b": "No puede filtrar contenido",
+        "c": "Requiere configuración manual en cada cliente",
+        "d": "Funciona sin que los clientes tengan que configurarlo"
+      },
+      "respuesta_correcta": "d",
+      "numero": 151
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué ventaja tiene un firewall de inspección con estado (stateful)?",
+      "opciones": {
+        "a": "No almacena información temporal",
+        "b": "Solo funciona en redes IPv6",
+        "c": "Mantiene tablas de conexión para validar tráfico legítimo",
+        "d": "Permite detectar IP duplicadas"
+      },
+      "respuesta_correcta": "c",
+      "numero": 152
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué tipo de filtrado revisa únicamente la cabecera de la capa 3 y 4?",
+      "opciones": {
+        "a": "Inspección profunda (DPI)",
+        "b": "Filtrado de contenido",
+        "c": "Filtrado de paquetes estático",
+        "d": "Análisis heurístico"
+      },
+      "respuesta_correcta": "c",
+      "numero": 153
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué recurso permite registrar actividad del firewall?",
+      "opciones": {
+        "a": "DNS Forwarders",
+        "b": "NAT table",
+        "c": "ARP Cache",
+        "d": "Logs del sistema"
+      },
+      "respuesta_correcta": "d",
+      "numero": 154
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué técnica permite que varios dispositivos internos compartan una única IP pública?",
+      "opciones": {
+        "a": "VLAN tagging",
+        "b": "NAT",
+        "c": "DNS dinámico",
+        "d": "Proxy transparente"
+      },
+      "respuesta_correcta": "b",
+      "numero": 155
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué tipo de ataque evita un firewall bien configurado?",
+      "opciones": {
+        "a": "Intrusiones no autorizadas desde redes externas",
+        "b": "Fallos eléctricos",
+        "c": "Degradación del cableado",
+        "d": "Ataques por fuerza bruta en capa física"
+      },
+      "respuesta_correcta": "a",
+      "numero": 156
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es la función principal de un firewall perimetral?",
+      "opciones": {
+        "a": "Aumentar la velocidad de la red",
+        "b": "Controlar el tráfico entre redes según reglas definidas",
+        "c": "Traducir nombres de dominio",
+        "d": "Asignar direcciones IP dinámicas"
+      },
+      "respuesta_correcta": "b",
+      "numero": 157
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué servicio permite redirigir tráfico entrante hacia un servidor interno (port forwarding)?",
+      "opciones": {
+        "a": "DHCP Relay",
+        "b": "DNAT",
+        "c": "SNMP",
+        "d": "Proxy SOCKS"
+      },
+      "respuesta_correcta": "b",
+      "numero": 158
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué tipo de servidores se suelen ubicar en la DMZ?",
+      "opciones": {
+        "a": "Servidores expuestos públicamente, como web o correo",
+        "b": "Controladores de dominio",
+        "c": "Impresoras corporativas",
+        "d": "Bases de datos críticas"
+      },
+      "respuesta_correcta": "a",
+      "numero": 159
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué componente realiza la transmisión entre servidores?",
+      "opciones": {
+        "a": "MDA",
+        "b": "MUA",
+        "c": "MTA",
+        "d": "DHCP"
+      },
+      "respuesta_correcta": "c",
+      "numero": 160
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es el propósito de SPF en el correo electrónico?",
+      "opciones": {
+        "a": "Cifrar el contenido del mensaje",
+        "b": "Controlar el ancho de banda",
+        "c": "Permitir el reenvío automático",
+        "d": "Autenticar los servidores autorizados a enviar en nombre de un dominio"
+      },
+      "respuesta_correcta": "d",
+      "numero": 161
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué herramienta se utiliza para detectar correos no deseados?",
+      "opciones": {
+        "a": "SpamAssassin",
+        "b": "Netcat",
+        "c": "Cron",
+        "d": "Ping"
+      },
+      "respuesta_correcta": "a",
+      "numero": 162
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué comando permite comprobar la conexión al puerto 25?",
+      "opciones": {
+        "a": "Top",
+        "b": "Telnet",
+        "c": "Ifconfig",
+        "d": "Ls"
+      },
+      "respuesta_correcta": "b",
+      "numero": 163
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué componente se encarga de la entrega local del correo?",
+      "opciones": {
+        "a": "DNS",
+        "b": "HTTP",
+        "c": "MDA",
+        "d": "MUA"
+      },
+      "respuesta_correcta": "c",
+      "numero": 164
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué archivo de configuración principal usa Postfix?",
+      "opciones": {
+        "a": "/var/mail.log",
+        "b": "/etc/dhcp/dhcpd.conf",
+        "c": "/etc/hosts",
+        "d": "/etc/postfix/main.cf"
+      },
+      "respuesta_correcta": "d",
+      "numero": 165
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo se usa para cifrar la conexión en POP3?",
+      "opciones": {
+        "a": "ARP",
+        "b": "DNS",
+        "c": "FTP",
+        "d": "SSL/TLS"
+      },
+      "respuesta_correcta": "d",
+      "numero": 166
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es la principal función de DKIM?",
+      "opciones": {
+        "a": "Cifrar la conexión entre cliente y servidor",
+        "b": "Definir los puertos de envío",
+        "c": "Firmar digitalmente los mensajes del dominio",
+        "d": "Analizar los mensajes en busca de spam"
+      },
+      "respuesta_correcta": "c",
+      "numero": 167
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué herramienta sirve para monitorizar colas de correo?",
+      "opciones": {
+        "a": "Mailgraph",
+        "b": "Photoshop",
+        "c": "Gimp",
+        "d": "Wireshark"
+      },
+      "respuesta_correcta": "a",
+      "numero": 168
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué registro DNS indica el servidor encargado de recibir el correo de un dominio?",
+      "opciones": {
+        "a": "CNAME",
+        "b": "A",
+        "c": "TXT",
+        "d": "MX"
+      },
+      "respuesta_correcta": "d",
+      "numero": 169
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mecanismo evita el uso del servidor por usuarios no autenticados?",
+      "opciones": {
+        "a": "ARP",
+        "b": "PING",
+        "c": "SMTP AUTH",
+        "d": "POP3"
+      },
+      "respuesta_correcta": "c",
+      "numero": 170
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es el puerto estándar para SMTP con autenticación segura?",
+      "opciones": {
+        "a": "110",
+        "b": "587",
+        "c": "80",
+        "d": "995"
+      },
+      "respuesta_correcta": "b",
+      "numero": 171
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué servicio permite descargar correo remoto de otros servidores?",
+      "opciones": {
+        "a": "Fetchmail",
+        "b": "Curl",
+        "c": "Traceroute",
+        "d": "Netstat"
+      },
+      "respuesta_correcta": "a",
+      "numero": 172
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál de los siguientes servidores es un MTA?",
+      "opciones": {
+        "a": "Outlook",
+        "b": "Chrome",
+        "c": "Thunderbird",
+        "d": "Postfix"
+      },
+      "respuesta_correcta": "d",
+      "numero": 173
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo permite acceder a los mensajes desde varios dispositivos?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "FTP",
+        "c": "IMAP",
+        "d": "POP3"
+      },
+      "respuesta_correcta": "c",
+      "numero": 174
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué servicio se usa para gestionar listas de distribución en entornos GNU/Linux?",
+      "opciones": {
+        "a": "Mailman",
+        "b": "ejabberd",
+        "c": "Spark",
+        "d": "OpenFire"
+      },
+      "respuesta_correcta": "a",
+      "numero": 175
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué archivo se edita en ejabberd para configurar dominios?",
+      "opciones": {
+        "a": "ejabberd.yml",
+        "b": "xmppd.ini",
+        "c": "jabberd.conf",
+        "d": "server.xml"
+      },
+      "respuesta_correcta": "a",
+      "numero": 176
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué indica el estado de presencia en mensajería?",
+      "opciones": {
+        "a": "Temas favoritos",
+        "b": "Capacidad de almacenamiento",
+        "c": "Uso de puertos",
+        "d": "Disponibilidad del usuario"
+      },
+      "respuesta_correcta": "d",
+      "numero": 177
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo implementa OpenFire?",
+      "opciones": {
+        "a": "IRC",
+        "b": "HTTP/3",
+        "c": "XMPP",
+        "d": "SIP"
+      },
+      "respuesta_correcta": "c",
+      "numero": 178
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué ventaja tiene XMPP frente a protocolos propietarios?",
+      "opciones": {
+        "a": "No requiere servidor",
+        "b": "Funciona sin internet",
+        "c": "Permite videollamadas obligatoriamente",
+        "d": "Es interoperable y extensible"
+      },
+      "respuesta_correcta": "d",
+      "numero": 179
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué ventaja ofrece ejabberd?",
+      "opciones": {
+        "a": "No soporta cifrado",
+        "b": "Requiere múltiples CPUs",
+        "c": "Es una implementación XMPP libre y robusta",
+        "d": "Solo funciona en Windows"
+      },
+      "respuesta_correcta": "c",
+      "numero": 180
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué problema común presenta la red IRC?",
+      "opciones": {
+        "a": "No permite salas",
+        "b": "No permite canales privados",
+        "c": "Requiere hardware dedicado",
+        "d": "No identifica realmente a los usuarios"
+      },
+      "respuesta_correcta": "d",
+      "numero": 181
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué diferencia principal existe entre chat IRC y mensajería instantánea?",
+      "opciones": {
+        "a": "La mensajería no permite conversaciones múltiples",
+        "b": "El chat IRC es en tiempo real y la mensajería no",
+        "c": "IRC es más seguro",
+        "d": "La mensajería requiere identificación de usuario"
+      },
+      "respuesta_correcta": "d",
+      "numero": 182
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo utilizan las salas de chat clásicas?",
+      "opciones": {
+        "a": "XMPP",
+        "b": "IRC",
+        "c": "TLS",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "b",
+      "numero": 183
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Dónde se accede a la consola de administración de OpenFire?",
+      "opciones": {
+        "a": "Puerto 9090",
+        "b": "Puerto 22",
+        "c": "Puerto 3306",
+        "d": "Puerto 443"
+      },
+      "respuesta_correcta": "a",
+      "numero": 184
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué dato necesita un usuario Spark para iniciar sesión?",
+      "opciones": {
+        "a": "Token JWT",
+        "b": "Puerto 3389",
+        "c": "IP del servidor en dominio",
+        "d": "Código QR"
+      },
+      "respuesta_correcta": "c",
+      "numero": 185
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué tipo de lista requiere aprobación de los mensajes enviados?",
+      "opciones": {
+        "a": "Moderada",
+        "b": "Abierta",
+        "c": "Restringida",
+        "d": "Pública"
+      },
+      "respuesta_correcta": "a",
+      "numero": 186
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Cuál es el cliente utilizado para XMPP en Windows?",
+      "opciones": {
+        "a": "Skype",
+        "b": "IRCII",
+        "c": "Spark",
+        "d": "Pidgin"
+      },
+      "respuesta_correcta": "c",
+      "numero": 187
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué permite una lista de distribución?",
+      "opciones": {
+        "a": "Envío individual por usuario",
+        "b": "Distribuir mensajes a múltiples destinatarios desde una sola dirección",
+        "c": "Generar chats en vivo",
+        "d": "Crear dominios XMPP"
+      },
+      "respuesta_correcta": "b",
+      "numero": 188
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué se necesita para crear salas privadas en Spark?",
+      "opciones": {
+        "a": "Token de registro",
+        "b": "Certificado wildcard",
+        "c": "Servidor OAuth",
+        "d": "Permisos configurados en OpenFire"
+      },
+      "respuesta_correcta": "d",
+      "numero": 189
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mide el jitter en VoIP?",
+      "opciones": {
+        "a": "Número de llamadas",
+        "b": "Tasa de compresión",
+        "c": "Ancho de banda",
+        "d": "Variación del retardo entre paquetes"
+      },
+      "respuesta_correcta": "d",
+      "numero": 190
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué parámetro indica la cantidad de bits por segundo transmitidos?",
+      "opciones": {
+        "a": "Sample rate",
+        "b": "Canales",
+        "c": "Bitrate",
+        "d": "Muestreo"
+      },
+      "respuesta_correcta": "c",
+      "numero": 191
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué extensión identifica típicamente vídeos en contenedor moderno?",
+      "opciones": {
+        "a": ".mp4",
+        "b": ".txt",
+        "c": ".wav",
+        "d": ".ogg"
+      },
+      "respuesta_correcta": "a",
+      "numero": 192
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué puerto usa Icecast por defecto?",
+      "opciones": {
+        "a": "443",
+        "b": "21",
+        "c": "8000",
+        "d": "80"
+      },
+      "respuesta_correcta": "c",
+      "numero": 193
+    },
+    {
+      "unidad": null,
+      "enunciado": "Según el teorema de Nyquist, la frecuencia mínima debe ser…",
+      "opciones": {
+        "a": "El doble de la más alta",
+        "b": "La mitad de la más alta",
+        "c": "10 veces la más alta",
+        "d": "Igual a la más alta"
+      },
+      "respuesta_correcta": "a",
+      "numero": 194
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo sustituye crecientemente a RTMP en 2024–2025?",
+      "opciones": {
+        "a": "SIP",
+        "b": "SRT",
+        "c": "ICMP",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b",
+      "numero": 195
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Por qué se usa UDP en VoIP?",
+      "opciones": {
+        "a": "Por su alta seguridad",
+        "b": "Permite tráfico cifrado nativamente",
+        "c": "Evita retransmisiones y reduce latencia",
+        "d": "Mejora la calidad del vídeo"
+      },
+      "respuesta_correcta": "c",
+      "numero": 196
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mensajería se maneja en SIP?",
+      "opciones": {
+        "a": "RTP",
+        "b": "Él crea túneles",
+        "c": "Solo tráfico DNS",
+        "d": "Usa mensajes INVITE, ACK, BYE"
+      },
+      "respuesta_correcta": "d",
+      "numero": 197
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo ofrece latencia <1 segundo?",
+      "opciones": {
+        "a": "SRT",
+        "b": "HLS",
+        "c": "WebRTC",
+        "d": "DASH"
+      },
+      "respuesta_correcta": "c",
+      "numero": 198
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué componente decodifica y reproduce el streaming?",
+      "opciones": {
+        "a": "Cliente",
+        "b": "CDN",
+        "c": "Servidor",
+        "d": "Codificador"
+      },
+      "respuesta_correcta": "a",
+      "numero": 199
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué elemento del sistema de streaming almacena y distribuye contenido?",
+      "opciones": {
+        "a": "Cliente",
+        "b": "Origen",
+        "c": "Router",
+        "d": "Servidor"
+      },
+      "respuesta_correcta": "d",
+      "numero": 200
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué bitrate mínimo se recomienda para vídeo 1080p?",
+      "opciones": {
+        "a": "2 Mbps",
+        "b": "20 Mbps",
+        "c": "1 Mbps",
+        "d": "8 Mbps"
+      },
+      "respuesta_correcta": "d",
+      "numero": 201
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué caracteriza al streaming frente a la descarga directa?",
+      "opciones": {
+        "a": "Se reproduce en tiempo real sin descarga total",
+        "b": "Solo usa protocolos FTP",
+        "c": "Requiere almacenar el archivo completo",
+        "d": "No necesita conexión estable"
+      },
+      "respuesta_correcta": "a",
+      "numero": 202
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué archivo se modifica para configurar Icecast?",
+      "opciones": {
+        "a": "icecast.json",
+        "b": "icecast.xml",
+        "c": "server.ini",
+        "d": "playlist.conf"
+      },
+      "respuesta_correcta": "b",
+      "numero": 203
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo es habitual para vídeo bajo demanda?",
+      "opciones": {
+        "a": "HLS",
+        "b": "SIP",
+        "c": "FTP",
+        "d": "RTMP"
+      },
+      "respuesta_correcta": "a",
+      "numero": 204
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo transporta la voz en VoIP?",
+      "opciones": {
+        "a": "SIP",
+        "b": "ICMP",
+        "c": "RTP",
+        "d": "TCP"
+      },
+      "respuesta_correcta": "c",
+      "numero": 205
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué servidor PBX reemplaza Elastix 5.0 según el documento?",
+      "opciones": {
+        "a": "Asterisk/3CX",
+        "b": "Cisco CallManager",
+        "c": "Huawei PBX",
+        "d": "Teams PBX"
+      },
+      "respuesta_correcta": "a",
+      "numero": 206
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué parámetro debe asignarse a cada extensión en 3CX?",
+      "opciones": {
+        "a": "Número de extensión",
+        "b": "VLAN",
+        "c": "Dirección MAC",
+        "d": "Dominio MX"
+      },
+      "respuesta_correcta": "a",
+      "numero": 207
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo se usa para establecer y finalizar sesiones VoIP?",
+      "opciones": {
+        "a": "SIP",
+        "b": "RTP",
+        "c": "RTCP",
+        "d": "HTTP"
+      },
+      "respuesta_correcta": "a",
+      "numero": 208
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué función principal tiene el Registrar Server en SIP?",
+      "opciones": {
+        "a": "Almacenar vídeos",
+        "b": "Monitorear RTP",
+        "c": "Crear contraseñas",
+        "d": "Registrar ubicación de usuarios"
+      },
+      "respuesta_correcta": "d",
+      "numero": 209
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué tipo de red requiere VoIP?",
+      "opciones": {
+        "a": "Red de fibra oscura",
+        "b": "Red de circuitos",
+        "c": "Red IP",
+        "d": "Red coaxial"
+      },
+      "respuesta_correcta": "c",
+      "numero": 210
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué protocolo proporciona estadísticas de calidad en VoIP?",
+      "opciones": {
+        "a": "POP3",
+        "b": "SIP",
+        "c": "RTP",
+        "d": "RTCP"
+      },
+      "respuesta_correcta": "d",
+      "numero": 211
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué indica el mensaje SIP 180 Ringing?",
+      "opciones": {
+        "a": "Usuario no registrado",
+        "b": "Error de transmisión",
+        "c": "El teléfono destino está sonando",
+        "d": "Llamada finalizada"
+      },
+      "respuesta_correcta": "c",
+      "numero": 212
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué valor de latencia se considera aceptable?",
+      "opciones": {
+        "a": "Entre 150 y 400 ms",
+        "b": "Igual a 0 ms",
+        "c": "<800 ms",
+        "d": ">600 ms"
+      },
+      "respuesta_correcta": "a",
+      "numero": 213
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué softphones ofrece 3CX?",
+      "opciones": {
+        "a": "Linux únicamente",
+        "b": "Windows, Mac, iOS, Android",
+        "c": "iOS solamente",
+        "d": "Solaris, BSD"
+      },
+      "respuesta_correcta": "b",
+      "numero": 214
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mensaje SIP inicia una llamada?",
+      "opciones": {
+        "a": "OPTIONS",
+        "b": "BYE",
+        "c": "CANCEL",
+        "d": "INVITE"
+      },
+      "respuesta_correcta": "d",
+      "numero": 215
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué permite la centralita 3CX?",
+      "opciones": {
+        "a": "Reproducción de vídeo",
+        "b": "Gestión de extensiones, softphones y llamadas internas",
+        "c": "Solo llamadas externas",
+        "d": "Solo mensajería"
+      },
+      "respuesta_correcta": "b",
+      "numero": 216
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué componente en 3CX permite crear y gestionar extensiones?",
+      "opciones": {
+        "a": "Registro DNS",
+        "b": "Router",
+        "c": "Panel administrativo web",
+        "d": "Softphone"
+      },
+      "respuesta_correcta": "c",
+      "numero": 217
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué códec genera 64 kbps sin compresión mediante PCM?",
+      "opciones": {
+        "a": "MP3",
+        "b": "AAC",
+        "c": "Opus",
+        "d": "G.711"
+      },
+      "respuesta_correcta": "d",
+      "numero": 218
+    },
+    {
+      "unidad": null,
+      "enunciado": "¿Qué mecanismo mejora la calidad en VoIP?",
+      "opciones": {
+        "a": "FTP",
+        "b": "QoS",
+        "c": "NAT",
+        "d": "DHCP"
+      },
+      "respuesta_correcta": "b",
+      "numero": 219
+    }
+  ]
+}

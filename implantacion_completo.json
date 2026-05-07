@@ -1,0 +1,1686 @@
+{
+  "simulacro": "Simulacro Completo - Implantación de Aplicaciones Web",
+  "total_preguntas": 140,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": null,
+      "enunciado": "¿Qué método HTTP NO es recomendable para contraseñas?",
+      "opciones": {
+        "a": "PUT",
+        "b": "PATCH",
+        "c": "POST",
+        "d": "GET"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "unidad": null,
+      "enunciado": "¿Qué riesgo evita htmlspecialchars()?",
+      "opciones": {
+        "a": "Fuerza bruta",
+        "b": "Sniffing",
+        "c": "Inyección SQL",
+        "d": "XSS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "unidad": null,
+      "enunciado": "¿Qué define phpinfo()?",
+      "opciones": {
+        "a": "Plugins",
+        "b": "Usuarios",
+        "c": "Roles",
+        "d": "Configuración PHP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "unidad": null,
+      "enunciado": "¿Qué es una clave primaria?",
+      "opciones": {
+        "a": "Un índice opcional",
+        "b": "Un identificador único",
+        "c": "Un valor duplicado",
+        "d": "Un campo de texto"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "unidad": null,
+      "enunciado": "¿Qué práctica aplica el principio de mínimo privilegio?",
+      "opciones": {
+        "a": "Desactivar roles",
+        "b": "Usar root",
+        "c": "Asignar solo lo necesario",
+        "d": "Dar permisos globales"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "unidad": null,
+      "enunciado": "¿Qué librería PHP permite abstracción de base de datos?",
+      "opciones": {
+        "a": "curl",
+        "b": "mysqli",
+        "c": "PDO",
+        "d": "json"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "unidad": null,
+      "enunciado": "¿Qué es un child theme?",
+      "opciones": {
+        "a": "Un CMS",
+        "b": "Un plugin",
+        "c": "Un widget",
+        "d": "Un tema dependiente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "unidad": null,
+      "enunciado": "¿Qué copia guarda solo cambios desde la anterior?",
+      "opciones": {
+        "a": "Diferencial",
+        "b": "Completa",
+        "c": "Incremental",
+        "d": "Manual"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "unidad": null,
+      "enunciado": "¿Qué CMS usa tipo MVC?",
+      "opciones": {
+        "a": "Blogger",
+        "b": "WordPress",
+        "c": "Joomla",
+        "d": "Moodle"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "unidad": null,
+      "enunciado": "¿Para qué sirve HTTPS?",
+      "opciones": {
+        "a": "Crear cookies",
+        "b": "Bloquear puertos",
+        "c": "Acelerar la web",
+        "d": "Cifrar comunicaciones"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 11,
+      "unidad": null,
+      "enunciado": "¿Qué error NO debe mostrarse al usuario?",
+      "opciones": {
+        "a": "Técnico interno",
+        "b": "Mensaje genérico",
+        "c": "Validación",
+        "d": "Confirmación"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 12,
+      "unidad": null,
+      "enunciado": "¿Qué paquete incluye Apache, MariaDB y PHP?",
+      "opciones": {
+        "a": "MEAN",
+        "b": "XAMPP",
+        "c": "LEMP",
+        "d": "WINS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 13,
+      "unidad": null,
+      "enunciado": "¿Qué es un CMS?",
+      "opciones": {
+        "a": "Lenguaje servidor",
+        "b": "Gestor de contenidos",
+        "c": "Editor HTML",
+        "d": "Servidor web"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 14,
+      "unidad": null,
+      "enunciado": "¿Qué tecnología se ejecuta en el navegador?",
+      "opciones": {
+        "a": "HTML",
+        "b": "Apache",
+        "c": "MySQL",
+        "d": "PHP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 15,
+      "unidad": null,
+      "enunciado": "¿Para qué sirve php.ini?",
+      "opciones": {
+        "a": "Crear bases de datos",
+        "b": "Configurar PHP",
+        "c": "Gestionar usuarios",
+        "d": "Definir estilos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 16,
+      "unidad": null,
+      "enunciado": "¿Qué función cifra contraseñas en PHP?",
+      "opciones": {
+        "a": "crypt()",
+        "b": "md5()",
+        "c": "sha1()",
+        "d": "password_hash()"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 17,
+      "unidad": null,
+      "enunciado": "¿Qué operación CRUD elimina datos?",
+      "opciones": {
+        "a": "INSERT",
+        "b": "SELECT",
+        "c": "DELETE",
+        "d": "UPDATE"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 18,
+      "unidad": null,
+      "enunciado": "¿Qué función inicia una sesión en PHP?",
+      "opciones": {
+        "a": "init_session()",
+        "b": "session_begin()",
+        "c": "session_start()",
+        "d": "start()"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "unidad": null,
+      "enunciado": "¿Cuál es una ventaja de un entorno local?",
+      "opciones": {
+        "a": "Alta fidelidad con producción",
+        "b": "Mayor seguridad externa",
+        "c": "No requiere Internet",
+        "d": "Uso compartido global"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 20,
+      "unidad": null,
+      "enunciado": "¿Dónde deben almacenarse los logs?",
+      "opciones": {
+        "a": "En /var/log",
+        "b": "En public_html",
+        "c": "En htdocs",
+        "d": "En css"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 21,
+      "unidad": null,
+      "enunciado": "¿Qué protocolo regula la comunicación cliente-servidor?",
+      "opciones": {
+        "a": "FTP",
+        "b": "SSH",
+        "c": "HTTP",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 22,
+      "unidad": null,
+      "enunciado": "¿Qué acción mejora la seguridad en PHP?",
+      "opciones": {
+        "a": "expose_php = On",
+        "b": "display_errors = On en producción",
+        "c": "Uso de HTTPS",
+        "d": "Mostrar phpinfo()"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 23,
+      "unidad": null,
+      "enunciado": "¿Qué rol tiene control total en WordPress?",
+      "opciones": {
+        "a": "Administrador",
+        "b": "Autor",
+        "c": "Editor",
+        "d": "Colaborador"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 24,
+      "unidad": null,
+      "enunciado": "¿Qué configuración es correcta en producción?",
+      "opciones": {
+        "a": "display_errors On",
+        "b": "display_errors Off",
+        "c": "error_reporting None",
+        "d": "log_errors Off"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 25,
+      "unidad": null,
+      "enunciado": "¿Qué es un entorno de desarrollo web?",
+      "opciones": {
+        "a": "Un navegador web",
+        "b": "Un servidor en producción",
+        "c": "Un conjunto de herramientas para crear y probar aplicaciones web",
+        "d": "Un editor de código"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 26,
+      "unidad": null,
+      "enunciado": "¿Qué archivo registra errores de Apache?",
+      "opciones": {
+        "a": "error.log",
+        "b": "php.log",
+        "c": "access.conf",
+        "d": "index.log"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 27,
+      "unidad": null,
+      "enunciado": "¿Qué ventaja tiene PDO frente a mysqli?",
+      "opciones": {
+        "a": "No usa seguridad",
+        "b": "Más rápido",
+        "c": "Multibase de datos",
+        "d": "Solo MySQL"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 28,
+      "unidad": null,
+      "enunciado": "¿Qué estrategia de backup es recomendada?",
+      "opciones": {
+        "a": "2-1-0",
+        "b": "5-5-5",
+        "c": "1-1-1",
+        "d": "3-2-1"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 29,
+      "unidad": null,
+      "enunciado": "¿Qué lenguaje se ejecuta en el servidor?",
+      "opciones": {
+        "a": "CSS",
+        "b": "JavaScript",
+        "c": "HTML",
+        "d": "PHP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 30,
+      "unidad": null,
+      "enunciado": "¿Qué archivo define configuración crítica en WordPress?",
+      "opciones": {
+        "a": "functions.php",
+        "b": "index.php",
+        "c": "wp-config.php",
+        "d": "style.css"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 31,
+      "unidad": null,
+      "enunciado": "¿Qué superglobal recoge datos enviados por POST?",
+      "opciones": {
+        "a": "$_REQUEST_URL",
+        "b": "$_GET",
+        "c": "$_FORM",
+        "d": "$_POST"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 32,
+      "unidad": null,
+      "enunciado": "¿Qué vulnerabilidad consiste en ejecutar código SQL malicioso?",
+      "opciones": {
+        "a": "DDoS",
+        "b": "XSS",
+        "c": "SQL Injection",
+        "d": "CSRF"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 33,
+      "unidad": null,
+      "enunciado": "¿Qué ataque aprovecha formularios sin token?",
+      "opciones": {
+        "a": "XSS",
+        "b": "SQLi",
+        "c": "MITM",
+        "d": "CSRF"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 34,
+      "unidad": null,
+      "enunciado": "¿Qué licencia usa WordPress?",
+      "opciones": {
+        "a": "Apache",
+        "b": "GPL",
+        "c": "MIT",
+        "d": "BSD"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 35,
+      "unidad": null,
+      "enunciado": "¿Qué significa CRUD?",
+      "opciones": {
+        "a": "Create, Read, Update, Delete",
+        "b": "Crear, Leer, Usar, Depurar",
+        "c": "Crear, Recuperar, Usar, Depurar",
+        "d": "Cargar, Revisar, Usar, Depurar"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 36,
+      "unidad": null,
+      "enunciado": "¿Qué hace ON DELETE CASCADE?",
+      "opciones": {
+        "a": "Borra solo la tabla padre",
+        "b": "Elimina registros relacionados",
+        "c": "Bloquea la eliminación",
+        "d": "Ignora la clave"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 37,
+      "unidad": null,
+      "enunciado": "¿Qué servidor web es conocido por su alto rendimiento asíncrono?",
+      "opciones": {
+        "a": "Nginx",
+        "b": "Tomcat",
+        "c": "IIS",
+        "d": "Apache"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 38,
+      "unidad": null,
+      "enunciado": "¿Qué NO es un SGBD?",
+      "opciones": {
+        "a": "Apache",
+        "b": "PostgreSQL",
+        "c": "MariaDB",
+        "d": "MySQL"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 39,
+      "unidad": null,
+      "enunciado": "¿Para qué sirve try/catch en PHP?",
+      "opciones": {
+        "a": "Crear sesiones",
+        "b": "Manejar errores",
+        "c": "Validar HTML",
+        "d": "Enviar formularios"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 40,
+      "unidad": null,
+      "enunciado": "¿Qué medida mitiga CSRF?",
+      "opciones": {
+        "a": "Cookies públicas",
+        "b": "Tokens",
+        "c": "htmlspecialchars",
+        "d": "GET"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 41,
+      "unidad": null,
+      "enunciado": "¿Cuál es la finalidad principal de un entorno de desarrollo?",
+      "opciones": {
+        "a": "Simular el entorno de producción",
+        "b": "Aumentar la velocidad de Internet",
+        "c": "Publicar la aplicación",
+        "d": "Reducir costes"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 42,
+      "unidad": null,
+      "enunciado": "¿Cuál es la función principal de un SGBD?",
+      "opciones": {
+        "a": "Almacenar datos estructurados",
+        "b": "Renderizar HTML",
+        "c": "Proteger la red",
+        "d": "Ejecutar scripts"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 43,
+      "unidad": null,
+      "enunciado": "¿Qué puerto usa HTTPS?",
+      "opciones": {
+        "a": "21",
+        "b": "80",
+        "c": "22",
+        "d": "443"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 44,
+      "unidad": null,
+      "enunciado": "¿Qué CMS es un LMS?",
+      "opciones": {
+        "a": "Moodle",
+        "b": "Joomla",
+        "c": "WordPress",
+        "d": "Drupal"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 45,
+      "unidad": null,
+      "enunciado": "¿Qué componente NO forma parte habitual de un entorno web?",
+      "opciones": {
+        "a": "Intérprete del lado servidor",
+        "b": "Compilador de C",
+        "c": "Sistema gestor de bases de datos",
+        "d": "Servidor web"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 46,
+      "unidad": null,
+      "enunciado": "¿Qué motor MySQL permite claves foráneas?",
+      "opciones": {
+        "a": "CSV",
+        "b": "MyISAM",
+        "c": "MEMORY",
+        "d": "InnoDB"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 47,
+      "unidad": null,
+      "enunciado": "¿Qué CMS es más usado en web generalista?",
+      "opciones": {
+        "a": "Drupal",
+        "b": "WordPress",
+        "c": "Moodle",
+        "d": "Joomla"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 48,
+      "unidad": null,
+      "enunciado": "¿Qué archivo controla URLs amigables en Apache?",
+      "opciones": {
+        "a": "sitemap.xml",
+        "b": ".htaccess",
+        "c": "robots.txt",
+        "d": ".env"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 49,
+      "unidad": null,
+      "enunciado": "¿Qué extensión PHP permite MySQL?",
+      "opciones": {
+        "a": "mysqli",
+        "b": "xml",
+        "c": "zip",
+        "d": "curl"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 50,
+      "unidad": null,
+      "enunciado": "¿Qué técnica evita la inyección SQL?",
+      "opciones": {
+        "a": "Consultas directas",
+        "b": "Variables globales",
+        "c": "Consultas preparadas",
+        "d": "Echo directo"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 51,
+      "unidad": null,
+      "enunciado": "¿Qué comando permite acceder a la consola de MySQL en Linux?",
+      "opciones": {
+        "a": "service mysql status",
+        "b": "mysql -login",
+        "c": "connect mysql",
+        "d": "sudo mysql"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 52,
+      "unidad": null,
+      "enunciado": "¿Cuál es el propósito del archivo phpinfo.php?",
+      "opciones": {
+        "a": "Generar scripts HTML automáticamente",
+        "b": "Crear una base de datos vacía",
+        "c": "Servir como página de error 404",
+        "d": "Mostrar información sobre el entorno PHP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 53,
+      "unidad": null,
+      "enunciado": "¿Qué significa localhost en un entorno de desarrollo?",
+      "opciones": {
+        "a": "Un servidor remoto con acceso seguro",
+        "b": "Un proxy que enruta las conexiones externas",
+        "c": "Un nombre de dominio reservado para producción",
+        "d": "El equipo del usuario que ejecuta el servidor local"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 54,
+      "unidad": null,
+      "enunciado": "¿Qué elemento permite establecer reglas de acceso en Apache?",
+      "opciones": {
+        "a": "config.json",
+        "b": "server.conf",
+        "c": ".htaccess",
+        "d": ".env"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 55,
+      "unidad": null,
+      "enunciado": "¿Qué tipo de cifrado garantiza la seguridad en HTTPS?",
+      "opciones": {
+        "a": "Cifrado por sustitución",
+        "b": "Cifrado con certificados SSL/TLS",
+        "c": "Ningún tipo de cifrado",
+        "d": "Cifrado simétrico sin clave"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 56,
+      "unidad": null,
+      "enunciado": "¿Cuál es el objetivo principal de un entorno de desarrollo web?",
+      "opciones": {
+        "a": "Mostrar interfaces gráficas al usuario final",
+        "b": "Ejecutar código directamente en producción",
+        "c": "Probar, desarrollar y mantener aplicaciones antes de su despliegue final",
+        "d": "Publicar sitios web automáticamente"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 57,
+      "unidad": null,
+      "enunciado": "¿Por qué es importante documentar un entorno de desarrollo?",
+      "opciones": {
+        "a": "Para poder compartirlo en redes sociales",
+        "b": "Porque lo exige la normativa fiscal",
+        "c": "Para garantizar la trazabilidad y facilitar mantenimiento",
+        "d": "Para instalar software automáticamente"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 58,
+      "unidad": null,
+      "enunciado": "¿Qué herramienta NO forma parte de un paquete XAMPP?",
+      "opciones": {
+        "a": "PHP",
+        "b": "MariaDB",
+        "c": "Apache",
+        "d": "Python"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 59,
+      "unidad": null,
+      "enunciado": "¿Qué componente permite procesar código PHP en un servidor Apache?",
+      "opciones": {
+        "a": "Node.js",
+        "b": "libapache2-mod-php",
+        "c": "phpMyAdmin",
+        "d": "MySQL-server"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 60,
+      "unidad": null,
+      "enunciado": "¿Cuál de las siguientes opciones mejora la seguridad de una base de datos?",
+      "opciones": {
+        "a": "Permitir conexiones remotas anónimas",
+        "b": "Usar el usuario root sin contraseña",
+        "c": "Dar permisos globales a todos los usuarios",
+        "d": "Limitar los permisos según las necesidades"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 61,
+      "unidad": null,
+      "enunciado": "¿Cuál es la principal diferencia entre Apache y Nginx?",
+      "opciones": {
+        "a": "Apache es gratuito y Nginx es de pago",
+        "b": "Apache no permite configuración modular",
+        "c": "Nginx solo funciona en Linux",
+        "d": "Nginx usa un modelo asíncrono de procesamiento"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 62,
+      "unidad": null,
+      "enunciado": "¿Cuál es el comando correcto para instalar Apache en Ubuntu?",
+      "opciones": {
+        "a": "apache2 install",
+        "b": "sudo install apache2",
+        "c": "sudo apt install apache2",
+        "d": "apt-get apache"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 63,
+      "unidad": null,
+      "enunciado": "¿Qué indica el código de estado HTTP 404?",
+      "opciones": {
+        "a": "Error interno del servidor",
+        "b": "Solicitud correcta",
+        "c": "Recurso no encontrado",
+        "d": "Redirección permanente"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 64,
+      "unidad": null,
+      "enunciado": "¿Cuál de las siguientes herramientas se considera un editor de código?",
+      "opciones": {
+        "a": "NetBeans",
+        "b": "MySQL Workbench",
+        "c": "phpMyAdmin",
+        "d": "Apache Server"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 65,
+      "unidad": null,
+      "enunciado": "¿Qué protocolo se utiliza en las peticiones web entre cliente y servidor?",
+      "opciones": {
+        "a": "FTP",
+        "b": "SMTP",
+        "c": "HTTP",
+        "d": "DNS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 66,
+      "unidad": null,
+      "enunciado": "¿Qué es un CMS o gestor de contenidos?",
+      "opciones": {
+        "a": "Un navegador especializado.",
+        "b": "Un sistema operativo para servidores.",
+        "c": "Un lenguaje de programación web.",
+        "d": "Una aplicación web para crear y administrar contenidos sin programar."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 67,
+      "unidad": null,
+      "enunciado": "¿Qué tarea forma parte de las pruebas de funcionamiento antes de publicar un CMS?",
+      "opciones": {
+        "a": "Cambiar la licencia del software.",
+        "b": "Desactivar el usuario administrador.",
+        "c": "Verificar enlaces, formularios y tiempos de carga.",
+        "d": "Eliminar la carpeta de temas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 68,
+      "unidad": null,
+      "enunciado": "¿Cuál de los siguientes CMS es de tipo educativo?",
+      "opciones": {
+        "a": "WordPress.",
+        "b": "Moodle.",
+        "c": "PrestaShop.",
+        "d": "Joomla."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 69,
+      "unidad": null,
+      "enunciado": "¿Qué protocolo se utiliza para cifrar las comunicaciones entre cliente y servidor?",
+      "opciones": {
+        "a": "HTTP sin cifrar.",
+        "b": "FTP básico.",
+        "c": "Telnet.",
+        "d": "HTTPS (SSL/TLS)."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 70,
+      "unidad": null,
+      "enunciado": "¿Qué sistema se encarga de traducir nombres de dominio a direcciones IP?",
+      "opciones": {
+        "a": "HTTP.",
+        "b": "FTP.",
+        "c": "SSH.",
+        "d": "DNS (Domain Name System)."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 71,
+      "unidad": null,
+      "enunciado": "¿Cuál es el directorio de WordPress donde se guardan los temas instalados?",
+      "opciones": {
+        "a": "/wp-includes/.",
+        "b": "/plugins/.",
+        "c": "/wp-content/themes/.",
+        "d": "/wp-admin/."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 72,
+      "unidad": null,
+      "enunciado": "¿Qué licencia de software garantiza las cuatro libertades básicas del software libre?",
+      "opciones": {
+        "a": "GNU General Public License (GPL).",
+        "b": "Licencia Apache.",
+        "c": "Licencia MIT.",
+        "d": "Licencia Propietaria (EULA)."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 73,
+      "unidad": null,
+      "enunciado": "¿Cuál es la función del archivo .htaccess en un CMS?",
+      "opciones": {
+        "a": "Cambiar el idioma del sitio.",
+        "b": "Configurar la base de datos.",
+        "c": "Gestionar plantillas visuales.",
+        "d": "Controlar reglas de seguridad y redirecciones en Apache."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 74,
+      "unidad": null,
+      "enunciado": "¿Qué archivo principal de WordPress contiene los datos de conexión a la base de datos?",
+      "opciones": {
+        "a": "wp-settings.php.",
+        "b": "wp-config.php.",
+        "c": "config.ini.",
+        "d": "index.php."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 75,
+      "unidad": null,
+      "enunciado": "¿Qué práctica mejora el rendimiento del CMS en producción?",
+      "opciones": {
+        "a": "Ejecutar PHP en modo depuración permanente.",
+        "b": "Activar sistemas de caché y compresión GZIP.",
+        "c": "Desactivar todos los plugins.",
+        "d": "Aumentar los permisos de escritura a 777."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 76,
+      "unidad": null,
+      "enunciado": "¿Qué comando se usa para exportar una base de datos MySQL desde terminal Linux?",
+      "opciones": {
+        "a": "systemctl.",
+        "b": "chmod.",
+        "c": "cp.",
+        "d": "mysqldump."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 77,
+      "unidad": null,
+      "enunciado": "¿Qué carpeta de Joomla contiene la interfaz administrativa?",
+      "opciones": {
+        "a": "/administrator/.",
+        "b": "/plugins/.",
+        "c": "/modules/.",
+        "d": "/content/."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 78,
+      "unidad": null,
+      "enunciado": "¿Qué rol en WordPress tiene control total sobre el sitio web?",
+      "opciones": {
+        "a": "Administrador.",
+        "b": "Suscriptor.",
+        "c": "Autor.",
+        "d": "Editor."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 79,
+      "unidad": null,
+      "enunciado": "¿Qué medida de seguridad evita el acceso no autorizado mediante una verificación adicional?",
+      "opciones": {
+        "a": "Cambio de tema.",
+        "b": "Redirección 301.",
+        "c": "Autenticación en dos pasos (2FA).",
+        "d": "Desactivación de menús."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 80,
+      "unidad": null,
+      "enunciado": "¿Cuál es el objetivo principal de la personalización de un CMS?",
+      "opciones": {
+        "a": "Adaptar la apariencia y la estructura a las necesidades del cliente.",
+        "b": "Cambiar la base de datos por una más grande.",
+        "c": "Añadir publicidad automática.",
+        "d": "Convertir el CMS en una aplicación de escritorio."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 81,
+      "unidad": null,
+      "enunciado": "¿Qué herramienta integrada evalúa la salud y el estado técnico del sitio WordPress?",
+      "opciones": {
+        "a": "Performance Monitor",
+        "b": "Admin Report",
+        "c": "Word Check",
+        "d": "Site Health"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 82,
+      "unidad": null,
+      "enunciado": "¿Qué acción debe realizarse antes de actualizar un plugin o tema?",
+      "opciones": {
+        "a": "Cambiar el usuario administrador",
+        "b": "Borrar los logs",
+        "c": "Desactivar la base de datos",
+        "d": "Hacer una copia de seguridad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 83,
+      "unidad": null,
+      "enunciado": "¿Cuál es el formato nativo que usa WordPress para exportar contenidos?",
+      "opciones": {
+        "a": "WXR (WordPress eXtended RSS)",
+        "b": "CSV",
+        "c": "JSON",
+        "d": "SQL"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 84,
+      "unidad": null,
+      "enunciado": "¿Qué archivo controla las credenciales y parámetros de la base de datos?",
+      "opciones": {
+        "a": "wp-admin.php",
+        "b": "style.css",
+        "c": "index.php",
+        "d": "wp-config.php"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 85,
+      "unidad": null,
+      "enunciado": "¿Qué archivo controla las reglas de reescritura de URLs en servidores Apache?",
+      "opciones": {
+        "a": "robots.txt",
+        "b": ".htaccess",
+        "c": "sitemap.xml",
+        "d": "php.ini"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 86,
+      "unidad": null,
+      "enunciado": "¿Qué documento recoge los procedimientos técnicos estandarizados en la administración del CMS?",
+      "opciones": {
+        "a": "Manual de Usuario Básico",
+        "b": "Registro de Sesión",
+        "c": "SOP (Procedimiento Operativo Normalizado)",
+        "d": "Informe de Accesos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 87,
+      "unidad": null,
+      "enunciado": "¿Cuál es el archivo principal de configuración de WordPress?",
+      "opciones": {
+        "a": "config.ini",
+        "b": "wp-config.php",
+        "c": ".htacces",
+        "d": "index.php"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "unidad": null,
+      "enunciado": "¿Qué archivo de configuración se usa en NGINX como equivalente funcional de .htaccess?",
+      "opciones": {
+        "a": "index.html",
+        "b": "php.ini",
+        "c": "nginx.conf",
+        "d": "wp-login.php"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 89,
+      "unidad": null,
+      "enunciado": "¿Qué método de copia sigue la estrategia 3-2-1 recomendada por ENISA?",
+      "opciones": {
+        "a": "Tres copias, dos tipos de soporte, una fuera del sitio",
+        "b": "Tres copias en el mismo servidor",
+        "c": "Una copia completa diaria",
+        "d": "Dos copias locales y una temporal"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 90,
+      "unidad": null,
+      "enunciado": "¿Qué función tiene el archivo robots.txt?",
+      "opciones": {
+        "a": "Generar copias de seguridad automáticas",
+        "b": "Definir la conexión con la base de datos",
+        "c": "Controlar el tamaño máximo de los archivos",
+        "d": "Indicar a los buscadores qué partes del sitio pueden rastrear"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 91,
+      "unidad": null,
+      "enunciado": "¿Qué formato es ideal para importar datos estructurados como usuarios o productos?",
+      "opciones": {
+        "a": "SVG",
+        "b": "PDF",
+        "c": "CSV",
+        "d": "MP3"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 92,
+      "unidad": null,
+      "enunciado": "¿Qué principio se aplica al asignar el menor nivel de permisos necesario a cada usuario?",
+      "opciones": {
+        "a": "Principio de tolerancia",
+        "b": "Principio de redundancia",
+        "c": "Principio de accesibilidad total",
+        "d": "Principio de privilegio mínimo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 93,
+      "unidad": null,
+      "enunciado": "¿Qué tipo de contenido personalizado permite definir nuevas estructuras de datos en WordPress?",
+      "opciones": {
+        "a": "Widget Type",
+        "b": "Template Customizer",
+        "c": "Custom Plugin Type",
+        "d": "Custom Post Type (CPT)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 94,
+      "unidad": null,
+      "enunciado": "¿Qué extensión de archivo se usa para definir la configuración de estilos y tipografías en temas de bloques?",
+      "opciones": {
+        "a": "styles.xml",
+        "b": "config.css",
+        "c": "theme.json",
+        "d": "design.yaml"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 95,
+      "unidad": null,
+      "enunciado": "¿Qué plugin o utilidad permite realizar copias de seguridad automáticas en WordPress?",
+      "opciones": {
+        "a": "Elementor",
+        "b": "UpdraftPlus",
+        "c": "WooCommerce",
+        "d": "Classic Editor"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 96,
+      "unidad": null,
+      "enunciado": "En una implantación de ofimática web, el técnico ASIX-CIBER debe:",
+      "opciones": {
+        "a": "Configurar usuarios, permisos y políticas de seguridad.",
+        "b": "Evitar el uso de servicios en la nube.",
+        "c": "Desarrollar hardware físico para los servidores.",
+        "d": "Limitar el uso de cifrado y autenticación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 97,
+      "unidad": null,
+      "enunciado": "Una política de retención de datos define:",
+      "opciones": {
+        "a": "Cuál es el tamaño máximo de los documentos.",
+        "b": "Qué tipo de conexión TLS se utiliza.",
+        "c": "Cuánto tiempo se conservan los archivos y versiones.",
+        "d": "Cuántos usuarios pueden acceder simultáneamente."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 98,
+      "unidad": null,
+      "enunciado": "El hardening de una aplicación consiste en:",
+      "opciones": {
+        "a": "Evitar el uso de contraseñas seguras.",
+        "b": "Reducir vulnerabilidades desactivando servicios o funciones innecesarias.",
+        "c": "Eliminar el cifrado para aumentar la velocidad.",
+        "d": "Incrementar la cantidad de servicios abiertos para accesibilidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 99,
+      "unidad": null,
+      "enunciado": "En el contexto de la ofimática web, el rol del técnico ASIX-CIBER es:",
+      "opciones": {
+        "a": "Limitarse al uso básico de las herramientas sin gestión técnica.",
+        "b": "Desarrollar software de ofimática local.",
+        "c": "Implantar, administrar y asegurar el acceso a las aplicaciones garantizando el cumplimiento normativo.",
+        "d": "Ignorar las políticas de privacidad y auditoría."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 100,
+      "unidad": null,
+      "enunciado": "El cifrado en reposo protege los datos:",
+      "opciones": {
+        "a": "Mientras se almacenan en los servidores del proveedor.",
+        "b": "Solo mediante contraseña del usuario.",
+        "c": "Solo durante la transmisión de archivos.",
+        "d": "Únicamente si se almacenan en local."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 101,
+      "unidad": null,
+      "enunciado": "El RGPD exige que los datos personales sean:",
+      "opciones": {
+        "a": "Accesibles a cualquier usuario autenticado.",
+        "b": "Conservados sin límite de tiempo.",
+        "c": "Transferidos libremente fuera del EEE.",
+        "d": "Tratados de forma lícita, leal y transparente."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 102,
+      "unidad": null,
+      "enunciado": "El principal beneficio técnico del modelo de ofimática web es:",
+      "opciones": {
+        "a": "Mayor consumo de recursos locales.",
+        "b": "Falta de integración con otros servicios.",
+        "c": "Dependencia total del hardware del usuario.",
+        "d": "Acceso ubicuo y colaboración en tiempo real."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 103,
+      "unidad": null,
+      "enunciado": "Una buena práctica de seguridad en suites web es:",
+      "opciones": {
+        "a": "Compartir credenciales entre equipos.",
+        "b": "Revisar y revocar periódicamente permisos de aplicaciones de terceros.",
+        "c": "Desactivar la auditoría de accesos.",
+        "d": "Permitir el acceso público a todos los documentos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 104,
+      "unidad": null,
+      "enunciado": "El modelo SaaS se caracteriza por:",
+      "opciones": {
+        "a": "Instalar el software en cada equipo local del usuario.",
+        "b": "No permitir la escalabilidad del servicio.",
+        "c": "Ofrecer software gestionado por el proveedor y accesible por Internet.",
+        "d": "Requerir infraestructura física propia."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 105,
+      "unidad": null,
+      "enunciado": "La gestión de versiones en documentos colaborativos permite:",
+      "opciones": {
+        "a": "Limitar el acceso a los administradores.",
+        "b": "Evitar el trabajo simultáneo entre usuarios.",
+        "c": "Borrar todas las revisiones automáticamente.",
+        "d": "Restaurar cambios y conservar el historial de ediciones."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 106,
+      "unidad": null,
+      "enunciado": "El principal inconveniente de la ofimática web es:",
+      "opciones": {
+        "a": "La imposibilidad de compartir archivos.",
+        "b": "La falta de almacenamiento en la nube.",
+        "c": "La posibilidad de editar sin permisos.",
+        "d": "La dependencia de la conexión a Internet."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 107,
+      "unidad": null,
+      "enunciado": "El eDiscovery permite:",
+      "opciones": {
+        "a": "Limitar la colaboración en línea.",
+        "b": "Desactivar la trazabilidad de accesos.",
+        "c": "Eliminar versiones antiguas de documentos.",
+        "d": "Localizar y conservar evidencias digitales para auditorías."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 108,
+      "unidad": null,
+      "enunciado": "Un plan de respuesta ante incidentes debe incluir:",
+      "opciones": {
+        "a": "Detección, contención, erradicación, recuperación y lecciones aprendidas.",
+        "b": "Eliminación inmediata de todas las cuentas.",
+        "c": "Suspensión del servicio sin aviso previo.",
+        "d": "Exclusión de auditorías."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 109,
+      "unidad": null,
+      "enunciado": "El protocolo utilizado habitualmente para la autenticación centralizada en entornos web es:",
+      "opciones": {
+        "a": "FTP.",
+        "b": "SAML.",
+        "c": "SNMP.",
+        "d": "SMTP."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 110,
+      "unidad": null,
+      "enunciado": "El cifrado en tránsito protege los datos:",
+      "opciones": {
+        "a": "Solo cuando están almacenados en la nube.",
+        "b": "Durante la copia de seguridad local.",
+        "c": "Mientras viajan entre el cliente y el servidor.",
+        "d": "Únicamente en dispositivos móviles."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 111,
+      "unidad": null,
+      "enunciado": "¿Cuál es la sintaxis correcta para definir una constante en PHP?",
+      "opciones": {
+        "a": "static(\"NOMBRE\", \"valor\");",
+        "b": "constant NOMBRE = \"valor\";",
+        "c": "define(\"NOMBRE\", \"valor\");",
+        "d": "const(\"NOMBRE\") = \"valor\";"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 112,
+      "unidad": null,
+      "enunciado": "¿Qué función destruye una sesión existente y elimina sus variables?",
+      "opciones": {
+        "a": "end_session();",
+        "b": "stop_session();",
+        "c": "session_destroy();",
+        "d": "close_session();"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 113,
+      "unidad": null,
+      "enunciado": "¿Cuál es el propósito del archivo php.ini en un servidor?",
+      "opciones": {
+        "a": "Configurar el comportamiento del intérprete PHP.",
+        "b": "Diseñar las hojas de estilo del sitio web.",
+        "c": "Instalar bases de datos en el cliente.",
+        "d": "Almacenar los contenidos HTML del portal."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 114,
+      "unidad": null,
+      "enunciado": "¿Qué operador se utiliza para concatenar cadenas de texto en PHP?",
+      "opciones": {
+        "a": ":",
+        "b": ".",
+        "c": "&",
+        "d": "+"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 115,
+      "unidad": null,
+      "enunciado": "¿Qué estructura condicional en PHP permite ejecutar un bloque alternativo si la condición no se cumple?",
+      "opciones": {
+        "a": "if...else",
+        "b": "do...while",
+        "c": "switch",
+        "d": "foreach"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 116,
+      "unidad": null,
+      "enunciado": "¿Cuál de los siguientes lenguajes es de tipo servidor?",
+      "opciones": {
+        "a": "JavaScript",
+        "b": "PHP",
+        "c": "CSS",
+        "d": "HTML"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 117,
+      "unidad": null,
+      "enunciado": "¿Qué comando inicia una sesión en PHP?",
+      "opciones": {
+        "a": "session_start();",
+        "b": "init_session();",
+        "c": "begin_session();",
+        "d": "start_session();"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 118,
+      "unidad": null,
+      "enunciado": "¿Qué función de PHP se utiliza para convertir caracteres especiales en entidades HTML seguras?",
+      "opciones": {
+        "a": "htmlspecialchars()",
+        "b": "secure_text()",
+        "c": "escape_html()",
+        "d": "htmlentities()"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 119,
+      "unidad": null,
+      "enunciado": "¿Qué componente forma parte del entorno LAMP?",
+      "opciones": {
+        "a": "Apache",
+        "b": "Chrome",
+        "c": "Internet Explorer",
+        "d": "Windows"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 120,
+      "unidad": null,
+      "enunciado": "¿Qué medida ayuda a evitar la fijación de sesión (session fixation)?",
+      "opciones": {
+        "a": "Deshabilitar las cookies del navegador.",
+        "b": "Usar el mismo ID para todos los usuarios.",
+        "c": "Regenerar el ID de sesión tras la autenticación.",
+        "d": "Guardar el ID de sesión en texto plano."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 121,
+      "unidad": null,
+      "enunciado": "¿Qué protocolo debe emplearse siempre para enviar credenciales de usuario de forma segura?",
+      "opciones": {
+        "a": "FTP",
+        "b": "HTTP",
+        "c": "HTTPS",
+        "d": "POP3"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 122,
+      "unidad": null,
+      "enunciado": "¿Qué tipo de vulnerabilidad permite la inserción de código malicioso en un campo de formulario?",
+      "opciones": {
+        "a": "Phishing",
+        "b": "DoS",
+        "c": "DNS Spoofing",
+        "d": "Cross-Site Scripting (XSS)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 123,
+      "unidad": null,
+      "enunciado": "¿Qué modelo de seguridad organiza los permisos según el rol del usuario?",
+      "opciones": {
+        "a": "RBAC (Role-Based Access Control)",
+        "b": "DAC (Discretionary Access Control)",
+        "c": "ACL (Access Control List)",
+        "d": "MAC (Mandatory Access Control)"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 124,
+      "unidad": null,
+      "enunciado": "¿Qué etiqueta permite incrustar código PHP dentro de HTML?",
+      "opciones": {
+        "a": "<server> ... </server>",
+        "b": "<script> ... </script>",
+        "c": "<?php ... ?>",
+        "d": "<php> ... </php>"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 125,
+      "unidad": null,
+      "enunciado": "¿Qué función de PHP se utiliza para crear un hash seguro de contraseña?",
+      "opciones": {
+        "a": "password_hash()",
+        "b": "md5()",
+        "c": "make_hash()",
+        "d": "encrypt_pass()"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 126,
+      "unidad": null,
+      "enunciado": "¿Qué sentencia PHP permite capturar y gestionar errores en la ejecución del código?",
+      "opciones": {
+        "a": "foreach",
+        "b": "do/while",
+        "c": "if/else",
+        "d": "try/catch"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 127,
+      "unidad": null,
+      "enunciado": "¿Qué comando de MySQL se utiliza para realizar una copia de seguridad de una base de datos?",
+      "opciones": {
+        "a": "backup database",
+        "b": "mysqldump",
+        "c": "save sql",
+        "d": "exportdb"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 128,
+      "unidad": null,
+      "enunciado": "¿Qué mecanismo evita ataques de inyección SQL al separar datos y consultas?",
+      "opciones": {
+        "a": "Variables globales",
+        "b": "Consultas preparadas",
+        "c": "Comandos concatenados",
+        "d": "Filtros HTML"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 129,
+      "unidad": null,
+      "enunciado": "¿Qué herramienta permite simular múltiples usuarios accediendo a un sitio web para medir rendimiento?",
+      "opciones": {
+        "a": "Netcat",
+        "b": "phpMyAdmin",
+        "c": "GitLab Runner",
+        "d": "Apache JMeter"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 130,
+      "unidad": null,
+      "enunciado": "¿Qué archivo de configuración de PHP permite activar el registro de errores?",
+      "opciones": {
+        "a": ".htaccess",
+        "b": "php.ini",
+        "c": "config.php",
+        "d": "settings.json"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 131,
+      "unidad": null,
+      "enunciado": "¿Qué tipo de archivo se recomienda para centralizar la conexión a la base de datos en una aplicación PHP?",
+      "opciones": {
+        "a": "config.html",
+        "b": "usuario.ini",
+        "c": "data.json",
+        "d": "conexion.php"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 132,
+      "unidad": null,
+      "enunciado": "¿Qué método HTTP se utiliza preferentemente para enviar datos de formularios sensibles?",
+      "opciones": {
+        "a": "GET",
+        "b": "POST",
+        "c": "PUT",
+        "d": "DELETE"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 133,
+      "unidad": null,
+      "enunciado": "¿Qué comando permite eliminar definitivamente un registro de una tabla?",
+      "opciones": {
+        "a": "ERASE",
+        "b": "REMOVE",
+        "c": "DELETE",
+        "d": "DROP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 134,
+      "unidad": null,
+      "enunciado": "¿Qué prueba permite evaluar el rendimiento de una consulta SQL?",
+      "opciones": {
+        "a": "EXPLAIN",
+        "b": "TEST QUERY",
+        "c": "VERIFY",
+        "d": "DESCRIBE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 135,
+      "unidad": null,
+      "enunciado": "¿Qué elemento identifica de forma única cada registro de una tabla?",
+      "opciones": {
+        "a": "Clave primaria",
+        "b": "Columna temporal",
+        "c": "Clave externa",
+        "d": "Índice de búsqueda"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 136,
+      "unidad": null,
+      "enunciado": "¿Qué función cumple una base de datos en una aplicación web?",
+      "opciones": {
+        "a": "Diseñar la interfaz de usuario",
+        "b": "Almacenar y organizar información de manera estructurada",
+        "c": "Ejecutar código JavaScript",
+        "d": "Administrar el servidor web"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 137,
+      "unidad": null,
+      "enunciado": "¿Qué función en PHP se usa para cifrar contraseñas antes de guardarlas?",
+      "opciones": {
+        "a": "md5()",
+        "b": "password_hash()",
+        "c": "sha1()",
+        "d": "crypt_old()"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 138,
+      "unidad": null,
+      "enunciado": "¿Qué instrucción permite recuperar datos almacenados en una tabla?",
+      "opciones": {
+        "a": "SELECT",
+        "b": "UPDATE",
+        "c": "INSERT",
+        "d": "DELETE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 139,
+      "unidad": null,
+      "enunciado": "¿Qué sistema gestor de bases de datos se utiliza habitualmente junto con PHP?",
+      "opciones": {
+        "a": "Oracle",
+        "b": "SQL Server",
+        "c": "MongoDB",
+        "d": "MySQL"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 140,
+      "unidad": null,
+      "enunciado": "¿Qué instrucción SQL se emplea para modificar un registro existente?",
+      "opciones": {
+        "a": "ALTER",
+        "b": "UPDATE",
+        "c": "MODIFY",
+        "d": "CHANGE"
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}
