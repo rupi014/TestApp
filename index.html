@@ -56,6 +56,12 @@
         <span class="score-wrong" id="live-wrong">0</span>✗
       </div>
     </div>
+    <!-- Timer row (only visible in competitive) -->
+    <div class="timer-row hidden" id="timer-row">
+      <span class="timer-label">⏱ Tiempo</span>
+      <span class="timer-display" id="comp-timer">00:00</span>
+      <span class="timer-penalty-note">penalización −1 por cada 3 fallos</span>
+    </div>
     <div class="progress-bar-wrap">
       <div class="progress-bar" id="progress-bar"></div>
     </div>
@@ -113,7 +119,7 @@
           <button class="btn-ranking" id="btn-view-ranking">🏆 Ver ranking</button>
         </div>
         <h2 class="section-title">Elige una <em>asignatura</em></h2>
-        <p class="hint-text comp-hint">30 preguntas aleatorias · Tu resultado quedará en el ranking global</p>
+        <p class="hint-text comp-hint">30 preguntas aleatorias · Penalización −1/3 por fallo · Desempate por tiempo</p>
       </div>
       <div class="subject-grid" id="comp-subject-grid"></div>
     </main>
@@ -130,8 +136,15 @@
           <span class="score-big" id="submit-percent">0%</span>
           <span class="score-fraction" id="submit-fraction">0/30 correctas</span>
         </div>
-        <div class="score-bar-wrap" style="margin-bottom:32px">
+        <div class="score-bar-wrap" style="margin-bottom:16px">
           <div class="score-bar-fill" id="submit-bar"></div>
+        </div>
+        <!-- Penalty breakdown -->
+        <div class="penalty-box" id="submit-penalty"></div>
+        <!-- Time -->
+        <div class="submit-time-row">
+          <span class="submit-time-label">⏱ Tiempo total:</span>
+          <span class="submit-time-val" id="submit-time">00:00</span>
         </div>
         <p class="submit-label">Introduce tu nombre para guardar el resultado:</p>
         <div class="submit-input-row">
@@ -164,7 +177,7 @@
       <div class="loading-overlay" id="ranking-loading">Cargando ranking…</div>
       <table class="ranking-table hidden" id="ranking-table">
         <thead>
-          <tr><th>#</th><th>Nombre</th><th>Asignatura</th><th>Resultado</th><th>%</th><th>Fecha</th></tr>
+          <tr><th>#</th><th>Nombre</th><th>Asignatura</th><th>Puntuación</th><th>%</th><th>Tiempo</th><th>Fecha</th></tr>
         </thead>
         <tbody id="ranking-tbody"></tbody>
       </table>

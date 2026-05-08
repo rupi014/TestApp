@@ -28,19 +28,22 @@ const SUBJECTS = [
   { key: 'svc',  name: 'Servicios de Red e Internet',             abbr: 'SRI',  file: 'servicios_completo.json',     icon: '📡', color: '#f97316' },
 ];
 
-const COUNT_PRESETS = [5, 10, 15, 20, 30, 50];
+const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
 const COMP_QUESTIONS = 30;
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let state = {
-  subject: null,
-  allQuestions: [],
+  subject:       null,
+  allQuestions:  [],
   testQuestions: [],
-  currentIndex: 0,
-  answers: [],
-  answered: false,
+  currentIndex:  0,
+  answers:       [],
+  answered:      false,
   isCompetitive: false,
-  compResult: null,   // { correct, total, pct, abbr }
+  compResult:    null,   // { correct, wrong, skipped, total, puntuacion, pct, abbr, tiempoSegundos }
+  // timer
+  timerInterval: null,
+  timerSeconds:  0,
 };
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -55,10 +58,10 @@ const showScreen = (id) => {
 function esc(str) {
   return String(str)
     .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
+    .replace(/</g,  '&lt;')
+    .replace(/>/g,  '&gt;')
+    .replace(/"/g,  '&quot;')
+    .replace(/'/g,  '&#39;');
 }
 
 function shuffle(arr) {
@@ -84,26 +87,61 @@ function formatDate(iso) {
   return d.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: '2-digit' });
 }
 
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+  const s = (seconds % 60).toString().padStart(2, '0');
+  return `${m}:${s}`;
+}
+
+// ── TIMER ─────────────────────────────────────────────────────────────────────
+function startTimer() {
+  stopTimer();
+  state.timerSeconds = 0;
+  updateTimerDisplay();
+  state.timerInterval = setInterval(() => {
+    state.timerSeconds++;
+    updateTimerDisplay();
+  }, 1000);
+}
+
+function stopTimer() {
+  if (state.timerInterval) {
+    clearInterval(state.timerInterval);
+    state.timerInterval = null;
+  }
+}
+
+function updateTimerDisplay() {
+  const el = $('comp-timer');
+  if (el) el.textContent = formatTime(state.timerSeconds);
+}
+
+// ── PUNTUACIÓN TIPO TEST (−1/3 por fallo) ────────────────────────────────────
+// Formula: correctas - (errores / 3)
+// Redondeado a 2 decimales, mínimo 0
+function calcPuntuacion(correct, wrong) {
+  const raw = correct - (wrong / 3);
+  return Math.max(0, Math.round(raw * 100) / 100);
+}
+
 // ── SCREEN 1: SUBJECT GRID ────────────────────────────────────────────────────
 function renderSubjectGrid() {
   const grid = $('subject-grid');
   grid.innerHTML = '';
 
-  // Competitive card first
   const compCard = document.createElement('div');
   compCard.className = 'subject-card comp-card';
   compCard.innerHTML = `
     <div class="card-icon">⚡</div>
     <div class="comp-card-text">
       <div class="card-name">Modo Competitivo</div>
-      <div class="card-abbr">30 preguntas · Ranking global</div>
+      <div class="card-abbr">30 preguntas · Ranking global · Con penalización</div>
     </div>
     <span class="comp-card-cta">Jugar →</span>
   `;
   compCard.addEventListener('click', () => showScreen('screen-competitive'));
   grid.appendChild(compCard);
 
-  // Subject cards
   SUBJECTS.forEach(subj => {
     const card = document.createElement('div');
     card.className = 'subject-card';
@@ -122,9 +160,9 @@ function renderSubjectGrid() {
 
 async function loadQuestionCount(subj) {
   try {
-    const res = await fetch(subj.file);
+    const res  = await fetch(subj.file);
     const data = await res.json();
-    const el = $(`count-${subj.key}`);
+    const el   = $(`count-${subj.key}`);
     if (el) el.textContent = `${data.preguntas?.length ?? 0} preguntas disponibles`;
   } catch {
     const el = $(`count-${subj.key}`);
@@ -158,7 +196,7 @@ async function startCompetitive(subj) {
   state.isCompetitive = true;
   state.subject = subj;
   try {
-    const res = await fetch(subj.file);
+    const res  = await fetch(subj.file);
     const data = await res.json();
     state.allQuestions = data.preguntas || [];
   } catch {
@@ -168,12 +206,12 @@ async function startCompetitive(subj) {
   startTest(COMP_QUESTIONS);
 }
 
-// ── SCREEN 2: COUNT ───────────────────────────────────────────────────────────
+// ── SCREEN 2: COUNT (modo normal) ─────────────────────────────────────────────
 async function selectSubject(subj) {
   state.isCompetitive = false;
   state.subject = subj;
   try {
-    const res = await fetch(subj.file);
+    const res  = await fetch(subj.file);
     const data = await res.json();
     state.allQuestions = data.preguntas || [];
   } catch {
@@ -194,7 +232,7 @@ async function selectSubject(subj) {
     countOpts.appendChild(pill);
   });
 
-  $('custom-count').max = state.allQuestions.length;
+  $('custom-count').max   = state.allQuestions.length;
   $('custom-count').value = '';
   showScreen('screen-count');
 }
@@ -202,8 +240,8 @@ async function selectSubject(subj) {
 $('back-to-subject').addEventListener('click', () => showScreen('screen-subject'));
 $('btn-custom-start').addEventListener('click', () => {
   const val = parseInt($('custom-count').value);
-  if (!val || val < 1) { showToast('Introduce un número válido'); return; }
-  if (val > state.allQuestions.length) { showToast(`Máximo ${state.allQuestions.length} preguntas`); return; }
+  if (!val || val < 1)                      { showToast('Introduce un número válido'); return; }
+  if (val > state.allQuestions.length)       { showToast(`Máximo ${state.allQuestions.length} preguntas`); return; }
   startTest(val);
 });
 
@@ -211,15 +249,26 @@ $('btn-custom-start').addEventListener('click', () => {
 function startTest(count) {
   const n = Math.min(count, state.allQuestions.length);
   state.testQuestions = shuffle(state.allQuestions).slice(0, n);
-  state.currentIndex = 0;
-  state.answers = new Array(n).fill(null);
-  state.answered = false;
+  state.currentIndex  = 0;
+  state.answers       = new Array(n).fill(null);
+  state.answered      = false;
 
-  // Header
+  // Header chip
   const chip = $('test-subject-chip');
   chip.textContent = `${state.subject.icon} ${state.subject.abbr}`;
-  chip.className = state.isCompetitive ? 'comp-chip' : 'subject-chip';
+  chip.className   = state.isCompetitive ? 'comp-chip' : 'subject-chip';
+
   $('q-total').textContent = n;
+
+  // Timer row: show only in competitive
+  const timerRow = $('timer-row');
+  if (state.isCompetitive) {
+    timerRow.classList.remove('hidden');
+    startTimer();
+  } else {
+    timerRow.classList.add('hidden');
+    stopTimer();
+  }
 
   updateLiveScore();
   renderQuestion();
@@ -229,17 +278,18 @@ function startTest(count) {
 // ── SCREEN 3: TEST ────────────────────────────────────────────────────────────
 $('back-to-count').addEventListener('click', () => {
   if (confirm('¿Salir del test? Se perderá el progreso.')) {
+    stopTimer();
     showScreen(state.isCompetitive ? 'screen-competitive' : 'screen-count');
   }
 });
 
 function renderQuestion() {
-  const idx = state.currentIndex;
-  const q = state.testQuestions[idx];
+  const idx   = state.currentIndex;
+  const q     = state.testQuestions[idx];
   const total = state.testQuestions.length;
 
   $('progress-bar').style.width = `${(idx / total) * 100}%`;
-  $('q-current').textContent = idx + 1;
+  $('q-current').textContent    = idx + 1;
 
   const card = $('question-card');
   card.style.animation = 'none';
@@ -247,15 +297,15 @@ function renderQuestion() {
   card.style.animation = '';
 
   $('question-number').textContent = `Pregunta ${idx + 1} de ${total}`;
-  $('question-text').textContent = q.enunciado;
+  $('question-text').textContent   = q.enunciado;
 
   const grid = $('options-grid');
   grid.innerHTML = '';
   ['a', 'b', 'c', 'd'].filter(k => q.opciones?.[k] != null).forEach(key => {
     const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.dataset.key = key;
-    btn.innerHTML = `<span class="option-key">${key.toUpperCase()}</span><span>${esc(q.opciones[key])}</span>`;
+    btn.className    = 'option-btn';
+    btn.dataset.key  = key;
+    btn.innerHTML    = `<span class="option-key">${key.toUpperCase()}</span><span>${esc(q.opciones[key])}</span>`;
     btn.addEventListener('click', () => answerQuestion(key));
     grid.appendChild(btn);
   });
@@ -269,33 +319,33 @@ function answerQuestion(chosen) {
   if (state.answered) return;
   state.answered = true;
 
-  const idx = state.currentIndex;
-  const q = state.testQuestions[idx];
-  const correct = q.respuesta_correcta;
+  const idx      = state.currentIndex;
+  const q        = state.testQuestions[idx];
+  const correct  = q.respuesta_correcta;
   const isCorrect = chosen === correct;
 
   state.answers[idx] = { answered: true, correct: isCorrect, chosen, correctKey: correct, questionText: q.enunciado, options: q.opciones };
 
   document.querySelectorAll('.option-btn').forEach(btn => {
     btn.classList.add('answered');
-    if (btn.dataset.key === correct) btn.classList.add('correct');
+    if (btn.dataset.key === correct)           btn.classList.add('correct');
     if (btn.dataset.key === chosen && !isCorrect) btn.classList.add('wrong');
   });
 
   const box = $('explanation-box');
   if (isCorrect) {
     box.textContent = '✓ ¡Correcto!';
-    box.className = 'explanation-box correct-feedback';
+    box.className   = 'explanation-box correct-feedback';
   } else {
     box.textContent = `✗ Incorrecto. La respuesta correcta es ${correct.toUpperCase()}: ${q.opciones[correct]}`;
-    box.className = 'explanation-box';
+    box.className   = 'explanation-box';
   }
   box.classList.remove('hidden');
 
   updateLiveScore();
 
-  const isLast = idx === state.testQuestions.length - 1;
-  const nextBtn = $('btn-next');
+  const isLast   = idx === state.testQuestions.length - 1;
+  const nextBtn  = $('btn-next');
   nextBtn.textContent = isLast ? (state.isCompetitive ? 'Ver mi resultado →' : 'Ver resultados →') : 'Siguiente →';
   nextBtn.classList.remove('hidden');
 }
@@ -303,6 +353,7 @@ function answerQuestion(chosen) {
 $('btn-next').addEventListener('click', () => {
   const isLast = state.currentIndex === state.testQuestions.length - 1;
   if (isLast) {
+    stopTimer();
     state.isCompetitive ? showSubmit() : showResults();
   } else {
     state.currentIndex++;
@@ -312,34 +363,34 @@ $('btn-next').addEventListener('click', () => {
 
 function updateLiveScore() {
   const answered = state.answers.filter(Boolean);
-  $('live-correct').textContent = answered.filter(a => a.correct).length;
-  $('live-wrong').textContent = answered.filter(a => !a.correct).length;
+  $('live-correct').textContent = answered.filter(a =>  a.correct).length;
+  $('live-wrong').textContent   = answered.filter(a => !a.correct).length;
 }
 
-// ── SCREEN 4: RESULTS (normal) ────────────────────────────────────────────────
+// ── SCREEN 4: RESULTS (modo normal) ──────────────────────────────────────────
 function showResults() {
-  const total = state.testQuestions.length;
+  const total   = state.testQuestions.length;
   const answered = state.answers.filter(Boolean);
-  const correct = answered.filter(a => a.correct).length;
-  const wrong = answered.filter(a => !a.correct).length;
-  const skipped = total - answered.length;
-  const pct = Math.round((correct / total) * 100);
+  const correct  = answered.filter(a =>  a.correct).length;
+  const wrong    = answered.filter(a => !a.correct).length;
+  const skipped  = total - answered.length;
+  const pct      = Math.round((correct / total) * 100);
 
   let emoji, msg;
-  if (pct === 100)     { emoji = '🏆'; msg = '¡Perfecto! Resultado impecable.'; }
-  else if (pct >= 80)  { emoji = '🎉'; msg = 'Muy buen resultado. ¡Sigue así!'; }
-  else if (pct >= 60)  { emoji = '👍'; msg = 'Aprobado. Pero hay margen de mejora.'; }
-  else if (pct >= 40)  { emoji = '📚'; msg = 'Suspendido. A repasar el temario.'; }
-  else                  { emoji = '😅'; msg = 'Necesitas repasar bastante. ¡No te rindas!'; }
+  if (pct === 100)    { emoji = '🏆'; msg = '¡Perfecto! Resultado impecable.'; }
+  else if (pct >= 80) { emoji = '🎉'; msg = 'Muy buen resultado. ¡Sigue así!'; }
+  else if (pct >= 60) { emoji = '👍'; msg = 'Aprobado. Pero hay margen de mejora.'; }
+  else if (pct >= 40) { emoji = '📚'; msg = 'Suspendido. A repasar el temario.'; }
+  else                { emoji = '😅'; msg = 'Necesitas repasar bastante. ¡No te rindas!'; }
 
-  $('result-emoji').textContent = emoji;
+  $('result-emoji').textContent  = emoji;
   $('score-percent').textContent = `${pct}%`;
   $('score-percent').style.color = pct >= 60 ? 'var(--correct)' : pct >= 40 ? 'var(--warning)' : 'var(--wrong)';
   $('score-fraction').textContent = `${correct} de ${total} correctas`;
-  $('score-message').textContent = msg;
-  $('stat-correct').textContent = correct;
-  $('stat-wrong').textContent = wrong;
-  $('stat-skip').textContent = skipped;
+  $('score-message').textContent  = msg;
+  $('stat-correct').textContent   = correct;
+  $('stat-wrong').textContent     = wrong;
+  $('stat-skip').textContent      = skipped;
 
   showScreen('screen-results');
   setTimeout(() => { $('score-bar-fill').style.width = `${pct}%`; }, 100);
@@ -347,13 +398,13 @@ function showResults() {
   const reviewList = $('review-list');
   reviewList.innerHTML = '';
   const errors = state.answers.map((a, i) => ({ a, q: state.testQuestions[i], i })).filter(({ a }) => !a || !a.correct);
-  if (errors.length === 0) {
+  if (!errors.length) {
     reviewList.innerHTML = '<p style="font-family:var(--font-mono);font-size:0.8rem;color:var(--correct);">✓ Sin errores. ¡Todo correcto!</p>';
   } else {
     errors.forEach(({ a, q, i }) => {
       const item = document.createElement('div');
       item.className = 'review-item';
-      const yourText = a?.chosen ? `Tu respuesta: ${a.chosen.toUpperCase()}. ${esc(q.opciones[a.chosen])}` : 'Sin responder';
+      const yourText    = a?.chosen ? `Tu respuesta: ${a.chosen.toUpperCase()}. ${esc(q.opciones[a.chosen])}` : 'Sin responder';
       const correctText = `Correcta: ${q.respuesta_correcta.toUpperCase()}. ${esc(q.opciones[q.respuesta_correcta])}`;
       item.innerHTML = `
         <div class="review-q">P${i + 1}. ${esc(q.enunciado)}</div>
@@ -371,43 +422,71 @@ $('btn-new-subject').addEventListener('click', () => showScreen('screen-subject'
 
 // ── SCREEN 6: SUBMIT (competitive) ───────────────────────────────────────────
 function showSubmit() {
-  const total = state.testQuestions.length;
-  const correct = state.answers.filter(a => a?.correct).length;
-  const pct = Math.round((correct / total) * 100);
+  const total      = state.testQuestions.length;
+  const answered   = state.answers.filter(Boolean);
+  const correct    = answered.filter(a =>  a.correct).length;
+  const wrong      = answered.filter(a => !a.correct).length;
+  const skipped    = total - answered.length;
+  const puntuacion = calcPuntuacion(correct, wrong);
+  // % based on penalized score vs total questions
+  const pct        = Math.round((puntuacion / total) * 100);
+  const tiempoSeg  = state.timerSeconds;
 
-  state.compResult = { correct, total, pct, abbr: state.subject.abbr };
+  state.compResult = { correct, wrong, skipped, total, puntuacion, pct, abbr: state.subject.abbr, tiempoSegundos: tiempoSeg };
 
   let emoji;
-  if (pct === 100) emoji = '🏆';
-  else if (pct >= 80) emoji = '🎉';
-  else if (pct >= 60) emoji = '👍';
+  if (pct >= 90) emoji = '🏆';
+  else if (pct >= 70) emoji = '🎉';
+  else if (pct >= 50) emoji = '👍';
   else emoji = '📚';
 
-  $('submit-emoji').textContent = emoji;
-  $('submit-percent').textContent = `${pct}%`;
-  $('submit-percent').style.color = pct >= 60 ? 'var(--correct)' : pct >= 40 ? 'var(--warning)' : 'var(--wrong)';
-  $('submit-fraction').textContent = `${correct} de ${total} correctas`;
+  $('submit-emoji').textContent    = emoji;
+  $('submit-percent').textContent  = `${pct}%`;
+  $('submit-percent').style.color  = pct >= 60 ? 'var(--correct)' : pct >= 40 ? 'var(--warning)' : 'var(--wrong)';
+  $('submit-fraction').textContent = `${correct} correctas · ${wrong} errores · ${skipped} sin responder`;
+
+  // Penalty breakdown
+  $('submit-penalty').innerHTML =
+    `<span class="penalty-correct">+${correct} correctas</span>` +
+    `<span class="penalty-sep">−</span>` +
+    `<span class="penalty-wrong">${wrong} errores ÷ 3 = −${(wrong/3).toFixed(2)}</span>` +
+    `<span class="penalty-sep">=</span>` +
+    `<span class="penalty-total">${puntuacion} / ${total} puntos</span>`;
+
+  $('submit-time').textContent  = formatTime(tiempoSeg);
   $('submit-error').classList.add('hidden');
   $('player-name').value = '';
 
   showScreen('screen-submit');
-  setTimeout(() => { $('submit-bar').style.width = `${pct}%`; }, 100);
+  setTimeout(() => { $('submit-bar').style.width = `${Math.min(pct, 100)}%`; }, 100);
 }
 
 $('btn-save-score').addEventListener('click', async () => {
   const name = $('player-name').value.trim();
-  if (!name) { $('submit-error').textContent = 'Introduce tu nombre.'; $('submit-error').classList.remove('hidden'); return; }
+  if (!name) {
+    $('submit-error').textContent = 'Introduce tu nombre.';
+    $('submit-error').classList.remove('hidden');
+    return;
+  }
 
   const btn = $('btn-save-score');
   btn.textContent = 'Guardando…';
-  btn.disabled = true;
+  btn.disabled    = true;
 
-  const { correct, total, pct, abbr } = state.compResult;
+  const { correct, wrong, skipped, total, puntuacion, pct, abbr, tiempoSegundos } = state.compResult;
   try {
     const res = await sbFetch('/ranking', {
       method: 'POST',
       prefer: 'return=minimal',
-      body: JSON.stringify({ nombre: name, asignatura: abbr, correctas: correct, total, porcentaje: pct }),
+      body: JSON.stringify({
+        nombre:           name,
+        asignatura:       abbr,
+        correctas:        correct,
+        total,
+        porcentaje:       pct,
+        tiempo_segundos:  tiempoSegundos,
+        puntuacion,
+      }),
     });
     if (!res.ok) throw new Error(await res.text());
     showToast('¡Resultado guardado! 🎉', 'success');
@@ -419,7 +498,7 @@ $('btn-save-score').addEventListener('click', async () => {
     $('submit-error').classList.remove('hidden');
   } finally {
     btn.textContent = 'Guardar 🏅';
-    btn.disabled = false;
+    btn.disabled    = false;
   }
 });
 
@@ -438,7 +517,8 @@ async function loadRanking() {
   $('ranking-empty').classList.add('hidden');
 
   const filter = $('ranking-filter').value;
-  let url = '/ranking?order=porcentaje.desc,correctas.desc,fecha.asc&limit=50';
+  // Order: puntuacion desc → tiempo_segundos asc (desempate por rapidez) → fecha asc
+  let url = '/ranking?order=puntuacion.desc,tiempo_segundos.asc,fecha.asc&limit=50';
   if (filter !== 'all') url += `&asignatura=eq.${encodeURIComponent(filter)}`;
 
   try {
@@ -448,25 +528,25 @@ async function loadRanking() {
 
     $('ranking-loading').classList.add('hidden');
 
-    if (!data.length) {
-      $('ranking-empty').classList.remove('hidden');
-      return;
-    }
+    if (!data.length) { $('ranking-empty').classList.remove('hidden'); return; }
 
     const tbody = $('ranking-tbody');
     tbody.innerHTML = '';
     data.forEach((row, i) => {
-      const pos = i + 1;
+      const pos      = i + 1;
       const posClass = pos === 1 ? 'gold' : pos === 2 ? 'silver' : pos === 3 ? 'bronze' : '';
-      const medal = pos === 1 ? '🥇' : pos === 2 ? '🥈' : pos === 3 ? '🥉' : '';
-      const pctColor = row.porcentaje >= 60 ? 'var(--correct)' : row.porcentaje >= 40 ? 'var(--warning)' : 'var(--wrong)';
+      const medal    = pos === 1 ? '🥇' : pos === 2 ? '🥈' : pos === 3 ? '🥉' : '';
+      const pctColor = (row.porcentaje ?? 0) >= 60 ? 'var(--correct)' : (row.porcentaje ?? 0) >= 40 ? 'var(--warning)' : 'var(--wrong)';
+      const tiempoStr = row.tiempo_segundos != null ? formatTime(row.tiempo_segundos) : '—';
+      const puntuacionStr = row.puntuacion != null ? `${row.puntuacion}` : `${row.correctas}`;
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td><span class="rank-pos ${posClass}">${medal || pos}</span></td>
         <td><span class="rank-name">${esc(row.nombre)}</span></td>
         <td><span class="rank-subj">${esc(row.asignatura)}</span></td>
-        <td><span class="rank-score">${row.correctas}/${row.total}</span></td>
-        <td><span class="rank-pct" style="color:${pctColor}">${row.porcentaje}%</span></td>
+        <td><span class="rank-score">${puntuacionStr}/${row.total}</span></td>
+        <td><span class="rank-pct" style="color:${pctColor}">${row.porcentaje ?? '—'}%</span></td>
+        <td><span class="rank-time">⏱ ${tiempoStr}</span></td>
         <td><span class="rank-date">${formatDate(row.fecha)}</span></td>
       `;
       tbody.appendChild(tr);

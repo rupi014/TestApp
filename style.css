@@ -1163,3 +1163,103 @@ body {
   border-color: var(--warning);
   transform: translateY(-1px);
 }
+
+/* ========================
+   TIMER ROW
+   ======================== */
+.timer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 32px;
+  background: rgba(255,184,0,0.06);
+  border-bottom: 1px solid rgba(255,184,0,0.15);
+  position: relative;
+  z-index: 1;
+}
+
+.timer-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: rgba(255,184,0,0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.timer-display {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--warning);
+  letter-spacing: 0.05em;
+  min-width: 64px;
+  text-align: center;
+}
+
+.timer-penalty-note {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: rgba(255,184,0,0.5);
+  letter-spacing: 0.04em;
+}
+
+/* ========================
+   PENALTY BREAKDOWN
+   ======================== */
+.penalty-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+.penalty-correct { color: var(--correct); }
+.penalty-wrong   { color: var(--wrong); }
+.penalty-sep     { color: var(--text-dim); }
+.penalty-total   { color: var(--accent); font-weight: 500; }
+
+/* ========================
+   SUBMIT TIME ROW
+   ======================== */
+.submit-time-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.submit-time-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.submit-time-val {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--warning);
+}
+
+/* Ranking time column */
+.rank-time {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--warning);
+}
+
+@media (max-width: 768px) {
+  .timer-penalty-note { display: none; }
+  .ranking-table th:nth-child(7),
+  .ranking-table td:nth-child(7) { display: none; }
+}
