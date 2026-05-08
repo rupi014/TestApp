@@ -780,8 +780,7 @@ body {
 /* ========================
    RESPONSIVE
    ======================== */
-@media (max-width: 768px) {
-  .site-header { padding: 24px 20px 16px; }
+
   .subject-grid-container { padding: 16px 20px 40px; }
   .subject-grid { grid-template-columns: 1fr; }
   .count-container { padding: 0 20px 40px; }
@@ -1124,17 +1123,6 @@ body {
   border-radius: 100px;
 }
 
-@media (max-width: 768px) {
-  .ranking-body { padding: 16px; }
-  .ranking-table th:nth-child(3),
-  .ranking-table td:nth-child(3) { display: none; }
-  .ranking-table th:nth-child(6),
-  .ranking-table td:nth-child(6) { display: none; }
-  .submit-card { padding: 28px 20px; }
-  .subject-card.comp-card { flex-direction: column; align-items: flex-start; }
-  .comp-card-cta { display: none; }
-}
-
 /* Competitive header top row */
 .comp-header-top {
   display: flex;
@@ -1258,8 +1246,109 @@ body {
   color: var(--warning);
 }
 
+/* ================================================
+   RESPONSIVE — solo en pantallas pequeñas (≤768px)
+   ================================================ */
 @media (max-width: 768px) {
+
+  /* ── HEADER ── */
+  .site-header { padding: 20px 16px 12px; }
+  .logo { font-size: 1.6rem; }
+  .tagline { font-size: 0.68rem; }
+
+  /* ── SUBJECT GRID ── */
+  .subject-grid-container { padding: 12px 16px 40px; }
+  .subject-grid { grid-template-columns: 1fr; gap: 12px; }
+  .section-title { font-size: 1.8rem; margin-bottom: 24px; }
+  .subject-card { padding: 20px; }
+  .subject-card.comp-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+  }
+  .comp-card-cta { display: none; }
+
+  /* ── COUNT SCREEN ── */
+  .count-container { padding: 0 16px 40px; }
+  .count-options { gap: 8px; }
+  .count-pill { padding: 12px 18px; font-size: 1rem; }
+  .custom-input-row { flex-direction: column; }
+  .custom-input-row input { width: 100%; }
+  .custom-input-row .btn-primary { width: 100%; }
+
+  /* ── BACK BUTTON ── */
+  .btn-back { margin: 12px 16px; }
+
+  /* ── TEST HEADER ── */
+  .test-header { padding: 12px 14px; flex-wrap: nowrap; gap: 8px; }
+  .test-meta .subject-chip,
+  .test-meta .comp-chip { display: none; }
+  .progress-text { font-size: 0.8rem; }
+  .score-live { font-size: 0.85rem; gap: 8px; }
+
+  /* ── TIMER ROW ── */
+  .timer-row { padding: 8px 16px; gap: 10px; }
+  .timer-display { font-size: 1.2rem; }
   .timer-penalty-note { display: none; }
+
+  /* ── TEST BODY ── */
+  .test-body { padding: 16px 12px 40px; }
+  .question-card { padding: 20px 16px; }
+  .question-text { font-size: 1.05rem; }
+  .option-btn { padding: 14px 14px; font-size: 0.9rem; }
+
+  /* ── RESULTS ── */
+  .results-container { padding: 20px 12px; }
+  .results-card { padding: 24px 16px; }
+  .score-big { font-size: 3rem; }
+  .result-stats { gap: 16px; padding: 16px 12px; }
+  .stat-val { font-size: 1.6rem; }
+  .results-actions { flex-direction: column; }
+  .results-actions .btn-primary,
+  .results-actions .btn-secondary { width: 100%; }
+
+  /* ── COMPETITIVE HEADER ── */
+  .comp-header-top { gap: 8px; }
+  .btn-ranking { font-size: 0.72rem; padding: 6px 12px; }
+
+  /* ── SUBMIT SCREEN ── */
+  .submit-container { padding: 20px 12px; align-items: flex-start; }
+  .submit-card { padding: 24px 16px; }
+  .submit-title { font-size: 1.4rem; }
+  .submit-input-row { flex-direction: column; }
+  .submit-input-row input { width: 100%; }
+  .submit-input-row .btn-primary { width: 100%; }
+  #btn-skip-save { width: 100%; }
+  .penalty-box { font-size: 0.72rem; gap: 6px; }
+
+  /* ── RANKING SCREEN ── */
+  .ranking-header { padding: 14px 16px; gap: 10px; }
+  .ranking-title { font-size: 1.1rem; }
+  .ranking-select { font-size: 0.75rem; padding: 6px 10px; }
+  .ranking-body { padding: 12px 8px; }
+  .ranking-table { font-size: 0.82rem; }
+  .ranking-table th,
+  .ranking-table td { padding: 10px 8px; }
+
+  /* Ocultar en móvil: Asignatura (col 3) y Fecha (col 7)
+     Tiempo (col 6) se mantiene siempre visible */
+  .ranking-table th:nth-child(3),
+  .ranking-table td:nth-child(3) { display: none; }
   .ranking-table th:nth-child(7),
   .ranking-table td:nth-child(7) { display: none; }
+
+  .rank-time  { font-size: 0.75rem; }
+  .rank-pct   { font-size: 0.9rem; }
+  .rank-name  { font-size: 0.85rem; }
+  .rank-score { font-size: 0.78rem; }
+}
+
+/* ── Extra pequeño (≤400px) ── */
+@media (max-width: 400px) {
+  .score-big { font-size: 2.4rem; }
+  .submit-percent { font-size: 2.4rem; }
+  .ranking-table th,
+  .ranking-table td { padding: 8px 6px; }
+  .rank-time { font-size: 0.7rem; }
 }
