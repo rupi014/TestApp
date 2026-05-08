@@ -777,22 +777,7 @@ body {
   border-radius: 4px;
 }
 
-/* ========================
-   RESPONSIVE
-   ======================== */
 
-  .subject-grid-container { padding: 16px 20px 40px; }
-  .subject-grid { grid-template-columns: 1fr; }
-  .count-container { padding: 0 20px 40px; }
-  .btn-back { margin: 16px 20px; }
-  .test-header { padding: 14px 16px; }
-  .test-body { padding: 20px 16px 40px; }
-  .question-card { padding: 24px; }
-  .results-card { padding: 28px 20px; }
-  .result-stats { gap: 20px; }
-  .score-big { font-size: 3.5rem; }
-  .test-meta .subject-chip { display: none; }
-}
 
 /* Loading state */
 .loading-overlay {
