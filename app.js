@@ -26,6 +26,7 @@ const SUBJECTS = [
   { key: 'lm',   name: 'Lenguaje de Marcas',                      abbr: 'LM',   file: 'lenguaje_completo.json',      icon: '🏷️', color: '#ec4899' },
   { key: 'impl', name: 'Implementación de Aplicaciones Web',      abbr: 'IAW',  file: 'implantacion_completo.json',  icon: '🌐', color: '#10b981' },
   { key: 'svc',  name: 'Servicios de Red e Internet',             abbr: 'SRI',  file: 'servicios_completo.json',     icon: '📡', color: '#f97316' },
+  { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',            icon: '🔌', color: '#06b6d4' },
 ];
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
