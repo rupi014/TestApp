@@ -179,6 +179,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  align-items: center;
+  text-align: center;
 }
 
 .subject-card::before {
@@ -232,6 +234,8 @@ body {
   margin-top: auto;
   padding-top: 8px;
   border-top: 1px solid var(--border);
+  width: 100%;
+  text-align: center;
 }
 
 /* ========================
@@ -871,6 +875,7 @@ body {
   grid-column: 1 / -1;
   flex-direction: row;
   align-items: center;
+  text-align: left;
   gap: 20px;
   padding: 24px 32px;
 }
@@ -882,6 +887,7 @@ body {
 
 .comp-card-text {
   flex: 1;
+  text-align: left;
 }
 
 .comp-card-text .card-name {
@@ -906,6 +912,7 @@ body {
   padding: 8px 16px;
   border-radius: 8px;
   white-space: nowrap;
+  margin-left: auto;
 }
 
 /* ========================
@@ -1286,10 +1293,12 @@ body {
   .comp-header { text-align: center; }
   .subject-card.comp-card {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
     padding: 20px;
+    text-align: center;
   }
+  .subject-card.comp-card .comp-card-text { text-align: center; }
   .comp-card-cta { display: none; }
 
   /* ── COUNT SCREEN ── */
@@ -1338,10 +1347,11 @@ body {
 
   /* ── COMPETITIVE HEADER ── */
   .comp-header-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 8px;
     row-gap: 10px;
-    justify-content: center;
-    align-items: center;
   }
   .btn-ranking { margin-left: 0; }
   .btn-ranking { font-size: 0.72rem; padding: 6px 12px; }
