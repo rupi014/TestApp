@@ -94,6 +94,15 @@ function formatTime(seconds) {
   return `${m}:${s}`;
 }
 
+function hexToRgba(hex, alpha) {
+  const h = String(hex || '').replace('#', '').trim();
+  if (!/^[0-9a-fA-F]{6}$/.test(h)) return `rgba(0,229,176,${alpha})`;
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
 // ── TIMER ─────────────────────────────────────────────────────────────────────
 function startTimer() {
   stopTimer();
@@ -537,6 +546,10 @@ async function loadRanking() {
 
     const tbody = $('ranking-tbody');
     tbody.innerHTML = '';
+    const subjectColorByAbbr = SUBJECTS.reduce((acc, s) => {
+      acc[s.abbr] = s.color;
+      return acc;
+    }, {});
     data.forEach((row, i) => {
       const pos      = i + 1;
       const posClass = pos === 1 ? 'gold' : pos === 2 ? 'silver' : pos === 3 ? 'bronze' : '';
@@ -544,11 +557,16 @@ async function loadRanking() {
       const pctColor = (row.porcentaje ?? 0) >= 60 ? 'var(--correct)' : (row.porcentaje ?? 0) >= 40 ? 'var(--warning)' : 'var(--wrong)';
       const tiempoStr = row.tiempo_segundos != null ? formatTime(row.tiempo_segundos) : '—';
       const puntuacionStr = row.puntuacion != null ? `${row.puntuacion}` : `${row.correctas}`;
+      const subjAbbr = String(row.asignatura ?? '');
+      const subjColor = subjectColorByAbbr[subjAbbr];
+      const subjStyle = subjColor
+        ? `color:${subjColor};background:${hexToRgba(subjColor, 0.14)};border-color:${hexToRgba(subjColor, 0.38)};`
+        : '';
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td><span class="rank-pos ${posClass}">${medal || pos}</span></td>
         <td><span class="rank-name">${esc(row.nombre)}</span></td>
-        <td><span class="rank-subj">${esc(row.asignatura)}</span></td>
+        <td><span class="rank-subj" style="${subjStyle}">${esc(row.asignatura)}</span></td>
         <td><span class="rank-score">${puntuacionStr}/${row.total}</span></td>
         <td><span class="rank-pct" style="color:${pctColor}">${row.porcentaje ?? '—'}%</span></td>
         <td><span class="rank-time">⏱ ${tiempoStr}</span></td>

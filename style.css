@@ -1355,10 +1355,10 @@ body {
   .ranking-table th,
   .ranking-table td { padding: 10px 8px; }
 
-  /* Ocultar en móvil: Asignatura (col 3) y Fecha (col 7)
-     Tiempo (col 6) se mantiene siempre visible */
-  .ranking-table th:nth-child(3),
-  .ranking-table td:nth-child(3) { display: none; }
+  /* Ocultar en móvil: Puntuación (col 4) y Fecha (col 7)
+     Mantener visible: Asignatura (col 3) y Tiempo (col 6) */
+  .ranking-table th:nth-child(4),
+  .ranking-table td:nth-child(4) { display: none; }
   .ranking-table th:nth-child(7),
   .ranking-table td:nth-child(7) { display: none; }
 
