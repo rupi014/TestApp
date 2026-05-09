@@ -336,6 +336,10 @@ body {
   color: var(--subject-accent, var(--accent));
 }
 
+.count-container .hint-text {
+  margin-top: 12px;
+}
+
 .count-container #btn-custom-start {
   background: var(--subject-accent, var(--accent));
 }
