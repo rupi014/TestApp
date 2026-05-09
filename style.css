@@ -1315,6 +1315,7 @@ body {
 
   /* ── BACK BUTTON ── */
   .btn-back { margin: 12px 16px; }
+  #back-to-subject { margin: 12px auto 22px; }
   #back-from-competitive { margin-left: auto; margin-right: auto; }
 
   /* ── TEST HEADER ── */
