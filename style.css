@@ -242,6 +242,9 @@ body {
   position: relative;
   z-index: 1;
   max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .subject-badge {
@@ -271,6 +274,7 @@ body {
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 32px;
+  justify-content: center;
 }
 
 .count-pill {
@@ -305,6 +309,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
 
 .custom-count-wrap label {
@@ -313,11 +318,26 @@ body {
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  text-align: center;
 }
 
 .custom-input-row {
   display: flex;
   gap: 12px;
+}
+
+.count-container .section-title em {
+  color: var(--subject-accent, var(--accent));
+}
+
+.count-container .subject-badge {
+  background: color-mix(in srgb, var(--subject-accent, var(--accent)) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--subject-accent, var(--accent)) 35%, transparent);
+  color: var(--subject-accent, var(--accent));
+}
+
+.count-container #btn-custom-start {
+  background: var(--subject-accent, var(--accent));
 }
 
 .custom-input-row input {
@@ -831,12 +851,12 @@ body {
   padding: 6px 14px;
   border-radius: 100px;
   letter-spacing: 0.08em;
-  margin-bottom: 20px;
-  display: inline-block;
+  margin: 0;
+  white-space: nowrap;
 }
 
 .comp-hint {
-  margin-top: -28px;
+  margin-top: 10px;
   margin-bottom: 32px;
 }
 
@@ -1115,6 +1135,7 @@ body {
   justify-content: space-between;
   margin-bottom: 20px;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .btn-ranking {
@@ -1240,12 +1261,16 @@ body {
   .site-header { padding: 20px 16px 12px; }
   .logo { font-size: 1.6rem; }
   .tagline { font-size: 0.68rem; }
+  .site-header { text-align: center; }
 
   /* ── SUBJECT GRID ── */
   .subject-grid-container { padding: 12px 16px 40px; }
   .subject-grid { grid-template-columns: 1fr; gap: 12px; }
   .section-title { font-size: 1.8rem; margin-bottom: 24px; }
   .subject-card { padding: 20px; }
+  .section-title,
+  .hint-text { text-align: center; }
+  .comp-header { text-align: center; }
   .subject-card.comp-card {
     flex-direction: column;
     align-items: flex-start;
@@ -1256,7 +1281,11 @@ body {
 
   /* ── COUNT SCREEN ── */
   .count-container { padding: 0 16px 40px; }
+  .count-container { text-align: center; }
   .count-options { gap: 8px; }
+  .count-options { justify-content: center; }
+  .custom-count-wrap { align-items: center; }
+  .custom-count-wrap label { text-align: center; }
   .count-pill { padding: 12px 18px; font-size: 1rem; }
   .custom-input-row { flex-direction: column; }
   .custom-input-row input { width: 100%; }
@@ -1294,7 +1323,13 @@ body {
   .results-actions .btn-secondary { width: 100%; }
 
   /* ── COMPETITIVE HEADER ── */
-  .comp-header-top { gap: 8px; }
+  .comp-header-top {
+    gap: 8px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-ranking { margin-left: 0; }
   .btn-ranking { font-size: 0.72rem; padding: 6px 12px; }
 
   /* ── SUBMIT SCREEN ── */
@@ -1331,6 +1366,11 @@ body {
 
 /* ── Extra pequeño (≤400px) ── */
 @media (max-width: 400px) {
+  .comp-header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-ranking { margin-left: 0; }
   .score-big { font-size: 2.4rem; }
   .submit-percent { font-size: 2.4rem; }
   .ranking-table th,

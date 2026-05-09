@@ -219,6 +219,10 @@ async function selectSubject(subj) {
     return;
   }
 
+  // Accent específico para la pantalla de selección de preguntas
+  const countContainer = document.querySelector('#screen-count .count-container');
+  if (countContainer) countContainer.style.setProperty('--subject-accent', subj.color);
+
   $('selected-subject-badge').textContent = `${subj.icon} ${subj.abbr}`;
   $('total-available').textContent = state.allQuestions.length;
 
