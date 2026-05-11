@@ -238,7 +238,11 @@ async function selectSubject(subj) {
 
   const countOpts = $('count-options');
   countOpts.innerHTML = '';
-  COUNT_PRESETS.forEach(n => {
+  const presets = (subj.key === 'ports')
+    ? COUNT_PRESETS.filter(n => n !== 30 && n !== 50).concat(25).sort((a, b) => a - b)
+    : COUNT_PRESETS;
+
+  presets.forEach(n => {
     const pill = document.createElement('button');
     pill.className = 'count-pill' + (n > state.allQuestions.length ? ' disabled' : '');
     pill.textContent = n;

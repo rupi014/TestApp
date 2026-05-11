@@ -361,6 +361,18 @@ body {
   outline: none;
 }
 
+/* Quitar flechas (spinners) del input number para mantener la estética */
+.custom-input-row input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.custom-input-row input[type="number"]::-webkit-outer-spin-button,
+.custom-input-row input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .custom-input-row input:focus {
   border-color: var(--accent);
 }

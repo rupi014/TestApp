@@ -1,6 +1,6 @@
 {
   "simulacro": "Preguntas sobre Puertos y Protocolos",
-  "total_preguntas": 30,
+  "total_preguntas": 25,
   "preguntas": [
     {
       "numero": 1,
@@ -34,17 +34,6 @@
         "d": "3306"
       },
       "respuesta_correcta": "a"
-    },
-    {
-      "numero": 4,
-      "enunciado": "¿Para qué sirve HTTPS?",
-      "opciones": {
-        "a": "Crear cookies",
-        "b": "Bloquear puertos",
-        "c": "Acelerar la web",
-        "d": "Cifrar comunicaciones"
-      },
-      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
@@ -179,17 +168,6 @@
       "respuesta_correcta": "c"
     },
     {
-      "numero": 26,
-      "enunciado": "¿Qué variante de NAT permite que muchas IP internas usen una sola IP pública mediante puertos?",
-      "opciones": {
-        "a": "DNAT",
-        "b": "Proxy ARP",
-        "c": "PAT",
-        "d": "NAT estático"
-      },
-      "respuesta_correcta": "c"
-    },
-    {
       "numero": 27,
       "enunciado": "¿Qué comando permite comprobar la conexión al puerto 25?",
       "opciones": {
@@ -199,17 +177,6 @@
         "d": "Ls"
       },
       "respuesta_correcta": "b"
-    },
-    {
-      "numero": 28,
-      "enunciado": "¿Cuál es la principal función de DKIM?",
-      "opciones": {
-        "a": "Cifrar la conexión entre cliente y servidor",
-        "b": "Definir los puertos de envío",
-        "c": "Firmar digitalmente los mensajes del dominio",
-        "d": "Analizar los mensajes en busca de spam"
-      },
-      "respuesta_correcta": "c"
     },
     {
       "numero": 29,
@@ -234,17 +201,6 @@
       "respuesta_correcta": "c"
     },
     {
-      "numero": 31,
-      "enunciado": "¿Por qué se usa UDP en VoIP?",
-      "opciones": {
-        "a": "Por su alta seguridad",
-        "b": "Permite tráfico cifrado nativamente",
-        "c": "Evita retransmisiones y reduce latencia",
-        "d": "Mejora la calidad del vídeo"
-      },
-      "respuesta_correcta": "c"
-    },
-    {
       "numero": 32,
       "enunciado": "¿Qué protocolo de Windows para compartir archivos e impresoras utiliza los puertos TCP 139 y 445?",
       "opciones": {
@@ -254,17 +210,6 @@
         "d": "JetDirect"
       },
       "respuesta_correcta": "b"
-    },
-    {
-      "numero": 33,
-      "enunciado": "¿Qué elemento identifica de forma única una entrada en el árbol del directorio?",
-      "opciones": {
-        "a": "El número de puerto del servicio.",
-        "b": "El PID del proceso slapd.",
-        "c": "El nombre del host donde reside el directorio.",
-        "d": "El DN o Distinguished Name."
-      },
-      "respuesta_correcta": "d"
     },
     {
       "numero": 34,
