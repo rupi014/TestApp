@@ -271,6 +271,12 @@ function startTest(count) {
   state.answers       = new Array(n).fill(null);
   state.answered      = false;
 
+  // Accent específico por asignatura también dentro del test (hover respuestas + chip superior)
+  const testScreen = document.querySelector('#screen-test');
+  if (testScreen && state.subject?.color) {
+    testScreen.style.setProperty('--subject-accent', state.subject.color);
+  }
+
   // Header chip
   const chip = $('test-subject-chip');
   chip.textContent = `${state.subject.icon} ${state.subject.abbr}`;

@@ -447,9 +447,9 @@ body {
 }
 
 .subject-chip {
-  background: var(--accent-dim);
-  border: 1px solid var(--accent-glow);
-  color: var(--accent);
+  background: color-mix(in srgb, var(--subject-accent, var(--accent)) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--subject-accent, var(--accent)) 35%, transparent);
+  color: var(--subject-accent, var(--accent));
   font-family: var(--font-mono);
   font-size: 0.7rem;
   padding: 4px 10px;
@@ -485,7 +485,7 @@ body {
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, var(--accent), #00b8ff);
+  background: linear-gradient(90deg, var(--subject-accent, var(--accent)), #00b8ff);
   transition: width 0.4s ease;
   width: 0%;
   box-shadow: 0 0 8px var(--accent-glow);
@@ -521,7 +521,7 @@ body {
 .question-number {
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--subject-accent, var(--accent));
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 16px;
@@ -562,8 +562,8 @@ body {
 }
 
 .option-btn:not(.answered):hover {
-  border-color: var(--accent);
-  background: var(--accent-dim);
+  border-color: var(--subject-accent, var(--accent));
+  background: color-mix(in srgb, var(--subject-accent, var(--accent)) 14%, transparent);
   transform: translateX(4px);
 }
 
