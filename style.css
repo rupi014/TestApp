@@ -621,11 +621,24 @@ body {
   color: var(--correct);
 }
 
+.explanation-box.wrong-feedback {
+  background: var(--wrong-bg);
+  border-color: var(--wrong-border);
+  color: var(--wrong);
+}
+
 .btn-next {
   display: block;
   width: 100%;
   padding: 16px;
   font-size: 1rem;
+  background: var(--subject-accent, var(--accent));
+  box-shadow: 0 4px 20px color-mix(in srgb, var(--subject-accent, var(--accent)) 35%, transparent);
+}
+
+.btn-next:hover {
+  background: #fff;
+  box-shadow: 0 8px 28px color-mix(in srgb, var(--subject-accent, var(--accent)) 45%, transparent);
 }
 
 .hidden { display: none !important; }

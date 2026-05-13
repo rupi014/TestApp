@@ -362,7 +362,7 @@ function answerQuestion(chosen) {
     box.className   = 'explanation-box correct-feedback';
   } else {
     box.textContent = `✗ Incorrecto. La respuesta correcta es ${correct.toUpperCase()}: ${q.opciones[correct]}`;
-    box.className   = 'explanation-box';
+    box.className   = 'explanation-box wrong-feedback';
   }
   box.classList.remove('hidden');
 
