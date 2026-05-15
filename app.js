@@ -266,7 +266,27 @@ $('btn-custom-start').addEventListener('click', () => {
 // ── START TEST ────────────────────────────────────────────────────────────────
 function startTest(count) {
   const n = Math.min(count, state.allQuestions.length);
-  state.testQuestions = shuffle(state.allQuestions).slice(0, n);
+  
+  // Seleccionamos N preguntas al azar y para cada una mezclamos sus opciones
+  state.testQuestions = shuffle(state.allQuestions).slice(0, n).map(q => {
+    if (!q.opciones) return { ...q };
+    
+    const keys = Object.keys(q.opciones).filter(k => q.opciones[k] != null);
+    const shuffledKeys = shuffle([...keys]);
+    const newOpciones = {};
+    let newCorrectKey = q.respuesta_correcta;
+    
+    keys.forEach((key, i) => {
+      const sourceKey = shuffledKeys[i];
+      newOpciones[key] = q.opciones[sourceKey];
+      if (sourceKey === q.respuesta_correcta) {
+        newCorrectKey = key;
+      }
+    });
+    
+    return { ...q, opciones: newOpciones, respuesta_correcta: newCorrectKey };
+  });
+
   state.currentIndex  = 0;
   state.answers       = new Array(n).fill(null);
   state.answered      = false;
