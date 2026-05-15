@@ -1,12 +1,11 @@
 # 🧪 TestLab — Simulacros de Examen
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-id/deploy-status)](https://app.netlify.com/sites/asirtestlab/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stack: JS/HTML/CSS](https://img.shields.io/badge/Stack-Pure%20JS%20%7C%20HTML%20%7C%20CSS-blue)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 **TestLab** es una plataforma web de alto rendimiento diseñada para la realización de simulacros de examen tipo test. Enfocada inicialmente en el ciclo de **ASIR (Administración de Sistemas Informáticos en Red)** y **Ciberseguridad**, la aplicación ofrece una experiencia de aprendizaje interactiva, dinámica y visualmente atractiva.
 
-![TestLab Mockup](file:///C:/Users/Rubens/.gemini/antigravity/brain/3136a41b-41f4-427d-8dd7-61a52fabc74e/testlab_mockup_1778832110089.png)
+
 
 ---
 
