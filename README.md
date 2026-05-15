@@ -1,19 +1,92 @@
-# TestLab — Simulacros de Examen
+# 🧪 TestLab — Simulacros de Examen
 
-TestLab es una aplicación web estática para hacer **simulacros tipo test** a partir de bancos de preguntas en JSON. Permite elegir una asignatura, seleccionar cuántas preguntas quieres (con presets o número personalizado), realizar el test y ver un **resumen de resultados** con repaso de errores.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-id/deploy-status)](https://app.netlify.com/sites/asirtestlab/deploys)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stack: JS/HTML/CSS](https://img.shields.io/badge/Stack-Pure%20JS%20%7C%20HTML%20%7C%20CSS-blue)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-## Características
+**TestLab** es una plataforma web de alto rendimiento diseñada para la realización de simulacros de examen tipo test. Enfocada inicialmente en el ciclo de **ASIR (Administración de Sistemas Informáticos en Red)** y **Ciberseguridad**, la aplicación ofrece una experiencia de aprendizaje interactiva, dinámica y visualmente atractiva.
 
-- Selección de **asignatura** (ASIR / Ciberseguridad).
-- Selección de **número de preguntas** (presets y personalizado).
-- Preguntas aleatorias a partir de ficheros `.json`.
-- Corrección inmediata y **pantalla de resultados** con repaso de errores.
-- Sin backend, sin build: funciona con **HTML + CSS + JavaScript**.
+![TestLab Mockup](file:///C:/Users/Rubens/.gemini/antigravity/brain/3136a41b-41f4-427d-8dd7-61a52fabc74e/testlab_mockup_1778832110089.png)
 
-## Estructura del proyecto
+---
 
-- `index.html`: interfaz (pantallas y layout).
-- `style.css`: estilos.
-- `app.js`: lógica del test (carga de preguntas, aleatorización, progreso, resultados).
-- `*_completo.json`: bancos de preguntas por asignatura.
+## 🚀 Características Principales
 
+### 🎯 Gestión de Asignaturas
+Acceso a un catálogo completo de módulos con bancos de preguntas actualizados:
+- **IPEI**: Itinerario Personal de Empleabilidad I.
+- **BBDD**: Administración de Bases de Datos.
+- **SSOO**: Administración de Sistemas Operativos.
+- **LM**: Lenguaje de Marcas.
+- **IAW**: Implementación de Aplicaciones Web.
+- **SRI**: Servicios de Red e Internet.
+- **PUERTOS**: Diccionario de Puertos y Protocolos.
+
+### 🎮 Modos de Juego
+
+#### 🔹 Modo Práctica (Normal)
+Ideal para el estudio diario y repaso de conceptos.
+- **Configuración flexible**: Elige entre presets (5, 10, 15, 20, 30, 50) o un número personalizado de preguntas.
+- **Feedback inmediato**: Corrección en tiempo real con explicaciones detalladas.
+- **Repaso de errores**: Al finalizar, accede a un desglose completo de las preguntas falladas para reforzar conocimientos.
+
+#### ⚡ Modo Competitivo
+Pon a prueba tus conocimientos bajo presión y compite con otros estudiantes.
+- **Reto Estándar**: 30 preguntas aleatorias de la asignatura seleccionada.
+- **Sistema de Penalización**: Se aplica una penalización de **-0.33 puntos** por cada respuesta incorrecta (fórmula: `aciertos - (errores / 3)`).
+- **Cronómetro**: El tiempo es un factor determinante para el desempate.
+- **Ranking Global**: Guarda tu puntuación y escala posiciones en el leaderboard integrado con **Supabase**.
+
+### 🎨 Experiencia de Usuario (UI/UX)
+- **Diseño Moderno**: Interfaz basada en *glassmorphism* con efectos visuales dinámicos y transiciones suaves.
+- **Tematización Dinámica**: La interfaz adapta sus colores de acento según la asignatura seleccionada.
+- **Responsive Design**: Totalmente optimizado para dispositivos móviles y escritorio.
+- **Aleatorización Avanzada**: Algoritmo de Fisher-Yates para barajar tanto el orden de las preguntas como el de las opciones de respuesta en cada intento.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+La aplicación ha sido desarrollada priorizando la ligereza y el rendimiento, sin dependencias pesadas ni procesos de compilación complejos:
+
+- **Frontend**: HTML5 Semántico, CSS3 Moderno (Variables, Flexbox, Grid) y Vanilla JavaScript (ES6+).
+- **Backend (BaaS)**: [Supabase](https://supabase.com/) para la persistencia del ranking global.
+- **Base de Datos**: Archivos JSON estructurados para los bancos de preguntas.
+- **Despliegue**: Optimizado para Netlify.
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+├── index.html          # Estructura principal y contenedores de pantallas
+├── style.css           # Sistema de diseño, animaciones y responsive
+├── app.js              # Motor del test, gestión de estado e integración con Supabase
+├── netlify.toml        # Configuración de despliegue
+├── *_completo.json     # Bancos de preguntas por asignatura
+└── ranking.json        # (Legacy/Mock) Datos de ranking
+```
+
+---
+
+## 🔧 Instalación y Uso Local
+
+Al ser una aplicación estática, no requiere instalación de dependencias.
+
+1.  **Clona el repositorio**:
+    ```bash
+    git clone https://github.com/tu-usuario/TestApp.git
+    ```
+2.  **Abre el proyecto**:
+    Simplemente abre `index.html` en tu navegador favorito.
+    *Nota: Para que las peticiones `fetch` a los archivos JSON y Supabase funcionen correctamente, se recomienda usar un servidor local (ej: la extensión "Live Server" de VS Code).*
+
+---
+
+## 👤 Autor
+
+Desarrollado con ❤️ por **Rubens Ballester**.
+
+---
+
+*Este proyecto es de código abierto. Si encuentras algún error en las preguntas o quieres añadir nuevas funcionalidades, ¡las contribuciones son bienvenidas!*
