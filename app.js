@@ -45,6 +45,7 @@ let state = {
   // timer
   timerInterval: null,
   timerSeconds:  0,
+  focusedElementIndex: -1,
 };
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -54,6 +55,8 @@ const showScreen = (id) => {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   $(id).classList.add('active');
   window.scrollTo(0, 0);
+  state.focusedElementIndex = -1;
+  updateKeyboardFocus();
 };
 
 function esc(str) {
@@ -357,6 +360,7 @@ function renderQuestion() {
   $('explanation-box').className = 'explanation-box hidden';
   $('btn-next').classList.add('hidden');
   state.answered = false;
+  state.focusedElementIndex = -1;
 }
 
 function answerQuestion(chosen) {
@@ -392,6 +396,10 @@ function answerQuestion(chosen) {
   const nextBtn  = $('btn-next');
   nextBtn.textContent = isLast ? (state.isCompetitive ? 'Ver mi resultado →' : 'Ver resultados →') : 'Siguiente →';
   nextBtn.classList.remove('hidden');
+
+  // Auto-enfocar el botón Siguiente para navegación por teclado
+  state.focusedElementIndex = 0; 
+  updateKeyboardFocus();
 }
 
 $('btn-next').addEventListener('click', () => {
@@ -611,6 +619,91 @@ async function loadRanking() {
     $('ranking-loading').textContent = 'Error cargando el ranking.';
   }
 }
+
+// ── KEYBOARD NAVIGATION ──────────────────────────────────────────────────────
+function getFocusableElements() {
+  const activeScreen = document.querySelector('.screen.active');
+  if (!activeScreen) return [];
+
+  switch (activeScreen.id) {
+    case 'screen-subject':
+      return Array.from(activeScreen.querySelectorAll('.subject-card'));
+    case 'screen-count':
+      return Array.from(activeScreen.querySelectorAll('.count-pill:not(.disabled), #btn-custom-start, .btn-back'));
+    case 'screen-test':
+      // Si ya se respondió, el foco solo puede ir al botón Siguiente o Salir
+      if (state.answered) {
+        return Array.from(activeScreen.querySelectorAll('#btn-next:not(.hidden), #back-to-count'));
+      }
+      return Array.from(activeScreen.querySelectorAll('.option-btn, #back-to-count'));
+    case 'screen-results':
+      return Array.from(activeScreen.querySelectorAll('.btn-primary, .btn-secondary'));
+    case 'screen-competitive':
+      return Array.from(activeScreen.querySelectorAll('.subject-card, #btn-view-ranking, .btn-back'));
+    case 'screen-submit':
+      return Array.from(activeScreen.querySelectorAll('#player-name, #btn-save-score, #btn-skip-save'));
+    case 'screen-ranking':
+      return Array.from(activeScreen.querySelectorAll('.ranking-select, .btn-back'));
+    default:
+      return [];
+  }
+}
+
+function updateKeyboardFocus() {
+  // Limpiar focos anteriores
+  document.querySelectorAll('.focused').forEach(el => el.classList.remove('focused'));
+  
+  const elements = getFocusableElements();
+  if (state.focusedElementIndex >= 0 && state.focusedElementIndex < elements.length) {
+    const el = elements[state.focusedElementIndex];
+    el.classList.add('focused');
+    // Si es un input, le damos el foco real para que pueda escribir
+    if (el.tagName === 'INPUT' || el.tagName === 'SELECT') {
+      el.focus();
+    } else {
+      // Para botones/cards, quitamos el foco real si lo tiene otro input para evitar problemas
+      if (document.activeElement.tagName === 'INPUT') document.activeElement.blur();
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+}
+
+window.addEventListener('keydown', (e) => {
+  const elements = getFocusableElements();
+  if (!elements.length) return;
+
+  if (['ArrowDown', 'ArrowRight'].includes(e.key)) {
+    e.preventDefault();
+    state.focusedElementIndex = (state.focusedElementIndex + 1) % elements.length;
+    updateKeyboardFocus();
+  } else if (['ArrowUp', 'ArrowLeft'].includes(e.key)) {
+    e.preventDefault();
+    state.focusedElementIndex = (state.focusedElementIndex - 1 + elements.length) % elements.length;
+    updateKeyboardFocus();
+  } else if (e.key === 'Enter') {
+    const activeScreen = document.querySelector('.screen.active');
+    
+    // Comportamiento especial para el test: si ya se respondió, Enter siempre pasa de pregunta
+    if (activeScreen && activeScreen.id === 'screen-test' && state.answered) {
+      e.preventDefault();
+      $('btn-next').click();
+      return;
+    }
+
+    if (state.focusedElementIndex >= 0) {
+      const el = elements[state.focusedElementIndex];
+      // Si es un botón o card, hacemos click
+      if (el.tagName === 'BUTTON' || el.classList.contains('subject-card') || el.classList.contains('option-btn')) {
+        e.preventDefault();
+        el.click();
+      }
+      // Si es el input de nombre, el Enter natural del formulario ya debería funcionar o podemos disparar el guardado
+      if (el.id === 'player-name' && e.target === el) {
+        // Dejamos que el Enter natural funcione
+      }
+    }
+  }
+});
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 renderSubjectGrid();

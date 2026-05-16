@@ -205,6 +205,13 @@ body {
   transform: scaleX(1);
 }
 
+.subject-card.focused {
+  border-color: var(--card-accent, var(--accent));
+  background: var(--bg-card2);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6), 0 0 0 2px var(--card-accent, var(--accent));
+}
+
 .card-icon {
   font-size: 2rem;
   line-height: 1;
@@ -423,6 +430,13 @@ body {
   transform: translateY(-2px);
 }
 
+.btn-primary.focused, .btn-secondary.focused, .count-pill.focused {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--accent-glow);
+}
+
 /* ========================
    TEST HEADER (SCREEN 3)
    ======================== */
@@ -565,6 +579,13 @@ body {
   border-color: var(--subject-accent, var(--accent));
   background: color-mix(in srgb, var(--subject-accent, var(--accent)) 14%, transparent);
   transform: translateX(4px);
+}
+
+.option-btn.focused {
+  border-color: var(--subject-accent, var(--accent));
+  background: color-mix(in srgb, var(--subject-accent, var(--accent)) 20%, transparent);
+  transform: translateX(8px);
+  box-shadow: 0 0 15px color-mix(in srgb, var(--subject-accent, var(--accent)) 30%, transparent);
 }
 
 .option-key {
