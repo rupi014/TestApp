@@ -445,13 +445,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 32px;
-  position: relative;
-  z-index: 1;
-  border-bottom: 1px solid var(--border);
-  background: rgba(10,12,15,0.9);
-  backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--border);
+  background: rgba(10,12,15,0.95);
+  backdrop-filter: blur(12px);
 }
 
 .test-meta {
@@ -1050,7 +1049,7 @@ body {
   top: 0;
   background: rgba(10,12,15,0.95);
   backdrop-filter: blur(12px);
-  z-index: 10;
+  z-index: 100;
   flex-wrap: wrap;
 }
 
@@ -1574,9 +1573,10 @@ body {
   #back-from-competitive { margin-left: auto; margin-right: auto; }
 
   /* ── TEST HEADER ── */
-  .test-header { padding: 12px 14px; flex-wrap: nowrap; gap: 8px; }
+  .test-header { padding: 12px 14px; flex-wrap: wrap; gap: 8px; }
   .test-meta .subject-chip,
-  .test-meta .comp-chip { display: none; }
+  .test-meta .comp-chip,
+  .test-meta .study-chip { display: none; }
   .progress-text { font-size: 0.8rem; }
   .score-live { font-size: 0.85rem; gap: 8px; }
 
@@ -1684,6 +1684,14 @@ body {
   .study-navigator-dropdown-wrap {
     width: 100%;
     margin-top: 8px;
+  }
+  .study-nav-buttons {
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .btn-study-nav {
+    padding: 12px;
+    font-size: 0.85rem;
   }
 }
 

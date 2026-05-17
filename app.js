@@ -304,9 +304,7 @@ async function startStudySession(subj) {
   state.studyAnswers = {};
   state.studyOrder = Array.from({ length: state.studyQuestions.length }, (_, i) => i);
 
-  // Initialize controls
-  $('study-shuffle-toggle').checked = false;
-  $('study-auto-reveal-toggle').checked = false;
+
 
   // Generate question selector dropdown options
   const selector = $('study-question-selector');
@@ -327,6 +325,7 @@ async function startStudySession(subj) {
 }
 
 function renderStudyQuestion() {
+  window.scrollTo(0, 0);
   const idx = state.currentIndex;
   const origIdx = state.studyOrder[idx];
   const q = state.studyQuestions[origIdx];
@@ -351,48 +350,24 @@ function renderStudyQuestion() {
   grid.innerHTML = '';
 
   const optionsKeys = ['a', 'b', 'c', 'd'].filter(k => q.opciones?.[k] != null);
-  const saved = state.studyAnswers[origIdx] || null;
-  const isAutoReveal = $('study-auto-reveal-toggle').checked;
-  const shouldShowAnswer = isAutoReveal || (saved && saved.revealed);
 
   optionsKeys.forEach(key => {
     const btn = document.createElement('button');
-    btn.className = 'option-btn';
+    btn.className = 'option-btn answered';
     btn.dataset.key = key;
     btn.innerHTML = `<span class="option-key">${key.toUpperCase()}</span><span>${esc(q.opciones[key])}</span>`;
 
-    if (saved && saved.chosen) {
-      btn.classList.add('answered');
-      if (key === q.respuesta_correcta) btn.classList.add('correct');
-      if (key === saved.chosen && saved.chosen !== q.respuesta_correcta) btn.classList.add('wrong');
-    } else if (shouldShowAnswer) {
-      btn.classList.add('answered');
-      if (key === q.respuesta_correcta) btn.classList.add('correct');
-    } else {
-      btn.addEventListener('click', () => answerStudyQuestion(key));
+    if (key === q.respuesta_correcta) {
+      btn.classList.add('correct');
     }
     grid.appendChild(btn);
   });
 
   // Explanation box
   const box = $('study-explanation-box');
-  box.className = 'explanation-box hidden';
-
-  if (saved && saved.chosen) {
-    const isCorrect = saved.chosen === q.respuesta_correcta;
-    if (isCorrect) {
-      box.textContent = '✓ ¡Correcto!';
-      box.className = 'explanation-box correct-feedback';
-    } else {
-      box.textContent = `✗ Incorrecto. La respuesta correcta es ${q.respuesta_correcta.toUpperCase()}: ${q.opciones[q.respuesta_correcta]}`;
-      box.className = 'explanation-box wrong-feedback';
-    }
-    box.classList.remove('hidden');
-  } else if (shouldShowAnswer) {
-    box.textContent = `Respuesta correcta es ${q.respuesta_correcta.toUpperCase()}: ${q.opciones[q.respuesta_correcta]}`;
-    box.className = 'explanation-box correct-feedback';
-    box.classList.remove('hidden');
-  }
+  box.textContent = `✓ Respuesta correcta: ${q.respuesta_correcta.toUpperCase()}. ${esc(q.opciones[q.respuesta_correcta])}`;
+  box.className = 'explanation-box correct-feedback';
+  box.classList.remove('hidden');
 
   // Navigation button states
   $('btn-study-prev').disabled = (idx === 0);
@@ -406,52 +381,7 @@ function renderStudyQuestion() {
   state.focusedElementIndex = -1;
 }
 
-function answerStudyQuestion(chosen) {
-  const idx = state.currentIndex;
-  const origIdx = state.studyOrder[idx];
-  const q = state.studyQuestions[origIdx];
 
-  state.studyAnswers[origIdx] = {
-    chosen: chosen,
-    revealed: true
-  };
-
-  renderStudyQuestion();
-}
-
-$('study-shuffle-toggle').addEventListener('change', () => {
-  const currentIdxInOrig = state.studyOrder[state.currentIndex];
-  const n = state.studyQuestions.length;
-  if ($('study-shuffle-toggle').checked) {
-    const indices = Array.from({ length: n }, (_, i) => i);
-    state.studyOrder = shuffle(indices);
-  } else {
-    state.studyOrder = Array.from({ length: n }, (_, i) => i);
-  }
-  state.currentIndex = state.studyOrder.indexOf(currentIdxInOrig);
-  if (state.currentIndex === -1) state.currentIndex = 0;
-
-  renderStudyQuestion();
-});
-
-$('study-auto-reveal-toggle').addEventListener('change', () => {
-  renderStudyQuestion();
-});
-
-$('btn-study-reset').addEventListener('click', () => {
-  const origIdx = state.studyOrder[state.currentIndex];
-  delete state.studyAnswers[origIdx];
-  renderStudyQuestion();
-});
-
-$('btn-study-reveal').addEventListener('click', () => {
-  const origIdx = state.studyOrder[state.currentIndex];
-  state.studyAnswers[origIdx] = {
-    chosen: null,
-    revealed: true
-  };
-  renderStudyQuestion();
-});
 
 $('btn-study-prev').addEventListener('click', () => {
   if (state.currentIndex > 0) {
@@ -593,6 +523,7 @@ $('back-to-count').addEventListener('click', () => {
 });
 
 function renderQuestion() {
+  window.scrollTo(0, 0);
   const idx   = state.currentIndex;
   const q     = state.testQuestions[idx];
   const total = state.testQuestions.length;
