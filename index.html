@@ -186,7 +186,78 @@
       <p class="ranking-empty hidden" id="ranking-empty">No hay resultados todavía. ¡Sé el primero!</p>
     </main>
   </div>
+  <!-- SCREEN 8: Study Mode — Subject Selection -->
+  <div id="screen-study-subjects" class="screen">
+    <div class="bg-grid"></div>
+    <button class="btn-back" id="back-from-study-subjects">← Volver</button>
+    <main class="subject-grid-container">
+      <div class="comp-header">
+        <div class="comp-header-top">
+          <span class="study-badge">📚 MODO ESTUDIO</span>
+        </div>
+        <h2 class="section-title">Elige una <em>asignatura</em></h2>
+        <p class="hint-text comp-hint">Preguntas en orden o mezcladas · Revelar respuestas al instante · Sin límite de tiempo</p>
+      </div>
+      <div class="subject-grid" id="study-subject-grid"></div>
+    </main>
+  </div>
+
+  <!-- SCREEN 9: Study Session -->
+  <div id="screen-study-session" class="screen">
+    <div class="bg-grid"></div>
+    <div class="test-header">
+      <button class="btn-back" id="back-from-study-session">← Salir</button>
+      <div class="test-meta">
+        <span class="study-chip" id="study-session-chip">📚 BBDD</span>
+        <span class="progress-text">Pregunta <span id="study-current">1</span> / <span id="study-total">120</span></span>
+      </div>
+      <!-- Question Selector Dropdown -->
+      <div class="study-navigator-dropdown-wrap">
+        <select id="study-question-selector" class="study-select"></select>
+      </div>
+    </div>
+    
+    <!-- Study Mode Toolbar / Options -->
+    <div class="study-toolbar">
+      <div class="study-toolbar-left">
+        <label class="study-toggle">
+          <input type="checkbox" id="study-shuffle-toggle" />
+          <span class="toggle-slider"></span>
+          <span class="toggle-label">Mezclar preguntas</span>
+        </label>
+        <label class="study-toggle">
+          <input type="checkbox" id="study-auto-reveal-toggle" />
+          <span class="toggle-slider"></span>
+          <span class="toggle-label">Revelar al cargar</span>
+        </label>
+      </div>
+      <div class="study-toolbar-right">
+        <button class="btn-study-action" id="btn-study-reset">🔄 Reiniciar pregunta</button>
+        <button class="btn-study-action" id="btn-study-reveal">👁️ Revelar respuesta</button>
+      </div>
+    </div>
+
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="study-progress-bar"></div>
+    </div>
+
+    <main class="test-body">
+      <div class="question-card" id="study-question-card">
+        <p class="question-number" id="study-question-number">Pregunta 1</p>
+        <p class="question-text" id="study-question-text"></p>
+        <div class="options-grid" id="study-options-grid"></div>
+        <div class="explanation-box hidden" id="study-explanation-box"></div>
+        
+        <!-- Navigation Row inside the card -->
+        <div class="study-nav-buttons">
+          <button class="btn-secondary btn-study-nav" id="btn-study-prev">← Anterior</button>
+          <button class="btn-primary btn-study-nav" id="btn-study-next">Siguiente →</button>
+        </div>
+      </div>
+    </main>
+  </div>
 
   <script src="app.js"></script>
 </body>
 </html>
+

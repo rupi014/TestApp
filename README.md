@@ -29,6 +29,20 @@ Ideal para el estudio diario y repaso de conceptos.
 - **Feedback inmediato**: Corrección en tiempo real con explicaciones detalladas.
 - **Repaso de errores**: Al finalizar, accede a un desglose completo de las preguntas falladas para reforzar conocimientos.
 
+#### 📚 Modo Estudio (Estudiar)
+Diseñado para el aprendizaje profundo y sistemático de los conceptos sin la presión de cronómetros, puntuaciones ni penalizaciones.
+- **Acceso Completo**: Permite estudiar el banco de preguntas completo de la asignatura elegida.
+- **Navegación Libre y Flexible**:
+  - Avanza y retrocede por las preguntas con total libertad usando los botones **Anterior** y **Siguiente**.
+  - Salta directamente a cualquier pregunta utilizando el **selector desplegable** inteligente.
+- **Toggles de Aprendizaje Activo**:
+  - **Mezclar preguntas**: Alterna entre el orden original del banco (ideal para estudio sistemático) y un orden aleatorio.
+  - **Revelar al cargar**: Úsalo a modo de tarjeta de memoria (*flashcard*) para ver la respuesta correcta y justificación inmediatamente al cargar la pregunta.
+- **Interactividad y Repaso**:
+  - Haz clic en las opciones para recibir feedback instantáneo (verde para aciertos, rojo para fallos) junto con la explicación completa.
+  - Botón **Revelar respuesta** para ver la solución en cualquier momento sin necesidad de equivocarte primero.
+  - Botón **Reiniciar pregunta** para borrar tu selección activa y volver a intentar responderla las veces que quieras.
+
 #### ⚡ Modo Competitivo
 Pon a prueba tus conocimientos bajo presión y compite con otros estudiantes.
 - **Reto Estándar**: 30 preguntas aleatorias de la asignatura seleccionada.

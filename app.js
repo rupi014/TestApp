@@ -46,6 +46,12 @@ let state = {
   timerInterval: null,
   timerSeconds:  0,
   focusedElementIndex: -1,
+
+  // study mode state
+  isStudyMode:    false,
+  studyQuestions: [],
+  studyOrder:     [],
+  studyAnswers:   {},   // { originalIndex: { chosen: 'a' or null, revealed: true } }
 };
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -155,6 +161,19 @@ function renderSubjectGrid() {
   compCard.addEventListener('click', () => showScreen('screen-competitive'));
   grid.appendChild(compCard);
 
+  const studyCard = document.createElement('div');
+  studyCard.className = 'subject-card study-card';
+  studyCard.innerHTML = `
+    <div class="card-icon">📚</div>
+    <div class="study-card-text">
+      <div class="card-name">Modo Estudio</div>
+      <div class="card-abbr">Sin presión · Ver respuestas e índices · Todas las preguntas</div>
+    </div>
+    <span class="study-card-cta">Estudiar →</span>
+  `;
+  studyCard.addEventListener('click', () => { renderStudySubjectGrid(); showScreen('screen-study-subjects'); });
+  grid.appendChild(studyCard);
+
   SUBJECTS.forEach(subj => {
     const card = document.createElement('div');
     card.className = 'subject-card';
@@ -218,6 +237,249 @@ async function startCompetitive(subj) {
   }
   startTest(COMP_QUESTIONS);
 }
+
+// ── SCREEN 8: STUDY MODE SUBJECT GRID ──────────────────────────────────────────
+function renderStudySubjectGrid() {
+  const grid = $('study-subject-grid');
+  grid.innerHTML = '';
+  SUBJECTS.forEach(subj => {
+    const card = document.createElement('div');
+    card.className = 'subject-card';
+    card.style.setProperty('--card-accent', subj.color);
+    card.innerHTML = `
+      <div class="card-icon">${subj.icon}</div>
+      <div class="card-name">${subj.name}</div>
+      <div class="card-abbr">${subj.abbr}</div>
+      <div class="card-count" id="study-count-${subj.key}" style="color:${subj.color}">Cargando…</div>
+    `;
+    card.addEventListener('click', () => startStudySession(subj));
+    grid.appendChild(card);
+    loadStudyQuestionCount(subj);
+  });
+}
+
+async function loadStudyQuestionCount(subj) {
+  try {
+    const res  = await fetch(subj.file);
+    const data = await res.json();
+    const el   = $(`study-count-${subj.key}`);
+    if (el) el.textContent = `${data.preguntas?.length ?? 0} preguntas`;
+  } catch {
+    const el = $(`study-count-${subj.key}`);
+    if (el) el.textContent = 'Error cargando';
+  }
+}
+
+$('back-from-study-subjects').addEventListener('click', () => showScreen('screen-subject'));
+$('back-from-study-session').addEventListener('click', () => {
+  if (confirm('¿Salir del modo estudio? Se perderá el progreso de esta sesión.')) {
+    showScreen('screen-study-subjects');
+  }
+});
+
+async function startStudySession(subj) {
+  state.isStudyMode = true;
+  state.isCompetitive = false;
+  state.subject = subj;
+  try {
+    const res  = await fetch(subj.file);
+    const data = await res.json();
+    state.studyQuestions = data.preguntas || [];
+  } catch {
+    showToast('Error cargando las preguntas.');
+    return;
+  }
+
+  // Set up CSS theme variables for study session screen
+  const studyScreen = $('screen-study-session');
+  if (studyScreen && subj.color) {
+    studyScreen.style.setProperty('--subject-accent', subj.color);
+  }
+
+  $('study-session-chip').textContent = `📚 ${subj.abbr}`;
+  $('study-total').textContent = state.studyQuestions.length;
+
+  // Initialize study state
+  state.currentIndex = 0;
+  state.studyAnswers = {};
+  state.studyOrder = Array.from({ length: state.studyQuestions.length }, (_, i) => i);
+
+  // Initialize controls
+  $('study-shuffle-toggle').checked = false;
+  $('study-auto-reveal-toggle').checked = false;
+
+  // Generate question selector dropdown options
+  const selector = $('study-question-selector');
+  selector.innerHTML = '';
+  state.studyQuestions.forEach((q, idx) => {
+    const opt = document.createElement('option');
+    opt.value = idx;
+    const text = q.enunciado.length > 50 ? q.enunciado.slice(0, 50) + '...' : q.enunciado;
+    opt.textContent = `${idx + 1}. ${text}`;
+    selector.appendChild(opt);
+  });
+
+  selector.value = 0;
+
+  // Render the first question
+  renderStudyQuestion();
+  showScreen('screen-study-session');
+}
+
+function renderStudyQuestion() {
+  const idx = state.currentIndex;
+  const origIdx = state.studyOrder[idx];
+  const q = state.studyQuestions[origIdx];
+  const total = state.studyQuestions.length;
+
+  // Update progress bar
+  $('study-progress-bar').style.width = `${((idx + 1) / total) * 100}%`;
+  $('study-current').textContent = idx + 1;
+  $('study-question-selector').value = origIdx;
+
+  // Card animation reflow
+  const card = $('study-question-card');
+  card.style.animation = 'none';
+  card.offsetHeight;
+  card.style.animation = '';
+
+  $('study-question-number').textContent = `Pregunta ${idx + 1} de ${total}`;
+  $('study-question-text').textContent = q.enunciado;
+
+  // Options grid
+  const grid = $('study-options-grid');
+  grid.innerHTML = '';
+
+  const optionsKeys = ['a', 'b', 'c', 'd'].filter(k => q.opciones?.[k] != null);
+  const saved = state.studyAnswers[origIdx] || null;
+  const isAutoReveal = $('study-auto-reveal-toggle').checked;
+  const shouldShowAnswer = isAutoReveal || (saved && saved.revealed);
+
+  optionsKeys.forEach(key => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.dataset.key = key;
+    btn.innerHTML = `<span class="option-key">${key.toUpperCase()}</span><span>${esc(q.opciones[key])}</span>`;
+
+    if (saved && saved.chosen) {
+      btn.classList.add('answered');
+      if (key === q.respuesta_correcta) btn.classList.add('correct');
+      if (key === saved.chosen && saved.chosen !== q.respuesta_correcta) btn.classList.add('wrong');
+    } else if (shouldShowAnswer) {
+      btn.classList.add('answered');
+      if (key === q.respuesta_correcta) btn.classList.add('correct');
+    } else {
+      btn.addEventListener('click', () => answerStudyQuestion(key));
+    }
+    grid.appendChild(btn);
+  });
+
+  // Explanation box
+  const box = $('study-explanation-box');
+  box.className = 'explanation-box hidden';
+
+  if (saved && saved.chosen) {
+    const isCorrect = saved.chosen === q.respuesta_correcta;
+    if (isCorrect) {
+      box.textContent = '✓ ¡Correcto!';
+      box.className = 'explanation-box correct-feedback';
+    } else {
+      box.textContent = `✗ Incorrecto. La respuesta correcta es ${q.respuesta_correcta.toUpperCase()}: ${q.opciones[q.respuesta_correcta]}`;
+      box.className = 'explanation-box wrong-feedback';
+    }
+    box.classList.remove('hidden');
+  } else if (shouldShowAnswer) {
+    box.textContent = `Respuesta correcta es ${q.respuesta_correcta.toUpperCase()}: ${q.opciones[q.respuesta_correcta]}`;
+    box.className = 'explanation-box correct-feedback';
+    box.classList.remove('hidden');
+  }
+
+  // Navigation button states
+  $('btn-study-prev').disabled = (idx === 0);
+  $('btn-study-prev').style.opacity = (idx === 0) ? 0.4 : 1;
+  $('btn-study-prev').style.pointerEvents = (idx === 0) ? 'none' : 'auto';
+
+  const isLast = (idx === total - 1);
+  $('btn-study-next').textContent = isLast ? 'Finalizar estudio 🏁' : 'Siguiente →';
+  
+  // Set focus on keyboard navigation if needed
+  state.focusedElementIndex = -1;
+}
+
+function answerStudyQuestion(chosen) {
+  const idx = state.currentIndex;
+  const origIdx = state.studyOrder[idx];
+  const q = state.studyQuestions[origIdx];
+
+  state.studyAnswers[origIdx] = {
+    chosen: chosen,
+    revealed: true
+  };
+
+  renderStudyQuestion();
+}
+
+$('study-shuffle-toggle').addEventListener('change', () => {
+  const currentIdxInOrig = state.studyOrder[state.currentIndex];
+  const n = state.studyQuestions.length;
+  if ($('study-shuffle-toggle').checked) {
+    const indices = Array.from({ length: n }, (_, i) => i);
+    state.studyOrder = shuffle(indices);
+  } else {
+    state.studyOrder = Array.from({ length: n }, (_, i) => i);
+  }
+  state.currentIndex = state.studyOrder.indexOf(currentIdxInOrig);
+  if (state.currentIndex === -1) state.currentIndex = 0;
+
+  renderStudyQuestion();
+});
+
+$('study-auto-reveal-toggle').addEventListener('change', () => {
+  renderStudyQuestion();
+});
+
+$('btn-study-reset').addEventListener('click', () => {
+  const origIdx = state.studyOrder[state.currentIndex];
+  delete state.studyAnswers[origIdx];
+  renderStudyQuestion();
+});
+
+$('btn-study-reveal').addEventListener('click', () => {
+  const origIdx = state.studyOrder[state.currentIndex];
+  state.studyAnswers[origIdx] = {
+    chosen: null,
+    revealed: true
+  };
+  renderStudyQuestion();
+});
+
+$('btn-study-prev').addEventListener('click', () => {
+  if (state.currentIndex > 0) {
+    state.currentIndex--;
+    renderStudyQuestion();
+  }
+});
+
+$('btn-study-next').addEventListener('click', () => {
+  const total = state.studyQuestions.length;
+  if (state.currentIndex < total - 1) {
+    state.currentIndex++;
+    renderStudyQuestion();
+  } else {
+    if (confirm('¿Has terminado de estudiar? Volverás a la selección de asignaturas.')) {
+      showScreen('screen-study-subjects');
+    }
+  }
+});
+
+$('study-question-selector').addEventListener('change', (e) => {
+  const origIdx = parseInt(e.target.value);
+  const idx = state.studyOrder.indexOf(origIdx);
+  if (idx !== -1) {
+    state.currentIndex = idx;
+    renderStudyQuestion();
+  }
+});
 
 // ── SCREEN 2: COUNT (modo normal) ─────────────────────────────────────────────
 async function selectSubject(subj) {
@@ -644,6 +906,10 @@ function getFocusableElements() {
       return Array.from(activeScreen.querySelectorAll('#player-name, #btn-save-score, #btn-skip-save'));
     case 'screen-ranking':
       return Array.from(activeScreen.querySelectorAll('.ranking-select, .btn-back'));
+    case 'screen-study-subjects':
+      return Array.from(activeScreen.querySelectorAll('.subject-card, .btn-back'));
+    case 'screen-study-session':
+      return Array.from(activeScreen.querySelectorAll('.option-btn:not(.answered), #btn-study-prev, #btn-study-next, #btn-study-reset, #btn-study-reveal, #back-from-study-session'));
     default:
       return [];
   }
@@ -688,6 +954,17 @@ window.addEventListener('keydown', (e) => {
       e.preventDefault();
       $('btn-next').click();
       return;
+    }
+
+    // Comportamiento especial para el modo estudio: si ya se respondió, Enter pasa de pregunta
+    if (activeScreen && activeScreen.id === 'screen-study-session') {
+      const origIdx = state.studyOrder[state.currentIndex];
+      const isAnswered = state.studyAnswers[origIdx] && state.studyAnswers[origIdx].revealed;
+      if (isAnswered) {
+        e.preventDefault();
+        $('btn-study-next').click();
+        return;
+      }
     }
 
     if (state.focusedElementIndex >= 0) {
