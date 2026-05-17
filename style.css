@@ -453,6 +453,28 @@ body {
   backdrop-filter: blur(12px);
 }
 
+/* ── STUDY MODE HEADER CENTERING (DESKTOP) ── */
+#screen-study-session .test-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 20px 32px;
+}
+#screen-study-session .test-header .btn-back {
+  margin: 0;
+  justify-self: start;
+}
+#screen-study-session .test-header .study-navigator-dropdown-wrap {
+  justify-self: center;
+  margin: 0;
+  width: 100%;
+  max-width: 250px;
+}
+#screen-study-session .test-header .test-meta {
+  justify-self: end;
+  margin: 0;
+}
+
 .test-meta {
   display: flex;
   align-items: center;
@@ -1579,6 +1601,61 @@ body {
   .test-meta .study-chip { display: none; }
   .progress-text { font-size: 0.8rem; }
   .score-live { font-size: 0.85rem; gap: 8px; }
+
+  /* ── STUDY MODE HEADER MOBILE (COMPACT & BEAUTIFUL) ── */
+  #screen-study-session .test-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  #screen-study-session .test-header .btn-back {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 0.72rem;
+    justify-self: start;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  #screen-study-session .test-header .test-meta {
+    justify-self: end;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    padding: 0 10px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  #screen-study-session .test-header .progress-text {
+    font-size: 0.72rem;
+    white-space: nowrap;
+    font-family: var(--font-mono);
+  }
+  #screen-study-session .test-header .study-lbl-pregunta {
+    display: none;
+  }
+  #screen-study-session .test-header .study-navigator-dropdown-wrap {
+    justify-self: center;
+    margin: 0;
+    width: 100%;
+    max-width: 170px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+  }
+  #screen-study-session .test-header .study-select {
+    font-size: 0.72rem;
+    padding: 0 8px;
+    height: 32px;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
   /* ── TIMER ROW ── */
   .timer-row { padding: 8px 16px; gap: 10px; }
