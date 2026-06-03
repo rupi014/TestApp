@@ -76,6 +76,12 @@ body {
 .screen.active {
   display: flex;
   flex-direction: column;
+  animation: screenFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes screenFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* ========================
@@ -173,7 +179,7 @@ body {
   border-radius: var(--radius-lg);
   padding: 28px 32px;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all 0.25s ease, transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -181,6 +187,19 @@ body {
   gap: 12px;
   align-items: center;
   text-align: center;
+  animation: cardEntrance 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i, 0) * 0.04s);
+}
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .subject-card::before {
@@ -205,6 +224,10 @@ body {
   transform: scaleX(1);
 }
 
+.subject-card:active {
+  transform: translateY(-2px) scale(0.97);
+}
+
 .subject-card.focused {
   border-color: var(--card-accent, var(--accent));
   background: var(--bg-card2);
@@ -215,6 +238,11 @@ body {
 .card-icon {
   font-size: 2rem;
   line-height: 1;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.subject-card:hover .card-icon {
+  transform: scale(1.18) translateY(-2px);
 }
 
 .card-name {
@@ -589,7 +617,7 @@ body {
   display: flex;
   gap: 14px;
   align-items: flex-start;
-  transition: all var(--transition);
+  transition: all var(--transition), opacity 0.3s ease;
   color: var(--text);
   font-family: var(--font-body);
   font-size: 0.95rem;
@@ -600,6 +628,10 @@ body {
   border-color: var(--subject-accent, var(--accent));
   background: color-mix(in srgb, var(--subject-accent, var(--accent)) 14%, transparent);
   transform: translateX(4px);
+}
+
+.option-btn:not(.answered):active {
+  transform: scale(0.98) translateX(2px);
 }
 
 .option-btn.focused {
@@ -625,6 +657,13 @@ body {
   background: var(--correct-bg);
   border-color: var(--correct-border);
   color: var(--correct);
+  animation: correctPulse 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+@keyframes correctPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); box-shadow: 0 0 20px rgba(0, 214, 143, 0.4); }
+  100% { transform: scale(1); }
 }
 
 .option-btn.correct .option-key {
@@ -636,6 +675,13 @@ body {
   background: var(--wrong-bg);
   border-color: var(--wrong-border);
   color: var(--wrong);
+  animation: wrongShake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes wrongShake {
+  0%, 100% { transform: translateX(0); }
+  15%, 45%, 75% { transform: translateX(-4px); }
+  30%, 60%, 90% { transform: translateX(4px); }
 }
 
 .option-btn.wrong .option-key {
@@ -644,6 +690,10 @@ body {
 }
 
 .option-btn.answered { cursor: default; }
+
+.option-btn.answered:not(.correct):not(.wrong) {
+  opacity: 0.5;
+}
 
 .explanation-box {
   background: var(--warning-bg);
@@ -655,6 +705,21 @@ body {
   color: var(--warning);
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+.explanation-box:not(.hidden) {
+  animation: slideDownFade 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .explanation-box.correct-feedback {
@@ -898,12 +963,14 @@ body {
   padding: 10px 20px;
   border-radius: 100px;
   z-index: 999;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
   pointer-events: none;
+  opacity: 0;
 }
 
 .toast.show {
   transform: translateX(-50%) translateY(0);
+  opacity: 1;
 }
 
 /* ========================
@@ -1135,6 +1202,19 @@ body {
 
 .ranking-table tbody tr {
   transition: background var(--transition);
+  animation: trEntrance 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i, 0) * 0.02s);
+}
+
+@keyframes trEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .ranking-table tbody tr:hover {
