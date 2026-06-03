@@ -27,6 +27,8 @@ const SUBJECTS = [
   { key: 'impl', name: 'Implementación de Aplicaciones Web',      abbr: 'IAW',  file: 'implantacion_completo.json',  icon: '🌐', color: '#10b981' },
   { key: 'svc',  name: 'Servicios de Red e Internet',             abbr: 'SRI',  file: 'servicios_completo.json',     icon: '📡', color: '#f97316' },
   { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',            icon: '🔌', color: '#06b6d4' },
+  { key: 'com', name: 'Osakidetza - Comun', abbr: 'COM', file: 'comun_completo.json', icon: '🏥', color: '#f59e0b' },
+  { key: 'cel', name: 'Osakidetza - Celador', abbr: 'CELA', file: 'celador_completo.json', icon: '🧑‍⚕️', color: '#f59e0b' },
 ];
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
