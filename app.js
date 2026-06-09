@@ -463,16 +463,33 @@ $('btn-custom-start').addEventListener('click', () => {
 // ── START TEST ────────────────────────────────────────────────────────────────
 function startTest(count) {
   const n = Math.min(count, state.allQuestions.length);
-  
-  // Seleccionamos N preguntas al azar y para cada una mezclamos sus opciones
-  state.testQuestions = shuffle(state.allQuestions).slice(0, n).map(q => {
+  const keepOriginalOrder = ['com', 'cel'].includes(state.subject?.key);
+
+  const sourceQuestions = keepOriginalOrder ? state.allQuestions : shuffle(state.allQuestions);
+
+  state.testQuestions = sourceQuestions.slice(0, n).map(q => {
     if (!q.opciones) return { ...q };
-    
+
     const keys = Object.keys(q.opciones).filter(k => q.opciones[k] != null);
+
+    if (keepOriginalOrder) {
+      const newOpciones = {};
+      let newCorrectKey = q.respuesta_correcta;
+
+      keys.forEach((key) => {
+        newOpciones[key] = q.opciones[key];
+        if (key === q.respuesta_correcta) {
+          newCorrectKey = key;
+        }
+      });
+
+      return { ...q, opciones: newOpciones, respuesta_correcta: newCorrectKey };
+    }
+
     const shuffledKeys = shuffle([...keys]);
     const newOpciones = {};
     let newCorrectKey = q.respuesta_correcta;
-    
+
     keys.forEach((key, i) => {
       const sourceKey = shuffledKeys[i];
       newOpciones[key] = q.opciones[sourceKey];
@@ -480,7 +497,7 @@ function startTest(count) {
         newCorrectKey = key;
       }
     });
-    
+
     return { ...q, opciones: newOpciones, respuesta_correcta: newCorrectKey };
   });
 
