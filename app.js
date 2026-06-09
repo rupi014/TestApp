@@ -29,6 +29,7 @@ const SUBJECTS = [
   { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',            icon: '🔌', color: '#06b6d4' },
   { key: 'com', name: 'Osakidetza - Comun', abbr: 'COM', file: 'comun_completo.json', icon: '🏥', color: '#f59e0b' },
   { key: 'cel', name: 'Osakidetza - Celador', abbr: 'CELA', file: 'celador_completo.json', icon: '🧑‍⚕️', color: '#f59e0b' },
+  { key: 'auxadm', name: 'Osakidetza - Auxiliar Administrativo', abbr: 'AUXADM', file: 'auxiliar_administrativo_completo.json', icon: '📋', color: '#14b8a6' },
 ];
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
