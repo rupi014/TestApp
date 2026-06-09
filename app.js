@@ -34,6 +34,7 @@ const SUBJECTS = [
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
 const COMP_QUESTIONS = 30;
+const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel'];
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let state = {
@@ -305,9 +306,8 @@ async function startStudySession(subj) {
   // Initialize study state
   state.currentIndex = 0;
   state.studyAnswers = {};
-  state.studyOrder = Array.from({ length: state.studyQuestions.length }, (_, i) => i);
-
-
+  const indices = Array.from({ length: state.studyQuestions.length }, (_, i) => i);
+  state.studyOrder = KEEP_ANSWER_ORDER_KEYS.includes(subj.key) ? shuffle(indices) : indices;
 
   // Generate question selector dropdown options
   const selector = $('study-question-selector');
@@ -464,16 +464,16 @@ $('btn-custom-start').addEventListener('click', () => {
 // ── START TEST ────────────────────────────────────────────────────────────────
 function startTest(count) {
   const n = Math.min(count, state.allQuestions.length);
-  const keepOriginalOrder = ['com', 'cel'].includes(state.subject?.key);
+  const keepAnswerOrder = KEEP_ANSWER_ORDER_KEYS.includes(state.subject?.key);
 
-  const sourceQuestions = keepOriginalOrder ? state.allQuestions : shuffle(state.allQuestions);
+  const sourceQuestions = shuffle(state.allQuestions);
 
   state.testQuestions = sourceQuestions.slice(0, n).map(q => {
     if (!q.opciones) return { ...q };
 
     const keys = Object.keys(q.opciones).filter(k => q.opciones[k] != null);
 
-    if (keepOriginalOrder) {
+    if (keepAnswerOrder) {
       const newOpciones = {};
       let newCorrectKey = q.respuesta_correcta;
 
