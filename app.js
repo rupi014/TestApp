@@ -34,7 +34,7 @@ const SUBJECTS = [
   { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',               icon: '🔌', color: '#06b6d4', group: 'asir' },
   { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun_completo.json',                  icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
   { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador_completo.json',                icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
-  { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'aux.enfermeria_osakidetza_completo.json', icon: '🩺', color: '#e11d48', group: 'osakidetza' },
+  { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar_enfermeria_osakidetza_completo.json', icon: '🩺', color: '#e11d48', group: 'osakidetza' },
 ];
 
 function getGroup(groupKey) {
