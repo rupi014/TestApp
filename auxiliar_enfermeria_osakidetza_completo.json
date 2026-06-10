@@ -1,0 +1,2206 @@
+{
+  "simulacro": "Simulacro Completo - TCAE (Técnico en Cuidados Auxiliares de Enfermería)",
+  "total_preguntas": 200,
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "El marco territorial de la atención primaria es:",
+      "opciones": {
+        "a": "El área de salud.",
+        "b": "La zona básica de salud.",
+        "c": "El centro de salud.",
+        "d": "Todas las opciones son falsas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "enunciado": "El órgano permanente de coordinación, cooperación, comunicación e información de los servicios de salud entre ellos y con la administración de estado se denomina:",
+      "opciones": {
+        "a": "Consejo Interterritorial del Sistema Nacional de Salud.",
+        "b": "Consejo Dirección de Área.",
+        "c": "Comisión Regional del Sistema Nacional de Salud.",
+        "d": "Comisión Interterritorial del Sistema Nacional de Salud."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "enunciado": "En la hoja de interconsulta:",
+      "opciones": {
+        "a": "Se solicita la opinión de otro especialista.",
+        "b": "Se solicitan las pruebas de radiodiagnóstico necesarias.",
+        "c": "Se solicita la opinión del médico de Atención Primaria.",
+        "d": "Se solicita el consentimiento del paciente."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "enunciado": "¿Cuál es la estructura fundamental del sistema sanitario español?",
+      "opciones": {
+        "a": "El área de salud.",
+        "b": "El centro de salud.",
+        "c": "Hospital.",
+        "d": "Zona básica de salud."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Cuál es la principal característica de la salud comunitaria que la diferencia de la salud pública?",
+      "opciones": {
+        "a": "Enfoque más preventivista.",
+        "b": "Depende exclusivamente de las autoridades.",
+        "c": "Participación activa de la comunidad.",
+        "d": "Todas las opciones son falsas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "enunciado": "¿En qué trabaja básicamente la salud comunitaria?",
+      "opciones": {
+        "a": "En valorar las necesidades sanitarias de su comunidad.",
+        "b": "En la promoción de la salud.",
+        "c": "En la vigilancia de la salud pública.",
+        "d": "En el desarrollo de políticas en materia de salud pública."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "enunciado": "Definimos el proceso de atención de enfermería como:",
+      "opciones": {
+        "a": "Método por el que se aplican los modelos teóricos de la enfermería a la práctica real.",
+        "b": "El resultado de los cuidados de enfermería.",
+        "c": "Los métodos llevados a cabo con el paciente.",
+        "d": "La secuencia de objetivos y actividades realizados."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "enunciado": "¿Cuál de las siguientes características NO pertenece a la historia clínica hospitalaria?",
+      "opciones": {
+        "a": "Recoge datos puntualmente.",
+        "b": "Está enfocada a la curación.",
+        "c": "La relación médico-paciente es esporádica.",
+        "d": "El entorno social tiene una gran importancia."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Cuál de las siguientes frases NO es verdad acerca de la esperanza de vida?",
+      "opciones": {
+        "a": "Es una medida hipotética, ya que no mide las probabilidades reales de supervivencia.",
+        "b": "Su cálculo está basado en las tasas actuales de mortalidad.",
+        "c": "No puede utilizarse para comparar diferentes regiones o países.",
+        "d": "Todas las respuestas anteriores son ciertas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "enunciado": "Un material sensible a la humedad es:",
+      "opciones": {
+        "a": "Hidrosensible.",
+        "b": "Higroscópico.",
+        "c": "Estéril.",
+        "d": "Termolábil."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 11,
+      "enunciado": "Entre las funciones del almacén NO se encuentra:",
+      "opciones": {
+        "a": "Revisar periódicamente los artículos.",
+        "b": "Solicitar las mercancías necesarias.",
+        "c": "Retirar los productos de precio elevado.",
+        "d": "Registrar las entradas y salidas de todos los materiales."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 12,
+      "enunciado": "El conjunto de productos que tienen movimientos en una empresa se denomina:",
+      "opciones": {
+        "a": "Depósito activo.",
+        "b": "Depósito de seguridad.",
+        "c": "Depósito máximo.",
+        "d": "Punto de pedido."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 13,
+      "enunciado": "¿En qué año se crea la figura de Técnico en Cuidados Auxiliares de Enfermería?",
+      "opciones": {
+        "a": "1975.",
+        "b": "1984.",
+        "c": "1986.",
+        "d": "1995."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 14,
+      "enunciado": "La documentación no clínica es un tipo de documentación:",
+      "opciones": {
+        "a": "No sanitaria.",
+        "b": "Sanitaria.",
+        "c": "Clínica.",
+        "d": "Todas las respuestas anteriores son falsas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Cuál de las siguientes NO se encuentra dentro de las funciones del TCAE?",
+      "opciones": {
+        "a": "Ayudar al personal médico en la ejecución de intervenciones quirúrgicas.",
+        "b": "Recogida y limpieza del instrumental.",
+        "c": "Poner y quitar cuñas y limpieza de las mismas.",
+        "d": "La limpieza de vitrinas, material e instrumental."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 16,
+      "enunciado": "¿En qué año se instauran en España los estudios de formación profesional en la rama sanitaria donde aparece el título de auxiliar de clínica?",
+      "opciones": {
+        "a": "1986.",
+        "b": "1970.",
+        "c": "1975.",
+        "d": "1947."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 17,
+      "enunciado": "En los tipos de documentación, ¿Cuál de las siguientes es una documentación no clínica?",
+      "opciones": {
+        "a": "Un formulario de petición de dietas.",
+        "b": "Una analítica de sangre.",
+        "c": "La historia clínica.",
+        "d": "El número de habitación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 18,
+      "enunciado": "¿Cuál de los siguientes materiales precisa de condiciones distintas de almacenamiento por ser higroscópico?",
+      "opciones": {
+        "a": "Vacunas.",
+        "b": "Agua destilada.",
+        "c": "Comprimidos efervescentes.",
+        "d": "Inyectables envasados en ampollas de vidrio."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "enunciado": "El profesional técnico en cuidados auxiliares de enfermería es:",
+      "opciones": {
+        "a": "Personal no facultativo.",
+        "b": "Personal facultativo.",
+        "c": "Personal técnico facultativo.",
+        "d": "Personal de grado superior."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 20,
+      "enunciado": "La documentación clínica deberá ser conservada durante un intervalo de tiempo de:",
+      "opciones": {
+        "a": "10 años desde el alta del proceso asistencial.",
+        "b": "5 años desde el alta del proceso asistencial.",
+        "c": "2 años desde el alta del proceso asistencial.",
+        "d": "12 meses desde el alta del proceso asistencial."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 21,
+      "enunciado": "¿Cuál de las siguientes funciones pertenece al TCAE en los departamentos de quirófano y esterilización?",
+      "opciones": {
+        "a": "El cuidado, conservación y reposición de batas, toallas, etc.",
+        "b": "El arreglo de guantes y confección de apósitos de gasa.",
+        "c": "Las respuestas a) y b) son correctas.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 22,
+      "enunciado": "Indicadores de morbilidad. La prevalencia es:",
+      "opciones": {
+        "a": "La proporción de personas que en una población determinada y un tiempo concreto están afectadas por una enfermedad.",
+        "b": "La proporción de personas sanas previamente para una enfermedad que desarrollan la enfermedad en una población determinada.",
+        "c": "Un indicador de la esperanza de vida saludable adaptado a una población determinada.",
+        "d": "El tiempo, generalmente de un año, en el que una población sana desarrolla la enfermedad."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 23,
+      "enunciado": "Dentro de los modelos de enfermería, el modelo suplementario y complementario fue propuesto por:",
+      "opciones": {
+        "a": "F. Nightingale.",
+        "b": "V. Henderson.",
+        "c": "I. Rogers.",
+        "d": "D. Orem."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 24,
+      "enunciado": "Documentos extrahospitalarios. El parte de EDO es:",
+      "opciones": {
+        "a": "El parte médico de incapacidad temporal por maternidad.",
+        "b": "La comunicación sanitaria de enfermedades de declaración obligatoria.",
+        "c": "El documento administrativo que identifica a los usuarios del sistema nacional de salud.",
+        "d": "Todas las respuestas anteriores son falsas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 25,
+      "enunciado": "La aplicación del principio de Pareto en el almacén sanitario. Es correcto que los productos tipo B:",
+      "opciones": {
+        "a": "Son productos de alto coste.",
+        "b": "Son productos de coste medio.",
+        "c": "Son productos de coste bajo.",
+        "d": "Son productos que se necesitan en altas cantidades."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 26,
+      "enunciado": "Según las condiciones de almacenamiento, ¿Cuál de los siguientes se considera material termosensible?",
+      "opciones": {
+        "a": "Los medicamentos efervescentes.",
+        "b": "Las vacunas.",
+        "c": "Agua destilada.",
+        "d": "Algodón hidrófilo."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 27,
+      "enunciado": "En la salud comunitaria:",
+      "opciones": {
+        "a": "La valoración de las necesidades sanitarias de la zona parte de los gobiernos.",
+        "b": "Los usuarios participan de forma activa en los programas de salud.",
+        "c": "Las acciones son impuestas por las autoridades sanitarias y el individuo las recibe de forma pasiva.",
+        "d": "Todas las respuestas anteriores son falsas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 28,
+      "enunciado": "En la valoración de existencias en el almacén se utiliza el método:",
+      "opciones": {
+        "a": "FIFO.",
+        "b": "LIFO.",
+        "c": "Las respuestas a) y b) son correctas.",
+        "d": "Todas las respuestas anteriores son falsas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 29,
+      "enunciado": "¿Qué modelo de enfermería considera al hombre como un ser biopsicosocial en constante interacción con el entorno?",
+      "opciones": {
+        "a": "Modelo de Rogers.",
+        "b": "Modelo de Callista Roy.",
+        "c": "Modelo de Pender.",
+        "d": "Todas las respuestas anteriores son falsas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 30,
+      "enunciado": "De los siguientes casos, ¿cuándo se utilizarán guantes estériles?",
+      "opciones": {
+        "a": "Cateterización y manejo de fístulas arteriovenosas.",
+        "b": "Obtención de muestras para análisis.",
+        "c": "Cambio de bolsa de colostomía.",
+        "d": "Aspiraciones orofaríngeas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿En cuál de los siguientes casos NO es necesario el uso de guantes?",
+      "opciones": {
+        "a": "Manejo de lencería sucia.",
+        "b": "Manipulación de agentes citostáticos.",
+        "c": "Ajuste de fluidoterapia.",
+        "d": "Aislamiento hospitalario de contacto."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 32,
+      "enunciado": "Una vez cumplimentado el parte de lesiones por agresión o abuso sexual:",
+      "opciones": {
+        "a": "Se hará lectura del mismo a la familia.",
+        "b": "Se remitirá a la mayor brevedad al Juzgado de Guardia.",
+        "c": "Se entregará copia del parte de lesiones a la Ertzaintza.",
+        "d": "No se asesorará a la víctima sobre medidas sociales y de protección."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 33,
+      "enunciado": "Según la guía de actuación para profesionales de la salud ante la violencia de género y las agresiones sexuales en Euskadi, en la prevención terciaria es FALSO:",
+      "opciones": {
+        "a": "La respuesta inicial básica ante un caso está diseñada para cualquier profesional que realice la detección de un caso.",
+        "b": "La actuación inicial básica tiene la siguiente secuencia: escucha; acogida y empatía; valoración de riesgos; continuidad y derivación; registro; comunicación judicial.",
+        "c": "La comunicación judicial lo realizará el o la profesional responsable de la asistencia, solamente si la mujer lo solicita o lo consienta, independientemente del nivel de riesgo que hay.",
+        "d": "Una vez que el caso haya sido detectado se actuará de una forma estructurada y homogénea."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 34,
+      "enunciado": "La ética kantiana (Immanuel Kant) se caracteriza porque:",
+      "opciones": {
+        "a": "Considera una ética universal, válida para todos los seres racionales, y no condicionada por las circunstancias y los fines cambiantes, el origen está en la razón.",
+        "b": "Considera éticos los actos que se ajustan a algún principio, deber o concepción de la justicia que los hace correctos o incorrectos.",
+        "c": "Considera que la bondad o la maldad de un acto está exclusivamente determinada por las consecuencias.",
+        "d": "Considera el bien como aquello hacia lo que todas las cosas tienden, es la plenitud y perfección de la naturaleza humana."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 35,
+      "enunciado": "El consentimiento informado es:",
+      "opciones": {
+        "a": "Una exigencia ética y un derecho reconocido por la legislación de todos los países desarrollados.",
+        "b": "La aceptación de una intervención médica por un paciente, en forma libre, voluntaria y consciente, tras la información con sus riesgos y beneficios y alternativas posibles.",
+        "c": "Un derecho humano individual, junto al derecho a la vida, la salud, la libertad.",
+        "d": "Todas las opciones son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 36,
+      "enunciado": "¿Cuál es un principio o criterio a aplicar para lograr la justicia sanitaria?",
+      "opciones": {
+        "a": "Prioridad a los más favorecidos.",
+        "b": "Insuficiencia.",
+        "c": "Maximización del bienestar total.",
+        "d": "Desigualdad."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 37,
+      "enunciado": "Respecto al debate actual sobre el aborto, de las siguientes frases, cuál NO es un motivo que se utiliza para alegar la interrupción del embarazo:",
+      "opciones": {
+        "a": "Corregir graves injusticias, como una violación.",
+        "b": "Reconocer el derecho de la mujer a regular su capacidad reproductiva.",
+        "c": "Aliviar problemas económicos, sociológicos o demográficos.",
+        "d": "Fomentar los abortos clandestinos en malas condiciones higiénicas o por personas que no saben hacerlo con garantías."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 38,
+      "enunciado": "El principio de beneficencia es uno de los principios incluidos en:",
+      "opciones": {
+        "a": "El Código de Núremberg.",
+        "b": "La Declaración de Helsinki.",
+        "c": "El Informe Belmont.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 39,
+      "enunciado": "En la obtención de órganos de donantes en muerte cerebral:",
+      "opciones": {
+        "a": "En el rechazo a la donación, uno de los motivos son los organizativos.",
+        "b": "El consentimiento presunto: Exige que el donante haya expresado en vida su voluntad por escrito o verbalmente.",
+        "c": "Se mantiene el anonimato del donante no así del receptor.",
+        "d": "El consentimiento explícito: considera donante a todo sujeto que no haya manifestado previamente su negativa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 40,
+      "enunciado": "En general, las leyes despenalizadoras del aborto pueden ser:",
+      "opciones": {
+        "a": "De plazos y/o supuestos.",
+        "b": "De valores y/o simbólicos.",
+        "c": "De carácter absoluto y/o motivado.",
+        "d": "Las respuestas a) y b) son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 41,
+      "enunciado": "Respecto a la movilización de pacientes, ¿cuál es la posición recomendada para los pies con el fin de garantizar una base de sustentación segura y estable?",
+      "opciones": {
+        "a": "Pies juntos y paralelos para concentrar la fuerza en el eje central.",
+        "b": "Pies separados, situando uno más adelantado que el otro en la dirección del movimiento.",
+        "c": "Pies en ángulo de 90 grados para facilitar el giro del tronco.",
+        "d": "Apoyados sobre las puntas para permitir un desplazamiento rápido."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 42,
+      "enunciado": "En caso de sufrir un accidente biológico por salpicadura en las mucosas, ¿cuál es el protocolo de limpieza?",
+      "opciones": {
+        "a": "Lavar la zona con agua y jabón neutro durante 2-3 minutos.",
+        "b": "Inducir el sangrado y lavar con agua corriente sin restregar.",
+        "c": "Lavar exclusivamente con agua, sin añadir otras sustancias.",
+        "d": "Aplicar un antiséptico alcohólico inmediatamente tras el contacto."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 43,
+      "enunciado": "Durante la retirada de lencería de una cama, ¿qué precaución crítica debe adoptar el/la TCAE para evitar accidentes biológicos antes de enviar la ropa a lavandería?",
+      "opciones": {
+        "a": "Separar la ropa por tipos de tejido para facilitar el lavado.",
+        "b": "Comprobar que no existen objetos punzantes entre las ropas.",
+        "c": "Pulverizar la ropa con desinfectantes volátiles antes de embolsarla.",
+        "d": "Introducir las agujas usadas en las bolsas de lencería si están protegidas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 44,
+      "enunciado": "¿Cuál es el plazo recomendado para notificar un accidente biológico al/la responsable del área o al Servicio de Prevención?",
+      "opciones": {
+        "a": "Inmediatamente antes de que finalice la jornada laboral.",
+        "b": "En las primeras 24-48 horas tras el suceso.",
+        "c": "Dentro de los 5 días naturales siguientes al accidente.",
+        "d": "Solo es necesario notificarlo si el objeto punzante estaba visiblemente contaminado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 45,
+      "enunciado": "Si la información obligatoria de la etiqueta de un producto químico es insuficiente para la persona trabajadora, ¿qué documento debe consultar como fuente de información avanzada?",
+      "opciones": {
+        "a": "El manual de instrucciones del fabricante del envase.",
+        "b": "El registro de accidentes biológicos de la UBP.",
+        "c": "La Ficha de Datos de Seguridad del producto.",
+        "d": "El catálogo general de farmacia del hospital."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 46,
+      "enunciado": "Entre las funciones que el/la TCAE ha de llevar a cabo en los servicios de enfermería NO se encuentra:",
+      "opciones": {
+        "a": "Colocar y ordenar la lencería de planta.",
+        "b": "Aplicar tratamientos vía parenteral.",
+        "c": "Hacer las camas de los pacientes.",
+        "d": "Realizar el aseo a algunos pacientes."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué autor describe esta serie de estadios en la evolución de la infancia: impulsivo, puro, emocional, sensomotor?",
+      "opciones": {
+        "a": "Sigmund Freud.",
+        "b": "Albert Bandura.",
+        "c": "Jean Piaget.",
+        "d": "Henry Wallon."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 48,
+      "enunciado": "¿Qué teorías de la personalidad ponen el acento en el funcionamiento inconsciente, en las motivaciones inconscientes y en el choque entre la vida instintiva, la realidad y las limitaciones que impone la sociedad?",
+      "opciones": {
+        "a": "Las teorías psicoanalíticas.",
+        "b": "Las teorías humanísticas.",
+        "c": "Las teorías del aprendizaje.",
+        "d": "Las teorías del rasgo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 49,
+      "enunciado": "¿Qué mecanismo de defensa de la personalidad utilizamos cuándo rechazamos de nuestra conciencia los contenidos desagradables o dolorosos?",
+      "opciones": {
+        "a": "Proyección.",
+        "b": "Represión.",
+        "c": "Identificación.",
+        "d": "Formación reactiva."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 50,
+      "enunciado": "Cuando una persona no expresa sus verdaderos sentimientos y opiniones, aceptando los criterios de los demás, hablamos de un estilo de relación-comunicación:",
+      "opciones": {
+        "a": "Sumiso.",
+        "b": "Agresivo.",
+        "c": "Asertivo.",
+        "d": "Directo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 51,
+      "enunciado": "Se llama disemia a:",
+      "opciones": {
+        "a": "La facilidad en la comunicación no verbal.",
+        "b": "La distancia entre dos personas que están interactuando.",
+        "c": "La facilidad para utilizar un lenguaje adecuado a cada situación.",
+        "d": "La dificultad para interpretar las señales emocionales del paciente."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 52,
+      "enunciado": "Las predisposiciones de una persona para comportarse de una manera determinada son:",
+      "opciones": {
+        "a": "Aptitudes.",
+        "b": "Actitudes.",
+        "c": "Acritudes.",
+        "d": "Las respuestas a) y b) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 53,
+      "enunciado": "En la administración de fármacos por vía oral, el/la TCAE realiza una función:",
+      "opciones": {
+        "a": "Técnica.",
+        "b": "Relacional.",
+        "c": "Técnica y relacional.",
+        "d": "Ninguna de las respuestas es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 54,
+      "enunciado": "Se considera un factor interno, que influye en la vivencia de la enfermedad:",
+      "opciones": {
+        "a": "La familia del paciente.",
+        "b": "El tipo de enfermedad.",
+        "c": "La experiencia previa de enfermedad.",
+        "d": "El ambiente sociocultural."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 55,
+      "enunciado": "Cuando la persona que enferma intenta aceptar su situación recurriendo a la lógica, hablamos de un mecanismo de defensa que se conoce como:",
+      "opciones": {
+        "a": "Negación.",
+        "b": "Represión.",
+        "c": "Racionalización.",
+        "d": "Regresión."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 56,
+      "enunciado": "Los pensamientos de autoagresión se conocen como:",
+      "opciones": {
+        "a": "Autolisis.",
+        "b": "Heterolisis.",
+        "c": "Hemolisis.",
+        "d": "Homolisis."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 57,
+      "enunciado": "El proceso que capacita a los individuos y a la comunidad para aumentar su control sobre los determinantes de su salud se denomina:",
+      "opciones": {
+        "a": "Promoción de la sanidad.",
+        "b": "Promoción de la salud.",
+        "c": "Estilos de vida.",
+        "d": "La a) y la c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 58,
+      "enunciado": "La metodología de las actividades de la educación para la salud se debe programar comenzando por:",
+      "opciones": {
+        "a": "El análisis de la situación.",
+        "b": "La determinación de los objetivos.",
+        "c": "La determinación de las prioridades.",
+        "d": "La evaluación de la actividad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 59,
+      "enunciado": "Las terapias que se basan en que las alteraciones emocionales están en conexión con las formas de pensamiento y atribuciones erróneas o irracionales son:",
+      "opciones": {
+        "a": "Terapias Sistémicas.",
+        "b": "Terapias Conductistas.",
+        "c": "Terapias Cognitivas.",
+        "d": "Terapias psicodinámicas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 60,
+      "enunciado": "En la amnesia anterógrada es CORRECTO que:",
+      "opciones": {
+        "a": "El paciente no es capaz de fijar contenidos nuevos.",
+        "b": "Se denomina también amnesia de evocación.",
+        "c": "El paciente no es capaz de recordar hechos o contenidos del pasado.",
+        "d": "Todas son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 61,
+      "enunciado": "La teoría de la formación del pensamiento y mecanismos intelectuales hasta la adolescencia según Piaget consta de:",
+      "opciones": {
+        "a": "Tres periodos.",
+        "b": "Dos periodos.",
+        "c": "Un único periodo.",
+        "d": "Cuatro periodos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 62,
+      "enunciado": "Dentro de la vivencia de la enfermedad NO es un factor interno:",
+      "opciones": {
+        "a": "Las experiencias previas.",
+        "b": "El tipo de enfermedad.",
+        "c": "Características físicas.",
+        "d": "Recursos económicos del paciente."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 63,
+      "enunciado": "El trastorno de conversión:",
+      "opciones": {
+        "a": "Es un tipo de trastorno de ansiedad asociado a la dismorfofobia.",
+        "b": "Es un trastorno que se caracteriza por la simulación por parte del paciente.",
+        "c": "Es un trastorno somatomorfo sin presencia de lesión orgánica.",
+        "d": "Es un trastorno caracterizado por ideas, pensamientos repetitivos y miedo a objetos o situaciones concretas que el enfermo intenta evitar."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿Cuál NO es una característica de la enfermedad crónica?",
+      "opciones": {
+        "a": "Comienzo: repentino e insidioso.",
+        "b": "Duración: constante.",
+        "c": "Pronóstico: insatisfactorio.",
+        "d": "Tratamiento: eficaz."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 65,
+      "enunciado": "¿Cuál NO es una característica definitoria del paciente con demencia tipo Alzheimer?",
+      "opciones": {
+        "a": "Agnosia.",
+        "b": "Anorexia.",
+        "c": "Afasia.",
+        "d": "Apraxia."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 66,
+      "enunciado": "En los trastornos mentales los síntomas frecuentes de pérdida de contacto con la realidad, alucinaciones, delirios, fuga de ideas, perturbaciones del pensamiento y psicomotricidad, son propios de un trastorno:",
+      "opciones": {
+        "a": "Psicótico.",
+        "b": "Neurótico.",
+        "c": "Oligofrénico.",
+        "d": "Trastorno de personalidad."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 67,
+      "enunciado": "La teoría psicoanalítica que distingue tres factores dentro de la personalidad (el Ello, el Yo y el Superyo) fue propuesta por:",
+      "opciones": {
+        "a": "S. Freud.",
+        "b": "A. Adler.",
+        "c": "G. W. Allport.",
+        "d": "B. F. Skinner."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 68,
+      "enunciado": "Según Elisabeth Kübler-Ross NO es una etapa de la aceptación de la muerte:",
+      "opciones": {
+        "a": "Negación.",
+        "b": "Negociación.",
+        "c": "Aceptación.",
+        "d": "Retorno."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 69,
+      "enunciado": "Entre las fases que atraviesa el niño al ser hospitalizado está la fase de protesta. Escoge el enunciado CORRECTO:",
+      "opciones": {
+        "a": "Si los padres aparecen en la fase de protesta, se acentúa en el niño las actitudes de dependencia hacia ellos.",
+        "b": "Está caracterizada por actitudes de desapego de los padres.",
+        "c": "Muestra mayor interés por el nuevo entorno.",
+        "d": "Empieza a aceptar la ayuda de los demás."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 70,
+      "enunciado": "¿Cuál NO es una característica de la enfermedad crónica?",
+      "opciones": {
+        "a": "Duración constante.",
+        "b": "Pronóstico insatisfactorio.",
+        "c": "Comienzo variable, repentino y/o insidioso.",
+        "d": "Vivencia de la crisis elevada y corta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 71,
+      "enunciado": "El refuerzo positivo en los cuidados de TCAE significa:",
+      "opciones": {
+        "a": "Hacer coincidir una conducta del sujeto con algo agradable para él con el fin de que tienda a repetir esa conducta.",
+        "b": "Hacer coincidir una conducta del sujeto con algo agradable para él con el fin de que no tienda a repetir esa conducta.",
+        "c": "Hacer coincidir una conducta del sujeto con algo desagradable para él con el fin de que no tienda a repetir esa conducta.",
+        "d": "Hacer coincidir una conducta del sujeto con algo desagradable para él con el fin de que tienda a repetir esa conducta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 72,
+      "enunciado": "Cuando la reacción de un paciente ante la enfermedad se centra en NO reconocer aquello que le resulta doloroso o conflictivo, se habla de un proceso de:",
+      "opciones": {
+        "a": "Sublimación.",
+        "b": "Negación.",
+        "c": "Regresión.",
+        "d": "Racionalización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 73,
+      "enunciado": "El síntoma más frecuente en la psicosis es:",
+      "opciones": {
+        "a": "Alucinaciones.",
+        "b": "Delirios.",
+        "c": "a) y b) son correctas.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 74,
+      "enunciado": "Una idea fija, repetitiva, que constantemente acude a la mente de la persona en contra de su voluntad es una:",
+      "opciones": {
+        "a": "Obsesión.",
+        "b": "Fobia.",
+        "c": "Compulsión.",
+        "d": "Crisis de angustia."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Cuál de estos síntomas NO es característico en el trastorno de ansiedad generalizada?",
+      "opciones": {
+        "a": "Dificultades en la concentración.",
+        "b": "Alteraciones del sueño.",
+        "c": "Estados confusionales.",
+        "d": "Preocupación excesiva."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 76,
+      "enunciado": "Las tareas del TCAE en educación para la salud son:",
+      "opciones": {
+        "a": "Educación en hábitos saludables y técnicas de autocuidado básico del paciente.",
+        "b": "Ayudar al paciente a asumir la enfermedad y apoyarlo en la medida de lo posible.",
+        "c": "a) y b) son correctas.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 77,
+      "enunciado": "Las teorías psicológicas cognitivas sobre el desarrollo de la personalidad, ponen el foco en:",
+      "opciones": {
+        "a": "La forma en la que el individuo se relaciona con el mundo a nivel perceptivo, cómo interpreta las situaciones, cómo las procesa, cómo toma decisiones etc.",
+        "b": "El funcionamiento inconsciente del individuo.",
+        "c": "Los rasgos predominantes de la personalidad observados en la conducta del individuo.",
+        "d": "La conducta del individuo y las consecuencias de esta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 78,
+      "enunciado": "La posición de elección para pacientes con lipotimias o síncopes es, principalmente:",
+      "opciones": {
+        "a": "Morestin.",
+        "b": "Roser.",
+        "c": "Trendelemburg.",
+        "d": "Fowler."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 79,
+      "enunciado": "Para realizar el traslado de un paciente que no colabora de la cama al sillón con seguridad, son necesarios:",
+      "opciones": {
+        "a": "Solamente un auxiliar de enfermería.",
+        "b": "Al menos tres auxiliares de enfermería.",
+        "c": "Dos auxiliares de enfermería.",
+        "d": "Es indiferente el número de auxiliares de enfermería."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 80,
+      "enunciado": "La circulación pulmonar termina a través de las venas pulmonares en:",
+      "opciones": {
+        "a": "La aurícula izquierda.",
+        "b": "El pulmón derecho.",
+        "c": "El pulmón izquierdo.",
+        "d": "La aurícula derecha."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 81,
+      "enunciado": "El orificio aurículo-ventricular derecho está cerrado por la válvula:",
+      "opciones": {
+        "a": "Sigmoidea.",
+        "b": "Mitral.",
+        "c": "Semilunar.",
+        "d": "Tricúspide."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 82,
+      "enunciado": "La cánula nasal se utiliza para:",
+      "opciones": {
+        "a": "Administrar oxígeno a través de los dos orificios nasales.",
+        "b": "Administrar oxígeno a través de boca y nariz.",
+        "c": "Administrar oxígeno a través de un orificio nasal.",
+        "d": "Todas las respuestas anteriores son falsas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 83,
+      "enunciado": "¿Cómo podemos prevenir las varices en los miembros inferiores?",
+      "opciones": {
+        "a": "Evitando la vida sedentaria y haciendo ejercicio regularmente.",
+        "b": "Evitando permanecer muchas horas de pie.",
+        "c": "Evitando el sobrepeso y el consumo del tabaco.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 84,
+      "enunciado": "En la dieta astringente, es CIERTO que:",
+      "opciones": {
+        "a": "Está aumentado el porcentaje de las proteínas.",
+        "b": "Se eliminan o reducen los alimentos ricos en fibras.",
+        "c": "Contiene alimentos fáciles de digerir y es pobre en glúcidos.",
+        "d": "Se disminuye parcial o totalmente el contenido en sal."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 85,
+      "enunciado": "En la dieta absoluta, es CIERTO que:",
+      "opciones": {
+        "a": "Se disminuye el porcentaje de proteínas.",
+        "b": "Se incluyen alimentos ricos en fibra.",
+        "c": "Se suprime la ingesta total de alimentos y líquidos.",
+        "d": "Es baja en calorías."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Cuál de los siguientes elementos NO forma parte de la nefrona?",
+      "opciones": {
+        "a": "Asa de Henle.",
+        "b": "Capsula de Bowman.",
+        "c": "Glomérulo renal.",
+        "d": "Médula renal."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 87,
+      "enunciado": "Indique cuál de las siguientes sondas NO se utiliza para drenar orina.",
+      "opciones": {
+        "a": "Foley.",
+        "b": "Levin.",
+        "c": "Robinson.",
+        "d": "Pezzer."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "enunciado": "De los siguientes componentes de la orina, ¿cuáles son componentes anormales?",
+      "opciones": {
+        "a": "Solutos inorgánicos.",
+        "b": "Solutos orgánicos.",
+        "c": "Pigmentos.",
+        "d": "Proteínas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 89,
+      "enunciado": "¿Qué maniobra es válida en caso de atragantamiento en un adulto consciente?",
+      "opciones": {
+        "a": "Frente-mentón.",
+        "b": "Heimlich.",
+        "c": "Wallace.",
+        "d": "Tracción mandibular."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 90,
+      "enunciado": "La depresión del esternón en un adulto, con el masaje cardiaco, debe ser de:",
+      "opciones": {
+        "a": "2cm.",
+        "b": "3cm.",
+        "c": "7cm.",
+        "d": "5cm."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 91,
+      "enunciado": "¿Dónde debemos situar las palas-electrodos de un DESA (desfibrilador externo semiautomático) en un adulto?",
+      "opciones": {
+        "a": "Uno debajo de la clavícula derecha y el otro en el costado, a unos 10 cm por debajo de la axila.",
+        "b": "En los hombres, encima de cada tetilla y en las mujeres, al lado de estas.",
+        "c": "Uno en la espalda y otro en el pecho.",
+        "d": "Uno en cada hombro."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 92,
+      "enunciado": "¿Cuál sería la actuación correcta en la RCP, si el reanimador se encuentra solo y comprueba que un paciente está inconsciente, no respira y no tiene pulso?",
+      "opciones": {
+        "a": "Puñopercusión y si no reacciona, dar masaje cardiaco a ritmo de 80 compresiones torácicas por minuto.",
+        "b": "Ventilar al paciente tras apertura de la vía aérea a 12 respiraciones/minuto y efectuar 100 compresiones torácicas/min. Pedir ayuda.",
+        "c": "Iniciar masaje cardiaco: 30 compresiones seguidas, dos ventilaciones e ir alternando compresiones y ventilaciones a un ritmo 30/2 y una frecuencia de 100/min.",
+        "d": "Puñopercusión y ventilar al paciente."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 93,
+      "enunciado": "¿Cuál o cuáles son estrategias compensatorias, aplicadas a los diferentes aparatos y sistemas del anciano?",
+      "opciones": {
+        "a": "Inmunizarse cada año contra la gripe.",
+        "b": "Evitar las relaciones y actividades sexuales.",
+        "c": "Ingerir calcio a partir de productos lácteos.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 94,
+      "enunciado": "La diuresis de 24 horas en el adulto es:",
+      "opciones": {
+        "a": "1500ml.",
+        "b": "2000ml.",
+        "c": "900ml.",
+        "d": "Ninguna de las respuestas es correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Cuál de estos alimentos naturales tiene la mayor cantidad de vitamina B12?",
+      "opciones": {
+        "a": "Cereales.",
+        "b": "Frutos secos.",
+        "c": "Alimentos de origen animal.",
+        "d": "Frutas y hortalizas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 96,
+      "enunciado": "En la deambulación con ayuda técnica:",
+      "opciones": {
+        "a": "La marcha en tres puntos se realiza primero adelantando ambas muletas y la pierna más fuerte.",
+        "b": "La marcha de dos tiempos no permite ninguna descarga del miembro lesionado.",
+        "c": "La marcha de tres tiempos se utiliza cuando el paciente puede sostener el peso sobre una pierna y solo parcialmente sobre la otra.",
+        "d": "Marcha con oscilación se utiliza cuando el paciente no puede soportar el peso con los brazos, pero tiene fuerza en una pierna."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 97,
+      "enunciado": "Es CORRECTO que:",
+      "opciones": {
+        "a": "La hipoxemia es la disminución de la presión arterial de oxígeno y la saturación de hemoglobina en sangre arterial por debajo de 100% medido por pulsioximetría.",
+        "b": "Con la oxigenoterapia se administran cantidades inferiores de oxígeno del aire atmosférico.",
+        "c": "La oxigenoterapia está indicada en todas las enfermedades que producen dificultad respiratoria y cuyos síntomas consisten en disnea, ortopnea, cianosis y expectoración, que pueden ser iniciativa de insuficiencia respiratoria.",
+        "d": "Las respuestas B y C son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 98,
+      "enunciado": "Respecto a los dispositivos para la administración de oxígeno es INCORRECTO que:",
+      "opciones": {
+        "a": "Son dispositivos que se emplean cuando el paciente puede respirar por sí mismo.",
+        "b": "Tanto las gafas nasales como la sonda nasal se emplean para administrar concentraciones de oxígeno inferiores al 40%.",
+        "c": "Para pacientes con traqueostomía, existen mascarillas adaptables al orificio.",
+        "d": "Con la mascarilla se pueden proporcionar al paciente concentraciones de oxígeno que oscilen entre 5-80%."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 99,
+      "enunciado": "Hormona que regula la reabsorción de sodio y la excreción de potasio en la nefrona:",
+      "opciones": {
+        "a": "Hormona antidiurética.",
+        "b": "Aldosterona.",
+        "c": "Somatotrofina.",
+        "d": "Cortisol."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 100,
+      "enunciado": "Respecto al equilibrio ácido-base qué respuesta es la INCORRECTA:",
+      "opciones": {
+        "a": "El pH en sangre de una persona sana oscila entre 7,10-7,25.",
+        "b": "El aparato respiratorio interviene en el control del pH gracias a su capacidad para eliminar el CO2.",
+        "c": "El riñón regula la reabsorción y la eliminación de las bases.",
+        "d": "Los sistemas amortiguadores, también llamados tampón, controlan la variación de pH."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 101,
+      "enunciado": "Las náuseas y los vómitos al administrar la nutrición enteral pueden indicar:",
+      "opciones": {
+        "a": "La velocidad de perfusión es demasiado rápida.",
+        "b": "Acidez gástrica.",
+        "c": "Deficiencia de nutrientes.",
+        "d": "Todas son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Cuántas ventilaciones de rescate realizas en caso de asfixia no presenciada de un lactante?",
+      "opciones": {
+        "a": "5 ventilaciones de rescate.",
+        "b": "15 ventilaciones de rescate.",
+        "c": "5 compresiones de rescate.",
+        "d": "Nunca se realizan ventilaciones por riesgo de vómito."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 103,
+      "enunciado": "La respuesta CORRECTA es:",
+      "opciones": {
+        "a": "El síncope es la pérdida de conciencia que se produce debido a una disminución brusca del aporte de sangre al cerebro.",
+        "b": "En el caso de la lipotimia no conviene poner la cabeza de la víctima ladeada.",
+        "c": "En los casos de síncope no es recomendable colocar a los pacientes en posición antishock.",
+        "d": "El síncope ocurre por estancamiento de sangre en los miembros inferiores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 104,
+      "enunciado": "NO es un procedimiento a realizar en los cuidados preparto:",
+      "opciones": {
+        "a": "Asegurar la recogida de hoja de consentimiento informado.",
+        "b": "Acompañamiento de la persona.",
+        "c": "Colaborar en la monitorización biofísica materno-fetal.",
+        "d": "Aplicar la profilaxis con vitamina K."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 105,
+      "enunciado": "Respecto a los cambios característicos del puerperio es VERDADERO que:",
+      "opciones": {
+        "a": "Se produce la secreción láctea desencadenada por la angiotensina.",
+        "b": "Los entuertos suelen aparecer a los 40 días desde el parto.",
+        "c": "Los loquios constituyen el drenaje uterino, inicialmente están constituidos por sangre.",
+        "d": "No se deben realizar los cuidados del periné, aunque haya desgarros o episiotomía."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 106,
+      "enunciado": "¿Cuál es una modificación funcional del envejecimiento?",
+      "opciones": {
+        "a": "Aumento de la elasticidad de las arterias.",
+        "b": "Aumento de la eficacia de la tos.",
+        "c": "Respuesta disminuida de la sed.",
+        "d": "Aumento de la secreción gástrica."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 107,
+      "enunciado": "Si ocurre una obstrucción de la vía aérea por cuerpos extraños (OVACE) en adultos y en niños mayores de 1 año, ¿cómo se debe actuar?",
+      "opciones": {
+        "a": "Si la víctima respira y puede hablar, hay que aplicar 5 golpes secos entre los omóplatos.",
+        "b": "Si la víctima respira y puede hablar, hay que pedirle que tosa.",
+        "c": "Si la víctima no puede hablar, pero está consciente, hay que aplicar 15 golpes secos entre los omóplatos.",
+        "d": "Si la víctima no puede hablar, pero está consciente, hay que realizar la maniobra de Heimlich posicionando a la víctima en decúbito supino."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 108,
+      "enunciado": "¿Cómo se denomina el deseo constante de orinar?",
+      "opciones": {
+        "a": "Disuria.",
+        "b": "Piuria.",
+        "c": "Tenesmo vesical.",
+        "d": "Oliguria."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 109,
+      "enunciado": "Una de las características generales de la angina de pecho es:",
+      "opciones": {
+        "a": "Se produce por necrosis del miocardio debida a una deprivación total del aporte sanguíneo.",
+        "b": "Produce dolor torácico en la zona retroesternal de carácter opresivo o constrictivo, que puede irradiarse a hombros, brazos, mandíbula, cuello y epigastrio. Se alivia con el reposo.",
+        "c": "Cursa con dolor torácico constante, que puede irradiarse a brazos, hombro, cuello, dientes, mandíbula y espalda. No se alivia con el reposo.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 110,
+      "enunciado": "Señala cuál NO es una complicación de la nutrición enteral:",
+      "opciones": {
+        "a": "Lesiones nasales.",
+        "b": "Broncoaspiración.",
+        "c": "Diarrea.",
+        "d": "Trombosis venosa profunda."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 111,
+      "enunciado": "El déficit de Vitamina D o calciferol, se relaciona con:",
+      "opciones": {
+        "a": "Osteomalacia en adultos.",
+        "b": "Raquitismo en niños.",
+        "c": "a) y b) son correctas.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 112,
+      "enunciado": "¿A qué nivel de estructura de la piel se localizan los vasos sanguíneos?",
+      "opciones": {
+        "a": "Estrato córneo.",
+        "b": "Dermis.",
+        "c": "Estrato basal germinativo.",
+        "d": "Epidermis."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 113,
+      "enunciado": "¿Cuál de las siguientes funciones NO es propia del sistema musculoesquelético?",
+      "opciones": {
+        "a": "Movimiento.",
+        "b": "Regulación térmica.",
+        "c": "Hematopoyesis.",
+        "d": "Reservorio de sales minerales."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 114,
+      "enunciado": "La frecuencia respiratoria normal en el adulto es de:",
+      "opciones": {
+        "a": "12 a 18 respiraciones por minuto.",
+        "b": "20 a 40 respiraciones por minuto.",
+        "c": "60 a 80 respiraciones por minuto.",
+        "d": "7 a 9 respiraciones por minuto."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 115,
+      "enunciado": "La tensión arterial de un paciente depende:",
+      "opciones": {
+        "a": "De la resistencia vascular y catabolismo.",
+        "b": "Del gasto cardiaco y resistencia periférica.",
+        "c": "De la viscosidad sanguínea y cifra total de células sanguíneas.",
+        "d": "Del gasto cardiaco y metabolismo."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 116,
+      "enunciado": "La substancia responsable de la acción terapéutica en el fármaco se llama:",
+      "opciones": {
+        "a": "Coadyuvante.",
+        "b": "Excipiente.",
+        "c": "Principio activo.",
+        "d": "Agente principal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 117,
+      "enunciado": "Es CORRECTO que los colirios deben administrarse:",
+      "opciones": {
+        "a": "En el ángulo externo del saco conjuntival.",
+        "b": "En el ángulo interno del saco conjuntival.",
+        "c": "A lo largo del saco conjuntival.",
+        "d": "A lo largo de los párpados."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 118,
+      "enunciado": "¿Cuál de estos órganos NO forma parte del aparato digestivo?",
+      "opciones": {
+        "a": "Boca.",
+        "b": "Esófago.",
+        "c": "Laringe.",
+        "d": "Faringe."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 119,
+      "enunciado": "El orificio artificial de las ostomías se conoce con el nombre de:",
+      "opciones": {
+        "a": "Agujero ostómico.",
+        "b": "Colostomía.",
+        "c": "Estoma.",
+        "d": "Orificio gástrico."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 120,
+      "enunciado": "¿Cuándo utilizaremos la sonda de Sengstaken-Blakemore?",
+      "opciones": {
+        "a": "En la administración de un enema de retención.",
+        "b": "En la administración de alimentación enteral.",
+        "c": "Para eliminación de gases.",
+        "d": "En el sangrado de varices esofágicas o gástricas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 121,
+      "enunciado": "Entre los signos de agonía NO se encuentra:",
+      "opciones": {
+        "a": "Palidez y sudoración pegajosa.",
+        "b": "La respiración lenta con estertores agónicos.",
+        "c": "Pérdida de sensibilidad.",
+        "d": "La respiración de Biot."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 122,
+      "enunciado": "Es un signo tardío de muerte:",
+      "opciones": {
+        "a": "Algor mortis.",
+        "b": "Putrefacción.",
+        "c": "Livor mortis.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 123,
+      "enunciado": "¿Cuál o cuáles son normas a tener en cuenta en la lactancia materna?",
+      "opciones": {
+        "a": "Favorecer el eructo tras la ingesta.",
+        "b": "Fomentar la lactancia a demanda.",
+        "c": "Favorecer la colocación de la boca del lactante alrededor de la areola.",
+        "d": "Todas son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 124,
+      "enunciado": "En la lactancia artificial, en la preparación de biberones, NO es una recomendación acertada:",
+      "opciones": {
+        "a": "Dejarlo preparado con varias horas de antelación.",
+        "b": "Medir el polvo con el dosificador, enrasando.",
+        "c": "Utilizar agua hervida y templada.",
+        "d": "Seguir las instrucciones de la casa comercial."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 125,
+      "enunciado": "De las siguientes intervenciones de enfermería en el posoperatorio mediato, ¿diga cuál NO corresponde con el estado respiratorio del paciente?",
+      "opciones": {
+        "a": "Aspiración, si precisa.",
+        "b": "Cambios posturales.",
+        "c": "Medias antiembolia.",
+        "d": "Valoración regular de la frecuencia respiratoria."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 126,
+      "enunciado": "¿Cuál de las siguientes formas farmacéuticas se administra por vía tópica?",
+      "opciones": {
+        "a": "Nebulizadores.",
+        "b": "Fármacos intraarticulares.",
+        "c": "Tabletas.",
+        "d": "Gotas oftálmicas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 127,
+      "enunciado": "NO es una vía de administración parenteral:",
+      "opciones": {
+        "a": "Vía subcutánea.",
+        "b": "Vía intraarterial.",
+        "c": "Vía endotraqueal.",
+        "d": "Vía intramuscular."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 128,
+      "enunciado": "Realizar la resección de los tejidos desvitalizados, que impiden la regeneración y favorecen la contaminación bacteriana, es:",
+      "opciones": {
+        "a": "Epitelizar.",
+        "b": "Desbridar.",
+        "c": "Vitalizar.",
+        "d": "Desvitalizar."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 129,
+      "enunciado": "¿Qué tipo de sonda es la sonda Nutrisoft?",
+      "opciones": {
+        "a": "Es una sonda nasogástrica.",
+        "b": "Es una sonda rectal.",
+        "c": "Es una sonda de gastrostomía.",
+        "d": "Es una sonda postpilórica."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 130,
+      "enunciado": "Al realizar la higiene y el aseo general se deberá tener en cuenta lo siguiente:",
+      "opciones": {
+        "a": "La temperatura del agua tendrá que estar entre 36-40 ºC.",
+        "b": "En los baños terapéuticos, la temperatura del agua deberá encontrarse dos grados por encima de la temperatura corporal.",
+        "c": "Fomentaremos la independencia, autocuidado y la comunicación con el paciente.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 131,
+      "enunciado": "Respecto al aseo en la cama indica la respuesta INCORRECTA:",
+      "opciones": {
+        "a": "Secar las extremidades con pequeños toques con la toalla, en sentido ascendente para estimular la circulación venosa.",
+        "b": "El lavado se empezará realizar desde la cabeza. En la cara primero se lavarán los ojos con la esponja jabonosa.",
+        "c": "Aplicar crema hidratante sobre la piel y masajear, excepto si hay signos de formación de una úlcera por presión.",
+        "d": "Se comprobará el estado de las uñas de manos y pies."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 132,
+      "enunciado": "Entre los factores extrínsecos que favorecen el desarrollo de las úlceras por presión está:",
+      "opciones": {
+        "a": "Alteración inmunológica.",
+        "b": "Integridad de la piel.",
+        "c": "Escasa movilidad.",
+        "d": "Humedad."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 133,
+      "enunciado": "En la posición anatómica de decúbito lateral cuáles son zonas de riesgo en la aparición de úlceras por presión:",
+      "opciones": {
+        "a": "Occipucio, escápulas, columna vertebral dorsal, olécranon, sacro, glúteos y talones.",
+        "b": "Pabellón auricular, mejillas, acromion, región costal, crestas ilíacas, cóndilos femorales y falanges distales de los pies.",
+        "c": "Occipucio, mejillas, pabellón auricular, escápulas, costillas, maléolos y dedos de los pies.",
+        "d": "Pabellón auricular, omoplatos, olécranon, sacro, tuberosidad isquiática, zona poplítea, talones y metatarsianos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 134,
+      "enunciado": "Respecto a las constantes vitales indica la respuesta INCORRECTA:",
+      "opciones": {
+        "a": "Las cifras normales de temperatura timpánica y rectal son 0,5 ºC más altos en comparación con la temperatura axilar.",
+        "b": "Las cifras de la frecuencia respiratoria son las siguientes según la etapa de la vida: recién nacido 80-100 rpm, primer año de vida 40-50 rpm y edad adulta 10-14 rpm.",
+        "c": "Los valores normales de la tensión arterial en un adulto oscilan entre: TAS 120-140 mmHg y TAD 60-90 mmHg.",
+        "d": "Respecto a la frecuencia cardíaca los valores por debajo de 60 ppm se consideran bradicardia y por encima de 100 ppm se consideran taquicardia."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 135,
+      "enunciado": "El orden farmacocinético de la evolución de un fármaco administrado por la vía oral es la siguiente:",
+      "opciones": {
+        "a": "Liberación, absorción, distribución, metabolismo y excreción.",
+        "b": "Absorción, liberación, distribución, metabolismo y excreción.",
+        "c": "Metabolismo, absorción, liberación, distribución y excreción.",
+        "d": "Distribución, excreción, liberación, metabolismo y absorción."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 136,
+      "enunciado": "Características antropométricas del recién nacido:",
+      "opciones": {
+        "a": "El peso medio al nacer en nuestro entorno es de entre 2.000-2.400 g.",
+        "b": "La longitud media es de entre 40-47 cm.",
+        "c": "Los valores medios del perímetro craneal oscilan entre 37-40 cm.",
+        "d": "Los valores de estos parámetros deben encontrarse dentro de los percentiles 10-90 de las curvas de crecimiento de la población estudiada."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 137,
+      "enunciado": "La valoración de Apgar se evalúa:",
+      "opciones": {
+        "a": "Al minuto, a los 2 minutos, y a veces, a los 15 minutos de nacer.",
+        "b": "Al minuto, a los 3 minutos, y a veces, a los 8 minutos de nacer.",
+        "c": "Al minuto, a los 5 minutos, y a veces, a los 10 minutos de nacer.",
+        "d": "Al minuto, a los 10 minutos, y a veces, a los 15 minutos de nacer."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 138,
+      "enunciado": "Respecto al cambio de bolsa de ostomía, es INCORRECTO:",
+      "opciones": {
+        "a": "Retirar la bolsa sucia siempre de arriba abajo.",
+        "b": "Secar bien la zona con movimientos de presión.",
+        "c": "Al colocar la bolsa limpia adaptarlo alrededor del estoma y dejar un margen de unos 4-5 cm.",
+        "d": "El estoma se limpiará con agua y jabón neutro, en forma circular."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 139,
+      "enunciado": "El tipo de fractura en la cual el hueso se rompe en diversos fragmentos de pequeño tamaño, pudiendo producir hemorragia y lesión muscular se llama:",
+      "opciones": {
+        "a": "Abierta.",
+        "b": "En tallo verde.",
+        "c": "Conminuta.",
+        "d": "Oblicua."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 140,
+      "enunciado": "Sobre las luxaciones es FALSO que:",
+      "opciones": {
+        "a": "Se aplicará hielo para reducir el dolor y la inflamación.",
+        "b": "Se inmovilizará la articulación.",
+        "c": "Se intentará volver a colocar la extremidad afectada en su posición anatómica.",
+        "d": "Se remitirá a un centro hospitalario."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 141,
+      "enunciado": "Respecto a tipos de fracturas de huesos es FALSO que:",
+      "opciones": {
+        "a": "En la fractura patológica el hueso se rompe espontáneamente, sin la acción de una fuerza extraña.",
+        "b": "En la fractura de tallo verde el hueso se dobla y se rompe completamente.",
+        "c": "En la fractura conminuta el hueso se rompe en diversos fragmentos de pequeño tamaño.",
+        "d": "Una fractura cerrada se acompaña de lesión muscular y hemorragia interna."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 142,
+      "enunciado": "¿Qué signo NO se valora en el índice de Apgar?",
+      "opciones": {
+        "a": "Frecuencia cardiaca.",
+        "b": "Tensión arterial.",
+        "c": "Respuesta refleja a estímulos.",
+        "d": "Color de la piel."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 143,
+      "enunciado": "La sialorrea es:",
+      "opciones": {
+        "a": "Sensación de detención retroesternal del bolo alimenticio.",
+        "b": "Deglución dolorosa.",
+        "c": "Sensación de ardor por reflujo del contenido gástrico.",
+        "d": "Emisión de gran cantidad de saliva."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 144,
+      "enunciado": "¿Cuál NO es una característica general del recién nacido?",
+      "opciones": {
+        "a": "Fontanelas mayor y menor.",
+        "b": "Reflejo rotuliano.",
+        "c": "Vernix caseosa.",
+        "d": "Perlas Epstein."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 145,
+      "enunciado": "Señala la respuesta INCORRECTA sobre los glucocorticoides:",
+      "opciones": {
+        "a": "Aumento la gluconeogénesis hepática y de la glucemia.",
+        "b": "Una de sus funciones es el metabolismo de grasas.",
+        "c": "Una de sus funciones es el metabolismo de hidratos de carbono.",
+        "d": "Son producidos en la médula suprarrenal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 146,
+      "enunciado": "¿Cuál NO es una hormona producida por la adenohipófisis?",
+      "opciones": {
+        "a": "Oxitocina.",
+        "b": "Tirotropina.",
+        "c": "Prolactina.",
+        "d": "Corticotropina."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 147,
+      "enunciado": "Señala la respuesta INCORRECTA sobre los diferentes tipos de hipersensibilidad:",
+      "opciones": {
+        "a": "Existen 4 tipos de hipersensibilidad.",
+        "b": "Las reacciones en las transfusiones están relacionadas con la hipersensibilidad II.",
+        "c": "Los rechazos de trasplantes están relacionados con la hipersensibilidad IV.",
+        "d": "La sensibilización atópica está relacionada con la hipersensibilidad V."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 148,
+      "enunciado": "La esterilización con óxido de etileno:",
+      "opciones": {
+        "a": "La duración del proceso de esterilización no es superior a 60 minutos.",
+        "b": "Se usa en materiales termosensibles.",
+        "c": "Penetra con dificultad en los materiales de goma y plástico.",
+        "d": "Es un medio seguro carente de toxicidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 149,
+      "enunciado": "En el proceso de la esterilización el Test de Bowie-Dick:",
+      "opciones": {
+        "a": "Sirve para cuantificar el vapor saturado en el esterilizador.",
+        "b": "No es un indicador de proceso.",
+        "c": "Se debe realizar semanalmente antes de que el autoclave comience a esterilizar.",
+        "d": "La lectura se hace valorando un cambio de color homogéneo con el control del indicador."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 150,
+      "enunciado": "Los contenedores para residuos del Grupo II:",
+      "opciones": {
+        "a": "Si son residuos traumáticos se recogen en contenedores rígidos, impermeables y resistentes a la perforación.",
+        "b": "En bolsas de diferentes colores y homologadas por las diferentes comunidades autónomas, siempre con identificación externa.",
+        "c": "Se depositan en el punto SIGRE del Hospital.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 151,
+      "enunciado": "Sobre la gestión extracentro de residuos CLASE IV (el transporte, tratamiento y eliminación), es CORRECTO que:",
+      "opciones": {
+        "a": "La gestión de los residuos químicos no requieren normativa específica.",
+        "b": "Los medicamentos caducados los recogen las distribuidoras farmacéuticas para su incineración a través del SIGRE y ENRESA.",
+        "c": "Los residuos citostáticos son enviados a instalaciones adecuadas para su eliminación mediante la incineración.",
+        "d": "Todas las respuestas anteriores son verdaderas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 152,
+      "enunciado": "El uso de dosímetros personales está indicado en la manipulación de:",
+      "opciones": {
+        "a": "Residuos químicos y aerosoles.",
+        "b": "Residuos sanitarios GRUPO III.",
+        "c": "Residuos radiactivos.",
+        "d": "Medicamentos citostáticos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 153,
+      "enunciado": "Respecto a las características de la orina, es CORRECTO:",
+      "opciones": {
+        "a": "Suele ser de color amarillo, traslúcido y producido en la vejiga.",
+        "b": "El color puede variar en función de los alimentos ingeridos.",
+        "c": "A y B son correctas.",
+        "d": "La orina presenta un marcado color rojo en patologías hepáticas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 154,
+      "enunciado": "Control de diuresis. Procedimiento en la recogida de orina de 24 horas:",
+      "opciones": {
+        "a": "Que inicie la recogida después de desayunar y recoja la micción antes de acostarse incluyendo la primera orina de la mañana siguiente.",
+        "b": "Que deseche la primera orina del día y deseche la última micción antes de acostarse y recoja las demás.",
+        "c": "Que recoja toda la orina desde que se levanta hasta el día siguiente, es decir durante 24 horas.",
+        "d": "Que deseche la primera orina de la mañana, y a partir de ese momento que recoja toda la orina incluida la primera micción de la mañana siguiente."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 155,
+      "enunciado": "¿Cuál es la labor del/la TCAE en la zona de Preparación y Empaquetado en una central de esterilización?",
+      "opciones": {
+        "a": "Recepción del material seco de otras unidades o con pretratamiento.",
+        "b": "Preparar los paquetes de material para su esterilización, preparar los controles químicos y biológicos.",
+        "c": "Colaborar en la puesta en marcha de los aparatos de esterilización y en su control posterior.",
+        "d": "Preparar los pedidos para los quirófanos y las plantas de hospitalización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 156,
+      "enunciado": "En el área sucia se realizan los siguientes procesos:",
+      "opciones": {
+        "a": "Revisión, selección, empaquetado y esterilización del material.",
+        "b": "Descarga, clasificación, almacenamiento, y distribución de material.",
+        "c": "Recibir, revisar, limpiar, secar, lubricar, clasificar y comprobar el material.",
+        "d": "Recogida, limpieza e introducción del material en cubas con soluciones desinfectantes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 157,
+      "enunciado": "La desinfección concomitante en el aislamiento se realiza:",
+      "opciones": {
+        "a": "Cuando termina la indicación de aislamiento.",
+        "b": "Mientras el paciente está ingresado.",
+        "c": "Antes del ingreso del paciente.",
+        "d": "Ninguna es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 158,
+      "enunciado": "El esputo hemático o hemoptisis es:",
+      "opciones": {
+        "a": "Sanguinolento o marronáceo.",
+        "b": "Amarillo verdoso.",
+        "c": "Dorado a amarillo rojizo.",
+        "d": "Mucoso, seroso y blanquecino."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 159,
+      "enunciado": "Los biofilmes son substancias químicas u orgánicas de un residuo:",
+      "opciones": {
+        "a": "Es fácilmente removible con agentes de limpieza.",
+        "b": "Facilita el paso de agentes desinfectantes.",
+        "c": "En su superficie sobreviven microorganismos.",
+        "d": "Todas son verdaderas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 160,
+      "enunciado": "En el proceso de limpieza del material quirúrgico:",
+      "opciones": {
+        "a": "Se realiza una limpieza previa con suero fisiológico.",
+        "b": "Los detergentes dificultan la disminución de la carga bacteriana.",
+        "c": "Los detergentes enzimáticos disuelven sustancias grasas.",
+        "d": "El uso de detergentes enzimáticos no necesita aclarado."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 161,
+      "enunciado": "¿Cuál de estos es un desinfectante de bajo nivel?",
+      "opciones": {
+        "a": "Agua oxigenada.",
+        "b": "Etanol.",
+        "c": "Clorhexidina.",
+        "d": "Formaldehído."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 162,
+      "enunciado": "Respecto a las desventajas de los compuestos yodados es que:",
+      "opciones": {
+        "a": "Son viricidas, fungicidas y bactericidas.",
+        "b": "Se usan en solución jabonosa.",
+        "c": "Puede generar sensibilización cutánea.",
+        "d": "Con sustancias tensoactivas disminuyen la tensión superficial."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 163,
+      "enunciado": "El aislamiento estricto NO se aplica en:",
+      "opciones": {
+        "a": "Quemaduras limitadas.",
+        "b": "Herpes zóster diseminado.",
+        "c": "Varicela.",
+        "d": "Virus de Ébola."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 164,
+      "enunciado": "La quimioprofilaxis, como medida de prevención sobre la persona susceptible es:",
+      "opciones": {
+        "a": "Un medio de inmunización pasiva.",
+        "b": "Un medio de inmunización activa.",
+        "c": "La administración de fármacos.",
+        "d": "Un procedimiento de aislamiento."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 165,
+      "enunciado": "Respecto a la cadena epidemiológica, ¿qué respuesta es FALSA?",
+      "opciones": {
+        "a": "Está formada por 3 eslabones.",
+        "b": "El reservorio es el hábitat natural y habitual del agente infeccioso.",
+        "c": "El ser humano puede actuar como reservorio.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 166,
+      "enunciado": "Dentro de los mecanismos de transmisión de la enfermedad, los alimentos son:",
+      "opciones": {
+        "a": "Un mecanismo de transmisión indirecto.",
+        "b": "Un mecanismo de transmisión mixto.",
+        "c": "Un mecanismo de transmisión directo.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 167,
+      "enunciado": "Dentro de las medidas generales de prevención y control de las infecciones nosocomiales las campañas de educación sanitaria actúan sobre:",
+      "opciones": {
+        "a": "La fuente de infección únicamente.",
+        "b": "El mecanismo de trasmisión únicamente.",
+        "c": "La fuente de infección y el huésped susceptible.",
+        "d": "Todas son verdaderas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 168,
+      "enunciado": "La zoonosis son enfermedades de transmisión:",
+      "opciones": {
+        "a": "Entre pacientes hospitalarios.",
+        "b": "De animales a humanos.",
+        "c": "Debidas siempre a virus.",
+        "d": "En enfermedades sin agente causal."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 169,
+      "enunciado": "Dentro de las enfermedades infecciosas el fenómeno iceberg es cuando:",
+      "opciones": {
+        "a": "Puede haber infección sin formas aparentes de enfermedad.",
+        "b": "Aparecen sólo síntomas característicos de la enfermedad infecciosa.",
+        "c": "Se caracterizan por su fácil diagnóstico.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 170,
+      "enunciado": "El periodo prodrómico de las enfermedades transmisibles se caracteriza por:",
+      "opciones": {
+        "a": "Por la aparición de los síntomas y los signos que definen la enfermedad.",
+        "b": "Por el tiempo comprendido entre la entrada del agente causal en el huésped y la aparición de los primeros síntomas de la enfermedad.",
+        "c": "Por la posibilidad de obtener datos analíticos, signos y síntomas que puedan conducir a un diagnóstico.",
+        "d": "Por la aparición de los signos inespecíficos y de carácter general."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 171,
+      "enunciado": "En las enfermedades transmisibles, las medidas de prevención sobre el huésped susceptible es CORRECTO que:",
+      "opciones": {
+        "a": "La quimioprofilaxis consiste en la administración de fármacos para evitar la aparición de la enfermedad.",
+        "b": "La inmunización activa se adquiere al administrar anticuerpos sintetizados por otros individuos inmunes.",
+        "c": "La inmunización pasiva se adquiere por mecanismos naturales cuando el huésped genera su propia respuesta inmunitaria frente al antígeno.",
+        "d": "La inmunización pasiva se adquiere mediante las vacunas y tiene efecto inmediato."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 172,
+      "enunciado": "En la categoría II del grado de eficacia de las medidas de prevención de infecciones nosocomiales se encuentra(n):",
+      "opciones": {
+        "a": "La vigilancia de los equipos de ventilación mecánica y oxigenoterapia.",
+        "b": "Los sistemas de flujo laminar.",
+        "c": "Los procedimientos de aislamiento.",
+        "d": "El protocolo de actuación frente a accidentes biológicos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 173,
+      "enunciado": "En qué norma se basa la clasificación de los residuos sanitarios según el Instituto Nacional de Seguridad e Higiene en el Trabajo (INSHT):",
+      "opciones": {
+        "a": "NTP 372.",
+        "b": "NTP 571.",
+        "c": "NTP 810.",
+        "d": "NTP 11."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 174,
+      "enunciado": "En el mantenimiento del instrumental reutilizable NO es una causa de deterioro:",
+      "opciones": {
+        "a": "Residuos de vapor del esterilizador.",
+        "b": "La lubricación manual.",
+        "c": "Residuos de medicamentos.",
+        "d": "Calidad del agua."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 175,
+      "enunciado": "La corrosión del material quirúrgico debido a la tensofisuracion es debida principalmente a:",
+      "opciones": {
+        "a": "Contacto con materiales oxidados o instrumentos de acero inoxidable con contenido en cobre o plata.",
+        "b": "Sobreesfuerzo del material.",
+        "c": "Picadura debido al contacto con cloruros y sales.",
+        "d": "Fricción por insuficiente lubricación."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 176,
+      "enunciado": "La cualidad de un detergente que suprime la tensión superficial para facilitar el contacto del agua entre las superficies para su limpieza es:",
+      "opciones": {
+        "a": "Poder solubilizante.",
+        "b": "Poder detergente.",
+        "c": "Poder humectante.",
+        "d": "Poder dispersante."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 177,
+      "enunciado": "Los detergentes enzimáticos, NO es cierto que:",
+      "opciones": {
+        "a": "Saponifican las grasas.",
+        "b": "Son surfactantes.",
+        "c": "Son de pH ácido.",
+        "d": "Son de pH neutro."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 178,
+      "enunciado": "El aislamiento inverso es aplicado en pacientes con:",
+      "opciones": {
+        "a": "Con tuberculosis pulmonar, sarampión, rubéola.",
+        "b": "Quemaduras extensas, agranulocitosis.",
+        "c": "Gastroenteritis, cólera, hepatitis A.",
+        "d": "Ébola, sarna, candidiasis."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 179,
+      "enunciado": "Según la normativa europea UNE-EN ISO 15883/2006 para valorar la eficacia de la limpieza del instrumental quirúrgico uno de los dispositivos utilizados es:",
+      "opciones": {
+        "a": "Indicador químico para comprobación de la cavitación.",
+        "b": "Test TOSI.",
+        "c": "Test biológico de esporas.",
+        "d": "Prueba DART."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 180,
+      "enunciado": "En los hospitales y centros de atención primaria existen zonas con diferente riesgo según los niveles de contaminación, el riesgo de nivel medio en una unidad de atención primaria se localiza en:",
+      "opciones": {
+        "a": "Consulta de enfermería.",
+        "b": "Consulta de odontología.",
+        "c": "Consulta de medicina general.",
+        "d": "Quirófanos de cirugía menor."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 181,
+      "enunciado": "Según la clasificación de Spaulding de los artículos hospitalarios de atención directa a pacientes, el material semicrítico:",
+      "opciones": {
+        "a": "Su nivel de desinfección debe ser de nivel intermedio.",
+        "b": "Son materiales que entran en contacto con piel no íntegra o mucosas.",
+        "c": "Instrumental dental y endoscopios flexibles.",
+        "d": "Entra en contacto con cavidades estériles."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 182,
+      "enunciado": "Desinfectantes y antisépticos: elige la respuesta CORRECTA.",
+      "opciones": {
+        "a": "Los desinfectantes son sustancias dotadas de actividad antimicrobiana y escasa o nula toxicidad que se usa sobre la piel o tejidos humanos.",
+        "b": "Los desinfectantes son sustancias dotadas de actividad antimicrobiana capaces de destruir todas las formas vegetativas de bacterias, hongos, virus incluyendo el virus de la hepatitis.",
+        "c": "La indicación en el uso de los antisépticos y los desinfectantes depende de su concentración.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 183,
+      "enunciado": "Los desinfectantes de alto nivel:",
+      "opciones": {
+        "a": "En exposiciones superiores a 2 horas pueden ser esporicidas.",
+        "b": "Son sustancias con componentes mercúricos, alcohólicos y fenólicos.",
+        "c": "Son eficaces en la eliminación del bacilo de Koch.",
+        "d": "Todas son verdaderas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 184,
+      "enunciado": "Los compuestos iodados y alcoholes tienen como inconveniente común que:",
+      "opciones": {
+        "a": "Pueden dañar el cemento óptico de los equipos ópticos.",
+        "b": "Su uso está contraindicado en lactantes.",
+        "c": "Debe protegerse de la luz para evitar su inactivación.",
+        "d": "Presenta posible absorción sistémica."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 185,
+      "enunciado": "Para evaluar los de esterilización se determinan las curvas de muerte de microorganismos mediante dos parámetros: Indique qué definición corresponde con el \"VALOR Z\":",
+      "opciones": {
+        "a": "Temperatura necesaria para reducir la carga de microorganismos sobre un objeto determinado en un 90% y en un tiempo concreto.",
+        "b": "Tiempo para destruir el 90% de los microorganismos de un objeto determinado a una temperatura concreta.",
+        "c": "Tiempo para destruir la totalidad de la carga microbiana a 121º C.",
+        "d": "Temperatura para destruir el 100% de la carga microbiana en 60 minutos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 186,
+      "enunciado": "Cuál de los siguientes sistemas de esterilización no es un método químico de gases:",
+      "opciones": {
+        "a": "Autoclave de vapor.",
+        "b": "Plasma de peróxido de hidrógeno.",
+        "c": "Formaldehído.",
+        "d": "Óxido de etileno."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 187,
+      "enunciado": "En el método de esterilización de óxido de etileno, uno de sus inconvenientes es que:",
+      "opciones": {
+        "a": "No se puede utilizar en la esterilización de materiales termosensibles.",
+        "b": "Necesita temperaturas elevadas, superiores a los 75ºC.",
+        "c": "Presenta toxicidad residual y necesita control de exposición personal.",
+        "d": "Siempre se utiliza en estado puro."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 188,
+      "enunciado": "En la obtención de las muestras biológicas la fase post-analítica:",
+      "opciones": {
+        "a": "Incluye la emisión del informe con los resultados obtenidos.",
+        "b": "Incluye la valoración del informe del análisis por parte del facultativo médico.",
+        "c": "Incluye el transporte de las muestras al laboratorio.",
+        "d": "Incluye la toma de la muestra biológica."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 189,
+      "enunciado": "La piuria supone la presencia de:",
+      "opciones": {
+        "a": "Presencia de microorganismos en la orina.",
+        "b": "Presencia superior de 5000 leucocitos/mm3.",
+        "c": "Presencia superior a un millón de leucocitos/mm3.",
+        "d": "Presencia de proteínas más de 50 mg/día."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 190,
+      "enunciado": "En la toma de la muestra de orina de 24 horas el procedimiento CORRECTO es:",
+      "opciones": {
+        "a": "Desechar la primera orina de la mañana y a partir de ese momento, recoger toda la orina hasta incluida la primera micción de la mañana siguiente.",
+        "b": "Recoger la primera orina de la tarde y a partir de ese momento, recoger toda la orina hasta la primera micción de la mañana siguiente incluida.",
+        "c": "Desechar la primera orina de la mañana y a partir de ese momento, recoger toda la orina excluida la micción de la mañana siguiente.",
+        "d": "Iniciar la recogida de orina a las 20:00 horas del día indicado, hasta las 8 de la mañana del día siguiente."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 191,
+      "enunciado": "La toma de muestra para estudio de oxiuros:",
+      "opciones": {
+        "a": "Se debe realizar con una torunda estéril.",
+        "b": "La muestra se recogerá durante tres días no consecutivos.",
+        "c": "Recoger en cualquier momento del día, previa higiene de la zona.",
+        "d": "Uno de los materiales utilizados para la toma de muestra es un portaobjetos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 192,
+      "enunciado": "Conservación y transporte de muestras:",
+      "opciones": {
+        "a": "En la conservación de los esputos se deben mantener a temperatura ambiente.",
+        "b": "En la conservación de plasma y suero sin elementos formes mantener a una temperatura de 18ºC.",
+        "c": "Las muestras de líquido cefalorraquídeo se deben mantener a una temperatura de entre 0ºC y 4ºC, si no es posible su análisis inmediato.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 193,
+      "enunciado": "La recogida selectiva en el hospital de medicamentos no deseados, excluidos los citostáticos, se debe realizar en:",
+      "opciones": {
+        "a": "Contenedor específico denominado punto SIGRE.",
+        "b": "En contenedores para residuos tipo III.",
+        "c": "Contenedores específicos identificados como \"medicamentos caducados\".",
+        "d": "Dependiendo de su composición y/o presentación se desecharán en diferentes recipientes para su gestión."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 194,
+      "enunciado": "En la central de esterilización:",
+      "opciones": {
+        "a": "El área sucia se utiliza para revisar, limpiar, secar, lubricar, clasificar, comprobar y empaquetar el material recibido.",
+        "b": "El área limpia incluye dos zonas: la zona limpia y la zona aséptica.",
+        "c": "En la zona de almacenamiento se colocará el material en sentido horizontal en estanterías de rejillas cerradas.",
+        "d": "El diseño arquitectónico de la central de esterilización permite un circuito multidireccional lo que permite acceder a las diferentes zonas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 195,
+      "enunciado": "Vida de anaquel, es FALSO que:",
+      "opciones": {
+        "a": "Forma parte del proceso de validación dentro de los programas de calidad de la central de esterilización.",
+        "b": "La vida útil es desde que se limpia el material hasta el momento de su uso.",
+        "c": "Se le denomina también vida útil del material esterilizado.",
+        "d": "Todas son verdaderas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 196,
+      "enunciado": "Dentro de las normas básicas de limpieza de habitaciones y espacios:",
+      "opciones": {
+        "a": "La limpieza de los objetos de los pacientes inmunodeprimidos se hará en último lugar.",
+        "b": "Las habitaciones de pacientes infecciosos o en aislamiento se realizarán en primer lugar.",
+        "c": "El carro de limpieza se introducirá en las habitaciones para no limitar el paso en los pasillos.",
+        "d": "Todas son falsas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 197,
+      "enunciado": "El símbolo internacional de radiactividad de color rojo significa:",
+      "opciones": {
+        "a": "Peligro de radiación externa.",
+        "b": "Zona vigilada.",
+        "c": "Zona de acceso prohibido.",
+        "d": "Peligro de contaminación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 198,
+      "enunciado": "Las condiciones atmosféricas tienen incidencia sobre el estado del paciente de manera que:",
+      "opciones": {
+        "a": "El aumento del grado de humedad favorece la diseminación de microorganismos que afectan al sistema respiratorio.",
+        "b": "El descenso del grado de humedad agrava las patologías cardiacas y las del sistema circulatorio.",
+        "c": "Los valores del grado de humedad óptimos oscilan entre el 40 y 60% y su medición se realiza con higrómetros.",
+        "d": "Los sistemas de refrigeración hospitalaria no suponen un riesgo para la salud del paciente."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 199,
+      "enunciado": "Elige la respuesta CORRECTA:",
+      "opciones": {
+        "a": "La limpieza es una técnica de desinfección.",
+        "b": "La antisepsia es la ausencia de gérmenes patógenos.",
+        "c": "La limpieza se hará mediante medios mecánicos y físicos.",
+        "d": "La limpieza elimina los biofilmes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 200,
+      "enunciado": "La pinza Doyen es un material:",
+      "opciones": {
+        "a": "De talla o campo.",
+        "b": "De hemostasia.",
+        "c": "De exposición.",
+        "d": "De aprehensión."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

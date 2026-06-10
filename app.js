@@ -19,22 +19,35 @@ const sbFetch = (path, opts = {}) =>
   });
 
 // ── SUBJECTS CONFIG ───────────────────────────────────────────────────────────
-const SUBJECTS = [
-  { key: 'ipei', name: 'Itinerario Personal de Empleabilidad I', abbr: 'IPEI', file: 'ipei_completo.json',          icon: '💼', color: '#f59e0b' },
-  { key: 'bbdd', name: 'Administración de Bases de Datos',        abbr: 'BBDD', file: 'bbdd_completo.json',          icon: '🗄️', color: '#3b82f6' },
-  { key: 'ssoo', name: 'Administración de Sistemas Operativos',   abbr: 'SSOO', file: 'ssoo_completo.json',          icon: '🖥️', color: '#8b5cf6' },
-  { key: 'lm',   name: 'Lenguaje de Marcas',                      abbr: 'LM',   file: 'lenguaje_completo.json',      icon: '🏷️', color: '#ec4899' },
-  { key: 'impl', name: 'Implementación de Aplicaciones Web',      abbr: 'IAW',  file: 'implantacion_completo.json',  icon: '🌐', color: '#10b981' },
-  { key: 'svc',  name: 'Servicios de Red e Internet',             abbr: 'SRI',  file: 'servicios_completo.json',     icon: '📡', color: '#f97316' },
-  { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',            icon: '🔌', color: '#06b6d4' },
-  { key: 'com', name: 'Osakidetza - Comun', abbr: 'COM', file: 'comun_completo.json', icon: '🏥', color: '#f59e0b' },
-  { key: 'cel', name: 'Osakidetza - Celador', abbr: 'CELA', file: 'celador_completo.json', icon: '🧑‍⚕️', color: '#f59e0b' },
-  { key: 'auxadm', name: 'Osakidetza - Auxiliar Administrativo', abbr: 'AUXADM', file: 'auxiliar_administrativo_completo.json', icon: '📋', color: '#14b8a6' },
+const SUBJECT_GROUPS = [
+  { key: 'asir',       name: 'ASIR',       description: 'Administración de Sistemas Informáticos en Red', icon: '🖥️', color: '#3b82f6' },
+  { key: 'osakidetza', name: 'Osakidetza', description: 'Oposiciones del Servicio Vasco de Salud',        icon: '🏥', color: '#14b8a6' },
 ];
+
+const SUBJECTS = [
+  { key: 'ipei',  name: 'Itinerario Personal de Empleabilidad I', abbr: 'IPEI',    file: 'ipei_completo.json',         icon: '💼', color: '#f59e0b', group: 'asir' },
+  { key: 'bbdd',  name: 'Administración de Bases de Datos',       abbr: 'BBDD',    file: 'bbdd_completo.json',         icon: '🗄️', color: '#3b82f6', group: 'asir' },
+  { key: 'ssoo',  name: 'Administración de Sistemas Operativos',  abbr: 'SSOO',    file: 'ssoo_completo.json',         icon: '🖥️', color: '#8b5cf6', group: 'asir' },
+  { key: 'lm',    name: 'Lenguaje de Marcas',                     abbr: 'LM',      file: 'lenguaje_completo.json',     icon: '🏷️', color: '#ec4899', group: 'asir' },
+  { key: 'impl',  name: 'Implementación de Aplicaciones Web',     abbr: 'IAW',     file: 'implantacion_completo.json', icon: '🌐', color: '#10b981', group: 'asir' },
+  { key: 'svc',   name: 'Servicios de Red e Internet',            abbr: 'SRI',     file: 'servicios_completo.json',    icon: '📡', color: '#f97316', group: 'asir' },
+  { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',               icon: '🔌', color: '#06b6d4', group: 'asir' },
+  { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun_completo.json',                  icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
+  { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador_completo.json',                icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
+  { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'aux.enfermeria_osakidetza_completo.json', icon: '🩺', color: '#e11d48', group: 'osakidetza' },
+];
+
+function getGroup(groupKey) {
+  return SUBJECT_GROUPS.find(g => g.key === groupKey);
+}
+
+function getSubjectsByGroup(groupKey) {
+  return SUBJECTS.filter(s => s.group === groupKey);
+}
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
 const COMP_QUESTIONS = 30;
-const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel'];
+const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel', 'auxenf'];
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let state = {
@@ -56,6 +69,8 @@ let state = {
   studyQuestions: [],
   studyOrder:     [],
   studyAnswers:   {},   // { originalIndex: { chosen: 'a' or null, revealed: true } }
+
+  categoryContext: { mode: 'normal', group: null },  // mode: 'normal' | 'competitive' | 'study'
 };
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -147,6 +162,98 @@ function calcPuntuacion(correct, wrong) {
   return Math.max(0, Math.round(raw * 100) / 100);
 }
 
+// ── GROUP & SUBJECT CARDS ─────────────────────────────────────────────────────
+function createGroupCard(group, onClick, index) {
+  const card = document.createElement('div');
+  card.className = 'subject-card group-card';
+  card.style.setProperty('--card-accent', group.color);
+  card.style.setProperty('--i', index);
+  const count = getSubjectsByGroup(group.key).length;
+  card.innerHTML = `
+    <div class="card-icon">${group.icon}</div>
+    <div class="card-name">${group.name}</div>
+    <div class="card-abbr">${group.description}</div>
+    <div class="card-count">${count} asignaturas</div>
+  `;
+  card.addEventListener('click', onClick);
+  return card;
+}
+
+function openCategorySubjects(groupKey, mode) {
+  state.categoryContext = { mode, group: groupKey };
+  renderCategorySubjectGrid(groupKey, mode);
+  showScreen('screen-category-subjects');
+}
+
+function renderCategorySubjectGrid(groupKey, mode) {
+  const group = getGroup(groupKey);
+  const grid = $('category-subject-grid');
+  grid.innerHTML = '';
+
+  $('category-group-badge').textContent = `${group.icon} ${group.name}`;
+  $('category-comp-badge').classList.toggle('hidden', mode !== 'competitive');
+  $('category-study-badge').classList.toggle('hidden', mode !== 'study');
+  $('category-hint').classList.toggle('hidden', mode === 'normal');
+  if (mode === 'competitive') {
+    $('category-hint').textContent = '30 preguntas aleatorias · Penalización −1/3 por fallo · Desempate por tiempo';
+  } else if (mode === 'study') {
+    $('category-hint').textContent = 'Preguntas en orden o mezcladas · Revelar respuestas al instante · Sin límite de tiempo';
+  }
+
+  getSubjectsByGroup(groupKey).forEach((subj, i) => {
+    const card = document.createElement('div');
+    card.className = 'subject-card';
+    card.style.setProperty('--card-accent', subj.color);
+    card.style.setProperty('--i', i);
+
+    if (mode === 'competitive') {
+      card.innerHTML = `
+        <div class="card-icon">${subj.icon}</div>
+        <div class="card-name">${subj.name}</div>
+        <div class="card-abbr">${subj.abbr}</div>
+        <div class="card-count" style="color:${subj.color}">${COMP_QUESTIONS} preguntas</div>
+      `;
+      card.addEventListener('click', () => startCompetitive(subj));
+    } else if (mode === 'study') {
+      card.innerHTML = `
+        <div class="card-icon">${subj.icon}</div>
+        <div class="card-name">${subj.name}</div>
+        <div class="card-abbr">${subj.abbr}</div>
+        <div class="card-count" id="study-count-${subj.key}" style="color:${subj.color}">Cargando…</div>
+      `;
+      card.addEventListener('click', () => startStudySession(subj));
+      loadStudyQuestionCount(subj);
+    } else {
+      card.innerHTML = `
+        <div class="card-icon">${subj.icon}</div>
+        <div class="card-name">${subj.name}</div>
+        <div class="card-abbr">${subj.abbr}</div>
+        <div class="card-count" id="count-${subj.key}">Cargando…</div>
+      `;
+      card.addEventListener('click', () => selectSubject(subj));
+      loadQuestionCount(subj);
+    }
+
+    grid.appendChild(card);
+  });
+}
+
+function goBackFromCategory() {
+  const { mode } = state.categoryContext;
+  if (mode === 'competitive') showScreen('screen-competitive');
+  else if (mode === 'study') showScreen('screen-study-subjects');
+  else showScreen('screen-subject');
+}
+
+function goBackToSubjectPicker() {
+  if (state.categoryContext?.group) {
+    renderCategorySubjectGrid(state.categoryContext.group, 'normal');
+    showScreen('screen-category-subjects');
+  } else {
+    showScreen('screen-subject');
+  }
+}
+
 // ── SCREEN 1: SUBJECT GRID ────────────────────────────────────────────────────
 function renderSubjectGrid() {
   const grid = $('subject-grid');
@@ -178,19 +285,8 @@ function renderSubjectGrid() {
   studyCard.addEventListener('click', () => { renderStudySubjectGrid(); showScreen('screen-study-subjects'); });
   grid.appendChild(studyCard);
 
-  SUBJECTS.forEach(subj => {
-    const card = document.createElement('div');
-    card.className = 'subject-card';
-    card.style.setProperty('--card-accent', subj.color);
-    card.innerHTML = `
-      <div class="card-icon">${subj.icon}</div>
-      <div class="card-name">${subj.name}</div>
-      <div class="card-abbr">${subj.abbr}</div>
-      <div class="card-count" id="count-${subj.key}">Cargando…</div>
-    `;
-    card.addEventListener('click', () => selectSubject(subj));
-    grid.appendChild(card);
-    loadQuestionCount(subj);
+  SUBJECT_GROUPS.forEach((group, idx) => {
+    grid.appendChild(createGroupCard(group, () => openCategorySubjects(group.key, 'normal'), idx));
   });
 }
 
@@ -210,18 +306,8 @@ async function loadQuestionCount(subj) {
 function renderCompSubjectGrid() {
   const grid = $('comp-subject-grid');
   grid.innerHTML = '';
-  SUBJECTS.forEach(subj => {
-    const card = document.createElement('div');
-    card.className = 'subject-card';
-    card.style.setProperty('--card-accent', subj.color);
-    card.innerHTML = `
-      <div class="card-icon">${subj.icon}</div>
-      <div class="card-name">${subj.name}</div>
-      <div class="card-abbr">${subj.abbr}</div>
-      <div class="card-count" style="color:${subj.color}">${COMP_QUESTIONS} preguntas</div>
-    `;
-    card.addEventListener('click', () => startCompetitive(subj));
-    grid.appendChild(card);
+  SUBJECT_GROUPS.forEach((group, idx) => {
+    grid.appendChild(createGroupCard(group, () => openCategorySubjects(group.key, 'competitive'), idx));
   });
 }
 
@@ -246,19 +332,8 @@ async function startCompetitive(subj) {
 function renderStudySubjectGrid() {
   const grid = $('study-subject-grid');
   grid.innerHTML = '';
-  SUBJECTS.forEach(subj => {
-    const card = document.createElement('div');
-    card.className = 'subject-card';
-    card.style.setProperty('--card-accent', subj.color);
-    card.innerHTML = `
-      <div class="card-icon">${subj.icon}</div>
-      <div class="card-name">${subj.name}</div>
-      <div class="card-abbr">${subj.abbr}</div>
-      <div class="card-count" id="study-count-${subj.key}" style="color:${subj.color}">Cargando…</div>
-    `;
-    card.addEventListener('click', () => startStudySession(subj));
-    grid.appendChild(card);
-    loadStudyQuestionCount(subj);
+  SUBJECT_GROUPS.forEach((group, idx) => {
+    grid.appendChild(createGroupCard(group, () => openCategorySubjects(group.key, 'study'), idx));
   });
 }
 
@@ -453,7 +528,8 @@ async function selectSubject(subj) {
   showScreen('screen-count');
 }
 
-$('back-to-subject').addEventListener('click', () => showScreen('screen-subject'));
+$('back-to-subject').addEventListener('click', goBackToSubjectPicker);
+$('back-from-category').addEventListener('click', goBackFromCategory);
 $('btn-custom-start').addEventListener('click', () => {
   const val = parseInt($('custom-count').value);
   if (!val || val < 1)                      { showToast('Introduce un número válido'); return; }
@@ -683,7 +759,7 @@ function showResults() {
 }
 
 $('btn-retry').addEventListener('click', () => startTest(state.testQuestions.length));
-$('btn-new-subject').addEventListener('click', () => showScreen('screen-subject'));
+$('btn-new-subject').addEventListener('click', goBackToSubjectPicker);
 
 // ── SCREEN 6: SUBMIT (competitive) ───────────────────────────────────────────
 function showSubmit() {
@@ -773,6 +849,22 @@ $('btn-skip-save').addEventListener('click', () => {
 });
 
 // ── SCREEN 7: RANKING ─────────────────────────────────────────────────────────
+function renderRankingFilter() {
+  const select = $('ranking-filter');
+  select.innerHTML = '<option value="all">Todas las asignaturas</option>';
+  SUBJECT_GROUPS.forEach(group => {
+    const optgroup = document.createElement('optgroup');
+    optgroup.label = group.name;
+    getSubjectsByGroup(group.key).forEach(subj => {
+      const opt = document.createElement('option');
+      opt.value = subj.abbr;
+      opt.textContent = subj.name;
+      optgroup.appendChild(opt);
+    });
+    select.appendChild(optgroup);
+  });
+}
+
 $('back-from-ranking').addEventListener('click', () => showScreen('screen-subject'));
 $('ranking-filter').addEventListener('change', () => loadRanking());
 
@@ -851,6 +943,8 @@ function getFocusableElements() {
       return Array.from(activeScreen.querySelectorAll('.option-btn, #back-to-count'));
     case 'screen-results':
       return Array.from(activeScreen.querySelectorAll('.btn-primary, .btn-secondary'));
+    case 'screen-category-subjects':
+      return Array.from(activeScreen.querySelectorAll('.subject-card, .btn-back'));
     case 'screen-competitive':
       return Array.from(activeScreen.querySelectorAll('.subject-card, #btn-view-ranking, .btn-back'));
     case 'screen-submit':
@@ -936,4 +1030,5 @@ window.addEventListener('keydown', (e) => {
 // ── INIT ──────────────────────────────────────────────────────────────────────
 renderSubjectGrid();
 renderCompSubjectGrid();
+renderRankingFilter();
 showScreen('screen-subject');
