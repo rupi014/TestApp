@@ -104,7 +104,7 @@ Al ser una aplicación estática, no requiere instalación de dependencias.
 
 ## 👤 Autor
 
-Desarrollado con ❤️ por **Rubens Ballester**.
+Desarrollado con ❤️ por **Rubens Ballester** y **Mikel Rubio**.
 
 ---
 
