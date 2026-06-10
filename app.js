@@ -35,6 +35,7 @@ const SUBJECTS = [
   { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun_completo.json',                  icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
   { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador_completo.json',                icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
   { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar_enfermeria_osakidetza_completo.json', icon: '🩺', color: '#e11d48', group: 'osakidetza' },
+  { key: 'auxadm', name: 'Auxiliar Administrativo',                  abbr: 'AUXADM',  file: 'auxiliar_administrativo_completo.json',        icon: '📋', color: '#6366f1', group: 'osakidetza' },
 ];
 
 function getGroup(groupKey) {
@@ -47,7 +48,7 @@ function getSubjectsByGroup(groupKey) {
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
 const COMP_QUESTIONS = 30;
-const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel', 'auxenf'];
+const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel', 'auxenf', 'auxadm'];
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let state = {
@@ -382,7 +383,8 @@ async function startStudySession(subj) {
   state.currentIndex = 0;
   state.studyAnswers = {};
   const indices = Array.from({ length: state.studyQuestions.length }, (_, i) => i);
-  state.studyOrder = KEEP_ANSWER_ORDER_KEYS.includes(subj.key) ? shuffle(indices) : indices;
+  // Modo estudio: orden del JSON (asignaturas Osakidetza y resto)
+  state.studyOrder = indices;
 
   // Generate question selector dropdown options
   const selector = $('study-question-selector');
