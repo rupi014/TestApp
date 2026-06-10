@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stack: JS/HTML/CSS](https://img.shields.io/badge/Stack-Pure%20JS%20%7C%20HTML%20%7C%20CSS-blue)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-**AsirTestLab** es una plataforma web de alto rendimiento diseñada para la realización de simulacros de examen tipo test. Enfocada inicialmente en el ciclo de **ASIR (Administración de Sistemas Informáticos en Red)** y **Ciberseguridad**, la aplicación ofrece una experiencia de aprendizaje interactiva, dinámica y visualmente atractiva.
+**AsirTestLab** es una plataforma web de alto rendimiento diseñada para la realización de simulacros de examen tipo test. Cubre el ciclo de **ASIR (Administración de Sistemas Informáticos en Red)** y las oposiciones de **Osakidetza (Servicio Vasco de Salud)**, con una experiencia de aprendizaje interactiva, dinámica y visualmente atractiva.
 
 
 
@@ -12,7 +12,9 @@
 ## 🚀 Características Principales
 
 ### 🎯 Gestión de Asignaturas
-Acceso a un catálogo completo de módulos con bancos de preguntas actualizados:
+Acceso a un catálogo organizado por categorías, con bancos de preguntas actualizados:
+
+#### 🖥️ ASIR
 - **IPEI**: Itinerario Personal de Empleabilidad I.
 - **BBDD**: Administración de Bases de Datos.
 - **SSOO**: Administración de Sistemas Operativos.
@@ -20,6 +22,13 @@ Acceso a un catálogo completo de módulos con bancos de preguntas actualizados:
 - **IAW**: Implementación de Aplicaciones Web.
 - **SRI**: Servicios de Red e Internet.
 - **PUERTOS**: Diccionario de Puertos y Protocolos.
+
+#### 🏥 Osakidetza
+Oposiciones del Servicio Vasco de Salud:
+- **COM**: Comun.
+- **CELA**: Celador.
+- **AUXENF**: Auxiliar de Enfermería.
+- **AUXADM**: Auxiliar Administrativo.
 
 ### 🎮 Modos de Juego
 
@@ -31,17 +40,12 @@ Ideal para el estudio diario y repaso de conceptos.
 
 #### 📚 Modo Estudio (Estudiar)
 Diseñado para el aprendizaje profundo y sistemático de los conceptos sin la presión de cronómetros, puntuaciones ni penalizaciones.
-- **Acceso Completo**: Permite estudiar el banco de preguntas completo de la asignatura elegida.
-- **Navegación Libre y Flexible**:
-  - Avanza y retrocede por las preguntas con total libertad usando los botones **Anterior** y **Siguiente**.
-  - Salta directamente a cualquier pregunta utilizando el **selector desplegable** inteligente.
-- **Toggles de Aprendizaje Activo**:
-  - **Mezclar preguntas**: Alterna entre el orden original del banco (ideal para estudio sistemático) y un orden aleatorio.
-  - **Revelar al cargar**: Úsalo a modo de tarjeta de memoria (*flashcard*) para ver la respuesta correcta y justificación inmediatamente al cargar la pregunta.
-- **Interactividad y Repaso**:
-  - Haz clic en las opciones para recibir feedback instantáneo (verde para aciertos, rojo para fallos) junto con la explicación completa.
-  - Botón **Revelar respuesta** para ver la solución en cualquier momento sin necesidad de equivocarte primero.
-  - Botón **Reiniciar pregunta** para borrar tu selección activa y volver a intentar responderla las veces que quieras.
+- **Acceso completo**: Permite estudiar el banco de preguntas completo de la asignatura elegida.
+- **Orden del banco**: Las preguntas se muestran siempre en el orden original del JSON, ideal para un repaso sistemático (especialmente útil en las asignaturas de Osakidetza).
+- **Respuesta visible**: La opción correcta y su explicación se muestran automáticamente al cargar cada pregunta.
+- **Navegación libre**:
+  - Avanza y retrocede con los botones **Anterior** y **Siguiente**.
+  - Salta directamente a cualquier pregunta con el **selector desplegable**.
 
 #### ⚡ Modo Competitivo
 Pon a prueba tus conocimientos bajo presión y compite con otros estudiantes.
@@ -54,7 +58,9 @@ Pon a prueba tus conocimientos bajo presión y compite con otros estudiantes.
 - **Diseño Moderno**: Interfaz basada en *glassmorphism* con efectos visuales dinámicos y transiciones suaves.
 - **Tematización Dinámica**: La interfaz adapta sus colores de acento según la asignatura seleccionada.
 - **Responsive Design**: Totalmente optimizado para dispositivos móviles y escritorio.
-- **Aleatorización Avanzada**: Algoritmo de Fisher-Yates para barajar tanto el orden de las preguntas como el de las opciones de respuesta en cada intento.
+- **Aleatorización inteligente**: Algoritmo de Fisher-Yates para barajar preguntas y, según la asignatura, también las opciones de respuesta:
+  - **ASIR**: Preguntas y respuestas aleatorias en modo práctica y competitivo.
+  - **Osakidetza** (Comun, Celador, Auxiliar de Enfermería, Auxiliar Administrativo): Preguntas aleatorias en práctica y competitivo, pero las opciones de respuesta mantienen el orden del JSON; en modo estudio, las preguntas siguen el orden del banco.
 
 ---
 
