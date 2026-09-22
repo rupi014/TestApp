@@ -24,19 +24,25 @@ const SUBJECT_GROUPS = [
   { key: 'osakidetza', name: 'Osakidetza', description: 'Oposiciones del Servicio Vasco de Salud',        icon: '🏥', color: '#14b8a6' },
 ];
 
+const QUESTIONS_BASE = 'data/preguntas';
+
 const SUBJECTS = [
-  { key: 'ipei',  name: 'Itinerario Personal de Empleabilidad I', abbr: 'IPEI',    file: 'ipei_completo.json',         icon: '💼', color: '#f59e0b', group: 'asir' },
-  { key: 'bbdd',  name: 'Administración de Bases de Datos',       abbr: 'BBDD',    file: 'bbdd_completo.json',         icon: '🗄️', color: '#3b82f6', group: 'asir' },
-  { key: 'ssoo',  name: 'Administración de Sistemas Operativos',  abbr: 'SSOO',    file: 'ssoo_completo.json',         icon: '🖥️', color: '#8b5cf6', group: 'asir' },
-  { key: 'lm',    name: 'Lenguaje de Marcas',                     abbr: 'LM',      file: 'lenguaje_completo.json',     icon: '🏷️', color: '#ec4899', group: 'asir' },
-  { key: 'impl',  name: 'Implementación de Aplicaciones Web',     abbr: 'IAW',     file: 'implantacion_completo.json', icon: '🌐', color: '#10b981', group: 'asir' },
-  { key: 'svc',   name: 'Servicios de Red e Internet',            abbr: 'SRI',     file: 'servicios_completo.json',    icon: '📡', color: '#f97316', group: 'asir' },
+  { key: 'ipei',  name: 'Itinerario Personal de Empleabilidad I', abbr: 'IPEI',    file: 'ipei.json',                  icon: '💼', color: '#f59e0b', group: 'asir' },
+  { key: 'bbdd',  name: 'Administración de Bases de Datos',       abbr: 'BBDD',    file: 'bbdd.json',                  icon: '🗄️', color: '#3b82f6', group: 'asir' },
+  { key: 'ssoo',  name: 'Administración de Sistemas Operativos',  abbr: 'SSOO',    file: 'ssoo.json',                  icon: '🖥️', color: '#8b5cf6', group: 'asir' },
+  { key: 'lm',    name: 'Lenguaje de Marcas',                     abbr: 'LM',      file: 'lm.json',                    icon: '🏷️', color: '#ec4899', group: 'asir' },
+  { key: 'impl',  name: 'Implementación de Aplicaciones Web',     abbr: 'IAW',     file: 'impl.json',                  icon: '🌐', color: '#10b981', group: 'asir' },
+  { key: 'svc',   name: 'Servicios de Red e Internet',            abbr: 'SRI',     file: 'svc.json',                   icon: '📡', color: '#f97316', group: 'asir' },
   { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',               icon: '🔌', color: '#06b6d4', group: 'asir' },
-  { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun_completo.json',                  icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
-  { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador_completo.json',                icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
-  { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar_enfermeria_osakidetza_completo.json', icon: '🩺', color: '#e11d48', group: 'osakidetza' },
-  { key: 'auxadm', name: 'Auxiliar Administrativo',                  abbr: 'AUXADM',  file: 'auxiliar_administrativo_completo.json',        icon: '📋', color: '#6366f1', group: 'osakidetza' },
+  { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun.json',                 icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
+  { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador.json',               icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
+  { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar-enfermeria.json',   icon: '🩺', color: '#e11d48', group: 'osakidetza' },
+  { key: 'auxadm', name: 'Auxiliar Administrativo',                  abbr: 'AUXADM',  file: 'auxiliar-administrativo.json', icon: '📋', color: '#6366f1', group: 'osakidetza' },
 ];
+
+function questionBankUrl(subj) {
+  return `${QUESTIONS_BASE}/${subj.group}/${subj.file}`;
+}
 
 function getGroup(groupKey) {
   return SUBJECT_GROUPS.find(g => g.key === groupKey);
@@ -293,7 +299,7 @@ function renderSubjectGrid() {
 
 async function loadQuestionCount(subj) {
   try {
-    const res  = await fetch(subj.file);
+    const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
     const el   = $(`count-${subj.key}`);
     if (el) el.textContent = `${data.preguntas?.length ?? 0} preguntas disponibles`;
@@ -319,7 +325,7 @@ async function startCompetitive(subj) {
   state.isCompetitive = true;
   state.subject = subj;
   try {
-    const res  = await fetch(subj.file);
+    const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
     state.allQuestions = data.preguntas || [];
   } catch {
@@ -340,7 +346,7 @@ function renderStudySubjectGrid() {
 
 async function loadStudyQuestionCount(subj) {
   try {
-    const res  = await fetch(subj.file);
+    const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
     const el   = $(`study-count-${subj.key}`);
     if (el) el.textContent = `${data.preguntas?.length ?? 0} preguntas`;
@@ -362,7 +368,7 @@ async function startStudySession(subj) {
   state.isCompetitive = false;
   state.subject = subj;
   try {
-    const res  = await fetch(subj.file);
+    const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
     state.studyQuestions = data.preguntas || [];
   } catch {
@@ -496,7 +502,7 @@ async function selectSubject(subj) {
   state.isCompetitive = false;
   state.subject = subj;
   try {
-    const res  = await fetch(subj.file);
+    const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
     state.allQuestions = data.preguntas || [];
   } catch {

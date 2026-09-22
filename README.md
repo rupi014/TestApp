@@ -78,12 +78,14 @@ La aplicación ha sido desarrollada priorizando la ligereza y el rendimiento, si
 ## 📂 Estructura del Proyecto
 
 ```text
-├── index.html          # Estructura principal y contenedores de pantallas
-├── style.css           # Sistema de diseño, animaciones y responsive
-├── app.js              # Motor del test, gestión de estado e integración con Supabase
-├── netlify.toml        # Configuración de despliegue
-├── *_completo.json     # Bancos de preguntas por asignatura
-└── ranking.json        # (Legacy/Mock) Datos de ranking
+├── index.html              # Estructura principal y contenedores de pantallas
+├── style.css               # Sistema de diseño, animaciones y responsive
+├── app.js                  # Motor del test, gestión de estado e integración con Supabase
+├── netlify.toml            # Configuración de despliegue
+└── data/
+    └── preguntas/
+        ├── asir/           # Bancos del ciclo ASIR (ipei, bbdd, ssoo, lm, impl, svc, puertos)
+        └── osakidetza/     # Oposiciones (comun, celador, auxiliar-enfermeria, auxiliar-administrativo)
 ```
 
 ---
