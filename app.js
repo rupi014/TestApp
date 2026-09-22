@@ -24,16 +24,26 @@ const SUBJECT_GROUPS = [
   { key: 'osakidetza', name: 'Osakidetza', description: 'Oposiciones del Servicio Vasco de Salud',        icon: '🏥', color: '#14b8a6' },
 ];
 
+const ASIR_SEMESTERS = [
+  { key: 's1', name: 'Semestre 1', description: 'Primer cuatrimestre del ciclo', icon: '1️⃣', color: '#3b82f6' },
+  { key: 's2', name: 'Semestre 2', description: 'Segundo cuatrimestre del ciclo', icon: '2️⃣', color: '#6366f1' },
+];
+
 const QUESTIONS_BASE = 'data/preguntas';
 
 const SUBJECTS = [
-  { key: 'ipei',  name: 'Itinerario Personal de Empleabilidad I', abbr: 'IPEI',    file: 'ipei.json',                  icon: '💼', color: '#f59e0b', group: 'asir' },
-  { key: 'bbdd',  name: 'Administración de Bases de Datos',       abbr: 'BBDD',    file: 'bbdd.json',                  icon: '🗄️', color: '#3b82f6', group: 'asir' },
-  { key: 'ssoo',  name: 'Administración de Sistemas Operativos',  abbr: 'SSOO',    file: 'ssoo.json',                  icon: '🖥️', color: '#8b5cf6', group: 'asir' },
-  { key: 'lm',    name: 'Lenguaje de Marcas',                     abbr: 'LM',      file: 'lm.json',                    icon: '🏷️', color: '#ec4899', group: 'asir' },
-  { key: 'impl',  name: 'Implementación de Aplicaciones Web',     abbr: 'IAW',     file: 'impl.json',                  icon: '🌐', color: '#10b981', group: 'asir' },
-  { key: 'svc',   name: 'Servicios de Red e Internet',            abbr: 'SRI',     file: 'svc.json',                   icon: '📡', color: '#f97316', group: 'asir' },
-  { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',               icon: '🔌', color: '#06b6d4', group: 'asir' },
+  { key: 'ipei',  name: 'Itinerario Personal de Empleabilidad I', abbr: 'IPEI',    file: 'ipei.json',                  icon: '💼', color: '#f59e0b', group: 'asir', semester: 's1' },
+  { key: 'bbdd',  name: 'Administración de Bases de Datos',       abbr: 'BBDD',    file: 'bbdd.json',                  icon: '🗄️', color: '#3b82f6', group: 'asir', semester: 's1' },
+  { key: 'ssoo',  name: 'Administración de Sistemas Operativos',  abbr: 'SSOO',    file: 'ssoo.json',                  icon: '🖥️', color: '#8b5cf6', group: 'asir', semester: 's1' },
+  { key: 'lm',    name: 'Lenguaje de Marcas',                     abbr: 'LM',      file: 'lm.json',                    icon: '🏷️', color: '#ec4899', group: 'asir', semester: 's1' },
+  { key: 'impl',  name: 'Implementación de Aplicaciones Web',     abbr: 'IAW',     file: 'impl.json',                  icon: '🌐', color: '#10b981', group: 'asir', semester: 's1' },
+  { key: 'svc',   name: 'Servicios de Red e Internet',            abbr: 'SRI',     file: 'svc.json',                   icon: '📡', color: '#f97316', group: 'asir', semester: 's1' },
+  { key: 'ports', name: 'Puertos y Protocolos',                   abbr: 'PUERTOS', file: 'puertos.json',               icon: '🔌', color: '#06b6d4', group: 'asir', semester: 's1' },
+  { key: 'issoo', name: 'Implantación de SSOO',                   abbr: 'ISSOO',   file: 'impl-ssoo.json',             icon: '⚙️', color: '#8b5cf6', group: 'asir', semester: 's2', comingSoon: true },
+  { key: 'fh',    name: 'Fundamentos de Hardware',                abbr: 'FH',      file: 'hardware.json',              icon: '🔧', color: '#78716c', group: 'asir', semester: 's2', comingSoon: true },
+  { key: 'gbbdd', name: 'Gestión de BBDD',                        abbr: 'GBBDD',   file: 'gest-bbdd.json',             icon: '📊', color: '#2563eb', group: 'asir', semester: 's2', comingSoon: true },
+  { key: 'par',   name: 'Planificación y Admin. de Redes',        abbr: 'PAR',     file: 'plan-redes.json',            icon: '🛜', color: '#0ea5e9', group: 'asir', semester: 's2', comingSoon: true },
+  { key: 'sad',   name: 'Seguridad y Alta Disponibilidad',        abbr: 'SAD',     file: 'sad.json',                   icon: '🛡️', color: '#dc2626', group: 'asir', semester: 's2', comingSoon: true },
   { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun.json',                 icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
   { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador.json',               icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
   { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar-enfermeria.json',   icon: '🩺', color: '#e11d48', group: 'osakidetza' },
@@ -41,15 +51,28 @@ const SUBJECTS = [
 ];
 
 function questionBankUrl(subj) {
+  if (!subj?.file) return null;
   return `${QUESTIONS_BASE}/${subj.group}/${subj.file}`;
+}
+
+function subjectBankReady(subj) {
+  return Boolean(subj?.file) && !subj.comingSoon;
 }
 
 function getGroup(groupKey) {
   return SUBJECT_GROUPS.find(g => g.key === groupKey);
 }
 
-function getSubjectsByGroup(groupKey) {
-  return SUBJECTS.filter(s => s.group === groupKey);
+function getAsirSemester(semesterKey) {
+  return ASIR_SEMESTERS.find(s => s.key === semesterKey);
+}
+
+function getSubjectsByGroup(groupKey, semesterKey = null) {
+  let list = SUBJECTS.filter(s => s.group === groupKey);
+  if (groupKey === 'asir' && semesterKey) {
+    list = list.filter(s => s.semester === semesterKey);
+  }
+  return list;
 }
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
@@ -77,7 +100,7 @@ let state = {
   studyOrder:     [],
   studyAnswers:   {},   // { originalIndex: { chosen: 'a' or null, revealed: true } }
 
-  categoryContext: { mode: 'normal', group: null },  // mode: 'normal' | 'competitive' | 'study'
+  categoryContext: { mode: 'normal', group: null, semester: null },  // mode: 'normal' | 'competitive' | 'study'
 };
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -187,17 +210,13 @@ function createGroupCard(group, onClick, index) {
 }
 
 function openCategorySubjects(groupKey, mode) {
-  state.categoryContext = { mode, group: groupKey };
-  renderCategorySubjectGrid(groupKey, mode);
+  state.categoryContext = { mode, group: groupKey, semester: null };
+  if (groupKey === 'asir') renderAsirSemesterGrid(mode);
+  else renderCategorySubjectGrid(groupKey, mode);
   showScreen('screen-category-subjects');
 }
 
-function renderCategorySubjectGrid(groupKey, mode) {
-  const group = getGroup(groupKey);
-  const grid = $('category-subject-grid');
-  grid.innerHTML = '';
-
-  $('category-group-badge').textContent = `${group.icon} ${group.name}`;
+function setCategoryScreenHints(mode) {
   $('category-comp-badge').classList.toggle('hidden', mode !== 'competitive');
   $('category-study-badge').classList.toggle('hidden', mode !== 'study');
   $('category-hint').classList.toggle('hidden', mode === 'normal');
@@ -206,39 +225,86 @@ function renderCategorySubjectGrid(groupKey, mode) {
   } else if (mode === 'study') {
     $('category-hint').textContent = 'Preguntas en orden o mezcladas · Revelar respuestas al instante · Sin límite de tiempo';
   }
+}
 
-  getSubjectsByGroup(groupKey).forEach((subj, i) => {
+function renderAsirSemesterGrid(mode) {
+  const group = getGroup('asir');
+  const grid = $('category-subject-grid');
+  grid.innerHTML = '';
+
+  $('category-group-badge').textContent = `${group.icon} ${group.name}`;
+  $('category-screen-title').innerHTML = 'Elige un <em>semestre</em>';
+  setCategoryScreenHints(mode);
+
+  ASIR_SEMESTERS.forEach((sem, i) => {
     const card = document.createElement('div');
-    card.className = 'subject-card';
+    card.className = 'subject-card group-card semester-card';
+    card.style.setProperty('--card-accent', sem.color);
+    card.style.setProperty('--i', i);
+    const count = getSubjectsByGroup('asir', sem.key).length;
+    card.innerHTML = `
+      <div class="card-icon">${sem.icon}</div>
+      <div class="card-name">${sem.name}</div>
+      <div class="card-abbr">${sem.description}</div>
+      <div class="card-count">${count} asignaturas</div>
+    `;
+    card.addEventListener('click', () => openAsirSemester(sem.key));
+    grid.appendChild(card);
+  });
+}
+
+function openAsirSemester(semesterKey) {
+  const { mode } = state.categoryContext;
+  state.categoryContext.semester = semesterKey;
+  renderCategorySubjectGrid('asir', mode, semesterKey);
+}
+
+function renderCategorySubjectGrid(groupKey, mode, semesterKey = null) {
+  const group = getGroup(groupKey);
+  const grid = $('category-subject-grid');
+  grid.innerHTML = '';
+
+  const semester = groupKey === 'asir' ? getAsirSemester(semesterKey) : null;
+  $('category-group-badge').textContent = semester
+    ? `${group.icon} ${group.name} · ${semester.name}`
+    : `${group.icon} ${group.name}`;
+  $('category-screen-title').innerHTML = 'Elige una <em>asignatura</em>';
+  setCategoryScreenHints(mode);
+
+  getSubjectsByGroup(groupKey, semesterKey).forEach((subj, i) => {
+    const card = document.createElement('div');
+    card.className = 'subject-card' + (subj.comingSoon ? ' subject-card--soon' : '');
     card.style.setProperty('--card-accent', subj.color);
     card.style.setProperty('--i', i);
+
+    const onSoonClick = () => showToast('El banco de preguntas estará disponible pronto.');
 
     if (mode === 'competitive') {
       card.innerHTML = `
         <div class="card-icon">${subj.icon}</div>
         <div class="card-name">${subj.name}</div>
         <div class="card-abbr">${subj.abbr}</div>
-        <div class="card-count" style="color:${subj.color}">${COMP_QUESTIONS} preguntas</div>
+        <div class="card-count" style="color:${subj.color}">${subj.comingSoon ? 'Próximamente' : `${COMP_QUESTIONS} preguntas`}</div>
       `;
-      card.addEventListener('click', () => startCompetitive(subj));
+      card.addEventListener('click', () => (subj.comingSoon ? onSoonClick() : startCompetitive(subj)));
     } else if (mode === 'study') {
       card.innerHTML = `
         <div class="card-icon">${subj.icon}</div>
         <div class="card-name">${subj.name}</div>
         <div class="card-abbr">${subj.abbr}</div>
-        <div class="card-count" id="study-count-${subj.key}" style="color:${subj.color}">Cargando…</div>
+        <div class="card-count" id="study-count-${subj.key}" style="color:${subj.color}">${subj.comingSoon ? 'Próximamente' : 'Cargando…'}</div>
       `;
-      card.addEventListener('click', () => startStudySession(subj));
-      loadStudyQuestionCount(subj);
+      card.addEventListener('click', () => (subj.comingSoon ? onSoonClick() : startStudySession(subj)));
+      if (!subj.comingSoon) loadStudyQuestionCount(subj);
     } else {
       card.innerHTML = `
         <div class="card-icon">${subj.icon}</div>
         <div class="card-name">${subj.name}</div>
         <div class="card-abbr">${subj.abbr}</div>
-        <div class="card-count" id="count-${subj.key}">Cargando…</div>
+        <div class="card-count" id="count-${subj.key}">${subj.comingSoon ? 'Próximamente' : 'Cargando…'}</div>
       `;
-      card.addEventListener('click', () => selectSubject(subj));
-      loadQuestionCount(subj);
+      card.addEventListener('click', () => (subj.comingSoon ? onSoonClick() : selectSubject(subj)));
+      if (!subj.comingSoon) loadQuestionCount(subj);
     }
 
     grid.appendChild(card);
@@ -246,19 +312,32 @@ function renderCategorySubjectGrid(groupKey, mode) {
 }
 
 function goBackFromCategory() {
-  const { mode } = state.categoryContext;
+  const { mode, group, semester } = state.categoryContext;
+  if (group === 'asir' && semester) {
+    state.categoryContext.semester = null;
+    renderAsirSemesterGrid(mode);
+    return;
+  }
   if (mode === 'competitive') showScreen('screen-competitive');
   else if (mode === 'study') showScreen('screen-study-subjects');
   else showScreen('screen-subject');
 }
 
 function goBackToSubjectPicker() {
-  if (state.categoryContext?.group) {
-    renderCategorySubjectGrid(state.categoryContext.group, 'normal');
-    showScreen('screen-category-subjects');
-  } else {
+  const ctx = state.categoryContext;
+  if (!ctx?.group) {
     showScreen('screen-subject');
+    return;
   }
+  const mode = ctx.mode || 'normal';
+  if (ctx.group === 'asir' && ctx.semester) {
+    renderCategorySubjectGrid('asir', mode, ctx.semester);
+  } else if (ctx.group === 'asir') {
+    renderAsirSemesterGrid(mode);
+  } else {
+    renderCategorySubjectGrid(ctx.group, mode);
+  }
+  showScreen('screen-category-subjects');
 }
 
 // ── SCREEN 1: SUBJECT GRID ────────────────────────────────────────────────────
@@ -298,6 +377,7 @@ function renderSubjectGrid() {
 }
 
 async function loadQuestionCount(subj) {
+  if (!subjectBankReady(subj)) return;
   try {
     const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
@@ -322,6 +402,10 @@ $('back-from-competitive').addEventListener('click', () => showScreen('screen-su
 $('btn-view-ranking').addEventListener('click', () => { loadRanking(); showScreen('screen-ranking'); });
 
 async function startCompetitive(subj) {
+  if (!subjectBankReady(subj)) {
+    showToast('El banco de preguntas estará disponible pronto.');
+    return;
+  }
   state.isCompetitive = true;
   state.subject = subj;
   try {
@@ -345,6 +429,7 @@ function renderStudySubjectGrid() {
 }
 
 async function loadStudyQuestionCount(subj) {
+  if (!subjectBankReady(subj)) return;
   try {
     const res  = await fetch(questionBankUrl(subj));
     const data = await res.json();
@@ -364,6 +449,10 @@ $('back-from-study-session').addEventListener('click', () => {
 });
 
 async function startStudySession(subj) {
+  if (!subjectBankReady(subj)) {
+    showToast('El banco de preguntas estará disponible pronto.');
+    return;
+  }
   state.isStudyMode = true;
   state.isCompetitive = false;
   state.subject = subj;
@@ -499,6 +588,10 @@ $('study-question-selector').addEventListener('change', (e) => {
 
 // ── SCREEN 2: COUNT (modo normal) ─────────────────────────────────────────────
 async function selectSubject(subj) {
+  if (!subjectBankReady(subj)) {
+    showToast('El banco de preguntas estará disponible pronto.');
+    return;
+  }
   state.isCompetitive = false;
   state.subject = subj;
   try {
@@ -861,6 +954,20 @@ function renderRankingFilter() {
   const select = $('ranking-filter');
   select.innerHTML = '<option value="all">Todas las asignaturas</option>';
   SUBJECT_GROUPS.forEach(group => {
+    if (group.key === 'asir') {
+      ASIR_SEMESTERS.forEach(sem => {
+        const optgroup = document.createElement('optgroup');
+        optgroup.label = `${group.name} · ${sem.name}`;
+        getSubjectsByGroup('asir', sem.key).forEach(subj => {
+          const opt = document.createElement('option');
+          opt.value = subj.abbr;
+          opt.textContent = subj.name;
+          optgroup.appendChild(opt);
+        });
+        select.appendChild(optgroup);
+      });
+      return;
+    }
     const optgroup = document.createElement('optgroup');
     optgroup.label = group.name;
     getSubjectsByGroup(group.key).forEach(subj => {

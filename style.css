@@ -1014,6 +1014,15 @@ body {
   opacity: 0.85;
 }
 
+.subject-card.subject-card--soon {
+  opacity: 0.72;
+  border-style: dashed;
+}
+
+.subject-card.subject-card--soon .card-count {
+  color: var(--text-muted);
+}
+
 @media (min-width: 900px) {
   #screen-subject #subject-grid,
   #screen-competitive #comp-subject-grid,

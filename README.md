@@ -15,13 +15,17 @@
 Acceso a un catálogo organizado por categorías, con bancos de preguntas actualizados:
 
 #### 🖥️ ASIR
-- **IPEI**: Itinerario Personal de Empleabilidad I.
-- **BBDD**: Administración de Bases de Datos.
-- **SSOO**: Administración de Sistemas Operativos.
-- **LM**: Lenguaje de Marcas.
-- **IAW**: Implementación de Aplicaciones Web.
-- **SRI**: Servicios de Red e Internet.
-- **PUERTOS**: Diccionario de Puertos y Protocolos.
+Organizado por **Semestre 1** y **Semestre 2**:
+
+**Semestre 1**
+- **IPEI**, **BBDD**, **SSOO**, **LM**, **IAW**, **SRI**, **PUERTOS**
+
+**Semestre 2** *(bancos en preparación)*
+- **ISSOO**: Implantación de SSOO
+- **FH**: Fundamentos de Hardware
+- **GBBDD**: Gestión de BBDD
+- **PAR**: Planificación y Admin. de Redes
+- **SAD**: Seguridad y Alta Disponibilidad
 
 #### 🏥 Osakidetza
 Oposiciones del Servicio Vasco de Salud:
@@ -84,7 +88,7 @@ La aplicación ha sido desarrollada priorizando la ligereza y el rendimiento, si
 ├── netlify.toml            # Configuración de despliegue
 └── data/
     └── preguntas/
-        ├── asir/           # Bancos del ciclo ASIR (ipei, bbdd, ssoo, lm, impl, svc, puertos)
+        ├── asir/           # ASIR: sem. 1 (ipei, bbdd, …) y sem. 2 (impl-ssoo, hardware, …)
         └── osakidetza/     # Oposiciones (comun, celador, auxiliar-enfermeria, auxiliar-administrativo)
 ```
 
