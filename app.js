@@ -48,6 +48,7 @@ const SUBJECTS = [
   { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador.json',               icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
   { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar-enfermeria.json',   icon: '🩺', color: '#e11d48', group: 'osakidetza' },
   { key: 'auxadm', name: 'Auxiliar Administrativo',                  abbr: 'AUXADM',  file: 'auxiliar-administrativo.json', icon: '📋', color: '#6366f1', group: 'osakidetza' },
+  { key: 'trabsoc', name: 'Trabajador Social',                       abbr: 'TRABSOC', file: 'trabajador_social.json',     icon: '🤝', color: '#7c3aed', group: 'osakidetza' },
 ];
 
 function questionBankUrl(subj) {
@@ -77,7 +78,7 @@ function getSubjectsByGroup(groupKey, semesterKey = null) {
 
 const COUNT_PRESETS  = [5, 10, 15, 20, 30, 50];
 const COMP_QUESTIONS = 30;
-const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel', 'auxenf', 'auxadm'];
+const KEEP_ANSWER_ORDER_KEYS = ['com', 'cel', 'auxenf', 'auxadm', 'trabsoc'];
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let state = {
