@@ -4,7 +4,7 @@
 
 // ── RANKING BACKEND (Google Sheets + Apps Script) ────────────────────────────
 // URL de la aplicación web de Apps Script (ver apps-script/Code.gs).
-const SHEETS_URL = 'PEGA_AQUI_LA_URL_DE_APPS_SCRIPT';
+const SHEETS_URL = 'https://script.google.com/macros/s/AKfycbyRXsxWLYBZtZHqKuAE6entedHgbg5Jw3ZVxIc1RnQihwwQji9H8H24ZJM0qO1zxAVT/exec';
 
 // ── SUBJECTS CONFIG ───────────────────────────────────────────────────────────
 const SUBJECT_GROUPS = [
