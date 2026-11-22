@@ -2,21 +2,9 @@
    TESTLAB — app.js
    ============================ */
 
-// ── SUPABASE CONFIG ──────────────────────────────────────────────────────────
-const SUPABASE_URL = 'https://qhdewapjdqiucfwdezbc.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFoZGV3YXBqZHFpdWNmd2RlemJjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNzg1NTMsImV4cCI6MjA5Mzc1NDU1M30.oN86XWYbPrAM4Ns9mQ41PeaaD6JeR70hOViALb8t2cI';
-
-const sbFetch = (path, opts = {}) =>
-  fetch(`${SUPABASE_URL}/rest/v1${path}`, {
-    ...opts,
-    headers: {
-      'apikey': SUPABASE_KEY,
-      'Authorization': `Bearer ${SUPABASE_KEY}`,
-      'Content-Type': 'application/json',
-      'Prefer': opts.prefer || '',
-      ...opts.headers,
-    },
-  });
+// ── RANKING BACKEND (Google Sheets + Apps Script) ────────────────────────────
+// URL de la aplicación web de Apps Script (ver apps-script/Code.gs).
+const SHEETS_URL = 'https://script.google.com/macros/s/AKfycbyRXsxWLYBZtZHqKuAE6entedHgbg5Jw3ZVxIc1RnQihwwQji9H8H24ZJM0qO1zxAVT/exec';
 
 // ── SUBJECTS CONFIG ───────────────────────────────────────────────────────────
 const SUBJECT_GROUPS = [
@@ -918,9 +906,10 @@ $('btn-save-score').addEventListener('click', async () => {
 
   const { correct, wrong, skipped, total, puntuacion, pct, abbr, tiempoSegundos } = state.compResult;
   try {
-    const res = await sbFetch('/ranking', {
+    // text/plain evita la petición CORS previa (Apps Script no la admite)
+    const res = await fetch(SHEETS_URL, {
       method: 'POST',
-      prefer: 'return=minimal',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify({
         nombre:           name,
         asignatura:       abbr,
@@ -932,6 +921,8 @@ $('btn-save-score').addEventListener('click', async () => {
       }),
     });
     if (!res.ok) throw new Error(await res.text());
+    const out = await res.json();
+    if (!out.ok) throw new Error(out.error || 'Error desconocido');
     showToast('¡Resultado guardado! 🎉', 'success');
     loadRanking();
     showScreen('screen-ranking');
@@ -990,12 +981,11 @@ async function loadRanking() {
   $('ranking-empty').classList.add('hidden');
 
   const filter = $('ranking-filter').value;
-  // Order: puntuacion desc → tiempo_segundos asc (desempate por rapidez) → fecha asc
-  let url = '/ranking?order=puntuacion.desc,tiempo_segundos.asc,fecha.asc&limit=50';
-  if (filter !== 'all') url += `&asignatura=eq.${encodeURIComponent(filter)}`;
+  // El script ordena: puntuacion desc → tiempo_segundos asc (desempate por rapidez) → fecha asc
+  const url = `${SHEETS_URL}?asignatura=${encodeURIComponent(filter)}`;
 
   try {
-    const res = await sbFetch(url, { headers: { 'Range': '0-49' } });
+    const res = await fetch(url);
     if (!res.ok) throw new Error(await res.text());
     const data = await res.json();
 

@@ -56,7 +56,7 @@ Pon a prueba tus conocimientos bajo presión y compite con otros estudiantes.
 - **Reto Estándar**: 30 preguntas aleatorias de la asignatura seleccionada.
 - **Sistema de Penalización**: Se aplica una penalización de **-0.33 puntos** por cada respuesta incorrecta (fórmula: `aciertos - (errores / 3)`).
 - **Cronómetro**: El tiempo es un factor determinante para el desempate.
-- **Ranking Global**: Guarda tu puntuación y escala posiciones en el leaderboard integrado con **Supabase**.
+- **Ranking Global**: Guarda tu puntuación y escala posiciones en el leaderboard guardado en **Google Sheets** (vía Google Apps Script).
 
 ### 🎨 Experiencia de Usuario (UI/UX)
 - **Diseño Moderno**: Interfaz basada en *glassmorphism* con efectos visuales dinámicos y transiciones suaves.
@@ -73,7 +73,7 @@ Pon a prueba tus conocimientos bajo presión y compite con otros estudiantes.
 La aplicación ha sido desarrollada priorizando la ligereza y el rendimiento, sin dependencias pesadas ni procesos de compilación complejos:
 
 - **Frontend**: HTML5 Semántico, CSS3 Moderno (Variables, Flexbox, Grid) y Vanilla JavaScript (ES6+).
-- **Backend (BaaS)**: [Supabase](https://supabase.com/) para la persistencia del ranking global.
+- **Backend**: Google Sheets + [Google Apps Script](https://developers.google.com/apps-script) para la persistencia del ranking global (código en `apps-script/Code.gs`).
 - **Base de Datos**: Archivos JSON estructurados para los bancos de preguntas.
 - **Despliegue**: Optimizado para Netlify.
 
@@ -84,8 +84,9 @@ La aplicación ha sido desarrollada priorizando la ligereza y el rendimiento, si
 ```text
 ├── index.html              # Estructura principal y contenedores de pantallas
 ├── style.css               # Sistema de diseño, animaciones y responsive
-├── app.js                  # Motor del test, gestión de estado e integración con Supabase
+├── app.js                  # Motor del test, gestión de estado e integración con el ranking (Google Sheets)
 ├── netlify.toml            # Configuración de despliegue
+├── apps-script/Code.gs     # Backend del ranking (Google Apps Script)
 └── data/
     └── preguntas/
         ├── asir/           # ASIR: sem. 1 (ipei, bbdd, …) y sem. 2 (impl-ssoo, hardware, …)
@@ -104,7 +105,7 @@ Al ser una aplicación estática, no requiere instalación de dependencias.
     ```
 2.  **Abre el proyecto**:
     Simplemente abre `index.html` en tu navegador favorito.
-    *Nota: Para que las peticiones `fetch` a los archivos JSON y Supabase funcionen correctamente, se recomienda usar un servidor local (ej: la extensión "Live Server" de VS Code).*
+    *Nota: Para que las peticiones `fetch` a los archivos JSON y al ranking funcionen correctamente, se recomienda usar un servidor local (ej: la extensión "Live Server" de VS Code).*
 
 ---
 
