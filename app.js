@@ -31,7 +31,7 @@ const SUBJECTS = [
   { key: 'fh',    name: 'Fundamentos de Hardware',                abbr: 'FH',      file: 'hardware.json',              icon: '🔧', color: '#78716c', group: 'asir', semester: 's2', comingSoon: true },
   { key: 'gbbdd', name: 'Gestión de BBDD',                        abbr: 'GBBDD',   file: 'gest-bbdd.json',             icon: '📊', color: '#2563eb', group: 'asir', semester: 's2', comingSoon: true },
   { key: 'par',   name: 'Planificación y Admin. de Redes',        abbr: 'PAR',     file: 'plan-redes.json',            icon: '🛜', color: '#0ea5e9', group: 'asir', semester: 's2', comingSoon: true },
-  { key: 'sad',   name: 'Seguridad y Alta Disponibilidad',        abbr: 'SAD',     file: 'sad.json',                   icon: '🛡️', color: '#dc2626', group: 'asir', semester: 's2', comingSoon: true },
+  { key: 'sad',   name: 'Seguridad y Alta Disponibilidad',        abbr: 'SAD',     file: 'sad.json',                   icon: '🛡️', color: '#dc2626', group: 'asir', semester: 's2' },
   { key: 'com',    name: 'Comun',                                  abbr: 'COM',     file: 'comun.json',                 icon: '🏥', color: '#14b8a6', group: 'osakidetza' },
   { key: 'cel',    name: 'Celador',                                abbr: 'CELA',    file: 'celador.json',               icon: '🧑‍⚕️', color: '#f59e0b', group: 'osakidetza' },
   { key: 'auxenf', name: 'Auxiliar de Enfermería',                 abbr: 'AUXENF',  file: 'auxiliar-enfermeria.json',   icon: '🩺', color: '#e11d48', group: 'osakidetza' },

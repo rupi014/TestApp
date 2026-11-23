@@ -1,0 +1,1638 @@
+{
+  "simulacro": "Autoevaluaciones UT1-UT7 - Seguridad y Alta Disponibilidad",
+  "total_preguntas": 136,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": null,
+      "enunciado": "¿Cuál es la fase inicial de un análisis forense digital?",
+      "opciones": {
+        "a": "Análisis",
+        "b": "Adquisición",
+        "c": "Documentación",
+        "d": "Preparación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "unidad": null,
+      "enunciado": "¿Cuál es el riesgo principal asociado a la ingeniería social?",
+      "opciones": {
+        "a": "Manipulación de usuarios para obtener acceso",
+        "b": "Saturación de ancho de banda",
+        "c": "Defectos en el hardware",
+        "d": "Fallos en protocolos de cifrado"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "unidad": null,
+      "enunciado": "¿Cuál es la función principal de la criptografía en tránsito (TLS)?",
+      "opciones": {
+        "a": "Proteger comunicaciones entre cliente y servidor",
+        "b": "Limitar el acceso físico a los equipos",
+        "c": "Impedir instalación de malware",
+        "d": "Evitar que los discos se dañen"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "unidad": null,
+      "enunciado": "¿Qué principio del triángulo CID asegura que los datos no se alteran sin autorización?",
+      "opciones": {
+        "a": "Privacidad",
+        "b": "Confidencialidad",
+        "c": "Integridad",
+        "d": "Disponibilidad"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "unidad": null,
+      "enunciado": "¿Qué normativa regula en España la protección de datos junto al RGPD?",
+      "opciones": {
+        "a": "ENS",
+        "b": "ISO 27001",
+        "c": "LOPDGDD",
+        "d": "NIS2"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "unidad": null,
+      "enunciado": "¿Qué es un ransomware?",
+      "opciones": {
+        "a": "Una técnica de autenticación multifactor",
+        "b": "Un programa de cifrado legítimo",
+        "c": "Una herramienta de auditoría",
+        "d": "Un malware que cifra datos y pide rescate"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "unidad": null,
+      "enunciado": "¿Cuál es la principal característica de la autenticación multifactor (MFA)?",
+      "opciones": {
+        "a": "Es obligatoria solo para administradores",
+        "b": "Siempre sustituye a la contraseña",
+        "c": "Se limita al uso de SMS",
+        "d": "Utiliza varios factores diferentes para verificar identidad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "unidad": null,
+      "enunciado": "¿Cuál es el objetivo principal de la seguridad informática?",
+      "opciones": {
+        "a": "Instalar un antivirus en cada equipo",
+        "b": "Asegurar cero incidentes en los sistemas",
+        "c": "Proteger confidencialidad, integridad y disponibilidad",
+        "d": "Evitar que los usuarios cometan errores"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "unidad": null,
+      "enunciado": "¿Cuál es una buena práctica de copias de seguridad?",
+      "opciones": {
+        "a": "Hacer copia anual sin verificar",
+        "b": "Seguir la regla 3-2-1",
+        "c": "Guardar una sola copia en el mismo equipo",
+        "d": "No cifrar las copias para ahorrar tiempo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "unidad": null,
+      "enunciado": "¿Cuál de estas opciones representa una política de contraseñas adecuada?",
+      "opciones": {
+        "a": "Longitud mínima 12 caracteres y prohibición de contraseñas filtradas",
+        "b": "Contraseña corta pero memorizable",
+        "c": "Uso de la misma contraseña en varios servicios",
+        "d": "Contraseña de 6 caracteres con renovación mensual"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 11,
+      "unidad": null,
+      "enunciado": "¿Qué ventaja tiene la biometría frente a las contraseñas?",
+      "opciones": {
+        "a": "Es imposible de falsificar",
+        "b": "Puede compartirse fácilmente",
+        "c": "Es inherente al usuario y reduce olvidos",
+        "d": "No requiere hardware adicional"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 12,
+      "unidad": null,
+      "enunciado": "¿Qué control es adecuado para mitigar fugas de datos personales?",
+      "opciones": {
+        "a": "No aplicar parches de seguridad",
+        "b": "Usar cuentas compartidas",
+        "c": "Configuración por defecto de servicios",
+        "d": "Cifrado de discos y auditoría de accesos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 13,
+      "unidad": null,
+      "enunciado": "¿Qué significa RTO en continuidad de negocio?",
+      "opciones": {
+        "a": "Número de intentos de autenticación permitidos",
+        "b": "Tiempo máximo aceptable de recuperación tras incidente",
+        "c": "Nivel máximo de confidencialidad alcanzable",
+        "d": "Método de cifrado recomendado"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 14,
+      "unidad": null,
+      "enunciado": "¿Qué es el principio de mínimo privilegio?",
+      "opciones": {
+        "a": "Permitir acceso completo por comodidad",
+        "b": "Evitar el uso de contraseñas",
+        "c": "Dar a todos los usuarios privilegios de administrador",
+        "d": "Conceder solo los permisos estrictamente necesarios"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 15,
+      "unidad": null,
+      "enunciado": "¿Qué técnica criptográfica utiliza la misma clave para cifrar y descifrar?",
+      "opciones": {
+        "a": "Función hash",
+        "b": "Criptografía simétrica",
+        "c": "Criptografía asimétrica",
+        "d": "Firma digital"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 16,
+      "unidad": null,
+      "enunciado": "¿Cuál de estas medidas pertenece a la seguridad lógica?",
+      "opciones": {
+        "a": "Control de acceso físico con tarjeta",
+        "b": "Cámaras de vigilancia",
+        "c": "Uso de candados en portátiles",
+        "d": "Configuración de firewall y políticas de red"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 17,
+      "unidad": null,
+      "enunciado": "En el análisis forense, ¿qué significa cadena de custodia?",
+      "opciones": {
+        "a": "Uso de cifrado en copias de seguridad",
+        "b": "Procedimiento de autenticación multifactor",
+        "c": "Registro que garantiza trazabilidad e integridad de evidencias",
+        "d": "Almacenamiento de logs en la nube"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 18,
+      "unidad": null,
+      "enunciado": "¿Cuál de las siguientes es una vulnerabilidad de origen físico?",
+      "opciones": {
+        "a": "Contraseñas débiles",
+        "b": "Servicio SSH expuesto sin contraseña",
+        "c": "Falta de SAI en el CPD",
+        "d": "Inyección SQL"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "unidad": null,
+      "enunciado": "¿Qué diferencia clave hay entre criptografía simétrica y asimétrica?",
+      "opciones": {
+        "a": "La asimétrica usa un par de claves pública/privada, la simétrica una sola",
+        "b": "La simétrica usa dos claves distintas y la asimétrica solo una",
+        "c": "La asimétrica no se usa en Internet",
+        "d": "La simétrica no cifra datos en reposo"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 20,
+      "unidad": null,
+      "enunciado": "¿Qué algoritmo es hoy recomendado para almacenar contraseñas?",
+      "opciones": {
+        "a": "MD5",
+        "b": "SHA-1",
+        "c": "Argon2id",
+        "d": "DES"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 21,
+      "unidad": "UT2",
+      "enunciado": "¿Qué diferencia principal existe entre amenazas lógicas y físicas?",
+      "opciones": {
+        "a": "Las físicas incluyen solo malware",
+        "b": "Ambas afectan únicamente a software",
+        "c": "Las lógicas siempre se producen por errores humanos",
+        "d": "Las lógicas afectan a la información digital, las físicas al hardware e instalaciones"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "unidad": "UT2",
+      "enunciado": "¿Qué es un ataque fileless?",
+      "opciones": {
+        "a": "Un gusano que se propaga por USB",
+        "b": "Un ataque basado en ingeniería social",
+        "c": "Un ataque que se ejecuta en memoria sin dejar archivos en disco",
+        "d": "Un virus que infecta documentos de texto"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 23,
+      "unidad": "UT2",
+      "enunciado": "¿Qué fases componen la anatomía clásica de un ataque?",
+      "opciones": {
+        "a": "Reconocimiento, cifrado y borrado de datos",
+        "b": "Explotación y recuperación de sistemas",
+        "c": "Escaneo, borrado y reinstalación",
+        "d": "Reconocimiento, entrega, explotación, persistencia, C2 y acciones finales"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 24,
+      "unidad": "UT2",
+      "enunciado": "¿Qué característica define a un gusano (worm)?",
+      "opciones": {
+        "a": "Infecta únicamente documentos PDF",
+        "b": "Su capacidad de autorreplicación y propagación en red",
+        "c": "Es un tipo de firewall",
+        "d": "Necesita siempre interacción del usuario"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 25,
+      "unidad": "UT2",
+      "enunciado": "¿Qué define a un troyano?",
+      "opciones": {
+        "a": "Programa malicioso que aparenta ser legítimo y abre puertas traseras",
+        "b": "Ataque de denegación de servicio",
+        "c": "Malware que cifra datos automáticamente",
+        "d": "Protocolo de comunicación seguro"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 26,
+      "unidad": "UT2",
+      "enunciado": "¿Qué es un sandbox en ciberseguridad?",
+      "opciones": {
+        "a": "Entorno controlado para ejecutar y analizar malware",
+        "b": "Copia de seguridad cifrada",
+        "c": "Algoritmo de cifrado simétrico",
+        "d": "Sistema redundante de alta disponibilidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 27,
+      "unidad": "UT2",
+      "enunciado": "¿Qué permite observar el análisis dinámico en sandbox?",
+      "opciones": {
+        "a": "Únicamente tráfico cifrado TLS",
+        "b": "Solo el código fuente del malware",
+        "c": "Las patentes de software registradas",
+        "d": "Procesos, conexiones de red y cambios en el sistema"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 28,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta se usa para detectar persistencia en Windows?",
+      "opciones": {
+        "a": "WinRAR",
+        "b": "Paint",
+        "c": "Sysinternals Autoruns",
+        "d": "Microsoft Word"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 29,
+      "unidad": "UT2",
+      "enunciado": "¿Qué función principal tiene un antivirus?",
+      "opciones": {
+        "a": "Cifrar discos duros automáticamente",
+        "b": "Crear reglas de firewall",
+        "c": "Detectar y eliminar software malicioso",
+        "d": "Sustituir protocolos de comunicación"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 30,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando en Linux permite listar procesos activos?",
+      "opciones": {
+        "a": "cp -r",
+        "b": "ps aux",
+        "c": "chmod",
+        "d": "mkdir"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 31,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando en PowerShell obtiene conexiones de red?",
+      "opciones": {
+        "a": "Get-Date",
+        "b": "Get-NetTCPConnection",
+        "c": "Get-Item",
+        "d": "Stop-Service"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 32,
+      "unidad": "UT2",
+      "enunciado": "¿Qué aporta el cifrado TLS en redes públicas?",
+      "opciones": {
+        "a": "Confidencialidad e integridad de la comunicación",
+        "b": "Instalación automática de drivers",
+        "c": "Aceleración del tráfico",
+        "d": "Solo disponibilidad del servicio"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 33,
+      "unidad": "UT2",
+      "enunciado": "¿Qué son los certificados X.509?",
+      "opciones": {
+        "a": "Algoritmos de hashing",
+        "b": "Contraseñas de un solo uso",
+        "c": "Certificados digitales usados en TLS y firmas",
+        "d": "Discos cifrados por hardware"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 34,
+      "unidad": "UT2",
+      "enunciado": "¿Qué mejora introduce WPA3 frente a WPA2?",
+      "opciones": {
+        "a": "Sustituye HTTPS en navegadores",
+        "b": "Instala antivirus en los clientes",
+        "c": "Autenticación SAE resistente a ataques de diccionario",
+        "d": "Garantiza disponibilidad de energía"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 35,
+      "unidad": "UT2",
+      "enunciado": "¿Qué es un rogue AP?",
+      "opciones": {
+        "a": "Un protocolo de VPN",
+        "b": "Punto de acceso inalámbrico malicioso no autorizado",
+        "c": "Un firewall de nueva generación",
+        "d": "Un certificado autofirmado"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 36,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta se usa para descubrir servicios expuestos?",
+      "opciones": {
+        "a": "Photoshop",
+        "b": "Excel",
+        "c": "Nmap",
+        "d": "Gmail"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 37,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando en Linux detiene un servicio con systemd?",
+      "opciones": {
+        "a": "systemctl stop <servicio>",
+        "b": "ls -l",
+        "c": "pwd",
+        "d": "echo \"hola\""
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 38,
+      "unidad": "UT2",
+      "enunciado": "¿Qué diferencia existe entre HIDS y NIDS?",
+      "opciones": {
+        "a": "HIDS y NIDS son protocolos de cifrado",
+        "b": "HIDS inspecciona la nube, NIDS solo discos duros",
+        "c": "HIDS analiza host y registros, NIDS monitoriza tráfico de red",
+        "d": "Ambos analizan solo firewalls"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 39,
+      "unidad": "UT2",
+      "enunciado": "¿Qué aporta la correlación de eventos en SIEM?",
+      "opciones": {
+        "a": "Reducir falsos positivos y mejorar detección",
+        "b": "Aumentar la capacidad de disco",
+        "c": "Evitar cifrado de backups",
+        "d": "Instalar drivers automáticamente"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 40,
+      "unidad": "UT3",
+      "enunciado": "¿Qué riesgo principal enfrentan las redes públicas?",
+      "opciones": {
+        "a": "Alta disponibilidad",
+        "b": "Ataques MITM y exposición de datos",
+        "c": "Redundancia de hardware",
+        "d": "Balanceo de carga"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 41,
+      "unidad": "UT3",
+      "enunciado": "¿Qué escenario requiere mayores controles de seguridad?",
+      "opciones": {
+        "a": "Acceso de usuario a SaaS",
+        "b": "Acceso a correo personal",
+        "c": "Administración remota de sistemas críticos",
+        "d": "Teletrabajo básico"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 42,
+      "unidad": "UT3",
+      "enunciado": "¿Qué zona de red aloja servicios expuestos a Internet?",
+      "opciones": {
+        "a": "Red interna",
+        "b": "DMZ",
+        "c": "VLAN de gestión",
+        "d": "Red de almacenamiento"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 43,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo se usa para acceso remoto seguro a sistemas?",
+      "opciones": {
+        "a": "SSH",
+        "b": "Telnet",
+        "c": "HTTP",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 44,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo de transferencia segura se basa en SSH?",
+      "opciones": {
+        "a": "SMB",
+        "b": "FTP",
+        "c": "SFTP",
+        "d": "TFTP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 45,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo VPN destaca por su simplicidad y rendimiento?",
+      "opciones": {
+        "a": "WireGuard",
+        "b": "PPTP",
+        "c": "L2F",
+        "d": "GRE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 46,
+      "unidad": "UT3",
+      "enunciado": "¿Qué modo de VPN es más usado para redes site-to-site?",
+      "opciones": {
+        "a": "PPTP",
+        "b": "IPsec",
+        "c": "WireGuard",
+        "d": "SSL"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 47,
+      "unidad": "UT3",
+      "enunciado": "¿Qué mecanismo de autenticación es más seguro?",
+      "opciones": {
+        "a": "Contraseña simple",
+        "b": "MFA",
+        "c": "IP estática",
+        "d": "Usuario/clave única"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 48,
+      "unidad": "UT3",
+      "enunciado": "¿Qué técnica evita conexiones inseguras en navegadores?",
+      "opciones": {
+        "a": "NAT",
+        "b": "RIP",
+        "c": "HSTS",
+        "d": "SNMP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 49,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo de autenticación y contabilidad se usa con VPN?",
+      "opciones": {
+        "a": "SNMP",
+        "b": "SMTP",
+        "c": "ARP",
+        "d": "RADIUS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 50,
+      "unidad": "UT3",
+      "enunciado": "¿Qué segmento debe contener servidores críticos internos?",
+      "opciones": {
+        "a": "Internet",
+        "b": "Red interna protegida",
+        "c": "Zona pública",
+        "d": "DMZ"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 51,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo es preferible para transferir archivos en seguridad?",
+      "opciones": {
+        "a": "FTP",
+        "b": "SFTP",
+        "c": "TFTP",
+        "d": "SMB sin cifrar"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 52,
+      "unidad": "UT3",
+      "enunciado": "¿Qué mecanismo usa WireGuard para cifrado?",
+      "opciones": {
+        "a": "RC4",
+        "b": "DES",
+        "c": "3DES",
+        "d": "ChaCha20-Poly1305"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 53,
+      "unidad": "UT3",
+      "enunciado": "¿Qué servicio centraliza identidades y políticas en Windows?",
+      "opciones": {
+        "a": "Active Directory",
+        "b": "MySQL",
+        "c": "Apache",
+        "d": "Squid"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 54,
+      "unidad": "UT3",
+      "enunciado": "¿Qué ataque se basa en suplantar direcciones ARP?",
+      "opciones": {
+        "a": "Buffer overflow",
+        "b": "SQL injection",
+        "c": "Sniffing DNS",
+        "d": "ARP spoofing"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 55,
+      "unidad": "UT3",
+      "enunciado": "¿Qué control impide movimientos laterales en redes segmentadas?",
+      "opciones": {
+        "a": "Broadcast",
+        "b": "NAT sin reglas",
+        "c": "Hub",
+        "d": "ACLs"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 56,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando permite comprobar certificados en remoto?",
+      "opciones": {
+        "a": "ping",
+        "b": "openssl s_client",
+        "c": "netstat",
+        "d": "traceroute"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 57,
+      "unidad": "UT3",
+      "enunciado": "¿Qué función realiza un bastion host?",
+      "opciones": {
+        "a": "Balancea carga web",
+        "b": "Analiza logs",
+        "c": "Actúa como servidor DNS",
+        "d": "Filtra y controla acceso administrativo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 58,
+      "unidad": "UT3",
+      "enunciado": "¿Qué práctica mejora seguridad en SSH?",
+      "opciones": {
+        "a": "Abrir el puerto 23",
+        "b": "Usar Telnet en paralelo",
+        "c": "Permitir root login directo",
+        "d": "Deshabilitar autenticación por contraseña"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 59,
+      "unidad": "UT3",
+      "enunciado": "¿Qué sistema facilita contraseñas temporales para accesos críticos?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "NTP",
+        "c": "FTP",
+        "d": "PAM"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 60,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es la función principal de un cortafuegos?",
+      "opciones": {
+        "a": "Gestionar usuarios del sistema",
+        "b": "Controlar el tráfico entre zonas con distintos niveles de confianza",
+        "c": "Aumentar la velocidad de la red",
+        "d": "Realizar copias de seguridad"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 61,
+      "unidad": "UT4",
+      "enunciado": "¿Qué principio de seguridad debe aplicarse en las políticas de firewall?",
+      "opciones": {
+        "a": "Configuración abierta",
+        "b": "Permitir todo el tráfico",
+        "c": "Acceso anónimo",
+        "d": "Deny-by-default"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 62,
+      "unidad": "UT4",
+      "enunciado": "¿Qué significa NGFW?",
+      "opciones": {
+        "a": "New Gateway Firewall",
+        "b": "Network Group Firewall",
+        "c": "Network Global Firewall",
+        "d": "Next Generation Firewall"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 63,
+      "unidad": "UT4",
+      "enunciado": "¿Qué característica añade un NGFW respecto a un firewall tradicional?",
+      "opciones": {
+        "a": "Solo filtrado por puerto",
+        "b": "Control de aplicaciones e identidad",
+        "c": "Funciones de copia de seguridad",
+        "d": "Gestión de bases de datos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 64,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de firewall protege un equipo individual?",
+      "opciones": {
+        "a": "Firewall perimetral",
+        "b": "WAF",
+        "c": "Firewall de red",
+        "d": "Firewall de host"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 65,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es la función principal de un WAF?",
+      "opciones": {
+        "a": "Realizar balanceo de carga",
+        "b": "Cifrar discos duros",
+        "c": "Proteger aplicaciones web frente a ataques HTTP",
+        "d": "Gestionar usuarios locales"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 66,
+      "unidad": "UT4",
+      "enunciado": "¿Qué ataque ayuda a mitigar un WAF?",
+      "opciones": {
+        "a": "Fallos eléctricos",
+        "b": "SQL Injection",
+        "c": "Ataques físicos",
+        "d": "Problemas DNS locales"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 67,
+      "unidad": "UT4",
+      "enunciado": "¿Qué analiza el filtrado por paquetes?",
+      "opciones": {
+        "a": "Encabezados IP, puertos y protocolos",
+        "b": "Bases de datos",
+        "c": "Usuarios autenticados",
+        "d": "Certificados digitales"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 68,
+      "unidad": "UT4",
+      "enunciado": "¿Qué ventaja aporta el filtrado stateful?",
+      "opciones": {
+        "a": "Mantiene el estado de las conexiones",
+        "b": "Elimina la necesidad de reglas",
+        "c": "Reduce el uso de memoria",
+        "d": "Sustituye a los WAF"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 69,
+      "unidad": "UT4",
+      "enunciado": "¿Qué nivel de inspección reconoce aplicaciones independientemente del puerto utilizado?",
+      "opciones": {
+        "a": "Stateful",
+        "b": "Aplicación o DPI",
+        "c": "Filtrado por paquetes",
+        "d": "NAT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 70,
+      "unidad": "UT4",
+      "enunciado": "¿Qué pretende evitar el control de tráfico saliente?",
+      "opciones": {
+        "a": "La navegación web legítima",
+        "b": "El acceso de usuarios autorizados",
+        "c": "La actualización de sistemas",
+        "d": "La exfiltración de datos y la comunicación con servidores C2"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 71,
+      "unidad": "UT4",
+      "enunciado": "¿Qué principio debe aplicarse al diseñar ACL?",
+      "opciones": {
+        "a": "Configuración automática",
+        "b": "Máximo privilegio",
+        "c": "Mínimo privilegio",
+        "d": "Acceso universal"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 72,
+      "unidad": "UT4",
+      "enunciado": "¿Qué problema se produce cuando una regla queda oculta por otra de mayor prioridad?",
+      "opciones": {
+        "a": "NAT",
+        "b": "Routing",
+        "c": "Logging",
+        "d": "Shadowing"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 73,
+      "unidad": "UT4",
+      "enunciado": "¿Qué elemento mejora la seguridad del acceso administrativo al perímetro?",
+      "opciones": {
+        "a": "Bastion Host con MFA",
+        "b": "DNS público",
+        "c": "RAID",
+        "d": "Proxy transparente"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 74,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta Linux ofrece una interfaz sencilla para gestionar reglas de firewall?",
+      "opciones": {
+        "a": "UFW",
+        "b": "Elastic",
+        "c": "Graylog",
+        "d": "Wireshark"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 75,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta de código abierto permite simular perímetros, DMZ y VPN mediante interfaz web?",
+      "opciones": {
+        "a": "pfSense",
+        "b": "Nmap",
+        "c": "Conntrack",
+        "d": "Tcpdump"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 76,
+      "unidad": "UT4",
+      "enunciado": "¿Por qué es importante centralizar los logs en un SIEM?",
+      "opciones": {
+        "a": "Para sustituir el firewall",
+        "b": "Para eliminar alertas",
+        "c": "Para reducir el tráfico de red",
+        "d": "Para correlacionar eventos y detectar incidentes"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 77,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tarea de mantenimiento ayuda a evitar la degradación de la seguridad?",
+      "opciones": {
+        "a": "Eliminar la documentación",
+        "b": "Desactivar logs",
+        "c": "Mantener reglas obsoletas",
+        "d": "Revisar reglas, aplicar parches y probar backups periódicamente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 78,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es la función principal de un servidor proxy?",
+      "opciones": {
+        "a": "Gestionar bases de datos",
+        "b": "Crear copias de seguridad",
+        "c": "Actuar como intermediario entre clientes y servidores",
+        "d": "Administrar usuarios locales"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 79,
+      "unidad": "UT5",
+      "enunciado": "¿Qué ventaja aporta la caché en un servidor proxy?",
+      "opciones": {
+        "a": "Elimina la necesidad de autenticación",
+        "b": "Sustituye al firewall",
+        "c": "Aumenta el tráfico de red",
+        "d": "Reduce el ancho de banda y la latencia"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 80,
+      "unidad": "UT5",
+      "enunciado": "¿Qué cabecera HTTP permite conservar la IP original del cliente en un proxy?",
+      "opciones": {
+        "a": "X-Forwarded-For",
+        "b": "Content-Type",
+        "c": "User-Agent",
+        "d": "Cache-Control"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 81,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de proxy requiere configuración explícita en el cliente?",
+      "opciones": {
+        "a": "Directo",
+        "b": "Transparente",
+        "c": "Interceptado",
+        "d": "Inverso"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es una ventaja principal del proxy transparente?",
+      "opciones": {
+        "a": "Elimina la necesidad de NAT",
+        "b": "Sustituye los sistemas LDAP",
+        "c": "Autenticación avanzada por usuario",
+        "d": "No requiere configuración en los clientes"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 83,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es el uso principal de un proxy inverso?",
+      "opciones": {
+        "a": "Monitorizar discos",
+        "b": "Gestionar DNS",
+        "c": "Configurar redes WiFi",
+        "d": "Proteger y publicar servicios internos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 84,
+      "unidad": "UT5",
+      "enunciado": "¿Qué software está especialmente orientado a funciones de proxy-cache?",
+      "opciones": {
+        "a": "Nginx",
+        "b": "Apache",
+        "c": "Squid",
+        "d": "Grafana"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 85,
+      "unidad": "UT5",
+      "enunciado": "¿Qué característica destaca principalmente en Nginx?",
+      "opciones": {
+        "a": "Gestión de identidades",
+        "b": "Control de acceso físico",
+        "c": "Alto rendimiento como proxy inverso",
+        "d": "Administración de bases de datos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 86,
+      "unidad": "UT5",
+      "enunciado": "¿Qué parámetro define el puerto de escucha en Squid?",
+      "opciones": {
+        "a": "http_port",
+        "b": "refresh_pattern",
+        "c": "cache_mem",
+        "d": "access_log"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 87,
+      "unidad": "UT5",
+      "enunciado": "¿Qué método de autenticación ofrece mayor granularidad de control?",
+      "opciones": {
+        "a": "Autenticación por IP",
+        "b": "Autenticación por usuario y grupos",
+        "c": "Autenticación por puerto",
+        "d": "Autenticación por MAC"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "unidad": "UT5",
+      "enunciado": "¿Qué sistema permite centralizar usuarios y grupos para autenticación?",
+      "opciones": {
+        "a": "RAID",
+        "b": "SMTP",
+        "c": "DHCP",
+        "d": "LDAP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 89,
+      "unidad": "UT5",
+      "enunciado": "¿Qué significa SSO?",
+      "opciones": {
+        "a": "Secure System Output",
+        "b": "Secure Server Operation",
+        "c": "Single Security Operation",
+        "d": "Single Sign-On"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 90,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tecnología suele utilizarse para redirigir tráfico a un proxy transparente?",
+      "opciones": {
+        "a": "VPN",
+        "b": "RAID",
+        "c": "DNSSEC",
+        "d": "NAT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 91,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es una limitación habitual de los proxies transparentes?",
+      "opciones": {
+        "a": "Presentan dificultades con tráfico HTTPS cifrado",
+        "b": "No permiten caché",
+        "c": "No funcionan con HTTP",
+        "d": "No registran eventos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 92,
+      "unidad": "UT5",
+      "enunciado": "¿Qué permiten los filtros de contenido?",
+      "opciones": {
+        "a": "Desactivar la autenticación",
+        "b": "Gestionar discos duros",
+        "c": "Incrementar la velocidad del procesador",
+        "d": "Bloquear categorías específicas de sitios web"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 93,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es la finalidad de una lista blanca?",
+      "opciones": {
+        "a": "Bloquear dominios peligrosos",
+        "b": "Garantizar acceso a servicios autorizados",
+        "c": "Ocultar eventos al SIEM",
+        "d": "Eliminar registros de acceso"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 94,
+      "unidad": "UT5",
+      "enunciado": "¿Qué archivo suele revisarse primero para diagnosticar problemas en Squid?",
+      "opciones": {
+        "a": "passwd",
+        "b": "access.log",
+        "c": "hosts",
+        "d": "shadow"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 95,
+      "unidad": "UT5",
+      "enunciado": "¿Qué herramienta permite probar el acceso a una URL a través de un proxy?",
+      "opciones": {
+        "a": "curl",
+        "b": "nano",
+        "c": "mkdir",
+        "d": "chmod"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 96,
+      "unidad": "UT5",
+      "enunciado": "¿Qué métrica indica el porcentaje de peticiones servidas desde la caché?",
+      "opciones": {
+        "a": "Uptime",
+        "b": "SLA",
+        "c": "Throughput",
+        "d": "Hit ratio"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 97,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es una buena práctica de documentación de servidores proxy?",
+      "opciones": {
+        "a": "Guardar configuraciones sin control de versiones",
+        "b": "Eliminar diagramas de red",
+        "c": "Evitar documentar cambios",
+        "d": "Mantener registros de configuración y copias de seguridad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 98,
+      "unidad": "UT6",
+      "enunciado": "¿Cómo se mide habitualmente la disponibilidad de un servicio?",
+      "opciones": {
+        "a": "Por el porcentaje de tiempo operativo respecto al total",
+        "b": "Por el número de usuarios conectados",
+        "c": "Por el volumen de tráfico recibido",
+        "d": "Por la cantidad de servidores instalados"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 99,
+      "unidad": "UT6",
+      "enunciado": "¿Qué significa la tolerancia a fallos?",
+      "opciones": {
+        "a": "Realizar copias de seguridad automáticas",
+        "b": "Mantener el servicio operativo ante fallos parciales",
+        "c": "Eliminar completamente los errores",
+        "d": "Aumentar la velocidad de procesamiento"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 100,
+      "unidad": "UT6",
+      "enunciado": "¿Qué concepto amplía la dimensión técnica incorporando planes y procesos organizativos?",
+      "opciones": {
+        "a": "Continuidad de negocio",
+        "b": "Balanceo de carga",
+        "c": "Virtualización",
+        "d": "Replicación"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 101,
+      "unidad": "UT6",
+      "enunciado": "¿Qué representan los SLA?",
+      "opciones": {
+        "a": "Sistemas de almacenamiento local",
+        "b": "Acuerdos de nivel de servicio entre proveedor y cliente",
+        "c": "Protocolos de red",
+        "d": "Herramientas de virtualización"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 102,
+      "unidad": "UT6",
+      "enunciado": "¿Qué nivel de disponibilidad exige habitualmente una arquitectura multirregión con failover automático?",
+      "opciones": {
+        "a": "99%",
+        "b": "99,999%",
+        "c": "95%",
+        "d": "90%"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 103,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tecnología RAID realiza un espejado completo de los datos?",
+      "opciones": {
+        "a": "RAID 0",
+        "b": "RAID 6",
+        "c": "RAID 1",
+        "d": "RAID 5"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 104,
+      "unidad": "UT6",
+      "enunciado": "¿Qué elemento hardware evita que un fallo de alimentación deje fuera de servicio un servidor?",
+      "opciones": {
+        "a": "Hypervisor",
+        "b": "Fuente de alimentación redundante",
+        "c": "Router redundante",
+        "d": "Clúster"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 105,
+      "unidad": "UT6",
+      "enunciado": "¿Qué permiten los enlaces dobles o LACP?",
+      "opciones": {
+        "a": "Crear máquinas virtuales",
+        "b": "Incrementar la memoria RAM",
+        "c": "Evitar fallos de conectividad por caída de un enlace",
+        "d": "Sustituir las copias de seguridad"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 106,
+      "unidad": "UT6",
+      "enunciado": "¿Qué ventaja principal aporta la virtualización a la alta disponibilidad?",
+      "opciones": {
+        "a": "Eliminar la necesidad de monitorización",
+        "b": "Sustituir los sistemas RAID",
+        "c": "Reducir el uso de red",
+        "d": "Desacoplar servicios del hardware físico"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 107,
+      "unidad": "UT6",
+      "enunciado": "¿Qué característica proporcionan los orquestadores como Kubernetes?",
+      "opciones": {
+        "a": "Eliminación de la redundancia",
+        "b": "Sustitución del almacenamiento",
+        "c": "Desactivación automática de servicios",
+        "d": "Auto-healing o autorecuperación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 108,
+      "unidad": "UT6",
+      "enunciado": "¿Para qué sirve un snapshot?",
+      "opciones": {
+        "a": "Reemplazar un clúster",
+        "b": "Configurar un firewall",
+        "c": "Incrementar la velocidad del procesador",
+        "d": "Capturar el estado de una máquina virtual o volumen"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 109,
+      "unidad": "UT6",
+      "enunciado": "¿Qué permite la migración en caliente (Live Migration)?",
+      "opciones": {
+        "a": "Mover cargas entre hosts sin interrumpir el servicio",
+        "b": "Eliminar máquinas virtuales",
+        "c": "Reiniciar automáticamente el hardware",
+        "d": "Realizar backups completos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 110,
+      "unidad": "UT6",
+      "enunciado": "¿Qué caracteriza a un clúster activo/pasivo?",
+      "opciones": {
+        "a": "No requiere replicación",
+        "b": "Todos los nodos atienden tráfico simultáneamente",
+        "c": "Elimina la necesidad de failover",
+        "d": "Un nodo principal trabaja y otro queda preparado para asumir el servicio"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 111,
+      "unidad": "UT6",
+      "enunciado": "¿Qué mecanismo detecta la caída de un nodo en un clúster?",
+      "opciones": {
+        "a": "Snapshot",
+        "b": "RAID",
+        "c": "Autoscaling",
+        "d": "Heartbeat"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 112,
+      "unidad": "UT6",
+      "enunciado": "¿Qué objetivo tiene el fencing o STONITH?",
+      "opciones": {
+        "a": "Aumentar el rendimiento del almacenamiento",
+        "b": "Gestionar usuarios",
+        "c": "Balancear conexiones TCP",
+        "d": "Aislar nodos defectuosos para evitar corrupción de datos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 113,
+      "unidad": "UT6",
+      "enunciado": "¿Qué algoritmo de balanceo distribuye peticiones de forma secuencial entre servidores?",
+      "opciones": {
+        "a": "IP Hash",
+        "b": "Least Connections",
+        "c": "Round Robin",
+        "d": "Sticky Session"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 114,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál es una de las principales fortalezas de HAProxy?",
+      "opciones": {
+        "a": "Balanceo avanzado L4/L7 y health checks",
+        "b": "Cifrado de discos",
+        "c": "Virtualización de sistemas",
+        "d": "Gestión de bases de datos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 115,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tipo de almacenamiento suele utilizarse para bases de datos críticas debido a su alto rendimiento?",
+      "opciones": {
+        "a": "SMB",
+        "b": "SAN",
+        "c": "FTP",
+        "d": "NAS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 116,
+      "unidad": "UT6",
+      "enunciado": "¿Qué estrategia de escalabilidad mejora la disponibilidad añadiendo nuevas instancias?",
+      "opciones": {
+        "a": "Replicación síncrona",
+        "b": "Escalado horizontal",
+        "c": "Escalado vertical",
+        "d": "Snapshot incremental"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 117,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál es uno de los objetivos principales de los simulacros de recuperación ante desastres (DR Drills)?",
+      "opciones": {
+        "a": "Sustituir la documentación técnica",
+        "b": "Reducir el almacenamiento",
+        "c": "Validar procedimientos, tiempos y roles de recuperación",
+        "d": "Desactivar los sistemas redundantes"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 118,
+      "unidad": "UT7",
+      "enunciado": "¿Qué norma establece el marco general de protección de datos en la Unión Europea?",
+      "opciones": {
+        "a": "LSSI",
+        "b": "ENS",
+        "c": "ISO 27001",
+        "d": "RGPD"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 119,
+      "unidad": "UT7",
+      "enunciado": "¿Qué principio del RGPD exige demostrar el cumplimiento de las obligaciones en materia de protección de datos?",
+      "opciones": {
+        "a": "Accountability o responsabilidad proactiva",
+        "b": "Minimización de costes",
+        "c": "Interoperabilidad",
+        "d": "Portabilidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 120,
+      "unidad": "UT7",
+      "enunciado": "¿En qué plazo debe notificarse una brecha de seguridad a la autoridad competente cuando proceda?",
+      "opciones": {
+        "a": "48 horas",
+        "b": "72 horas",
+        "c": "24 horas",
+        "d": "7 días"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 121,
+      "unidad": "UT7",
+      "enunciado": "¿Cuál de los siguientes es un derecho de los interesados?",
+      "opciones": {
+        "a": "Acceso",
+        "b": "Balanceo de carga",
+        "c": "Replicación",
+        "d": "Escalabilidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 122,
+      "unidad": "UT7",
+      "enunciado": "¿Qué formato se recomienda para ejercer el derecho de portabilidad?",
+      "opciones": {
+        "a": "JPG",
+        "b": "TXT sin estructura",
+        "c": "PDF protegido",
+        "d": "JSON o CSV"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 123,
+      "unidad": "UT7",
+      "enunciado": "¿Qué sistema permite asignar permisos según funciones o puestos de trabajo?",
+      "opciones": {
+        "a": "RBAC",
+        "b": "DLP",
+        "c": "PAM",
+        "d": "ABAC"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 124,
+      "unidad": "UT7",
+      "enunciado": "¿Qué modelo de control de acceso se basa en atributos contextuales?",
+      "opciones": {
+        "a": "RAID",
+        "b": "ABAC",
+        "c": "RBAC",
+        "d": "VPN"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 125,
+      "unidad": "UT7",
+      "enunciado": "¿Qué medida reduce significativamente el riesgo por robo de credenciales?",
+      "opciones": {
+        "a": "RAID",
+        "b": "DNS",
+        "c": "MFA",
+        "d": "NAT"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 126,
+      "unidad": "UT7",
+      "enunciado": "¿Qué tecnología protege los datos durante su transmisión por la red?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "TLS",
+        "c": "RAID",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 127,
+      "unidad": "UT7",
+      "enunciado": "¿Qué herramienta se utiliza para gestionar cuentas privilegiadas?",
+      "opciones": {
+        "a": "CRM",
+        "b": "Proxy",
+        "c": "PAM",
+        "d": "DHCP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 128,
+      "unidad": "UT7",
+      "enunciado": "¿Quién determina los fines y medios del tratamiento de datos?",
+      "opciones": {
+        "a": "Responsable del tratamiento",
+        "b": "Encargado del tratamiento",
+        "c": "Delegado de Protección de Datos",
+        "d": "Auditor externo"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 129,
+      "unidad": "UT7",
+      "enunciado": "¿Cuál es la función principal del Delegado de Protección de Datos (DPO)?",
+      "opciones": {
+        "a": "Configurar cortafuegos",
+        "b": "Administrar servidores",
+        "c": "Gestionar copias de seguridad",
+        "d": "Supervisar y asesorar sobre el cumplimiento normativo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 130,
+      "unidad": "UT7",
+      "enunciado": "¿Qué documento regula la relación entre responsable y encargado del tratamiento?",
+      "opciones": {
+        "a": "Política de copias de seguridad",
+        "b": "Inventario de activos",
+        "c": "SLA",
+        "d": "Contrato de encargo del tratamiento"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 131,
+      "unidad": "UT7",
+      "enunciado": "¿Qué normativa regula los servicios prestados por internet en España?",
+      "opciones": {
+        "a": "ISO 27001",
+        "b": "RGPD",
+        "c": "ENS",
+        "d": "LSSI"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 132,
+      "unidad": "UT7",
+      "enunciado": "¿Qué debe obtenerse para instalar cookies no estrictamente necesarias?",
+      "opciones": {
+        "a": "Certificado digital",
+        "b": "Autorización judicial",
+        "c": "Consentimiento informado",
+        "d": "Contrato de tratamiento"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 133,
+      "unidad": "UT7",
+      "enunciado": "¿Qué significa SGSI?",
+      "opciones": {
+        "a": "Servicio Global de Sistemas Integrados",
+        "b": "Sistema General de Seguridad Informática",
+        "c": "Sistema de Gestión de Seguridad de la Información",
+        "d": "Sistema Garantizado de Supervisión Interna"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 134,
+      "unidad": "UT7",
+      "enunciado": "¿Qué metodología de mejora continua utiliza ISO 27001?",
+      "opciones": {
+        "a": "SCRUM",
+        "b": "SWOT",
+        "c": "PDCA",
+        "d": "Agile"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 135,
+      "unidad": "UT7",
+      "enunciado": "¿Qué fase del ciclo PDCA consiste en verificar la eficacia de los controles implantados?",
+      "opciones": {
+        "a": "Check",
+        "b": "Do",
+        "c": "Act",
+        "d": "Plan"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 136,
+      "unidad": "UT7",
+      "enunciado": "¿Cuál es una buena práctica para demostrar cumplimiento normativo?",
+      "opciones": {
+        "a": "Desactivar el registro de eventos",
+        "b": "Mantener evidencias, auditorías y documentación actualizada",
+        "c": "Eliminar registros antiguos",
+        "d": "Reducir los controles de acceso"
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}
