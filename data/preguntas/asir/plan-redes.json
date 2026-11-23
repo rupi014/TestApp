@@ -1,0 +1,1674 @@
+{
+  "simulacro": "Autoevaluaciones UT1-UT7 - Planificación y Administración de Redes",
+  "total_preguntas": 139,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": "UT1",
+      "enunciado": "¿Qué dispositivo de red opera en la capa 2 del modelo OSI?",
+      "opciones": {
+        "a": "Switch",
+        "b": "Firewall",
+        "c": "Router",
+        "d": "Hub"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es la principal diferencia entre IPv4 e IPv6?",
+      "opciones": {
+        "a": "El número de bits de dirección",
+        "b": "El uso de WiFi obligatorio",
+        "c": "La velocidad de transmisión",
+        "d": "El tipo de cable usado"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "unidad": "UT1",
+      "enunciado": "¿Qué topología fue la primera usada en Ethernet y es vulnerable a fallos en el cable troncal?",
+      "opciones": {
+        "a": "Malla",
+        "b": "Bus",
+        "c": "Anillo",
+        "d": "Estrella"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "unidad": "UT1",
+      "enunciado": "¿Qué comando permite verificar conectividad y latencia entre dos nodos?",
+      "opciones": {
+        "a": "netstat",
+        "b": "arp",
+        "c": "traceroute",
+        "d": "ping"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "unidad": "UT1",
+      "enunciado": "¿Qué es una red de datos?",
+      "opciones": {
+        "a": "Un conjunto de dispositivos interconectados para compartir información",
+        "b": "Un sistema de almacenamiento local",
+        "c": "Un servidor de bases de datos",
+        "d": "Un tipo de software de ofimática"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "unidad": "UT1",
+      "enunciado": "¿Qué protocolo es usado para enviar correo electrónico?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "FTP",
+        "c": "HTTP",
+        "d": "DNS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "unidad": "UT1",
+      "enunciado": "¿Qué dispositivo interconecta distintas redes y gestiona tablas de enrutamiento?",
+      "opciones": {
+        "a": "Router",
+        "b": "Switch",
+        "c": "Hub",
+        "d": "Firewall"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "unidad": "UT1",
+      "enunciado": "¿Qué protocolo se utiliza para asignar direcciones IP automáticamente?",
+      "opciones": {
+        "a": "ICMP",
+        "b": "DNS",
+        "c": "FTP",
+        "d": "DHCP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "unidad": "UT1",
+      "enunciado": "¿Qué modelo conceptual organiza la comunicación en siete capas?",
+      "opciones": {
+        "a": "Modelo híbrido",
+        "b": "Modelo Ethernet",
+        "c": "Modelo OSI",
+        "d": "Modelo TCP/IP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "unidad": "UT1",
+      "enunciado": "¿Qué medio de transmisión inalámbrico requiere visión directa y es vulnerable a obstáculos?",
+      "opciones": {
+        "a": "Fibra óptica",
+        "b": "Microondas",
+        "c": "Par trenzado",
+        "d": "LiFi"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 11,
+      "unidad": "UT1",
+      "enunciado": "¿Qué protocolo de red se usa para monitorizar dispositivos como routers e impresoras?",
+      "opciones": {
+        "a": "HTTP",
+        "b": "SNMP",
+        "c": "ARP",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 12,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál fue la primera red que sentó las bases de Internet?",
+      "opciones": {
+        "a": "Ethernet",
+        "b": "ARPANET",
+        "c": "WiFi",
+        "d": "Token Ring"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 13,
+      "unidad": "UT1",
+      "enunciado": "¿Qué protocolo traduce nombres de dominio en direcciones IP?",
+      "opciones": {
+        "a": "DNS",
+        "b": "SNMP",
+        "c": "DHCP",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 14,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál de los siguientes es un ataque de red basado en inundar peticiones para saturar un servicio?",
+      "opciones": {
+        "a": "Phishing",
+        "b": "ARP Spoofing",
+        "c": "DDoS",
+        "d": "Sniffing"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 15,
+      "unidad": "UT1",
+      "enunciado": "¿Qué capa del modelo OSI se encarga del cifrado y la compresión de datos?",
+      "opciones": {
+        "a": "Capa de aplicación",
+        "b": "Capa de transporte",
+        "c": "Capa de sesión",
+        "d": "Capa de presentación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 16,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es la principal utilidad de Wireshark?",
+      "opciones": {
+        "a": "Creación de VLANs",
+        "b": "Asignación de direcciones IP",
+        "c": "Captura y análisis de tráfico de red",
+        "d": "Filtrado de tráfico perimetral"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 17,
+      "unidad": "UT1",
+      "enunciado": "¿Qué medio de transmisión ofrece mayor ancho de banda y resistencia a interferencias?",
+      "opciones": {
+        "a": "Microondas",
+        "b": "Coaxial",
+        "c": "Par trenzado",
+        "d": "Fibra óptica"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 18,
+      "unidad": "UT1",
+      "enunciado": "¿Qué topología de red depende de un nodo central?",
+      "opciones": {
+        "a": "Bus",
+        "b": "Malla",
+        "c": "Anillo",
+        "d": "Estrella"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 19,
+      "unidad": "UT1",
+      "enunciado": "¿Qué protocolo garantiza entrega ordenada y fiable de los datos?",
+      "opciones": {
+        "a": "TCP",
+        "b": "UDP",
+        "c": "ICMP",
+        "d": "HTTP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 20,
+      "unidad": "UT1",
+      "enunciado": "¿Qué comando permite ver la ruta que sigue un paquete hasta su destino?",
+      "opciones": {
+        "a": "traceroute",
+        "b": "ping",
+        "c": "dig",
+        "d": "arp"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 21,
+      "unidad": "UT2",
+      "enunciado": "¿Qué medio físico es más adecuado para largas distancias en campus?",
+      "opciones": {
+        "a": "Par trenzado Cat 5e",
+        "b": "Cable coaxial",
+        "c": "Fibra multimodo",
+        "d": "Fibra monomodo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "unidad": "UT2",
+      "enunciado": "¿Qué protocolo asigna direcciones IP dinámicamente?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "DNS",
+        "c": "NAT",
+        "d": "ARP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 23,
+      "unidad": "UT2",
+      "enunciado": "¿Qué dirección indica fallo en el servidor DHCP?",
+      "opciones": {
+        "a": "255.255.255.255",
+        "b": "192.168.0.1",
+        "c": "169.254.x.x",
+        "d": "127.0.0.1"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 24,
+      "unidad": "UT2",
+      "enunciado": "¿Qué estándar define el etiquetado en infraestructuras de red?",
+      "opciones": {
+        "a": "IEEE 802.3",
+        "b": "ISO/IEC 11801",
+        "c": "TIA/EIA-606-B",
+        "d": "EN 50173"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 25,
+      "unidad": "UT2",
+      "enunciado": "¿Qué modo de autenticación se utiliza en WPA2/WPA3-Enterprise?",
+      "opciones": {
+        "a": "Portal cautivo",
+        "b": "Contraseña simple",
+        "c": "802.1X con RADIUS",
+        "d": "SSID oculto"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 26,
+      "unidad": "UT2",
+      "enunciado": "¿Qué norma internacional regula el cableado estructurado en Europa?",
+      "opciones": {
+        "a": "ISO/IEC 11801",
+        "b": "IEEE 802.11",
+        "c": "ANSI/TIA/EIA-568",
+        "d": "EN 50173"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 27,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta comprueba la resolución de nombres?",
+      "opciones": {
+        "a": "ethtool",
+        "b": "ipconfig",
+        "c": "ping",
+        "d": "nslookup"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 28,
+      "unidad": "UT2",
+      "enunciado": "¿Qué protocolo de seguridad inalámbrica se considera más robusto actualmente?",
+      "opciones": {
+        "a": "WEP",
+        "b": "WPA2",
+        "c": "WPA3",
+        "d": "WPA"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 29,
+      "unidad": "UT2",
+      "enunciado": "¿Qué protocolo permite agrupar interfaces en Linux o Windows?",
+      "opciones": {
+        "a": "HTTP",
+        "b": "LACP",
+        "c": "SNMP",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 30,
+      "unidad": "UT2",
+      "enunciado": "¿Qué estándar Wi-Fi introdujo el uso de OFDMA?",
+      "opciones": {
+        "a": "802.11ac (Wi-Fi 5)",
+        "b": "802.11g",
+        "c": "802.11ax (Wi-Fi 6)",
+        "d": "802.11n (Wi-Fi 4)"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 31,
+      "unidad": "UT2",
+      "enunciado": "¿Cuál es la longitud máxima de un enlace horizontal de cobre según TIA/EIA-568?",
+      "opciones": {
+        "a": "100 metros",
+        "b": "50 metros",
+        "c": "75 metros",
+        "d": "150 metros"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 32,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta certifica instalaciones de cobre y fibra?",
+      "opciones": {
+        "a": "Probador básico",
+        "b": "Multímetro",
+        "c": "Certificador Fluke",
+        "d": "Analizador Wireshark"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 33,
+      "unidad": "UT2",
+      "enunciado": "¿Qué función cumple el NIC Teaming?",
+      "opciones": {
+        "a": "Reducir latencia",
+        "b": "Mejorar DNS",
+        "c": "Evitar interferencias",
+        "d": "Agregar ancho de banda y redundancia"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 34,
+      "unidad": "UT2",
+      "enunciado": "¿Qué protocolo evita bucles en redes conmutadas?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "OSPF",
+        "c": "Spanning Tree Protocol (STP)",
+        "d": "RIP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 35,
+      "unidad": "UT2",
+      "enunciado": "¿Qué error ocurre al asignar manualmente dos direcciones iguales?",
+      "opciones": {
+        "a": "Fragmentación",
+        "b": "Timeout",
+        "c": "Bucle de red",
+        "d": "Conflicto de IP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 36,
+      "unidad": "UT2",
+      "enunciado": "¿Qué documento centraliza información de activos y registros en grandes empresas?",
+      "opciones": {
+        "a": "VLAN",
+        "b": "DHCP",
+        "c": "CMDB",
+        "d": "NAT"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 37,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando en Windows muestra la configuración completa de red?",
+      "opciones": {
+        "a": "nslookup",
+        "b": "ping",
+        "c": "tracert",
+        "d": "ipconfig /all"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 38,
+      "unidad": "UT2",
+      "enunciado": "¿Qué indica un enlace negociado a 100 Mbps half-duplex en lugar de 1 Gbps full?",
+      "opciones": {
+        "a": "IP duplicada",
+        "b": "Configuración correcta",
+        "c": "Velocidad degradada",
+        "d": "DHCP deshabilitado"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 39,
+      "unidad": "UT2",
+      "enunciado": "¿Qué dispositivo termina el cableado horizontal en un rack?",
+      "opciones": {
+        "a": "Switch",
+        "b": "Router",
+        "c": "Access Point",
+        "d": "Patch panel"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 40,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando Linux permite añadir una dirección IP?",
+      "opciones": {
+        "a": "netstat -rn",
+        "b": "ifconfig -a",
+        "c": "route -n",
+        "d": "ip addr add"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 41,
+      "unidad": "UT3",
+      "enunciado": "¿Qué significa AAA en administración de red?",
+      "opciones": {
+        "a": "Autenticación, Autorización y Accounting",
+        "b": "Administración Avanzada Automática",
+        "c": "Ancho de banda, Autonomía y Adaptación",
+        "d": "Acceso Anónimo Autorizado"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 42,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando muestra la tabla de direcciones MAC en un switch Cisco?",
+      "opciones": {
+        "a": "show arp",
+        "b": "show ip interface brief",
+        "c": "show logging",
+        "d": "show mac address-table"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 43,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo evita los bucles en redes de conmutación?",
+      "opciones": {
+        "a": "BGP",
+        "b": "STP",
+        "c": "OSPF",
+        "d": "RIP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 44,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo protege contra ataques de ARP spoofing?",
+      "opciones": {
+        "a": "Dynamic ARP Inspection (DAI)",
+        "b": "RIP",
+        "c": "SNMP",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 45,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo se utiliza para monitorizar dispositivos de red?",
+      "opciones": {
+        "a": "SNMP",
+        "b": "HTTP",
+        "c": "FTP",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 46,
+      "unidad": "UT3",
+      "enunciado": "¿Qué diferencia principal existe entre un switch gestionable y uno no gestionable?",
+      "opciones": {
+        "a": "El gestionable no tiene interfaz de administración",
+        "b": "El no gestionable ofrece CLI",
+        "c": "El gestionable permite configurar, monitorizar y aplicar políticas de red",
+        "d": "El no gestionable soporta VLANs"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 47,
+      "unidad": "UT3",
+      "enunciado": "¿Qué función cumple el Port Security?",
+      "opciones": {
+        "a": "Permitir más VLANs",
+        "b": "Limitar el número de direcciones MAC por puerto",
+        "c": "Desactivar el STP",
+        "d": "Aumentar el ancho de banda"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 48,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tecnología permite unir varios enlaces físicos en uno lógico?",
+      "opciones": {
+        "a": "RIP",
+        "b": "DHCP Snooping",
+        "c": "ARP",
+        "d": "LACP/EtherChannel"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 49,
+      "unidad": "UT3",
+      "enunciado": "¿Qué práctica es fundamental antes de actualizar el firmware de un switch?",
+      "opciones": {
+        "a": "Borrar las VLANs existentes",
+        "b": "Deshabilitar todos los puertos",
+        "c": "Desactivar el STP",
+        "d": "Realizar copia de seguridad de la configuración"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 50,
+      "unidad": "UT3",
+      "enunciado": "¿Qué protocolo de autenticación de usuarios puede usarse en switches?",
+      "opciones": {
+        "a": "RIP",
+        "b": "ARP",
+        "c": "802.1X",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 51,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta permite capturar tráfico mediante un puerto espejo?",
+      "opciones": {
+        "a": "FTP",
+        "b": "SMTP",
+        "c": "SPAN",
+        "d": "DNS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 52,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando permite verificar el estado del protocolo STP en Cisco?",
+      "opciones": {
+        "a": "show spanning-tree",
+        "b": "show vlan brief",
+        "c": "show ip route",
+        "d": "show running-config"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 53,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando muestra el estado de las interfaces en un switch Cisco?",
+      "opciones": {
+        "a": "show users",
+        "b": "show memory",
+        "c": "show vlan brief",
+        "d": "show interfaces status"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 54,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando de Cisco muestra la configuración activa en un switch?",
+      "opciones": {
+        "a": "show version",
+        "b": "show running-config",
+        "c": "show vlan brief",
+        "d": "show startup-config"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 55,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál es el método más seguro de acceso remoto a un switch?",
+      "opciones": {
+        "a": "Acceso sin contraseña",
+        "b": "HTTP sin cifrar",
+        "c": "SSH",
+        "d": "Telnet"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 56,
+      "unidad": "UT3",
+      "enunciado": "¿Qué medida de seguridad bloquea servidores DHCP falsos?",
+      "opciones": {
+        "a": "ARP Inspection",
+        "b": "DHCP Snooping",
+        "c": "NAT",
+        "d": "QoS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 57,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando guarda la configuración en memoria de arranque en Cisco?",
+      "opciones": {
+        "a": "show startup-config",
+        "b": "write erase",
+        "c": "copy running-config startup-config",
+        "d": "reload"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 58,
+      "unidad": "UT3",
+      "enunciado": "¿Qué mejora aporta RSTP frente a STP?",
+      "opciones": {
+        "a": "Elimina la necesidad de VLANs",
+        "b": "Mayor número de VLANs",
+        "c": "Menor tiempo de convergencia",
+        "d": "Soporte de IPv6"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 59,
+      "unidad": "UT3",
+      "enunciado": "¿Qué técnica protege el plano de control del switch frente a ataques?",
+      "opciones": {
+        "a": "ACLs",
+        "b": "EtherChannel",
+        "c": "Control Plane Policing (CoPP)",
+        "d": "VLANs"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 60,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál es la finalidad de las VLANs en un switch?",
+      "opciones": {
+        "a": "Aumentar la velocidad física del puerto",
+        "b": "Segmentar lógicamente la red en dominios independientes",
+        "c": "Evitar el uso de protocolos",
+        "d": "Sustituir al direccionamiento IP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 61,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tecnología se puede combinar con ACLs?",
+      "opciones": {
+        "a": "FTP",
+        "b": "DHCP",
+        "c": "QoS",
+        "d": "SMTP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 62,
+      "unidad": "UT4",
+      "enunciado": "¿Qué significa PAT?",
+      "opciones": {
+        "a": "Port Address Translation",
+        "b": "Public Address Transfer",
+        "c": "Packet Adjustment Technique",
+        "d": "Protocol Allocation Table"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 63,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando en Cisco permite ver la tabla de enrutamiento?",
+      "opciones": {
+        "a": "show ip route",
+        "b": "show version",
+        "c": "ping",
+        "d": "show interfaces status"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 64,
+      "unidad": "UT4",
+      "enunciado": "¿Qué máscara se suele usar en enlaces punto a punto?",
+      "opciones": {
+        "a": "/24",
+        "b": "/8",
+        "c": "/30 o /31",
+        "d": "/16"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 65,
+      "unidad": "UT4",
+      "enunciado": "¿Qué campo se revisa en tabla de rutas para identificar origen?",
+      "opciones": {
+        "a": "Dirección MAC",
+        "b": "Velocidad del puerto",
+        "c": "Código de ruta (C, S, O, B)",
+        "d": "Nombre del usuario"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 66,
+      "unidad": "UT4",
+      "enunciado": "¿Qué se consulta para verificar conectividad básica en router?",
+      "opciones": {
+        "a": "clear counters",
+        "b": "Comando ping",
+        "c": "reload",
+        "d": "show version"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 67,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando en Cisco muestra los vecinos BGP?",
+      "opciones": {
+        "a": "show processes cpu",
+        "b": "show ip bgp summary",
+        "c": "show logging",
+        "d": "show ip route"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 68,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es la función principal de un router en una red?",
+      "opciones": {
+        "a": "Proporcionar direcciones IP dinámicas",
+        "b": "Proteger contra malware",
+        "c": "Encaminamiento de paquetes entre diferentes subredes",
+        "d": "Conmutación de tramas Ethernet"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 69,
+      "unidad": "UT4",
+      "enunciado": "¿Qué significa CoPP?",
+      "opciones": {
+        "a": "Configuration of Packet Paths",
+        "b": "Control of Physical Ports",
+        "c": "Core Port Processing",
+        "d": "Control Plane Policing"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 70,
+      "unidad": "UT4",
+      "enunciado": "¿Qué plano usa SSH y SNMP?",
+      "opciones": {
+        "a": "Plano de control",
+        "b": "Plano de gestión",
+        "c": "Plano físico",
+        "d": "Plano de datos"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 71,
+      "unidad": "UT4",
+      "enunciado": "¿Qué plano del router se encarga de reenviar paquetes?",
+      "opciones": {
+        "a": "Plano de datos",
+        "b": "Plano de gestión",
+        "c": "Plano de control",
+        "d": "Plano de seguridad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 72,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando en Cisco muestra las traducciones NAT activas?",
+      "opciones": {
+        "a": "show running-config",
+        "b": "show interfaces brief",
+        "c": "show version",
+        "d": "show ip nat translations"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 73,
+      "unidad": "UT4",
+      "enunciado": "¿Qué elemento define una ruta estática?",
+      "opciones": {
+        "a": "Destino, máscara y nexthop",
+        "b": "Nombre de interfaz",
+        "c": "Dirección MAC",
+        "d": "Versión del firmware"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 74,
+      "unidad": "UT4",
+      "enunciado": "¿Qué técnica asegura rollback rápido?",
+      "opciones": {
+        "a": "Reiniciar router",
+        "b": "Reemplazo de hardware",
+        "c": "Cambiar firmware",
+        "d": "Backup de configuración"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 75,
+      "unidad": "UT4",
+      "enunciado": "¿Qué protocolo se usa para monitorizar routers mediante SNMP?",
+      "opciones": {
+        "a": "Secure Network Monitoring Protocol",
+        "b": "Static Network Management Protocol",
+        "c": "System Network Management Process",
+        "d": "Simple Network Management Protocol"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 76,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando en Linux muestra las rutas activas?",
+      "opciones": {
+        "a": "ifconfig",
+        "b": "netstat -an",
+        "c": "ip route show",
+        "d": "uname -a"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 77,
+      "unidad": "UT4",
+      "enunciado": "¿Qué ventaja ofrece NAT?",
+      "opciones": {
+        "a": "Permite compartir una IP pública entre varias privadas",
+        "b": "Aumenta el ancho de banda",
+        "c": "Sustituye al routing dinámico",
+        "d": "Mejora la latencia"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 78,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de NAT traduce una IP privada en una pública fija?",
+      "opciones": {
+        "a": "NAT estático",
+        "b": "NAT64",
+        "c": "PAT",
+        "d": "NAT dinámico"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 79,
+      "unidad": "UT4",
+      "enunciado": "¿Qué recurso se debe tener siempre antes de un cambio en router?",
+      "opciones": {
+        "a": "Cambio de cableado",
+        "b": "Backup de configuración",
+        "c": "Usuario root",
+        "d": "Nueva licencia"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 80,
+      "unidad": "UT4",
+      "enunciado": "¿Qué significa ACL en redes?",
+      "opciones": {
+        "a": "Active Connection Link",
+        "b": "Administrative Control Level",
+        "c": "Address Configuration Layer",
+        "d": "Access Control List"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 81,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo inserta etiquetas para VLANs en tramas Ethernet?",
+      "opciones": {
+        "a": "RIP",
+        "b": "OSPF",
+        "c": "802.1Q",
+        "d": "BGP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 82,
+      "unidad": "UT5",
+      "enunciado": "¿Qué es una VLAN?",
+      "opciones": {
+        "a": "Un protocolo de enrutamiento dinámico",
+        "b": "Un dispositivo de seguridad perimetral",
+        "c": "Una red lógica que segmenta un dominio de broadcast",
+        "d": "Una interfaz física de red"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 83,
+      "unidad": "UT5",
+      "enunciado": "¿Qué significa QinQ?",
+      "opciones": {
+        "a": "Traducción de direcciones IP",
+        "b": "Apilamiento de etiquetas VLAN",
+        "c": "Protocolo de redundancia",
+        "d": "Enrutamiento entre VLANs"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 84,
+      "unidad": "UT5",
+      "enunciado": "¿Qué método básico permite interconectar VLANs en un router?",
+      "opciones": {
+        "a": "NAT overload",
+        "b": "Router-on-a-stick",
+        "c": "QinQ",
+        "d": "VRRP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 85,
+      "unidad": "UT5",
+      "enunciado": "¿Qué comando en Cisco permite listar VLANs configuradas?",
+      "opciones": {
+        "a": "show vlan brief",
+        "b": "show running-config",
+        "c": "show ip route",
+        "d": "show interfaces status"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 86,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es la principal ventaja de usar VLANs?",
+      "opciones": {
+        "a": "Sustituir los routers en la red",
+        "b": "Reducir el tráfico de broadcast y segmentar la red",
+        "c": "Aumentar la velocidad de los switches",
+        "d": "Eliminar la necesidad de ACLs"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 87,
+      "unidad": "UT5",
+      "enunciado": "¿Qué se requiere para que dos VLANs se comuniquen entre sí?",
+      "opciones": {
+        "a": "DHCP Snooping",
+        "b": "Inter-VLAN routing",
+        "c": "Un trunk abierto",
+        "d": "QinQ"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "unidad": "UT5",
+      "enunciado": "¿Qué comando muestra las VLANs permitidas en un trunk en Cisco?",
+      "opciones": {
+        "a": "show ip route",
+        "b": "show interfaces trunk",
+        "c": "show mac address-table",
+        "d": "show arp"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 89,
+      "unidad": "UT5",
+      "enunciado": "¿Qué técnica bloquea IP spoofing en un puerto?",
+      "opciones": {
+        "a": "DAI",
+        "b": "NAT",
+        "c": "DHCP Snooping",
+        "d": "IP Source Guard"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 90,
+      "unidad": "UT5",
+      "enunciado": "¿Qué se debe probar tras configurar VLANs?",
+      "opciones": {
+        "a": "Únicamente conectividad",
+        "b": "Únicamente tablas ARP",
+        "c": "Conectividad, rendimiento y seguridad",
+        "d": "Únicamente logs"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 91,
+      "unidad": "UT5",
+      "enunciado": "¿Qué es la VLAN nativa?",
+      "opciones": {
+        "a": "VLAN a la que van los frames no etiquetados",
+        "b": "VLAN dedicada a servidores",
+        "c": "VLAN reservada para VoIP",
+        "d": "VLAN de administración"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 92,
+      "unidad": "UT5",
+      "enunciado": "¿Qué campo identifica una VLAN en una trama 802.1Q?",
+      "opciones": {
+        "a": "Dirección IP",
+        "b": "Dirección MAC",
+        "c": "VID (VLAN Identifier)",
+        "d": "TTL"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 93,
+      "unidad": "UT5",
+      "enunciado": "¿Qué se debe documentar siempre de una VLAN?",
+      "opciones": {
+        "a": "ID, nombre, propósito y puertos asociados",
+        "b": "Solo el switch asignado",
+        "c": "Únicamente el ID",
+        "d": "Solo el rango IP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 94,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de puerto se usa para transportar varias VLANs?",
+      "opciones": {
+        "a": "Puerto loopback",
+        "b": "Puerto trunk",
+        "c": "Puerto access",
+        "d": "Puerto de gestión"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 95,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protección evita ARP spoofing?",
+      "opciones": {
+        "a": "Dynamic ARP Inspection (DAI)",
+        "b": "DHCP Snooping",
+        "c": "VRRP",
+        "d": "IP Source Guard"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 96,
+      "unidad": "UT5",
+      "enunciado": "¿Qué interfaz lógica sirve de gateway para una VLAN?",
+      "opciones": {
+        "a": "QinQ",
+        "b": "Puerto trunk",
+        "c": "SVI (Switch Virtual Interface)",
+        "d": "VLAN nativa"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 97,
+      "unidad": "UT5",
+      "enunciado": "¿Qué herramienta evita servidores DHCP no autorizados?",
+      "opciones": {
+        "a": "DHCP Snooping",
+        "b": "ARP Inspection",
+        "c": "NAT",
+        "d": "PortSecurity"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 98,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo permite administrar VLANs de forma centralizada?",
+      "opciones": {
+        "a": "STP",
+        "b": "RIP",
+        "c": "OSPF",
+        "d": "VTP (VLAN Trunking Protocol)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 99,
+      "unidad": "UT5",
+      "enunciado": "¿Qué VLAN no es recomendable usar como nativa?",
+      "opciones": {
+        "a": "VLAN 100",
+        "b": "VLAN 200",
+        "c": "VLAN 1",
+        "d": "VLAN 10"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 100,
+      "unidad": "UT5",
+      "enunciado": "¿Qué técnica limita direcciones MAC en un puerto?",
+      "opciones": {
+        "a": "ARP Inspection",
+        "b": "PortSecurity",
+        "c": "DHCP Snooping",
+        "d": "IP Source Guard"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 101,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando en Cisco muestra los vecinos OSPF?",
+      "opciones": {
+        "a": "show processes",
+        "b": "show running-config",
+        "c": "ping",
+        "d": "show ip ospf neighbor"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 102,
+      "unidad": "UT6",
+      "enunciado": "¿Qué técnica permite agrupar varias redes en una sola entrada de ruta?",
+      "opciones": {
+        "a": "CIDR",
+        "b": "DNS",
+        "c": "NAT",
+        "d": "ARP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 103,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando permite ver la base de datos de LSAs en Cisco?",
+      "opciones": {
+        "a": "show version",
+        "b": "traceroute",
+        "c": "show running-config",
+        "d": "show ip ospf database"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 104,
+      "unidad": "UT6",
+      "enunciado": "¿Qué técnica permite optimizar el uso de direcciones IPv4 mediante máscaras variables?",
+      "opciones": {
+        "a": "VLSM",
+        "b": "ACL",
+        "c": "NAT",
+        "d": "DNS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 105,
+      "unidad": "UT6",
+      "enunciado": "¿Qué área debe existir siempre en un diseño OSPF?",
+      "opciones": {
+        "a": "Área 0 (backbone)",
+        "b": "Cualquier área",
+        "c": "Área 2",
+        "d": "Área 1"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 106,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo de enrutamiento utiliza el número de saltos como métrica?",
+      "opciones": {
+        "a": "EIGRP",
+        "b": "RIP",
+        "c": "OSPF",
+        "d": "BGP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 107,
+      "unidad": "UT6",
+      "enunciado": "¿Qué concepto define la prioridad de una ruta según el origen de información?",
+      "opciones": {
+        "a": "Protocolo IP",
+        "b": "VLAN ID",
+        "c": "Distancia administrativa",
+        "d": "Métrica"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 108,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo de enrutamiento soporta redistribución de rutas externas con LSAs tipo 5?",
+      "opciones": {
+        "a": "RIPv1",
+        "b": "RIP",
+        "c": "OSPF",
+        "d": "RIPng"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 109,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo utiliza LSAs y LSDB para calcular rutas?",
+      "opciones": {
+        "a": "OSPF",
+        "b": "RIP",
+        "c": "EIGRP",
+        "d": "BGP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 110,
+      "unidad": "UT6",
+      "enunciado": "¿Qué prefijo CIDR ofrece 62 hosts utilizables?",
+      "opciones": {
+        "a": "/28",
+        "b": "/27",
+        "c": "/25",
+        "d": "/26"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 111,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo permite configurar rutas jerárquicas mediante áreas?",
+      "opciones": {
+        "a": "ARP",
+        "b": "RIP",
+        "c": "RIPng",
+        "d": "OSPF"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 112,
+      "unidad": "UT6",
+      "enunciado": "¿Qué valor de distancia administrativa corresponde a RIP?",
+      "opciones": {
+        "a": "120",
+        "b": "90",
+        "c": "200",
+        "d": "110"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 113,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo es considerado de estado de enlace?",
+      "opciones": {
+        "a": "RIPv2",
+        "b": "RIP",
+        "c": "RIPng",
+        "d": "OSPF"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 114,
+      "unidad": "UT6",
+      "enunciado": "¿Qué técnica de prevención de bucles se aplica en RIP?",
+      "opciones": {
+        "a": "DR/BDR",
+        "b": "Split horizon",
+        "c": "Áreas stub",
+        "d": "Fast Reroute"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 115,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál es el valor de distancia administrativa por defecto de OSPF?",
+      "opciones": {
+        "a": "110",
+        "b": "90",
+        "c": "120",
+        "d": "1"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 116,
+      "unidad": "UT6",
+      "enunciado": "¿Qué protocolo utiliza el multicast 224.0.0.9 para sus actualizaciones?",
+      "opciones": {
+        "a": "RIPv2",
+        "b": "OSPF",
+        "c": "RIPng",
+        "d": "BGP"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 117,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál es el límite máximo de saltos en RIP antes de considerar una red inalcanzable?",
+      "opciones": {
+        "a": "32",
+        "b": "10",
+        "c": "5",
+        "d": "16"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 118,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando en Cisco permite verificar las rutas aprendidas por RIP?",
+      "opciones": {
+        "a": "ping",
+        "b": "show ip route",
+        "c": "traceroute",
+        "d": "show version"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 119,
+      "unidad": "UT6",
+      "enunciado": "¿Qué ventaja principal ofrece el enrutamiento dinámico frente al estático?",
+      "opciones": {
+        "a": "Siempre es más seguro",
+        "b": "Requiere menos recursos de CPU",
+        "c": "Adaptación automática a fallos y cambios de topología",
+        "d": "Evita el uso de protocolos de red"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 120,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta mide convergencia observando pérdida de paquetes y latencia?",
+      "opciones": {
+        "a": "dnslookup",
+        "b": "ftp",
+        "c": "iperf3",
+        "d": "ssh"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 121,
+      "unidad": "UT7",
+      "enunciado": "¿Qué tecnología WAN moderna permite orquestar enlaces múltiples por aplicación?",
+      "opciones": {
+        "a": "SDWAN",
+        "b": "Metro Ethernet",
+        "c": "Dial-up",
+        "d": "MPLS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 122,
+      "unidad": "UT7",
+      "enunciado": "¿Cuál es la técnica más usada para que múltiples hosts compartan una única IP pública?",
+      "opciones": {
+        "a": "ACL",
+        "b": "PAT (Port Address Translation)",
+        "c": "NAT estático",
+        "d": "NAT dinámico con pool"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 123,
+      "unidad": "UT7",
+      "enunciado": "¿Qué práctica de seguridad se recomienda para publicar un servidor HTTPS?",
+      "opciones": {
+        "a": "Usar certificados TLS válidos y WAF",
+        "b": "Permitir todo el tráfico entrante",
+        "c": "Desactivar los logs",
+        "d": "Usar solo NAT dinámico"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 124,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo de seguridad se usa junto a certificados y 2FA en VPN remotas?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "OpenVPN",
+        "c": "HTTP",
+        "d": "Telnet"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 125,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo de seguridad se recomienda para cifrar el tráfico de una web pública?",
+      "opciones": {
+        "a": "SNMPv1",
+        "b": "FTP",
+        "c": "HTTP simple",
+        "d": "TLS 1.2/1.3"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 126,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo VPN es más sencillo y eficiente para conexiones remotas?",
+      "opciones": {
+        "a": "ARP",
+        "b": "HTTP",
+        "c": "Telnet",
+        "d": "WireGuard"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 127,
+      "unidad": "UT7",
+      "enunciado": "¿Qué tipo de arquitectura VPN conecta usuarios individuales a la red corporativa?",
+      "opciones": {
+        "a": "MPLS",
+        "b": "Site-to-Site",
+        "c": "Multihoming",
+        "d": "Remote Access"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 128,
+      "unidad": "UT7",
+      "enunciado": "¿Qué mecanismo de redundancia usa una IP virtual compartida entre routers?",
+      "opciones": {
+        "a": "DHCP",
+        "b": "VRRP",
+        "c": "FTP",
+        "d": "NAT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 129,
+      "unidad": "UT7",
+      "enunciado": "¿Qué comando en Linux prueba el MTU máximo evitando fragmentación?",
+      "opciones": {
+        "a": "ifconfig",
+        "b": "curl",
+        "c": "traceroute",
+        "d": "ping -M do -s <size>"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 130,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo se utiliza habitualmente para VPN site-to-site con seguridad fuerte?",
+      "opciones": {
+        "a": "FTP",
+        "b": "IPsec/IKEv2",
+        "c": "DNS",
+        "d": "RIP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 131,
+      "unidad": "UT7",
+      "enunciado": "¿Qué función principal cumple el NAT en redes privadas conectadas a Internet?",
+      "opciones": {
+        "a": "Aumentar la velocidad de transmisión",
+        "b": "Gestionar certificados digitales",
+        "c": "Traducción de direcciones privadas a públicas",
+        "d": "Sustituir al firewall"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 132,
+      "unidad": "UT7",
+      "enunciado": "¿Qué herramienta correlaciona logs y genera alertas de seguridad?",
+      "opciones": {
+        "a": "SMTP relay",
+        "b": "FTP server",
+        "c": "DNS",
+        "d": "SIEM"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 133,
+      "unidad": "UT7",
+      "enunciado": "¿Qué elemento de red se recomienda para segmentar servicios expuestos a Internet?",
+      "opciones": {
+        "a": "MPLS",
+        "b": "VLAN de usuarios",
+        "c": "DMZ",
+        "d": "Proxy ARP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 134,
+      "unidad": "UT7",
+      "enunciado": "¿Qué tipo de NAT se utiliza para publicar un servidor interno hacia Internet?",
+      "opciones": {
+        "a": "NAT64",
+        "b": "PAT",
+        "c": "NAT estático",
+        "d": "NAT dinámico"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 135,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo de control se usa en Cisco para monitorizar enlaces y activar failover?",
+      "opciones": {
+        "a": "SSH",
+        "b": "DNS",
+        "c": "FTP",
+        "d": "IP SLA"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 136,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo de enrutamiento externo se utiliza para multihoming con ISP?",
+      "opciones": {
+        "a": "RIP",
+        "b": "EIGRP",
+        "c": "OSPF",
+        "d": "BGP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 137,
+      "unidad": "UT7",
+      "enunciado": "¿Qué dispositivo software protege aplicaciones web frente a ataques como SQLi o XSS?",
+      "opciones": {
+        "a": "NAT64",
+        "b": "Switch L2",
+        "c": "DHCP server",
+        "d": "WAF"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 138,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo inalámbrico ofrece mayor cobertura en entornos metropolitanos?",
+      "opciones": {
+        "a": "Bluetooth",
+        "b": "WiFi",
+        "c": "WiMAX",
+        "d": "ZigBee"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 139,
+      "unidad": "UT7",
+      "enunciado": "¿Qué protocolo WAN permite QoS garantizado y VRFs?",
+      "opciones": {
+        "a": "MPLS",
+        "b": "LTE",
+        "c": "Metro Ethernet",
+        "d": "Broadband"
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

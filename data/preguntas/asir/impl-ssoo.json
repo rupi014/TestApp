@@ -1,0 +1,1926 @@
+{
+  "simulacro": "Autoevaluaciones UT1-UT8 - Implantación de Sistemas Operativos",
+  "total_preguntas": 160,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": "UT1",
+      "enunciado": "En la jerarquía de memoria, ¿qué elemento ofrece el acceso más rápido?",
+      "opciones": {
+        "a": "Registros de la CPU",
+        "b": "Memoria RAM",
+        "c": "Memoria virtual",
+        "d": "Almacenamiento secundario"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es una medida de seguridad vinculada a la gestión de memoria?",
+      "opciones": {
+        "a": "Ejecutar datos en cualquier segmento",
+        "b": "Desactivar la protección por hardware (MMU)",
+        "c": "ASLR para aleatorizar ubicaciones en memoria",
+        "d": "Exponer las tablas de páginas a los usuarios"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "unidad": "UT1",
+      "enunciado": "¿Qué describe mejor el propósito global de un sistema informático según esta UT?",
+      "opciones": {
+        "a": "Sustituir completamente la intervención humana en cualquier proceso",
+        "b": "Ejecutar exclusivamente aplicaciones de usuario sin gestionar recursos",
+        "c": "Integrar hardware y software para transformar datos en información útil",
+        "d": "Funcionar sin dependencia del hardware subyacente"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "unidad": "UT1",
+      "enunciado": "¿Qué afirmación es correcta sobre buses en el sistema?",
+      "opciones": {
+        "a": "El bus de direcciones es irrelevante para la memoria",
+        "b": "Los buses solo transportan señales de control, no datos",
+        "c": "El ancho del bus de datos condiciona la cantidad de información transferida por ciclo",
+        "d": "No hay riesgos de seguridad asociados a los buses"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "unidad": "UT1",
+      "enunciado": "¿Qué diferencia principal existe entre software de sistema y software de aplicación?",
+      "opciones": {
+        "a": "El de sistema es siempre de pago y el de aplicación siempre libre",
+        "b": "El de sistema se distribuye sin controladores, el de aplicación los incluye",
+        "c": "El de sistema solo corre en contenedores, el de aplicación en hardware",
+        "d": "El de sistema gestiona hardware y recursos, el de aplicación resuelve tareas concretas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "unidad": "UT1",
+      "enunciado": "¿Qué caracteriza a un kernel monolítico moderno como Linux?",
+      "opciones": {
+        "a": "Separación total de servicios en espacio de usuario",
+        "b": "Exclusivo para dispositivos móviles",
+        "c": "Ausencia de controladores en el núcleo",
+        "d": "Núcleo único con posibilidad de cargar módulos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "unidad": "UT1",
+      "enunciado": "¿Qué elemento de la estructura funcional corresponde a la fase de “entrada”?",
+      "opciones": {
+        "a": "Captura de datos por periféricos como teclado o sensores",
+        "b": "Almacenamiento permanente en SSD",
+        "c": "Transformación de datos por la ALU",
+        "d": "Presentación de resultados en pantalla"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "unidad": "UT1",
+      "enunciado": "¿Qué afirmación es correcta sobre multitarea en sistemas operativos?",
+      "opciones": {
+        "a": "Obliga a que los procesos se ejecuten de forma estrictamente secuencial",
+        "b": "Permite ejecutar múltiples procesos compartiendo tiempo de CPU",
+        "c": "Requiere hardware de múltiples procesadores",
+        "d": "Es exclusiva de sistemas propietarios"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "unidad": "UT1",
+      "enunciado": "¿Qué define mejor a un microkernel?",
+      "opciones": {
+        "a": "Todos los servicios integrados en modo kernel",
+        "b": "Núcleo híbrido con controladores gráficos dedicados",
+        "c": "Núcleo diseñado solo para tiempo real duro",
+        "d": "Mínimo código en modo kernel y servicios en espacio de usuario"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "unidad": "UT1",
+      "enunciado": "¿Qué describe mejor la virtualización completa?",
+      "opciones": {
+        "a": "Contenedores que comparten el mismo kernel",
+        "b": "Ejecución directa sobre hardware sin capa de control",
+        "c": "Invitados conscientes que cooperan con el hipervisor",
+        "d": "Emulación total del hardware para invitados sin modificaciones"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 11,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es la función principal de la CPU en un sistema informático?",
+      "opciones": {
+        "a": "Proporcionar almacenamiento no volátil a largo plazo",
+        "b": "Servir como interfaz directa entre usuario y aplicaciones",
+        "c": "Emitir señal de vídeo a los monitores externos",
+        "d": "Ejecutar instrucciones y coordinar operaciones internas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 12,
+      "unidad": "UT1",
+      "enunciado": "¿Qué componente del sistema operativo gestiona en modo privilegiado los recursos del sistema?",
+      "opciones": {
+        "a": "Capa de usuario",
+        "b": "Kernel",
+        "c": "Editor de texto",
+        "d": "Shell"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 13,
+      "unidad": "UT1",
+      "enunciado": "¿Qué es un snapshot en el contexto de máquinas virtuales?",
+      "opciones": {
+        "a": "Copia incremental del kernel del host",
+        "b": "Clon físico del disco sin memoria",
+        "c": "Imagen ISO del sistema operativo invitado",
+        "d": "Captura del estado completo de la VM en un instante"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 14,
+      "unidad": "UT1",
+      "enunciado": "¿Qué ventaja aporta el multiprocesador/multinúcleo?",
+      "opciones": {
+        "a": "Sustituye la necesidad de memoria caché",
+        "b": "Ejecución paralela de tareas para mejorar rendimiento",
+        "c": "Elimina el cambio de contexto entre procesos",
+        "d": "Impide la multitarea expropiativa"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 15,
+      "unidad": "UT1",
+      "enunciado": "¿Qué práctica es esencial en ciberseguridad según esta UT?",
+      "opciones": {
+        "a": "Ejecutar todo el software con privilegios de kernel",
+        "b": "Conocer la interacción hardware–software para detectar y mitigar vulnerabilidades",
+        "c": "Usar siempre arquitectura Harvard en equipos de escritorio",
+        "d": "Deshabilitar la memoria virtual para evitar swaps"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 16,
+      "unidad": "UT1",
+      "enunciado": "¿Qué ventaja clave aportan las memorias caché L1/L2/L3?",
+      "opciones": {
+        "a": "Evitan la necesidad de buses de datos",
+        "b": "Sustituyen completamente a la RAM del sistema",
+        "c": "Permiten ejecutar instrucciones en orden estricto",
+        "d": "Reducen la latencia al acercar datos frecuentes a la CPU"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 17,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es una limitación clásica de la arquitectura Von Neumann?",
+      "opciones": {
+        "a": "Incompatibilidad con sistemas operativos modernos",
+        "b": "Falta de soporte para memoria caché",
+        "c": "Imposibilidad de ejecutar código en paralelo",
+        "d": "Cuello de botella por compartir bus entre datos e instrucciones"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 18,
+      "unidad": "UT1",
+      "enunciado": "¿Qué diferencia clave existe entre sistemas propietarios y de código abierto?",
+      "opciones": {
+        "a": "Mayor rendimiento garantizado en el software propietario",
+        "b": "Acceso al código fuente y libertad de modificación en el software libre",
+        "c": "Ausencia de licencias en ambos modelos",
+        "d": "Imposibilidad de uso comercial en software libre"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 19,
+      "unidad": "UT1",
+      "enunciado": "¿Qué interfaz permite automatizar tareas mediante comandos y scripts?",
+      "opciones": {
+        "a": "GUI (Graphical User Interface)",
+        "b": "Pantalla táctil",
+        "c": "Controladores de dispositivo",
+        "d": "CLI (Command Line Interface)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 20,
+      "unidad": "UT1",
+      "enunciado": "¿Qué caracteriza a una GUI frente a una CLI?",
+      "opciones": {
+        "a": "Incompatibilidad con herramientas de administración",
+        "b": "Ejecución exclusiva en servidores sin gráficos",
+        "c": "Uso de elementos gráficos (ventanas, iconos, menús) para interactuar",
+        "d": "Menor consumo de recursos que la línea de comandos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 21,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta crea USB multi-ISO de forma sencilla?",
+      "opciones": {
+        "a": "Rufus",
+        "b": "GParted",
+        "c": "Ventoy",
+        "d": "ddrescue"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 22,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta permite gestionar entradas de arranque UEFI en Linux?",
+      "opciones": {
+        "a": "diskpart",
+        "b": "mkfs",
+        "c": "Boot-Repair",
+        "d": "efibootmgr"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 23,
+      "unidad": "UT2",
+      "enunciado": "¿Qué utilidad Linux permite convertir un disco MBR a GPT?",
+      "opciones": {
+        "a": "gdisk",
+        "b": "Rufus",
+        "c": "Timeshift",
+        "d": "Boot-Repair"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 24,
+      "unidad": "UT2",
+      "enunciado": "¿Qué práctica mejora la resiliencia en RAID propietario no detectado?",
+      "opciones": {
+        "a": "Desactivar TRIM en SSD",
+        "b": "Usar AHCI/NVMe y RAID por software (mdadm/ZFS)",
+        "c": "Usar siempre fakeraid",
+        "d": "Mantener CSM activo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 25,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tamaño recomendado debe tener la partición ESP en sistemas UEFI?",
+      "opciones": {
+        "a": "300–512 MB en FAT32",
+        "b": "1 MB en RAW",
+        "c": "2 GB en ext4",
+        "d": "50 MB en NTFS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 26,
+      "unidad": "UT2",
+      "enunciado": "¿Qué práctica inicial es fundamental antes de modificar particiones?",
+      "opciones": {
+        "a": "Formatear directamente",
+        "b": "Deshabilitar Secure Boot",
+        "c": "Realizar un backup verificado",
+        "d": "Cambiar BIOS a CSM"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 27,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta en Linux recompila módulos tras actualizar el kernel?",
+      "opciones": {
+        "a": "diskpart",
+        "b": "bcdedit",
+        "c": "Boot-Repair",
+        "d": "DKMS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 28,
+      "unidad": "UT2",
+      "enunciado": "¿Qué regla de copias de seguridad garantiza redundancia e inmutabilidad?",
+      "opciones": {
+        "a": "3-2-1",
+        "b": "2-2-0",
+        "c": "1-1-1",
+        "d": "5-5-5"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 29,
+      "unidad": "UT2",
+      "enunciado": "¿Qué utilidad de Windows permite gestionar controladores firmados?",
+      "opciones": {
+        "a": "efibootmgr",
+        "b": "pnputil",
+        "c": "lsblk",
+        "d": "dd"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 30,
+      "unidad": "UT2",
+      "enunciado": "¿Qué gestor de arranque destaca por su simplicidad en sistemas UEFI?",
+      "opciones": {
+        "a": "systemd-boot",
+        "b": "rEFInd",
+        "c": "GRUB2",
+        "d": "LILO"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 31,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta gestiona snapshots en Linux basados en Btrfs?",
+      "opciones": {
+        "a": "diskpart",
+        "b": "Boot-Repair",
+        "c": "Snapper",
+        "d": "bcdedit"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 32,
+      "unidad": "UT2",
+      "enunciado": "¿Qué mecanismo protege claves y mide arranque en equipos modernos?",
+      "opciones": {
+        "a": "GOP",
+        "b": "BIOS Legacy",
+        "c": "MSR",
+        "d": "TPM 2.0"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 33,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando de Windows permite editar el gestor de arranque BCD?",
+      "opciones": {
+        "a": "bcdedit",
+        "b": "pnputil",
+        "c": "gdisk",
+        "d": "efibootmgr"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 34,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta se recomienda para recuperación de discos dañados?",
+      "opciones": {
+        "a": "ddrescue",
+        "b": "Disk Management",
+        "c": "efibootmgr",
+        "d": "pnputil"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 35,
+      "unidad": "UT2",
+      "enunciado": "¿Qué sistema de archivos de Microsoft ofrece resiliencia con Storage Spaces?",
+      "opciones": {
+        "a": "Btrfs",
+        "b": "XFS",
+        "c": "ReFS",
+        "d": "ext4"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 36,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta de clonación permite multicast y compresión?",
+      "opciones": {
+        "a": "dd",
+        "b": "pnputil",
+        "c": "Boot-Repair",
+        "d": "Clonezilla"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 37,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta de Microsoft permite despliegues masivos de Windows?",
+      "opciones": {
+        "a": "MAAS",
+        "b": "Cobbler",
+        "c": "Satellite",
+        "d": "MECM/SCCM"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 38,
+      "unidad": "UT2",
+      "enunciado": "¿Qué utilidad permite reconstruir cargadores de arranque dañados?",
+      "opciones": {
+        "a": "ddrescue",
+        "b": "gdisk",
+        "c": "bcdedit",
+        "d": "Boot-Repair"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 39,
+      "unidad": "UT2",
+      "enunciado": "¿Qué sistema de archivos es más adecuado para snapshots y rollback en Linux?",
+      "opciones": {
+        "a": "NTFS",
+        "b": "Btrfs",
+        "c": "FAT32",
+        "d": "ext2"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 40,
+      "unidad": "UT2",
+      "enunciado": "¿Qué requisito de firmware es indispensable para instalar Windows 11?",
+      "opciones": {
+        "a": "TPM 1.2",
+        "b": "CSM activo",
+        "c": "TPM 2.0 y Secure Boot habilitado",
+        "d": "BIOS Legacy"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 41,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta de Linux se utiliza para configurar la zona horaria desde la terminal?",
+      "opciones": {
+        "a": "sysctl",
+        "b": "localectl",
+        "c": "timedatectl",
+        "d": "dateconfig"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 42,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando en Debian/Ubuntu actualiza el sistema?",
+      "opciones": {
+        "a": "sudo yum update",
+        "b": "sudo apt update && sudo apt upgrade",
+        "c": "sudo dnf update",
+        "d": "update-manager"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 43,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta de Linux permite hacer instantáneas del sistema para recuperación?",
+      "opciones": {
+        "a": "Timeshift",
+        "b": "BackupTool",
+        "c": "Deja Dup",
+        "d": "SnapshotCtl"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 44,
+      "unidad": "UT3",
+      "enunciado": "¿Qué shell es el estándar en la mayoría de distribuciones Linux?",
+      "opciones": {
+        "a": "PowerShell",
+        "b": "cmd",
+        "c": "bash",
+        "d": "zsh"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 45,
+      "unidad": "UT3",
+      "enunciado": "¿Qué entorno de escritorio en Linux se caracteriza por ser minimalista y usar extensiones para personalizar la interfaz?",
+      "opciones": {
+        "a": "Cinnamon",
+        "b": "KDE Plasma",
+        "c": "XFCE",
+        "d": "GNOME"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 46,
+      "unidad": "UT3",
+      "enunciado": "¿Qué extensión corresponde a un script clásico de MS-DOS o Windows?",
+      "opciones": {
+        "a": ".bat",
+        "b": ".ps1",
+        "c": ".sh",
+        "d": ".exe"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 47,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando de Linux se usa para desmontar una unidad manualmente?",
+      "opciones": {
+        "a": "umount",
+        "b": "unmount",
+        "c": "detach",
+        "d": "eject"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 48,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando en Windows muestra la configuración de red?",
+      "opciones": {
+        "a": "sysinfo",
+        "b": "netshow",
+        "c": "ifconfig",
+        "d": "ipconfig"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 49,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta de Windows permite crear puntos de restauración del sistema?",
+      "opciones": {
+        "a": "Administrador de discos",
+        "b": "Configuración > Aplicaciones",
+        "c": "Administrador de tareas",
+        "d": "Panel de control > Sistema > Protección del sistema"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 50,
+      "unidad": "UT3",
+      "enunciado": "¿Qué combinación de teclas abre directamente la ventana de Configuración en Windows 10/11?",
+      "opciones": {
+        "a": "Win + R",
+        "b": "Win + I",
+        "c": "Alt + F4",
+        "d": "Ctrl + Alt + Supr"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 51,
+      "unidad": "UT3",
+      "enunciado": "¿En qué sección de Configuración de Windows se cambia el fondo de pantalla?",
+      "opciones": {
+        "a": "Personalización > Fondo",
+        "b": "Aplicaciones > Escritorio",
+        "c": "Red > Pantalla",
+        "d": "Sistema > Pantalla"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 52,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando en Linux permite configurar el idioma del sistema?",
+      "opciones": {
+        "a": "timedatectl",
+        "b": "setlocale",
+        "c": "localectl",
+        "d": "langctl"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 53,
+      "unidad": "UT3",
+      "enunciado": "¿Qué formato de archivo corresponde a un instalador típico en Windows?",
+      "opciones": {
+        "a": ".exe / .msi",
+        "b": ".deb",
+        "c": ".sh",
+        "d": ".rpm"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 54,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál de estas herramientas de recuperación pertenece a Linux?",
+      "opciones": {
+        "a": "Punto de restauración",
+        "b": "initramfs",
+        "c": "Restaurar sistema",
+        "d": "Restaurar imagen"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 55,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando en Linux se usa para mostrar procesos en tiempo real?",
+      "opciones": {
+        "a": "ps",
+        "b": "jobs",
+        "c": "procstat",
+        "d": "top"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 56,
+      "unidad": "UT3",
+      "enunciado": "¿Qué programa de Linux permite programar copias de seguridad de datos personales de forma sencilla y gráfica?",
+      "opciones": {
+        "a": "Deja Dup",
+        "b": "Backupctl",
+        "c": "Clonezilla",
+        "d": "Timeshift"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 57,
+      "unidad": "UT3",
+      "enunciado": "¿Qué gestor de paquetes se utiliza en CentOS/RHEL?",
+      "opciones": {
+        "a": "pacman",
+        "b": "yum",
+        "c": "apt",
+        "d": "snap"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 58,
+      "unidad": "UT3",
+      "enunciado": "¿Qué explorador de archivos es el predeterminado en GNOME (Ubuntu)?",
+      "opciones": {
+        "a": "Caja",
+        "b": "Thunar",
+        "c": "Nautilus (GNOME Files)",
+        "d": "Dolphin"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 59,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta gráfica de Windows se usa para administrar particiones y discos?",
+      "opciones": {
+        "a": "Administrador de discos (diskmgmt.msc)",
+        "b": "CMD",
+        "c": "BIOS",
+        "d": "Administrador de tareas"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 60,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta de Linux garantiza la ejecución de tareas si el equipo estuvo apagado en la hora prevista?",
+      "opciones": {
+        "a": "anacron",
+        "b": "systemctl",
+        "c": "cron",
+        "d": "taskschd"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 61,
+      "unidad": "UT4",
+      "enunciado": "¿Qué estrategia de actualizaciones minimiza riesgos?",
+      "opciones": {
+        "a": "Ignorar parches de seguridad",
+        "b": "Despliegue en anillos (piloto, preproducción, producción)",
+        "c": "Esperar años antes de actualizar",
+        "d": "Instalar todo directamente en producción"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 62,
+      "unidad": "UT4",
+      "enunciado": "¿Qué ventaja ofrece RAID1?",
+      "opciones": {
+        "a": "Continuidad del servicio si falla un disco",
+        "b": "Rendimiento peor que un único disco",
+        "c": "Ahorro total de espacio",
+        "d": "Mayor riesgo de pérdida de datos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 63,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta de Linux detecta rootkits?",
+      "opciones": {
+        "a": "AppLocker",
+        "b": "sysmon",
+        "c": "icacls",
+        "d": "rkhunter"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 64,
+      "unidad": "UT4",
+      "enunciado": "¿Qué sistema de archivos ofrece integridad end-to-end?",
+      "opciones": {
+        "a": "ZFS con RAIDZ",
+        "b": "ReFS",
+        "c": "FAT32",
+        "d": "EXT2"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 65,
+      "unidad": "UT4",
+      "enunciado": "¿Qué nivel de RAID no ofrece redundancia?",
+      "opciones": {
+        "a": "RAID1",
+        "b": "RAID5",
+        "c": "RAID0",
+        "d": "RAID6"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 66,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es el objetivo principal de la seguridad local?",
+      "opciones": {
+        "a": "Garantizar la confidencialidad, integridad, disponibilidad y trazabilidad",
+        "b": "Mejorar el rendimiento del hardware",
+        "c": "Reducir el consumo energético",
+        "d": "Instalar aplicaciones rápidamente"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 67,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de copia facilita restauración rápida pero ocupa más espacio?",
+      "opciones": {
+        "a": "Incremental",
+        "b": "Completa",
+        "c": "Diferencial",
+        "d": "Parcial"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 68,
+      "unidad": "UT4",
+      "enunciado": "¿Qué nivel de RAID combina espejos y striping?",
+      "opciones": {
+        "a": "RAID10",
+        "b": "RAID0",
+        "c": "RAID6",
+        "d": "RAID5"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 69,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando de Windows permite listar permisos NTFS?",
+      "opciones": {
+        "a": "icacls",
+        "b": "chmod",
+        "c": "chage",
+        "d": "passwd"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 70,
+      "unidad": "UT4",
+      "enunciado": "¿Qué sistema de cifrado de volúmenes es propio de Linux?",
+      "opciones": {
+        "a": "RAID5",
+        "b": "LUKS2",
+        "c": "BitLocker",
+        "d": "NTFS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 71,
+      "unidad": "UT4",
+      "enunciado": "¿Qué estrategia de copias de seguridad garantiza resiliencia?",
+      "opciones": {
+        "a": "Almacenar solo en la nube sin clave",
+        "b": "Copia mensual sin verificación",
+        "c": "Guardar en un solo disco externo",
+        "d": "3-2-1 (tres copias, dos soportes, una offsite)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 72,
+      "unidad": "UT4",
+      "enunciado": "¿Qué significan las siglas RPO en tolerancia a fallos?",
+      "opciones": {
+        "a": "Recovery Point Objective",
+        "b": "Recovery Protocol Order",
+        "c": "Remote Protection Output",
+        "d": "Random Protection Option"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 73,
+      "unidad": "UT4",
+      "enunciado": "¿Qué solución antimalware es nativa de Windows?",
+      "opciones": {
+        "a": "Falco",
+        "b": "Microsoft Defender",
+        "c": "ClamAV",
+        "d": "Snort"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 74,
+      "unidad": "UT4",
+      "enunciado": "¿Qué evento indica fallos de inicio de sesión en Windows?",
+      "opciones": {
+        "a": "1000",
+        "b": "5156",
+        "c": "4625",
+        "d": "7036"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 75,
+      "unidad": "UT4",
+      "enunciado": "¿Qué riesgo presenta RAID5 con discos grandes?",
+      "opciones": {
+        "a": "No permite lecturas concurrentes",
+        "b": "Error de lectura irrecuperable (URE) en reconstrucción",
+        "c": "Falta total de rendimiento",
+        "d": "Se pierde la mitad del espacio"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 76,
+      "unidad": "UT4",
+      "enunciado": "¿Qué política de contraseñas es más recomendable?",
+      "opciones": {
+        "a": "Longitud mínima de 16 caracteres o passphrase",
+        "b": "Contraseñas iguales para todos",
+        "c": "Caducidad mensual obligatoria",
+        "d": "Uso exclusivo de caracteres especiales"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 77,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta aplica políticas de contraseña en Linux?",
+      "opciones": {
+        "a": "BIOS",
+        "b": "PAM (pwquality, faillock)",
+        "c": "DHCP",
+        "d": "Group Policy Objects (GPO)"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 78,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es el primer paso ante una infección?",
+      "opciones": {
+        "a": "Ignorar el incidente",
+        "b": "Formatear directamente",
+        "c": "Aislar el sistema afectado",
+        "d": "Cambiar de hardware"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 79,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta centraliza logs en grandes entornos?",
+      "opciones": {
+        "a": "Excel",
+        "b": "Notepad",
+        "c": "ELK Stack",
+        "d": "Paint"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 80,
+      "unidad": "UT4",
+      "enunciado": "¿Qué práctica reduce la superficie de ataque?",
+      "opciones": {
+        "a": "Uso de cuentas con privilegios elevados",
+        "b": "Desactivar auditorías",
+        "c": "Permisos globales para Everyone",
+        "d": "Principio de mínimo privilegio (PoLP)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 81,
+      "unidad": "UT5",
+      "enunciado": "¿Qué unidad lógica organiza objetos dentro de un dominio?",
+      "opciones": {
+        "a": "OU (Organizational Unit)",
+        "b": "VLAN",
+        "c": "Subred",
+        "d": "Grupo de trabajo"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo utiliza Active Directory para autenticación principal?",
+      "opciones": {
+        "a": "TACACS+",
+        "b": "Kerberos",
+        "c": "RADIUS",
+        "d": "NTLM"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 83,
+      "unidad": "UT5",
+      "enunciado": "¿Qué elemento centraliza la autenticación y administración en un dominio?",
+      "opciones": {
+        "a": "Servidor de archivos",
+        "b": "Proxy",
+        "c": "Controlador de dominio",
+        "d": "Router"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 84,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo asigna direcciones IP dinámicamente?",
+      "opciones": {
+        "a": "NTP",
+        "b": "LDAP",
+        "c": "DNS",
+        "d": "DHCP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 85,
+      "unidad": "UT5",
+      "enunciado": "¿Qué recurso compartido contiene GPOs y scripts en los DC?",
+      "opciones": {
+        "a": "/etc/passwd",
+        "b": "SYSVOL",
+        "c": "NETLOGON",
+        "d": "SPN"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 86,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo estándar permite consultar y modificar servicios de directorio?",
+      "opciones": {
+        "a": "SNMP",
+        "b": "LDAP",
+        "c": "FTP",
+        "d": "HTTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 87,
+      "unidad": "UT5",
+      "enunciado": "¿Qué herramienta Linux integra autenticación con AD?",
+      "opciones": {
+        "a": "sudo",
+        "b": "grep",
+        "c": "cron",
+        "d": "SSSD"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 88,
+      "unidad": "UT5",
+      "enunciado": "¿Qué mecanismo aplica configuraciones a usuarios y equipos en AD?",
+      "opciones": {
+        "a": "Firewall local",
+        "b": "PAM",
+        "c": "Cron",
+        "d": "GPO (Group Policy Object)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 89,
+      "unidad": "UT5",
+      "enunciado": "¿Qué modelo de red se basa en servidores que ofrecen servicios y clientes que los consumen?",
+      "opciones": {
+        "a": "Mesh",
+        "b": "Cliente-servidor",
+        "c": "Punto a punto",
+        "d": "Peer-to-peer"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 90,
+      "unidad": "UT5",
+      "enunciado": "¿Qué servicio resuelve nombres de dominio en direcciones IP?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "DNS",
+        "c": "DHCP",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 91,
+      "unidad": "UT5",
+      "enunciado": "¿Qué orden de aplicación siguen las GPO?",
+      "opciones": {
+        "a": "Herencia aleatoria",
+        "b": "OU primero",
+        "c": "Dominio primero",
+        "d": "LSDOU (Local, Sitio, Dominio, OU)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 92,
+      "unidad": "UT5",
+      "enunciado": "¿Qué comando en Windows verifica el estado de un DC?",
+      "opciones": {
+        "a": "dcdiag",
+        "b": "nslookup",
+        "c": "ping",
+        "d": "ipconfig"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 93,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo es considerado legado frente a Kerberos?",
+      "opciones": {
+        "a": "SMBv2",
+        "b": "NTLM",
+        "c": "SSH",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 94,
+      "unidad": "UT5",
+      "enunciado": "¿Qué diferencia clave hay entre dominio y grupo de trabajo?",
+      "opciones": {
+        "a": "Uso de VLANs",
+        "b": "Uso exclusivo de Linux",
+        "c": "Necesidad de switches gestionables",
+        "d": "Centralización de autenticación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 95,
+      "unidad": "UT5",
+      "enunciado": "¿Qué rol garantiza coherencia en operaciones críticas de AD?",
+      "opciones": {
+        "a": "SYSVOL",
+        "b": "FSMO",
+        "c": "OU",
+        "d": "SPN"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 96,
+      "unidad": "UT5",
+      "enunciado": "¿Qué atributo permite coherencia de identidades POSIX en AD?",
+      "opciones": {
+        "a": "SPN",
+        "b": "SIDHistory",
+        "c": "NetBIOS",
+        "d": "RFC2307"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 97,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo asegura sincronización de tiempo en un dominio?",
+      "opciones": {
+        "a": "SMTP",
+        "b": "NTP",
+        "c": "DHCP",
+        "d": "POP3"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 98,
+      "unidad": "UT5",
+      "enunciado": "¿Qué servicio Linux puede actuar como controlador de dominio compatible con Windows?",
+      "opciones": {
+        "a": "Samba AD DC",
+        "b": "MySQL",
+        "c": "Bind",
+        "d": "Apache"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 99,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo evita envío de contraseñas en claro usando tickets?",
+      "opciones": {
+        "a": "HTTP",
+        "b": "Telnet",
+        "c": "Kerberos",
+        "d": "FTP"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 100,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de controladores de dominio son recomendados en sedes remotas?",
+      "opciones": {
+        "a": "PDC clásico",
+        "b": "DHCP secundario",
+        "c": "DNS esclavo",
+        "d": "RODC (Read Only Domain Controller)"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 101,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando de Windows se usa para gestionar particiones desde línea de comandos?",
+      "opciones": {
+        "a": "diskpart",
+        "b": "fdisk",
+        "c": "parted",
+        "d": "blkid"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 102,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta de Linux se usa para reparar sistemas de archivos ext4?",
+      "opciones": {
+        "a": "sfc",
+        "b": "chkdsk",
+        "c": "e2fsck",
+        "d": "dism"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 103,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando de Windows verifica y repara la imagen del sistema?",
+      "opciones": {
+        "a": "mountvol",
+        "b": "chkdsk",
+        "c": "dism",
+        "d": "fdisk"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 104,
+      "unidad": "UT6",
+      "enunciado": "¿Qué característica distingue a NTFS frente a FAT32?",
+      "opciones": {
+        "a": "Soporte para compresión, cifrado y cuotas",
+        "b": "Limitación de archivos a 4 GB",
+        "c": "Falta de journaling",
+        "d": "Compatibilidad universal con todos los sistemas"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 105,
+      "unidad": "UT6",
+      "enunciado": "¿Qué opción de montaje en Linux fuerza el acceso en solo lectura?",
+      "opciones": {
+        "a": "exec",
+        "b": "ro",
+        "c": "rw",
+        "d": "user"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 106,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando desmonta un sistema de archivos en Linux?",
+      "opciones": {
+        "a": "lsblk",
+        "b": "chmod",
+        "c": "mount",
+        "d": "umount"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 107,
+      "unidad": "UT6",
+      "enunciado": "¿Qué directorio en Linux suele emplearse para montajes temporales?",
+      "opciones": {
+        "a": "/opt",
+        "b": "/etc",
+        "c": "/usr",
+        "d": "/mnt"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 108,
+      "unidad": "UT6",
+      "enunciado": "¿Qué sistema de archivos de Microsoft está diseñado para alta capacidad y resiliencia?",
+      "opciones": {
+        "a": "ReFS",
+        "b": "Ext3",
+        "c": "ZFS",
+        "d": "FAT16"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 109,
+      "unidad": "UT6",
+      "enunciado": "¿Qué es un sistema de archivos?",
+      "opciones": {
+        "a": "Una memoria caché de la CPU",
+        "b": "Un controlador de dispositivo de red",
+        "c": "Una tabla de procesos en ejecución",
+        "d": "Una estructura que organiza y gestiona datos en dispositivos de almacenamiento"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 110,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta de Linux está especializada en reparar sistemas de archivos XFS?",
+      "opciones": {
+        "a": "fsck.fat",
+        "b": "xfs_repair",
+        "c": "sfc",
+        "d": "fsck.ext4"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 111,
+      "unidad": "UT6",
+      "enunciado": "¿Qué error típico se produce cuando un disco presenta áreas físicas dañadas?",
+      "opciones": {
+        "a": "Sector defectuoso",
+        "b": "Fragmentación alta",
+        "c": "Inodo corrupto",
+        "d": "Journal dañado"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 112,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tecnología de discos permite predecir fallos inminentes?",
+      "opciones": {
+        "a": "RAID 0",
+        "b": "BIOS",
+        "c": "UEFI",
+        "d": "SMART"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 113,
+      "unidad": "UT6",
+      "enunciado": "¿Qué sistema de archivos combina gestor de volúmenes y sistema de archivos?",
+      "opciones": {
+        "a": "ZFS",
+        "b": "FAT32",
+        "c": "NTFS",
+        "d": "Ext4"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 114,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando en Linux muestra la estructura de bloques de dispositivos?",
+      "opciones": {
+        "a": "defrag",
+        "b": "diskpart",
+        "c": "lsblk",
+        "d": "fsck"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 115,
+      "unidad": "UT6",
+      "enunciado": "¿Qué esquema de particionado permite hasta 128 particiones primarias?",
+      "opciones": {
+        "a": "BIOS",
+        "b": "GPT",
+        "c": "FAT32",
+        "d": "MBR"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 116,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál es el sistema de archivos por defecto en la mayoría de distribuciones Linux modernas?",
+      "opciones": {
+        "a": "FAT32",
+        "b": "HFS+",
+        "c": "Ext4",
+        "d": "NTFS"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 117,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta de Linux se utiliza para gestionar particiones en discos grandes con GPT?",
+      "opciones": {
+        "a": "diskpart",
+        "b": "defrag",
+        "c": "mountvol",
+        "d": "gdisk"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 118,
+      "unidad": "UT6",
+      "enunciado": "¿Qué archivo de configuración en Linux gestiona los montajes automáticos?",
+      "opciones": {
+        "a": "/etc/resolv.conf",
+        "b": "/etc/passwd",
+        "c": "/etc/hosts",
+        "d": "/etc/fstab"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 119,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta de Windows permite verificar y reparar sistemas de archivos?",
+      "opciones": {
+        "a": "chkdsk",
+        "b": "fsck",
+        "c": "badblocks",
+        "d": "smartctl"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 120,
+      "unidad": "UT6",
+      "enunciado": "¿Qué componente mantiene el registro de los bloques ocupados y disponibles?",
+      "opciones": {
+        "a": "La memoria virtual",
+        "b": "El journal del sistema",
+        "c": "La tabla de asignación de archivos",
+        "d": "El registro de procesos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 121,
+      "unidad": "UT7",
+      "enunciado": "¿Qué cuentas requieren protección especial con PAM y MFA?",
+      "opciones": {
+        "a": "Cuentas bloqueadas",
+        "b": "Usuarios estándar",
+        "c": "Cuentas de invitado",
+        "d": "Cuentas privilegiadas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 122,
+      "unidad": "UT7",
+      "enunciado": "¿Qué herramienta Linux muestra los últimos accesos fallidos por SSH?",
+      "opciones": {
+        "a": "free -m",
+        "b": "journalctl -u ssh",
+        "c": "uname -a",
+        "d": "ps aux"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 123,
+      "unidad": "UT7",
+      "enunciado": "¿Qué evento de Windows corresponde a un inicio de sesión correcto?",
+      "opciones": {
+        "a": "4624",
+        "b": "4625",
+        "c": "1102",
+        "d": "4688"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 124,
+      "unidad": "UT7",
+      "enunciado": "¿Qué solución open source de SIEM se basa en OSSEC?",
+      "opciones": {
+        "a": "Graylog",
+        "b": "Wazuh",
+        "c": "Nagios",
+        "d": "Splunk"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 125,
+      "unidad": "UT7",
+      "enunciado": "¿Qué herramienta de Linux permite auditar eventos de seguridad de alto valor?",
+      "opciones": {
+        "a": "cron",
+        "b": "auditd",
+        "c": "iptables",
+        "d": "systemctl"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 126,
+      "unidad": "UT7",
+      "enunciado": "¿Qué norma internacional define el Sistema de Gestión de Seguridad de la Información (SGSI)?",
+      "opciones": {
+        "a": "ISO 9001",
+        "b": "ISO/IEC 27001",
+        "c": "CIS Controls",
+        "d": "ITIL"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 127,
+      "unidad": "UT7",
+      "enunciado": "¿Qué técnica protege cuentas privilegiadas mediante concesión temporal de permisos?",
+      "opciones": {
+        "a": "Just-In-Time (JIT)",
+        "b": "Desfragmentación de disco",
+        "c": "Copia de seguridad incremental",
+        "d": "Multiplexación de procesos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 128,
+      "unidad": "UT7",
+      "enunciado": "¿Qué marco normativo español regula la seguridad en sistemas de información?",
+      "opciones": {
+        "a": "PCI-DSS",
+        "b": "COBIT",
+        "c": "ENS (Esquema Nacional de Seguridad)",
+        "d": "GDPR"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 129,
+      "unidad": "UT7",
+      "enunciado": "¿Qué plataforma de gestión de logs destaca por búsquedas y dashboards personalizados?",
+      "opciones": {
+        "a": "Metasploit",
+        "b": "Graylog",
+        "c": "Wireshark",
+        "d": "Nessus"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 130,
+      "unidad": "UT7",
+      "enunciado": "¿Cuál es el objetivo principal de una auditoría de sistemas?",
+      "opciones": {
+        "a": "Acelerar el rendimiento del hardware",
+        "b": "Evaluar la eficacia de los controles técnicos y organizativos",
+        "c": "Eliminar virus informáticos",
+        "d": "Reducir el coste de licencias de software"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 131,
+      "unidad": "UT7",
+      "enunciado": "¿Qué fase de la respuesta a incidentes incluye la erradicación de la causa raíz?",
+      "opciones": {
+        "a": "Contención y erradicación",
+        "b": "Post-mortem",
+        "c": "Recuperación",
+        "d": "Preparación"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 132,
+      "unidad": "UT7",
+      "enunciado": "¿Qué medida organizativa evita la acumulación excesiva de permisos?",
+      "opciones": {
+        "a": "Formateo de discos",
+        "b": "Recertificación periódica",
+        "c": "Deshabilitar el firewall",
+        "d": "Compartir contraseñas"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 133,
+      "unidad": "UT7",
+      "enunciado": "¿Qué documento recoge hallazgos, evidencias, riesgos y recomendaciones?",
+      "opciones": {
+        "a": "Inventario de hardware",
+        "b": "Informe de auditoría",
+        "c": "Acuerdo de nivel de servicio",
+        "d": "Manual de usuario"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 134,
+      "unidad": "UT7",
+      "enunciado": "¿Qué estándar internacional se complementa con ENS para auditorías mixtas?",
+      "opciones": {
+        "a": "ISO 14001",
+        "b": "NIST 800-53",
+        "c": "ITIL",
+        "d": "ISO/IEC 27001"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 135,
+      "unidad": "UT7",
+      "enunciado": "¿Qué comando de Windows permite exportar registros de eventos de seguridad?",
+      "opciones": {
+        "a": "netstat",
+        "b": "wevtutil epl",
+        "c": "ipconfig",
+        "d": "ping"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 136,
+      "unidad": "UT7",
+      "enunciado": "¿Qué directiva de Windows controla políticas avanzadas de auditoría?",
+      "opciones": {
+        "a": "msconfig",
+        "b": "auditpol",
+        "c": "gpupdate",
+        "d": "net use"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 137,
+      "unidad": "UT7",
+      "enunciado": "¿Qué comando de Linux muestra el estado de sincronización horaria?",
+      "opciones": {
+        "a": "ps aux",
+        "b": "timedatectl status",
+        "c": "df -h",
+        "d": "ls -l"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 138,
+      "unidad": "UT7",
+      "enunciado": "¿Qué modelo de control de accesos se basa en roles y jerarquías?",
+      "opciones": {
+        "a": "ABAC",
+        "b": "DAC",
+        "c": "RBAC",
+        "d": "MAC"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 139,
+      "unidad": "UT7",
+      "enunciado": "¿Qué principio se aplica en RBAC para reducir riesgos?",
+      "opciones": {
+        "a": "Máxima disponibilidad",
+        "b": "Uso compartido de credenciales",
+        "c": "Mínimo privilegio",
+        "d": "Redundancia de hardware"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 140,
+      "unidad": "UT7",
+      "enunciado": "¿Qué medida asegura la integridad de un archivo de evidencia?",
+      "opciones": {
+        "a": "Cambiar permisos de lectura",
+        "b": "Hash criptográfico",
+        "c": "Renombrar el archivo",
+        "d": "Copiarlo en otro directorio"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 141,
+      "unidad": "UT8",
+      "enunciado": "¿Qué archivo de configuración en MySQL permite ajustar parámetros críticos?",
+      "opciones": {
+        "a": "postgresql.conf",
+        "b": "my.cnf",
+        "c": "nginx.conf",
+        "d": "httpd.conf"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 142,
+      "unidad": "UT8",
+      "enunciado": "¿Qué servicio proporciona acceso web en un entorno cliente-servidor?",
+      "opciones": {
+        "a": "FTP",
+        "b": "Apache o Nginx",
+        "c": "Redis",
+        "d": "MySQL"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 143,
+      "unidad": "UT8",
+      "enunciado": "¿Qué herramienta se usa en Linux para configurar firewalls de forma sencilla?",
+      "opciones": {
+        "a": "netstat",
+        "b": "UFW",
+        "c": "cron",
+        "d": "curl"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 144,
+      "unidad": "UT8",
+      "enunciado": "¿Qué herramienta se utiliza para centralizar logs en múltiples servidores?",
+      "opciones": {
+        "a": "Nessus",
+        "b": "ELK Stack",
+        "c": "Zabbix",
+        "d": "top"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 145,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando en Linux permite instalar Apache?",
+      "opciones": {
+        "a": "yum remove apache2",
+        "b": "sudo apt install apache2",
+        "c": "netstat -tulnp",
+        "d": "systemctl status apache2"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 146,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando en Linux permite verificar el estado de un servicio?",
+      "opciones": {
+        "a": "cd",
+        "b": "ls -l",
+        "c": "pwd",
+        "d": "systemctl status"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 147,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando en Windows abre un puerto en el firewall?",
+      "opciones": {
+        "a": "netsh advfirewall firewall add rule",
+        "b": "ipconfig /all",
+        "c": "net start",
+        "d": "ping"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 148,
+      "unidad": "UT8",
+      "enunciado": "¿Qué arquitectura clásica se utiliza habitualmente en sistemas cliente-servidor?",
+      "opciones": {
+        "a": "Tres capas: presentación, lógica de negocio y datos",
+        "b": "Arquitectura híbrida de cinco capas",
+        "c": "Arquitectura mesh",
+        "d": "Monolítica de una sola capa"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 149,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando de PowerShell permite registrar un nuevo servicio en Windows?",
+      "opciones": {
+        "a": "sc query",
+        "b": "Set-Service",
+        "c": "Get-Service",
+        "d": "New-Service"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 150,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando en Linux muestra información sobre la CPU?",
+      "opciones": {
+        "a": "free -h",
+        "b": "top",
+        "c": "lscpu",
+        "d": "df -h"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 151,
+      "unidad": "UT8",
+      "enunciado": "¿Qué es lo primero que debe realizarse antes de implantar un servicio cliente-servidor?",
+      "opciones": {
+        "a": "Configuración de firewalls",
+        "b": "Análisis de requisitos y dependencias",
+        "c": "Pruebas de rendimiento",
+        "d": "Instalación de Apache"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 152,
+      "unidad": "UT8",
+      "enunciado": "¿Qué protocolo asegura las comunicaciones entre cliente y servidor?",
+      "opciones": {
+        "a": "TLS",
+        "b": "ARP",
+        "c": "FTP",
+        "d": "HTTP sin cifrado"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 153,
+      "unidad": "UT8",
+      "enunciado": "¿Qué práctica de seguridad se recomienda al usar contenedores?",
+      "opciones": {
+        "a": "Ejecutar procesos con usuarios sin privilegios root",
+        "b": "Compartir volúmenes sin restricción",
+        "c": "Usar siempre root para evitar errores",
+        "d": "Evitar la actualización de imágenes"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 154,
+      "unidad": "UT8",
+      "enunciado": "¿Qué concepto implica gestionar infraestructura mediante código reproducible?",
+      "opciones": {
+        "a": "Infrastructure as Code (IaC)",
+        "b": "Ejecución en local",
+        "c": "Gestión manual de servicios",
+        "d": "Virtualización ligera"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 155,
+      "unidad": "UT8",
+      "enunciado": "¿Qué servicio de transferencia de archivos no cifra de manera nativa sus comunicaciones?",
+      "opciones": {
+        "a": "FTPS",
+        "b": "FTP",
+        "c": "SFTP",
+        "d": "SCP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 156,
+      "unidad": "UT8",
+      "enunciado": "¿Qué motor de base de datos destaca por su robustez y soporte ACID avanzado?",
+      "opciones": {
+        "a": "MariaDB",
+        "b": "MySQL",
+        "c": "PostgreSQL",
+        "d": "SQLite"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 157,
+      "unidad": "UT8",
+      "enunciado": "¿Qué herramienta permite simular usuarios concurrentes en pruebas de carga?",
+      "opciones": {
+        "a": "Grafana",
+        "b": "JMeter",
+        "c": "ELK",
+        "d": "Prometheus"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 158,
+      "unidad": "UT8",
+      "enunciado": "¿Qué comando en Linux muestra la memoria disponible en el sistema?",
+      "opciones": {
+        "a": "df -h",
+        "b": "ls",
+        "c": "free -h",
+        "d": "cat /etc/os-release"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 159,
+      "unidad": "UT8",
+      "enunciado": "¿Qué herramienta permite automatizar despliegues declarativos de infraestructura?",
+      "opciones": {
+        "a": "Docker",
+        "b": "Bash",
+        "c": "Git",
+        "d": "Terraform"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 160,
+      "unidad": "UT8",
+      "enunciado": "¿Qué gestor de servicios se utiliza en Linux para configurar arranques automáticos?",
+      "opciones": {
+        "a": "systemd",
+        "b": "init.d",
+        "c": "Upstart",
+        "d": "rc.local"
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

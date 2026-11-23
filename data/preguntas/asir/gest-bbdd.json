@@ -1,0 +1,1434 @@
+{
+  "simulacro": "Autoevaluaciones UT1-UT6 - Gestión de Bases de Datos",
+  "total_preguntas": 119,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": "UT1",
+      "enunciado": "¿Qué nivel de abstracción corresponde al almacenamiento físico de datos?",
+      "opciones": {
+        "a": "Nivel externo",
+        "b": "Nivel sintáctico",
+        "c": "Nivel interno",
+        "d": "Nivel conceptual"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "unidad": "UT1",
+      "enunciado": "¿Qué tipo de base de datos almacena documentos con estructuras JSON?",
+      "opciones": {
+        "a": "Base de datos documental",
+        "b": "Base de datos OLAP",
+        "c": "Base de datos jerárquica",
+        "d": "Base de datos secuencial"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "unidad": "UT1",
+      "enunciado": "¿Quién formuló el modelo relacional de bases de datos?",
+      "opciones": {
+        "a": "Edgar F. Codd",
+        "b": "Alan Turing",
+        "c": "Tim Berners-Lee",
+        "d": "Charles Babbage"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "unidad": "UT1",
+      "enunciado": "¿Qué tipo de sistema se especializa en análisis de grandes volúmenes de datos?",
+      "opciones": {
+        "a": "OLTP",
+        "b": "Hashing",
+        "c": "Redis",
+        "d": "OLAP"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "unidad": "UT1",
+      "enunciado": "¿Qué es una base de datos?",
+      "opciones": {
+        "a": "Un archivo ejecutable para el sistema operativo",
+        "b": "Un dispositivo de red para comunicaciones",
+        "c": "Un sistema que organiza y almacena datos de forma estructurada",
+        "d": "Un lenguaje de programación para páginas web"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "unidad": "UT1",
+      "enunciado": "¿Qué hace un sistema gestor de bases de datos (SGBD)?",
+      "opciones": {
+        "a": "Gestiona exclusivamente datos multimedia",
+        "b": "Permite crear, modificar y consultar datos de forma estructurada",
+        "c": "Encripta todos los documentos del sistema",
+        "d": "Diseña interfaces gráficas de usuario"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "unidad": "UT1",
+      "enunciado": "¿Qué sector usa las bases de datos para gestionar historias clínicas electrónicas?",
+      "opciones": {
+        "a": "Educación",
+        "b": "Transporte",
+        "c": "Turismo",
+        "d": "Sanidad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "unidad": "UT1",
+      "enunciado": "¿Qué nivel de abstracción presenta los datos de forma personalizada a cada usuario?",
+      "opciones": {
+        "a": "Nivel externo",
+        "b": "Nivel interno",
+        "c": "Nivel conceptual",
+        "d": "Nivel físico"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es una ventaja de los SGBD respecto a los ficheros tradicionales?",
+      "opciones": {
+        "a": "Consumen menos energía eléctrica",
+        "b": "Evitan la creación de backups",
+        "c": "Permiten relaciones entre datos y control de acceso",
+        "d": "Requieren menos conocimientos técnicos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es una característica del modelo clave-valor?",
+      "opciones": {
+        "a": "Cada fila debe contener al menos tres claves",
+        "b": "Utiliza exclusivamente memoria volátil",
+        "c": "Cada registro está formado por una clave única y su valor asociado",
+        "d": "Se basa en estructuras XML estrictas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 11,
+      "unidad": "UT1",
+      "enunciado": "¿Qué tipo de sistema se emplea para gestionar transacciones rápidas y frecuentes?",
+      "opciones": {
+        "a": "OLTP",
+        "b": "OLAP",
+        "c": "NoSQL",
+        "d": "Modelo orientado a objetos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 12,
+      "unidad": "UT1",
+      "enunciado": "¿Qué es un fichero indexado?",
+      "opciones": {
+        "a": "Una copia de seguridad en cinta",
+        "b": "Una hoja de cálculo protegida",
+        "c": "Un documento físico con enlaces manuales",
+        "d": "Un fichero que utiliza índices para localizar registros rápidamente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 13,
+      "unidad": "UT1",
+      "enunciado": "¿Qué es una vista en el contexto de una base de datos?",
+      "opciones": {
+        "a": "Un duplicado físico de otra tabla",
+        "b": "Un archivo indexado externo",
+        "c": "Un backup temporal",
+        "d": "Una tabla virtual basada en una consulta"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 14,
+      "unidad": "UT1",
+      "enunciado": "¿Qué nivel de abstracción define la estructura lógica general de la base de datos?",
+      "opciones": {
+        "a": "Nivel de red",
+        "b": "Nivel conceptual",
+        "c": "Nivel interno",
+        "d": "Nivel externo"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 15,
+      "unidad": "UT1",
+      "enunciado": "¿Qué caracteriza a los ficheros secuenciales?",
+      "opciones": {
+        "a": "Integran estructuras en grafos",
+        "b": "Pueden cifrar los datos automáticamente",
+        "c": "Utilizan sistemas de réplica distribuida",
+        "d": "Se accede a los registros de forma ordenada y progresiva"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 16,
+      "unidad": "UT1",
+      "enunciado": "¿Qué define un fichero plano?",
+      "opciones": {
+        "a": "Una tabla con claves foráneas complejas",
+        "b": "Un archivo de texto con registros en líneas separadas y delimitados por símbolos",
+        "c": "Un sistema de archivos en clúster",
+        "d": "Un archivo HTML con código embebido"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 17,
+      "unidad": "UT1",
+      "enunciado": "¿Qué modelo de datos utiliza relaciones entre nodos?",
+      "opciones": {
+        "a": "Modelo jerárquico",
+        "b": "Modelo físico",
+        "c": "Modelo OLTP",
+        "d": "Modelo en grafos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 18,
+      "unidad": "UT1",
+      "enunciado": "¿Qué herramienta se usa habitualmente para consultas en bases de datos relacionales?",
+      "opciones": {
+        "a": "SQL",
+        "b": "HTML",
+        "c": "Python",
+        "d": "CSS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 19,
+      "unidad": "UT1",
+      "enunciado": "¿Qué estructura utiliza el modelo relacional?",
+      "opciones": {
+        "a": "Registros cifrados en XML",
+        "b": "Árboles de decisión jerárquicos",
+        "c": "Tablas compuestas por filas y columnas",
+        "d": "Documentos PDF incrustados"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 20,
+      "unidad": "UT1",
+      "enunciado": "¿Cuál es el propósito principal de una base de datos?",
+      "opciones": {
+        "a": "Codificar algoritmos de compresión",
+        "b": "Enviar correos electrónicos automáticamente",
+        "c": "Diseñar gráficos vectoriales",
+        "d": "Almacenar, consultar y mantener datos de forma eficiente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 21,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tipo de atributo puede dividirse en subatributos?",
+      "opciones": {
+        "a": "Simple",
+        "b": "Derivado",
+        "c": "Multivaluado",
+        "d": "Compuesto"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tipo de atributo puede tener varios valores?",
+      "opciones": {
+        "a": "Simple",
+        "b": "Compuesto",
+        "c": "Derivado",
+        "d": "Multivaluado"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 23,
+      "unidad": "UT2",
+      "enunciado": "¿Qué significa transformar una relación 1:N en el modelo relacional?",
+      "opciones": {
+        "a": "Dividir en varias tablas",
+        "b": "Crear un índice cruzado",
+        "c": "Eliminar la relación",
+        "d": "Agregar una clave foránea en la entidad del lado N"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 24,
+      "unidad": "UT2",
+      "enunciado": "¿Qué se evita aplicando normalización?",
+      "opciones": {
+        "a": "Errores de sintaxis SQL",
+        "b": "Relaciones reflexivas",
+        "c": "Redundancia de datos",
+        "d": "Creación de vistas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 25,
+      "unidad": "UT2",
+      "enunciado": "¿Qué modelo se usa para representar datos sin considerar un SGBD concreto?",
+      "opciones": {
+        "a": "Modelo físico",
+        "b": "Modelo externo",
+        "c": "Modelo lógico",
+        "d": "Modelo conceptual"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 26,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta se utiliza para representar gráficamente entidades y relaciones?",
+      "opciones": {
+        "a": "Mapa de red",
+        "b": "Esquema XML",
+        "c": "Modelo físico",
+        "d": "Diagrama Entidad-Relación"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 27,
+      "unidad": "UT2",
+      "enunciado": "¿Cuál es el objetivo principal del modelado de datos?",
+      "opciones": {
+        "a": "Realizar copias de seguridad de los datos",
+        "b": "Organizar los datos de forma lógica y eficiente",
+        "c": "Implementar la base de datos en el sistema",
+        "d": "Crear índices en tablas complejas"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 28,
+      "unidad": "UT2",
+      "enunciado": "¿Qué caracteriza a una relación ternaria?",
+      "opciones": {
+        "a": "No tiene atributos propios",
+        "b": "Involucra una sola entidad",
+        "c": "Involucra tres entidades",
+        "d": "Aparece solo en 3FN"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 29,
+      "unidad": "UT2",
+      "enunciado": "¿Qué se crea al convertir una relación N:M en el modelo relacional?",
+      "opciones": {
+        "a": "Un atributo derivado",
+        "b": "Una vista",
+        "c": "Una tabla intermedia",
+        "d": "Una clave primaria"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 30,
+      "unidad": "UT2",
+      "enunciado": "¿Qué atributo se calcula a partir de otros?",
+      "opciones": {
+        "a": "Simple",
+        "b": "Multivaluado",
+        "c": "Compuesto",
+        "d": "Derivado"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 31,
+      "unidad": "UT2",
+      "enunciado": "¿Qué es una dependencia funcional?",
+      "opciones": {
+        "a": "Una entidad depende de otra",
+        "b": "Una clave ajena que apunta a otra tabla",
+        "c": "Un atributo depende del valor de otro",
+        "d": "Una relación con cardinalidad 1:1"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 32,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tipo de especialización permite que una instancia pertenezca a varios subtipos?",
+      "opciones": {
+        "a": "Exclusiva",
+        "b": "Total",
+        "c": "Parcial",
+        "d": "Solapada"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 33,
+      "unidad": "UT2",
+      "enunciado": "¿Cuál es el resultado de aplicar la 1FN?",
+      "opciones": {
+        "a": "Separación de dependencias transitivas",
+        "b": "Creación de claves artificiales",
+        "c": "Separación en tablas jerárquicas",
+        "d": "Eliminación de atributos multivaluados y compuestos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 34,
+      "unidad": "UT2",
+      "enunciado": "¿Qué representa una clave primaria?",
+      "opciones": {
+        "a": "Identificador único de cada fila en una tabla",
+        "b": "Un tipo de dato de texto largo",
+        "c": "Relación entre tablas",
+        "d": "Un campo opcional"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 35,
+      "unidad": "UT2",
+      "enunciado": "¿Qué indica la cardinalidad 1:N?",
+      "opciones": {
+        "a": "Ninguna relación posible",
+        "b": "Varias entidades se relacionan con varias",
+        "c": "Una instancia de una entidad se relaciona con muchas de otra",
+        "d": "Ambas entidades tienen una sola instancia"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 36,
+      "unidad": "UT2",
+      "enunciado": "¿Qué forma normal elimina las dependencias parciales?",
+      "opciones": {
+        "a": "3FN",
+        "b": "2FN",
+        "c": "1FN",
+        "d": "BCNF"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 37,
+      "unidad": "UT2",
+      "enunciado": "¿Qué ocurre si no se define bien una clave foránea?",
+      "opciones": {
+        "a": "No se puede usar SQL",
+        "b": "Se generan índices duplicados",
+        "c": "Puede romperse la integridad referencial",
+        "d": "Se bloquea la base de datos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 38,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tipo de relación vincula a una entidad consigo misma?",
+      "opciones": {
+        "a": "Paralela",
+        "b": "Exclusiva",
+        "c": "Ternaria",
+        "d": "Reflexiva"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 39,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta formaliza jerarquías entre entidades?",
+      "opciones": {
+        "a": "Modelo E/R ampliado",
+        "b": "Modelo relacional",
+        "c": "Modelo dimensional",
+        "d": "Modelo físico"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 40,
+      "unidad": "UT2",
+      "enunciado": "¿Qué notación utiliza óvalos, rectángulos y rombos?",
+      "opciones": {
+        "a": "Notación UML",
+        "b": "Notación EBNF",
+        "c": "Notación Chen",
+        "d": "Notación Crow's Foot"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 41,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de integridad controla los valores permitidos en una columna?",
+      "opciones": {
+        "a": "Integridad referencial",
+        "b": "Integridad externa",
+        "c": "Integridad de dominio",
+        "d": "Integridad compuesta"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 42,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál de los siguientes asegura la relación entre tablas?",
+      "opciones": {
+        "a": "INDEX",
+        "b": "DEFAULT",
+        "c": "UNIQUE",
+        "d": "FOREIGN KEY"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 43,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando se usa para seleccionar una base de datos?",
+      "opciones": {
+        "a": "SELECT DATABASE",
+        "b": "CHOOSE",
+        "c": "OPEN",
+        "d": "USE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 44,
+      "unidad": "UT3",
+      "enunciado": "¿Qué restricción permite establecer un valor por defecto?",
+      "opciones": {
+        "a": "NOT NULL",
+        "b": "CHECK",
+        "c": "UNIQUE",
+        "d": "DEFAULT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 45,
+      "unidad": "UT3",
+      "enunciado": "¿Qué sentencia permite eliminar una base de datos?",
+      "opciones": {
+        "a": "DELETE DATABASE",
+        "b": "DROP DATABASE",
+        "c": "REMOVE DATABASE",
+        "d": "ERASE DATABASE"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 46,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál de las siguientes no es una sentencia DDL?",
+      "opciones": {
+        "a": "ALTER",
+        "b": "CREATE",
+        "c": "DROP",
+        "d": "SELECT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 47,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de integridad garantiza que cada fila sea única y completa?",
+      "opciones": {
+        "a": "Integridad lógica",
+        "b": "Integridad referencial",
+        "c": "Integridad de entidad",
+        "d": "Integridad de dominio"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 48,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de dato se usa para almacenar fechas?",
+      "opciones": {
+        "a": "CHAR",
+        "b": "VARCHAR",
+        "c": "DATE",
+        "d": "TEXT"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 49,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál es una herramienta de consola para trabajar con MySQL?",
+      "opciones": {
+        "a": "Shell Admin",
+        "b": "Cliente de línea de comandos",
+        "c": "Workbench",
+        "d": "SQL Studio"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 50,
+      "unidad": "UT3",
+      "enunciado": "¿Qué instrucción se usa para crear una base de datos en SQL?",
+      "opciones": {
+        "a": "NEW DATABASE",
+        "b": "INIT DATABASE",
+        "c": "CREATE DATABASE",
+        "d": "MAKE DATABASE"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 51,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál de las siguientes herramientas es una interfaz gráfica para MySQL?",
+      "opciones": {
+        "a": "AdminTools",
+        "b": "Oracle CLI",
+        "c": "MySQL Workbench",
+        "d": "phpMyAdmin Console"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 52,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál de los siguientes es un tipo de dato para texto de longitud variable?",
+      "opciones": {
+        "a": "VARCHAR",
+        "b": "TEXT",
+        "c": "STRING",
+        "d": "CHAR"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 53,
+      "unidad": "UT3",
+      "enunciado": "¿Qué sentencia permite modificar la estructura de una tabla?",
+      "opciones": {
+        "a": "UPDATE STRUCTURE",
+        "b": "MODIFY TABLE",
+        "c": "CHANGE TABLE",
+        "d": "ALTER TABLE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 54,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de restricción impide que un campo quede vacío?",
+      "opciones": {
+        "a": "DEFAULT",
+        "b": "UNIQUE",
+        "c": "NOT NULL",
+        "d": "PRIMARY"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 55,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de índice permite acelerar búsquedas?",
+      "opciones": {
+        "a": "VIEW",
+        "b": "INDEX",
+        "c": "TABLE",
+        "d": "CONSTRAINT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 56,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de índice asegura que los valores no se repitan?",
+      "opciones": {
+        "a": "DEFAULT",
+        "b": "FOREIGN",
+        "c": "CHECK",
+        "d": "UNIQUE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 57,
+      "unidad": "UT3",
+      "enunciado": "¿Cuál es la mejor práctica al nombrar campos en SQL?",
+      "opciones": {
+        "a": "Utilizar nombres genéricos",
+        "b": "Usar nombres claros y sin espacios",
+        "c": "Escribir en mayúsculas",
+        "d": "Incluir caracteres especiales"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 58,
+      "unidad": "UT3",
+      "enunciado": "¿Qué comando permite crear una tabla nueva?",
+      "opciones": {
+        "a": "NEW TABLE",
+        "b": "BUILD TABLE",
+        "c": "INIT TABLE",
+        "d": "CREATE TABLE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 59,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de clave identifica unívocamente cada fila?",
+      "opciones": {
+        "a": "UNIQUE",
+        "b": "PRIMARY KEY",
+        "c": "INDEX",
+        "d": "FOREIGN KEY"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 60,
+      "unidad": "UT4",
+      "enunciado": "¿Qué cláusula permite aplicar funciones de ventana como AVG sin agrupar?",
+      "opciones": {
+        "a": "WINDOW",
+        "b": "OVER",
+        "c": "PARTITION",
+        "d": "RANK"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 61,
+      "unidad": "UT4",
+      "enunciado": "¿Qué operador se usa para comprobar si una subconsulta devuelve al menos un resultado?",
+      "opciones": {
+        "a": "IN",
+        "b": "ANY",
+        "c": "CHECK",
+        "d": "EXISTS"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 62,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de JOIN devuelve solo los registros con coincidencias en ambas tablas?",
+      "opciones": {
+        "a": "FULL JOIN",
+        "b": "RIGHT JOIN",
+        "c": "INNER JOIN",
+        "d": "LEFT JOIN"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 63,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de subconsulta utiliza columnas de la consulta externa?",
+      "opciones": {
+        "a": "Correlacionada",
+        "b": "Autónoma",
+        "c": "Anidada",
+        "d": "Independiente"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 64,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de JOIN incluye todos los registros de la tabla izquierda?",
+      "opciones": {
+        "a": "INNER JOIN",
+        "b": "CROSS JOIN",
+        "c": "LEFT JOIN",
+        "d": "RIGHT JOIN"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 65,
+      "unidad": "UT4",
+      "enunciado": "¿Qué tipo de función se aplica a cada fila de forma individual?",
+      "opciones": {
+        "a": "Global",
+        "b": "Agregada",
+        "c": "Escalar",
+        "d": "Analítica"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 66,
+      "unidad": "UT4",
+      "enunciado": "¿Qué función convierte texto a mayúsculas en SQL?",
+      "opciones": {
+        "a": "UPPER",
+        "b": "CAPITALIZE",
+        "c": "CAPS",
+        "d": "TO_UPPER"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 67,
+      "unidad": "UT4",
+      "enunciado": "¿Qué operador se utiliza para comparar una columna con un patrón de texto?",
+      "opciones": {
+        "a": "INCLUDES",
+        "b": "MATCH",
+        "c": "EQUALS",
+        "d": "LIKE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 68,
+      "unidad": "UT4",
+      "enunciado": "¿Qué palabra clave permite mostrar solo valores únicos en los resultados?",
+      "opciones": {
+        "a": "SEPARATE",
+        "b": "ONLY",
+        "c": "UNIQUE",
+        "d": "DISTINCT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 69,
+      "unidad": "UT4",
+      "enunciado": "¿Qué cláusula se emplea para ordenar los resultados de una consulta?",
+      "opciones": {
+        "a": "LIMIT",
+        "b": "HAVING",
+        "c": "GROUP BY",
+        "d": "ORDER BY"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 70,
+      "unidad": "UT4",
+      "enunciado": "¿Cuál es la función que permite calcular el promedio de una columna numérica?",
+      "opciones": {
+        "a": "MEAN",
+        "b": "TOTAL",
+        "c": "AVG",
+        "d": "SUM"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 71,
+      "unidad": "UT4",
+      "enunciado": "¿Qué palabra clave se utiliza para asignar un alias a una columna o tabla?",
+      "opciones": {
+        "a": "NAME",
+        "b": "AS",
+        "c": "LIKE",
+        "d": "ALIAS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 72,
+      "unidad": "UT4",
+      "enunciado": "¿Qué cláusula SQL se utiliza para filtrar filas según condiciones específicas?",
+      "opciones": {
+        "a": "WHERE",
+        "b": "SELECT",
+        "c": "ORDER BY",
+        "d": "HAVING"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 73,
+      "unidad": "UT4",
+      "enunciado": "¿Qué función SQL se usa para contar el número de registros de una consulta?",
+      "opciones": {
+        "a": "AVG",
+        "b": "COUNT",
+        "c": "TOTAL",
+        "d": "SUM"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 74,
+      "unidad": "UT4",
+      "enunciado": "¿Qué cláusula permite agrupar resultados por valores comunes?",
+      "opciones": {
+        "a": "ORDER BY",
+        "b": "AS",
+        "c": "SELECT",
+        "d": "GROUP BY"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 75,
+      "unidad": "UT4",
+      "enunciado": "¿Qué cláusula se usa para filtrar después de una agregación con GROUP BY?",
+      "opciones": {
+        "a": "HAVING",
+        "b": "ORDER BY",
+        "c": "FILTER",
+        "d": "WHERE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 76,
+      "unidad": "UT4",
+      "enunciado": "¿Qué palabra clave permite eliminar una vista?",
+      "opciones": {
+        "a": "REMOVE VIEW",
+        "b": "DELETE VIEW",
+        "c": "ERASE VIEW",
+        "d": "DROP VIEW"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 77,
+      "unidad": "UT4",
+      "enunciado": "¿Qué operador permite seleccionar registros dentro de un rango de valores?",
+      "opciones": {
+        "a": "COMPARE",
+        "b": "BETWEEN",
+        "c": "RANGE",
+        "d": "LIMIT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 78,
+      "unidad": "UT4",
+      "enunciado": "¿Qué operador se usa para comprobar si un valor está incluido en una lista?",
+      "opciones": {
+        "a": "BETWEEN",
+        "b": "ANY",
+        "c": "EXISTS",
+        "d": "IN"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 79,
+      "unidad": "UT4",
+      "enunciado": "¿Qué palabra clave se usa para crear una vista en SQL?",
+      "opciones": {
+        "a": "DEFINE VIEW",
+        "b": "MAKE VIEW",
+        "c": "CREATE VIEW",
+        "d": "NEW VIEW"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 80,
+      "unidad": "UT5",
+      "enunciado": "¿Qué comando impide temporalmente el acceso a una tabla por parte de otras transacciones?",
+      "opciones": {
+        "a": "ISOLATE",
+        "b": "LOCK TABLE",
+        "c": "RESTRICT",
+        "d": "DENY"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 81,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de clave relaciona registros entre dos tablas distintas?",
+      "opciones": {
+        "a": "Clave foránea",
+        "b": "Clave primaria",
+        "c": "Clave secundaria",
+        "d": "Clave única"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "unidad": "UT5",
+      "enunciado": "¿Qué nivel de aislamiento evita lecturas sucias, no repetibles y fantasmas?",
+      "opciones": {
+        "a": "REPEATABLE READ",
+        "b": "READ COMMITTED",
+        "c": "SERIALIZABLE",
+        "d": "READ UNCOMMITTED"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 83,
+      "unidad": "UT5",
+      "enunciado": "¿Qué sentencia DML permite insertar nuevos registros en una tabla?",
+      "opciones": {
+        "a": "INSERT",
+        "b": "DELETE",
+        "c": "UPDATE",
+        "d": "SELECT"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 84,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es el comando SQL para modificar registros existentes?",
+      "opciones": {
+        "a": "ALTER",
+        "b": "DELETE",
+        "c": "UPDATE",
+        "d": "INSERT"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 85,
+      "unidad": "UT5",
+      "enunciado": "¿Qué palabra clave en SQL se utiliza para confirmar una transacción?",
+      "opciones": {
+        "a": "SAVEPOINT",
+        "b": "START",
+        "c": "COMMIT",
+        "d": "ROLLBACK"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 86,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de problema ocurre cuando una transacción lee datos no confirmados por otra?",
+      "opciones": {
+        "a": "Lectura sucia",
+        "b": "Lectura retrasada",
+        "c": "Lectura comprometida",
+        "d": "Lectura fantasma"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 87,
+      "unidad": "UT5",
+      "enunciado": "¿Qué comando se usa para revertir una parte concreta de una transacción?",
+      "opciones": {
+        "a": "UNDO",
+        "b": "ROLLBACK TO SAVEPOINT",
+        "c": "BACK",
+        "d": "REVERT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 88,
+      "unidad": "UT5",
+      "enunciado": "¿Qué propiedad ACID evita que los cambios de una transacción sean visibles antes de finalizarse?",
+      "opciones": {
+        "a": "Atomicidad",
+        "b": "Aislamiento",
+        "c": "Durabilidad",
+        "d": "Consistencia"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 89,
+      "unidad": "UT5",
+      "enunciado": "¿Qué motor de almacenamiento en MySQL soporta transacciones?",
+      "opciones": {
+        "a": "Aria",
+        "b": "MyISAM",
+        "c": "InnoDB",
+        "d": "Memory"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 90,
+      "unidad": "UT5",
+      "enunciado": "¿Qué palabra clave se emplea para deshacer una transacción en curso?",
+      "opciones": {
+        "a": "ROLLBACK",
+        "b": "UNDO",
+        "c": "CANCEL",
+        "d": "COMMIT"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 91,
+      "unidad": "UT5",
+      "enunciado": "¿Qué cláusula SQL define el comportamiento al eliminar registros relacionados con una clave foránea?",
+      "opciones": {
+        "a": "ON SELECT",
+        "b": "ON DELETE",
+        "c": "ON INSERT",
+        "d": "ON ROLLBACK"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 92,
+      "unidad": "UT5",
+      "enunciado": "¿Qué sentencia elimina datos de una tabla sin afectar su estructura?",
+      "opciones": {
+        "a": "DROP",
+        "b": "ALTER",
+        "c": "TRUNCATE",
+        "d": "DELETE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 93,
+      "unidad": "UT5",
+      "enunciado": "¿Cómo se denomina el fenómeno en el que dos transacciones se bloquean mutuamente?",
+      "opciones": {
+        "a": "Conflicto cruzado",
+        "b": "Sobrecarga",
+        "c": "Inconsistencia",
+        "d": "Interbloqueo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 94,
+      "unidad": "UT5",
+      "enunciado": "¿Qué propiedad ACID asegura que la base de datos pase de un estado válido a otro también válido?",
+      "opciones": {
+        "a": "Atomicidad",
+        "b": "Aislamiento",
+        "c": "Durabilidad",
+        "d": "Consistencia"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 95,
+      "unidad": "UT5",
+      "enunciado": "¿Cuál es la propiedad ACID que garantiza que una transacción se ejecuta completamente o no se ejecuta?",
+      "opciones": {
+        "a": "Consistencia",
+        "b": "Durabilidad",
+        "c": "Atomicidad",
+        "d": "Aislamiento"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 96,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de bloqueo impide cualquier otra lectura o escritura en el dato bloqueado?",
+      "opciones": {
+        "a": "Compartido",
+        "b": "Condicional",
+        "c": "Exclusivo",
+        "d": "Relacional"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 97,
+      "unidad": "UT5",
+      "enunciado": "¿Qué comando inicia una transacción en SQL?",
+      "opciones": {
+        "a": "INIT",
+        "b": "START SESSION",
+        "c": "OPEN",
+        "d": "BEGIN"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 98,
+      "unidad": "UT5",
+      "enunciado": "¿Qué propiedad ACID garantiza que los cambios confirmados no se pierdan?",
+      "opciones": {
+        "a": "Consistencia",
+        "b": "Integridad",
+        "c": "Aislamiento",
+        "d": "Durabilidad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 99,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de bloqueo permite solo lectura simultánea por varias transacciones?",
+      "opciones": {
+        "a": "Compartido",
+        "b": "Exclusivo",
+        "c": "Temporal",
+        "d": "General"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 100,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta permite importar datos a una tabla en MySQL desde un archivo CSV?",
+      "opciones": {
+        "a": "mysqldump",
+        "b": "mysqlimport",
+        "c": "restorecli",
+        "d": "sqlimport"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 101,
+      "unidad": "UT6",
+      "enunciado": "¿Qué utilidad permite trabajar con MySQL desde una interfaz web en el navegador?",
+      "opciones": {
+        "a": "SQLite CLI",
+        "b": "phpMyAdmin",
+        "c": "SQL Server Agent",
+        "d": "MySQL Workbench"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 102,
+      "unidad": "UT6",
+      "enunciado": "¿Qué extensión suele tener un archivo de copia de seguridad en SQL Server?",
+      "opciones": {
+        "a": ".dat",
+        "b": ".db",
+        "c": ".bak",
+        "d": ".csv"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 103,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando se usa para exportar una base de datos completa en MySQL desde terminal?",
+      "opciones": {
+        "a": "pgdump",
+        "b": "mysqldump",
+        "c": "dumpall",
+        "d": "mysqlimport"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 104,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tipo de validación consiste en restaurar una copia en un entorno de pruebas?",
+      "opciones": {
+        "a": "Restauración paralela",
+        "b": "Backup en caliente",
+        "c": "Restauración de prueba",
+        "d": "Comprobación binaria"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 105,
+      "unidad": "UT6",
+      "enunciado": "¿Qué característica tiene una copia diferencial respecto a la incremental?",
+      "opciones": {
+        "a": "No guarda cambios, solo estructura",
+        "b": "Se hace en paralelo con cada consulta SELECT",
+        "c": "Acumula todos los cambios desde la última copia completa",
+        "d": "Solo guarda los cambios desde la última copia incremental"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 106,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tipo de copia se considera más rápida en tiempo de ejecución y requiere menos espacio?",
+      "opciones": {
+        "a": "Copia espejo",
+        "b": "Copia completa",
+        "c": "Copia diferencial completa",
+        "d": "Copia incremental"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 107,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál de los siguientes formatos permite representar datos jerárquicos con etiquetas?",
+      "opciones": {
+        "a": "CSV",
+        "b": "TXT",
+        "c": "SQL",
+        "d": "XML"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 108,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál de los siguientes es un componente necesario en una política de respaldo?",
+      "opciones": {
+        "a": "Frecuencia, responsables y procedimientos",
+        "b": "Índices, normalización y claves",
+        "c": "Clave foránea y consultas SQL",
+        "d": "Diagrama E/R y análisis funcional"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 109,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta permite automatizar copias de seguridad mediante programación en Linux?",
+      "opciones": {
+        "a": "phpBackup",
+        "b": "cron",
+        "c": "taskmgr",
+        "d": "rsyncgui"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 110,
+      "unidad": "UT6",
+      "enunciado": "¿Qué comando permite recuperar una base de datos desde un archivo .sql en MySQL?",
+      "opciones": {
+        "a": "pg_restore archivo.sql",
+        "b": "mysqlimport archivo.sql",
+        "c": "mysql < archivo.sql",
+        "d": "mysqldump < archivo.sql"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 111,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta permite migrar una base de datos desde Oracle a PostgreSQL?",
+      "opciones": {
+        "a": "pgLoader",
+        "b": "Workbench",
+        "c": "SSMA",
+        "d": "pgSQL Viewer"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 112,
+      "unidad": "UT6",
+      "enunciado": "¿Qué principio recomienda tener al menos una copia fuera del entorno habitual?",
+      "opciones": {
+        "a": "RAID 1",
+        "b": "3-2-1",
+        "c": "Full-Diff",
+        "d": "ACID"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 113,
+      "unidad": "UT6",
+      "enunciado": "¿Qué concepto define la cantidad máxima de datos que pueden perderse tras un fallo?",
+      "opciones": {
+        "a": "RTO",
+        "b": "ROI",
+        "c": "PITR",
+        "d": "RPO"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 114,
+      "unidad": "UT6",
+      "enunciado": "¿Qué formato se caracteriza por separar datos con comas y tener estructura tabular?",
+      "opciones": {
+        "a": "XML",
+        "b": "SQL",
+        "c": "JSON",
+        "d": "CSV"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 115,
+      "unidad": "UT6",
+      "enunciado": "¿Qué valor mide el tiempo máximo que puede tardarse en restaurar un sistema?",
+      "opciones": {
+        "a": "SLA",
+        "b": "RPO",
+        "c": "PITR",
+        "d": "RTO"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 116,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tipo de restauración requiere aplicar la copia completa y todas las incrementales?",
+      "opciones": {
+        "a": "Restauración parcial",
+        "b": "Restauración simple",
+        "c": "Restauración incremental",
+        "d": "Restauración diferencial"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 117,
+      "unidad": "UT6",
+      "enunciado": "¿Cuál es el objetivo principal de una estrategia de respaldo?",
+      "opciones": {
+        "a": "Crear usuarios nuevos",
+        "b": "Disminuir el tamaño de las bases de datos",
+        "c": "Garantizar la disponibilidad y recuperación de los datos",
+        "d": "Aumentar el rendimiento de las consultas"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 118,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta gráfica oficial permite realizar copias y restauraciones en MySQL?",
+      "opciones": {
+        "a": "MySQL Workbench",
+        "b": "DBeaver Lite",
+        "c": "Access",
+        "d": "SSMS"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 119,
+      "unidad": "UT6",
+      "enunciado": "¿Qué herramienta permite gestionar conexiones remotas, modelado E/R y backups en MySQL?",
+      "opciones": {
+        "a": "SQLiteStudio",
+        "b": "phpMyAdmin",
+        "c": "MySQL Workbench",
+        "d": "Oracle VM"
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}
