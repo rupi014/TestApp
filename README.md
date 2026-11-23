@@ -20,12 +20,12 @@ Organizado por **Semestre 1** y **Semestre 2**:
 **Semestre 1**
 - **IPEI**, **BBDD**, **SSOO**, **LM**, **IAW**, **SRI**, **PUERTOS**
 
-**Semestre 2** *(bancos en preparación salvo SAD)*
-- **ISSOO**: Implantación de SSOO
-- **FH**: Fundamentos de Hardware
-- **GBBDD**: Gestión de BBDD
-- **PAR**: Planificación y Admin. de Redes
-- **SAD**: Seguridad y Alta Disponibilidad (136 preguntas, UT1-UT7)
+**Semestre 2**
+- **ISSOO**: Implantación de SSOO (160 preguntas, UT1-UT8)
+- **FH**: Fundamentos de Hardware (120 preguntas, UT1-UT6)
+- **GBBDD**: Gestión de BBDD (119 preguntas, UT1-UT6)
+- **PAR**: Planificación y Admin. de Redes (139 preguntas, UT1-UT7)
+- **SAD**: Seguridad y Alta Disponibilidad (140 preguntas, UT1-UT7)
 
 #### 🏥 Osakidetza
 Oposiciones del Servicio Vasco de Salud:

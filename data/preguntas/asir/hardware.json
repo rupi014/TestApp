@@ -1,0 +1,1446 @@
+{
+  "simulacro": "Autoevaluaciones UT1-UT6 - Fundamentos de Hardware",
+  "total_preguntas": 120,
+  "preguntas": [
+    {
+      "numero": 1,
+      "unidad": "UT1",
+      "enunciado": "¿Qué dispositivo combina tecnología HDD con memoria flash?",
+      "opciones": {
+        "a": "SSD",
+        "b": "RAM",
+        "c": "ROM",
+        "d": "SSHD"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "unidad": "UT1",
+      "enunciado": "¿Qué bus transporta datos entre CPU, memoria y periféricos?",
+      "opciones": {
+        "a": "Bus de control",
+        "b": "Bus de direcciones",
+        "c": "Bus PCIe",
+        "d": "Bus de datos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "unidad": "UT1",
+      "enunciado": "¿Qué conector interno se usa para discos duros tradicionales?",
+      "opciones": {
+        "a": "USB header",
+        "b": "PCIe",
+        "c": "M.2",
+        "d": "SATA"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "unidad": "UT1",
+      "enunciado": "¿Qué componente conecta todos los elementos del ordenador en un circuito principal?",
+      "opciones": {
+        "a": "CPU",
+        "b": "Placa base",
+        "c": "HDD",
+        "d": "SSD"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "unidad": "UT1",
+      "enunciado": "¿Qué elemento de la CPU realiza operaciones matemáticas y lógicas?",
+      "opciones": {
+        "a": "Unidad de Control",
+        "b": "Caché",
+        "c": "ALU",
+        "d": "Registros"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "unidad": "UT1",
+      "enunciado": "¿Qué componente del sistema ejecuta instrucciones y coordina el funcionamiento global?",
+      "opciones": {
+        "a": "RAM",
+        "b": "Chipset",
+        "c": "CPU",
+        "d": "HDD"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "unidad": "UT1",
+      "enunciado": "¿Qué interfaz es preferida en entornos profesionales por soportar resoluciones altas y multimonitor?",
+      "opciones": {
+        "a": "USB",
+        "b": "VGA",
+        "c": "HDMI",
+        "d": "DisplayPort"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "unidad": "UT1",
+      "enunciado": "¿Qué memoria contiene el firmware inicial de un sistema?",
+      "opciones": {
+        "a": "Virtual",
+        "b": "ROM",
+        "c": "RAM",
+        "d": "Caché"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "unidad": "UT1",
+      "enunciado": "¿Qué firmware clásico inicializa el hardware al arrancar un PC?",
+      "opciones": {
+        "a": "BIOS",
+        "b": "POST",
+        "c": "CMOS",
+        "d": "UEFI"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "unidad": "UT1",
+      "enunciado": "¿Qué arquitectura separa físicamente el bus de datos y el de instrucciones?",
+      "opciones": {
+        "a": "CISC",
+        "b": "Von Neumann",
+        "c": "Harvard",
+        "d": "RISC"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 11,
+      "unidad": "UT1",
+      "enunciado": "¿Qué dispositivo de almacenamiento no tiene partes móviles?",
+      "opciones": {
+        "a": "HDD",
+        "b": "Cinta magnética",
+        "c": "DVD",
+        "d": "SSD"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 12,
+      "unidad": "UT1",
+      "enunciado": "¿Qué periférico es mixto, permitiendo entrada y salida?",
+      "opciones": {
+        "a": "Ratón",
+        "b": "Pantalla táctil",
+        "c": "Teclado",
+        "d": "Altavoces"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 13,
+      "unidad": "UT1",
+      "enunciado": "¿Qué interfaz transmite audio y vídeo digital en televisores y consolas?",
+      "opciones": {
+        "a": "VGA",
+        "b": "DisplayPort",
+        "c": "HDMI",
+        "d": "DVI"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 14,
+      "unidad": "UT1",
+      "enunciado": "¿Qué periférico es considerado dispositivo de entrada?",
+      "opciones": {
+        "a": "Altavoces",
+        "b": "Impresora",
+        "c": "Teclado",
+        "d": "Monitor"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 15,
+      "unidad": "UT1",
+      "enunciado": "¿Qué prueba inicial verifica los componentes básicos del hardware?",
+      "opciones": {
+        "a": "POST",
+        "b": "Kernel",
+        "c": "CMOS",
+        "d": "Hand-off"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 16,
+      "unidad": "UT1",
+      "enunciado": "¿Qué tecnología inalámbrica se usa para pagos contactless?",
+      "opciones": {
+        "a": "Wi-Fi",
+        "b": "NFC",
+        "c": "Zigbee",
+        "d": "Bluetooth"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 17,
+      "unidad": "UT1",
+      "enunciado": "¿Qué interfaz interna compacta se emplea en SSD NVMe?",
+      "opciones": {
+        "a": "IDE",
+        "b": "M.2",
+        "c": "PCIe",
+        "d": "SATA"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 18,
+      "unidad": "UT1",
+      "enunciado": "¿Qué arquitectura utiliza un único bus para instrucciones y datos?",
+      "opciones": {
+        "a": "Harvard",
+        "b": "RISC",
+        "c": "Von Neumann",
+        "d": "ARM"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 19,
+      "unidad": "UT1",
+      "enunciado": "¿Qué reemplazo moderno de la BIOS permite Secure Boot y discos >2TB?",
+      "opciones": {
+        "a": "POST",
+        "b": "CMOS",
+        "c": "UEFI",
+        "d": "Bootloader"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 20,
+      "unidad": "UT1",
+      "enunciado": "¿Qué memoria es volátil y almacena datos temporalmente?",
+      "opciones": {
+        "a": "ROM",
+        "b": "Caché",
+        "c": "Virtual",
+        "d": "RAM"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 21,
+      "unidad": "UT2",
+      "enunciado": "¿Qué consumible es esencial para limpiar CPU y disipador antes de aplicar pasta térmica?",
+      "opciones": {
+        "a": "Limpiador multiusos",
+        "b": "Silicona térmica",
+        "c": "Agua destilada",
+        "d": "Alcohol isopropílico 99%"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 22,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta se usa para medir throughput de red entre dos hosts?",
+      "opciones": {
+        "a": "iperf3",
+        "b": "fio",
+        "c": "sensors",
+        "d": "smartctl"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 23,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta en Linux permite actualizar firmware de forma segura?",
+      "opciones": {
+        "a": "fwupd",
+        "b": "htop",
+        "c": "top",
+        "d": "fdisk"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 24,
+      "unidad": "UT2",
+      "enunciado": "¿Qué rango de humedad relativa (RH) se recomienda para reducir ESD?",
+      "opciones": {
+        "a": "70–80%",
+        "b": "30–60%",
+        "c": "10–20%",
+        "d": "90–100%"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 25,
+      "unidad": "UT2",
+      "enunciado": "¿Qué acción permite actualizar la BIOS en placas con CPU no reconocida?",
+      "opciones": {
+        "a": "Instalar Windows",
+        "b": "Cambiar la GPU",
+        "c": "BIOS Flashback",
+        "d": "Formatear el disco"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 26,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta mide rendimiento de I/O en Linux con cargas personalizadas?",
+      "opciones": {
+        "a": "stress-ng",
+        "b": "MemTest86",
+        "c": "fio",
+        "d": "iperf3"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 27,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando en Linux lista discos y particiones detectadas?",
+      "opciones": {
+        "a": "lsblk",
+        "b": "top",
+        "c": "ifconfig",
+        "d": "pwd"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 28,
+      "unidad": "UT2",
+      "enunciado": "¿Qué paso inicial es crítico al montar una CPU en socket LGA?",
+      "opciones": {
+        "a": "Conectar PSU",
+        "b": "Instalar RAM antes de CPU",
+        "c": "Colocar pasta térmica primero",
+        "d": "Alinear la marca triangular y asentar sin forzar"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 29,
+      "unidad": "UT2",
+      "enunciado": "¿Qué certificación mínima es aconsejable en PSUs para estaciones de trabajo?",
+      "opciones": {
+        "a": "Sin certificación",
+        "b": "80 Plus White",
+        "c": "80 Plus Gold",
+        "d": "60 Plus"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 30,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta se utiliza para comprobar continuidad de la pulsera ESD?",
+      "opciones": {
+        "a": "Tester de continuidad",
+        "b": "Cámara térmica",
+        "c": "Tarjeta POST",
+        "d": "PSU tester"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 31,
+      "unidad": "UT2",
+      "enunciado": "¿Qué prueba se recomienda antes de montar la placa en el chasis?",
+      "opciones": {
+        "a": "Cinebench",
+        "b": "CrystalDiskMark",
+        "c": "MemTest86",
+        "d": "Bench test"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 32,
+      "unidad": "UT2",
+      "enunciado": "¿Qué protocolo de almacenamiento optimiza discos NVMe?",
+      "opciones": {
+        "a": "NVMe",
+        "b": "SCSI",
+        "c": "SATA",
+        "d": "IDE"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 33,
+      "unidad": "UT2",
+      "enunciado": "¿Qué parámetro debe habilitarse en BIOS para usar BitLocker?",
+      "opciones": {
+        "a": "Legacy USB",
+        "b": "Virtualización",
+        "c": "TPM 2.0",
+        "d": "Fast Boot"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 34,
+      "unidad": "UT2",
+      "enunciado": "¿Qué patrón de apriete se recomienda al fijar un disipador?",
+      "opciones": {
+        "a": "Cruzado",
+        "b": "Aleatorio",
+        "c": "Circular",
+        "d": "Paralelo"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 35,
+      "unidad": "UT2",
+      "enunciado": "¿Qué elemento debe conectarse siempre a tierra común para reducir ESD?",
+      "opciones": {
+        "a": "Destornillador",
+        "b": "Ventilador",
+        "c": "Tapete ESD",
+        "d": "GPU"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 36,
+      "unidad": "UT2",
+      "enunciado": "¿Qué ranuras se usan habitualmente para dual-channel de RAM?",
+      "opciones": {
+        "a": "A2/B2",
+        "b": "A1/B1",
+        "c": "B1/C1",
+        "d": "C2/D2"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 37,
+      "unidad": "UT2",
+      "enunciado": "¿Qué documento operativo recoge procedimientos paso a paso para incidencias?",
+      "opciones": {
+        "a": "Checklist de limpieza",
+        "b": "Inventario",
+        "c": "Factura",
+        "d": "Runbook"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 38,
+      "unidad": "UT2",
+      "enunciado": "¿Qué herramienta permite verificar voltajes de la fuente de alimentación sin cargar el sistema?",
+      "opciones": {
+        "a": "Multímetro",
+        "b": "Cámara térmica",
+        "c": "Tarjeta POST",
+        "d": "PSU tester"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 39,
+      "unidad": "UT2",
+      "enunciado": "¿Qué tipo de checklist asegura la compatibilidad entre CPU, RAM, GPU y PSU?",
+      "opciones": {
+        "a": "Lista de compras",
+        "b": "Checklist de compatibilidad",
+        "c": "Registro de incidencias",
+        "d": "Plan de mantenimiento"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 40,
+      "unidad": "UT2",
+      "enunciado": "¿Qué comando en Linux muestra información de CPU y flags?",
+      "opciones": {
+        "a": "dmesg",
+        "b": "uname -a",
+        "c": "lscpu",
+        "d": "lsusb"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 41,
+      "unidad": "UT3",
+      "enunciado": "¿Qué información debe incluir un inventario de software?",
+      "opciones": {
+        "a": "Documentos de texto y multimedia",
+        "b": "Contraseñas de usuarios",
+        "c": "Configuración del hardware únicamente",
+        "d": "Programas instalados y sus licencias"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 42,
+      "unidad": "UT3",
+      "enunciado": "¿Qué diferencia principal presenta una aplicación portable?",
+      "opciones": {
+        "a": "No guarda datos en dispositivos externos",
+        "b": "No requiere instalación en el sistema",
+        "c": "Solo funciona con privilegios de administrador",
+        "d": "Necesita conexión a Internet para ejecutarse"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 43,
+      "unidad": "UT3",
+      "enunciado": "¿Qué son las utilidades de recuperación de datos?",
+      "opciones": {
+        "a": "Aplicaciones de edición gráfica",
+        "b": "Programas que restauran archivos eliminados o dañados",
+        "c": "Herramientas para diseñar bases de datos",
+        "d": "Software de gestión de redes sociales"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 44,
+      "unidad": "UT3",
+      "enunciado": "¿Qué utilidad tienen las copias de seguridad del software y datos?",
+      "opciones": {
+        "a": "Garantizar la recuperación en caso de fallo o pérdida",
+        "b": "Sustituir al antivirus del sistema",
+        "c": "Hacer portable cualquier aplicación",
+        "d": "Eliminar programas innecesarios"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 45,
+      "unidad": "UT3",
+      "enunciado": "¿Qué efecto puede tener una actualización mal gestionada?",
+      "opciones": {
+        "a": "Mayor seguridad y estabilidad",
+        "b": "Incompatibilidades y fallos en el sistema",
+        "c": "Eliminación de virus existentes",
+        "d": "Instalación automática de drivers"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 46,
+      "unidad": "UT3",
+      "enunciado": "¿Qué licencia implica el pago para poder usar el software, sin acceso al código fuente?",
+      "opciones": {
+        "a": "GNU GPL",
+        "b": "Propietaria",
+        "c": "Pública",
+        "d": "Creative Commons"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 47,
+      "unidad": "UT3",
+      "enunciado": "¿Qué diferencia existe entre software de aplicación y software de sistema?",
+      "opciones": {
+        "a": "El de aplicación sustituye al firmware",
+        "b": "El de sistema solo incluye antivirus",
+        "c": "El primero satisface necesidades del usuario y el segundo gestiona hardware",
+        "d": "Ambos realizan la misma función"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 48,
+      "unidad": "UT3",
+      "enunciado": "¿Qué función cumple un sistema operativo?",
+      "opciones": {
+        "a": "Gestionar hardware, software y recursos del sistema",
+        "b": "Servir únicamente para crear programas",
+        "c": "Sustituir al firmware de la placa base",
+        "d": "Almacenar datos de usuario sin procesarlos"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 49,
+      "unidad": "UT3",
+      "enunciado": "¿Qué herramienta de seguridad es básica en un sistema informático?",
+      "opciones": {
+        "a": "Antivirus",
+        "b": "Compresor de archivos",
+        "c": "Procesador de texto",
+        "d": "Calculadora científica"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 50,
+      "unidad": "UT3",
+      "enunciado": "¿Qué utilidad tiene un antivirus en un sistema informático?",
+      "opciones": {
+        "a": "Gestionar hojas de cálculo",
+        "b": "Optimizar automáticamente la red",
+        "c": "Crear presentaciones gráficas",
+        "d": "Detectar y eliminar malware"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 51,
+      "unidad": "UT3",
+      "enunciado": "¿Qué sucede si se elimina un programa sin seguir el procedimiento adecuado?",
+      "opciones": {
+        "a": "El software se convierte en portable",
+        "b": "Pueden quedar archivos residuales que afecten al sistema",
+        "c": "Se restablece el sistema operativo",
+        "d": "El sistema se optimiza automáticamente"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 52,
+      "unidad": "UT3",
+      "enunciado": "¿Qué función cumple la documentación técnica de un software?",
+      "opciones": {
+        "a": "Permitir ejecución sin instalación",
+        "b": "Sustituir al antivirus",
+        "c": "Servir únicamente como publicidad",
+        "d": "Facilitar instalación, uso y resolución de problemas"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 53,
+      "unidad": "UT3",
+      "enunciado": "¿Qué gestor de paquetes se utiliza en sistemas Linux?",
+      "opciones": {
+        "a": "NTFS",
+        "b": "APT",
+        "c": "BIOS",
+        "d": "MS-DOS"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 54,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de software se emplea para edición multimedia?",
+      "opciones": {
+        "a": "Gestores de bases de datos",
+        "b": "Programas de audio, vídeo e imagen",
+        "c": "Firmware",
+        "d": "Procesadores de texto"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 55,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de software incluye procesadores de texto, hojas de cálculo y programas de presentaciones?",
+      "opciones": {
+        "a": "Software de programación",
+        "b": "Firmware",
+        "c": "Software ofimático",
+        "d": "Software de sistema"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 56,
+      "unidad": "UT3",
+      "enunciado": "¿Qué se debe hacer antes de instalar software en un entorno corporativo?",
+      "opciones": {
+        "a": "Evitar leer la documentación",
+        "b": "Instalarlo sin permisos previos",
+        "c": "Revisar compatibilidad y licencias",
+        "d": "Desinstalar el sistema operativo"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 57,
+      "unidad": "UT3",
+      "enunciado": "¿Qué riesgo implica usar software sin licencia?",
+      "opciones": {
+        "a": "Copias de seguridad más rápidas",
+        "b": "Instalación automática de actualizaciones",
+        "c": "Mayor optimización del sistema",
+        "d": "Vulneración legal y riesgos de seguridad"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 58,
+      "unidad": "UT3",
+      "enunciado": "¿Qué característica distingue al software libre?",
+      "opciones": {
+        "a": "Permite acceso, uso, modificación y distribución del código",
+        "b": "Se distribuye exclusivamente con fines comerciales",
+        "c": "Está limitado solo a sistemas Linux",
+        "d": "No puede ser utilizado sin conexión a Internet"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 59,
+      "unidad": "UT3",
+      "enunciado": "¿Qué se consigue con herramientas de optimización del sistema?",
+      "opciones": {
+        "a": "Desinstalar todos los programas a la vez",
+        "b": "Sustituir automáticamente el software propietario",
+        "c": "Aumentar el tamaño del disco duro físico",
+        "d": "Mejorar rendimiento y estabilidad del equipo"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 60,
+      "unidad": "UT3",
+      "enunciado": "¿Qué tipo de software controla el funcionamiento del hardware básico?",
+      "opciones": {
+        "a": "Firmware",
+        "b": "Software multimedia",
+        "c": "Software ofimático",
+        "d": "Aplicaciones de usuario"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 61,
+      "unidad": "UT4",
+      "enunciado": "¿Qué es Secure Boot en un firmware UEFI?",
+      "opciones": {
+        "a": "Activación de licencias",
+        "b": "Copia de seguridad en nube",
+        "c": "Verificación de firmas digitales de arranque",
+        "d": "Configuración de RAID"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 62,
+      "unidad": "UT4",
+      "enunciado": "¿Qué es una 'golden image'?",
+      "opciones": {
+        "a": "Un snapshot de RAM",
+        "b": "Un archivo de logs",
+        "c": "Un gestor de arranque",
+        "d": "Imagen maestra optimizada para desplegar en múltiples equipos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 63,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando de Linux permite crear un USB arrancable a partir de una ISO híbrida?",
+      "opciones": {
+        "a": "mkfs",
+        "b": "rsync",
+        "c": "cp",
+        "d": "dd"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 64,
+      "unidad": "UT4",
+      "enunciado": "¿Qué ventaja principal ofrece la clonación frente a la instalación manual?",
+      "opciones": {
+        "a": "Permite personalización extrema en cada equipo",
+        "b": "Rapidez y homogeneidad en el despliegue",
+        "c": "Detecta siempre nuevo hardware",
+        "d": "Reduce consumo eléctrico"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 65,
+      "unidad": "UT4",
+      "enunciado": "¿Qué técnica en Linux permite capturar una instantánea de un sistema de archivos para clonación consistente?",
+      "opciones": {
+        "a": "dd",
+        "b": "wbadmin",
+        "c": "Snapshot LVM o btrfs",
+        "d": "Secure Boot"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 66,
+      "unidad": "UT4",
+      "enunciado": "¿Qué se recomienda para validar una imagen antes de desplegarla masivamente?",
+      "opciones": {
+        "a": "Ejecutar bcdboot",
+        "b": "Guardarla en DVD",
+        "c": "Probarla en máquina virtual o hardware representativo",
+        "d": "Alinear particiones"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 67,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando de Windows permite realizar copias de seguridad de volúmenes críticos ('wbadmin')?",
+      "opciones": {
+        "a": "fsarchiver",
+        "b": "sysprep",
+        "c": "wbadmin",
+        "d": "DISM"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 68,
+      "unidad": "UT4",
+      "enunciado": "¿Qué protocolo permite arrancar un equipo por red para desplegar un sistema operativo?",
+      "opciones": {
+        "a": "FTP",
+        "b": "PXE",
+        "c": "DNS",
+        "d": "SMB"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 69,
+      "unidad": "UT4",
+      "enunciado": "¿Qué formato de Microsoft soporta múltiples imágenes en un solo archivo y compresión?",
+      "opciones": {
+        "a": "RAW",
+        "b": "WIM",
+        "c": "TAR",
+        "d": "EXT4"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 70,
+      "unidad": "UT4",
+      "enunciado": "¿Qué formato de particionado se asocia de forma nativa a UEFI?",
+      "opciones": {
+        "a": "GPT",
+        "b": "NTFS",
+        "c": "MBR",
+        "d": "EXT4"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 71,
+      "unidad": "UT4",
+      "enunciado": "¿Qué técnica asegura que una imagen no esté corrupta tras transferirse?",
+      "opciones": {
+        "a": "Reiniciar tras copiar",
+        "b": "Verificación de hash (SHA256)",
+        "c": "Crear snapshot",
+        "d": "Guardar en DVD"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 72,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta de Linux se usa para crear y gestionar volúmenes lógicos?",
+      "opciones": {
+        "a": "GParted",
+        "b": "lsblk",
+        "c": "fdisk",
+        "d": "LVM"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 73,
+      "unidad": "UT4",
+      "enunciado": "¿Qué utilidad de Linux permite clonar únicamente los bloques utilizados de una partición?",
+      "opciones": {
+        "a": "Partclone",
+        "b": "rsync",
+        "c": "dd",
+        "d": "tar"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 74,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta de Windows se utiliza para generalizar una instalación antes de crear una imagen?",
+      "opciones": {
+        "a": "Rufus",
+        "b": "MDT",
+        "c": "DISM",
+        "d": "Sysprep"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 75,
+      "unidad": "UT4",
+      "enunciado": "¿Qué utilidad de Linux se usa para gestionar arreglos RAID por software?",
+      "opciones": {
+        "a": "parted",
+        "b": "tune2fs",
+        "c": "fsarchiver",
+        "d": "mdadm"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 76,
+      "unidad": "UT4",
+      "enunciado": "¿Qué herramienta de Windows permite restaurar el gestor de arranque con el comando 'bcdboot'?",
+      "opciones": {
+        "a": "diskpart",
+        "b": "bcdboot",
+        "c": "sysprep",
+        "d": "bootrec /fixboot"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 77,
+      "unidad": "UT4",
+      "enunciado": "¿Qué es una instalación tradicional de un sistema operativo?",
+      "opciones": {
+        "a": "Usar PXE",
+        "b": "Clonar con partclone",
+        "c": "Ejecutar el instalador y configurar manual o automáticamente",
+        "d": "Aplicar una imagen WIM"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 78,
+      "unidad": "UT4",
+      "enunciado": "¿Qué gestor de arranque se emplea comúnmente en Linux moderno?",
+      "opciones": {
+        "a": "NTLDR",
+        "b": "LILO",
+        "c": "SYSLINUX",
+        "d": "GRUB2"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 79,
+      "unidad": "UT4",
+      "enunciado": "¿Qué buena práctica es esencial antes de capturar una imagen de sistema?",
+      "opciones": {
+        "a": "Cambiar UUIDs",
+        "b": "Ejecutar chkdsk",
+        "c": "Limpiar temporales y credenciales",
+        "d": "Instalar drivers específicos"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 80,
+      "unidad": "UT4",
+      "enunciado": "¿Qué comando de Windows permite capturar una imagen en formato WIM?",
+      "opciones": {
+        "a": "DISM /Capture-Image",
+        "b": "Sysprep /generalize",
+        "c": "wbadmin",
+        "d": "bcdboot"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 81,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de contrato es habitual en hardware empresarial para soporte inmediato 24x7?",
+      "opciones": {
+        "a": "Contrato de soporte con SLA 24x7",
+        "b": "Certificado SSL",
+        "c": "Licencia GNU",
+        "d": "Seguro de hogar"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 82,
+      "unidad": "UT5",
+      "enunciado": "¿Qué es un SLA en el contexto de hardware y servicios empresariales?",
+      "opciones": {
+        "a": "Protocolo de red",
+        "b": "Un tipo de UPS",
+        "c": "Acuerdo de nivel de servicio",
+        "d": "Estándar eléctrico"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 83,
+      "unidad": "UT5",
+      "enunciado": "¿Qué estrategia de redundancia eléctrica implica duplicidad completa de la cadena de alimentación?",
+      "opciones": {
+        "a": "N+1",
+        "b": "N",
+        "c": "N+N",
+        "d": "2N"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 84,
+      "unidad": "UT5",
+      "enunciado": "¿Qué organismo define recomendaciones de temperatura y humedad para CPD (ej. clase A1)?",
+      "opciones": {
+        "a": "TIA-942",
+        "b": "ASHRAE",
+        "c": "ISO",
+        "d": "ITIL"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 85,
+      "unidad": "UT5",
+      "enunciado": "¿Qué técnica de refrigeración organiza racks en pasillos fríos y calientes?",
+      "opciones": {
+        "a": "Free cooling",
+        "b": "Refrigeración líquida",
+        "c": "CRAH",
+        "d": "Hot aisle / Cold aisle"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 86,
+      "unidad": "UT5",
+      "enunciado": "¿Qué base de datos recoge relaciones entre activos y configuraciones (ITIL)?",
+      "opciones": {
+        "a": "SQL",
+        "b": "CMDB",
+        "c": "LDAP",
+        "d": "DCIM"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 87,
+      "unidad": "UT5",
+      "enunciado": "¿Qué protocolo se utiliza para consultar sensores en un BMC (ejemplo con ipmitool)?",
+      "opciones": {
+        "a": "IPMI",
+        "b": "SNMP",
+        "c": "HTTP",
+        "d": "SSH"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 88,
+      "unidad": "UT5",
+      "enunciado": "¿Qué característica distingue habitualmente la memoria empresarial frente a la personal?",
+      "opciones": {
+        "a": "Uso de memoria ECC",
+        "b": "Menor capacidad",
+        "c": "Bajo coste",
+        "d": "Mayor velocidad"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 89,
+      "unidad": "UT5",
+      "enunciado": "¿Qué es PUE en el contexto de eficiencia energética de CPD?",
+      "opciones": {
+        "a": "Política de seguridad",
+        "b": "UPS modular",
+        "c": "Plan de continuidad",
+        "d": "Power Usage Effectiveness"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 90,
+      "unidad": "UT5",
+      "enunciado": "¿Qué interfaz de gestión remota es común en hardware empresarial de Dell?",
+      "opciones": {
+        "a": "CIMC",
+        "b": "iDRAC",
+        "c": "iLO",
+        "d": "AMT"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 91,
+      "unidad": "UT5",
+      "enunciado": "¿Qué herramienta open source permite inventario y gestión de activos IT con agentes (GLPI)?",
+      "opciones": {
+        "a": "NetBox",
+        "b": "GLPI + FusionInventory",
+        "c": "SCCM",
+        "d": "Zabbix"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 92,
+      "unidad": "UT5",
+      "enunciado": "¿Qué buena práctica se recomienda antes de la puesta en servicio de un CPD?",
+      "opciones": {
+        "a": "Instalar antivirus",
+        "b": "Instalar drivers de GPU",
+        "c": "Inventariado físico y lógico completo",
+        "d": "Montar RAID 0"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 93,
+      "unidad": "UT5",
+      "enunciado": "¿Qué herramienta de Microsoft permite inventario y despliegue en entornos Windows empresariales?",
+      "opciones": {
+        "a": "OCS Inventory",
+        "b": "NetBox",
+        "c": "SCCM / Intune",
+        "d": "ServiceNow"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 94,
+      "unidad": "UT5",
+      "enunciado": "¿Qué componente facilita distribución eléctrica y monitorización por outlet en racks?",
+      "opciones": {
+        "a": "UPS offline",
+        "b": "Busbar simple",
+        "c": "Generador diesel",
+        "d": "PDU inteligente"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 95,
+      "unidad": "UT5",
+      "enunciado": "¿Qué estándar de particionado es habitual en servidores modernos con UEFI?",
+      "opciones": {
+        "a": "NTFS",
+        "b": "EXT4",
+        "c": "MBR",
+        "d": "GPT"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 96,
+      "unidad": "UT5",
+      "enunciado": "¿Qué es un asset tag en inventariado profesional?",
+      "opciones": {
+        "a": "Modelo de CPU",
+        "b": "Etiqueta física con identificador único",
+        "c": "Versión de BIOS",
+        "d": "Dirección IP"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 97,
+      "unidad": "UT5",
+      "enunciado": "¿Qué métrica mide la eficiencia energética de un CPD?",
+      "opciones": {
+        "a": "ECC",
+        "b": "SLA",
+        "c": "RAID",
+        "d": "PUE"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 98,
+      "unidad": "UT5",
+      "enunciado": "¿Qué significa hot-swap en servidores empresariales?",
+      "opciones": {
+        "a": "Actualizar firmware",
+        "b": "Ampliar memoria",
+        "c": "Sustitución en caliente de componentes",
+        "d": "Instalar drivers"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 99,
+      "unidad": "UT5",
+      "enunciado": "¿Qué estándar internacional regula seguridad de la información y aplica a CPD?",
+      "opciones": {
+        "a": "ISO/IEC 27001",
+        "b": "ASHRAE",
+        "c": "TIA-942",
+        "d": "ISO 9001"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 100,
+      "unidad": "UT5",
+      "enunciado": "¿Qué tipo de UPS se recomienda en centros de datos críticos por su doble conversión?",
+      "opciones": {
+        "a": "UPS offline",
+        "b": "UPS line-interactive",
+        "c": "UPS online (double conversion)",
+        "d": "UPS modular"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 101,
+      "unidad": "UT6",
+      "enunciado": "¿Qué debe incluir un registro de entrega de EPI?",
+      "opciones": {
+        "a": "Precio de adquisición",
+        "b": "Fecha, lote, firma del receptor",
+        "c": "Marca del fabricante",
+        "d": "Nombre del proveedor"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 102,
+      "unidad": "UT6",
+      "enunciado": "¿Qué mascarilla se recomienda en limpieza con aspiradora HEPA en CPD?",
+      "opciones": {
+        "a": "Mascarilla quirúrgica",
+        "b": "N95",
+        "c": "FFP2 o FFP3",
+        "d": "Semimáscara de gases"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 103,
+      "unidad": "UT6",
+      "enunciado": "¿Qué procedimiento documenta la retirada segura de equipos electrónicos?",
+      "opciones": {
+        "a": "Procedimiento de backup",
+        "b": "Checklist EPI",
+        "c": "Gestión RAEE",
+        "d": "Protocolo LOTO"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 104,
+      "unidad": "UT6",
+      "enunciado": "¿Qué tipo de residuo es un EPI contaminado?",
+      "opciones": {
+        "a": "Chatarra metálica",
+        "b": "Material reutilizable",
+        "c": "Residuos urbanos",
+        "d": "Residuo especial"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 105,
+      "unidad": "UT6",
+      "enunciado": "¿Qué indicador mide la eficiencia energética en un CPD?",
+      "opciones": {
+        "a": "PUE (Power Usage Effectiveness)",
+        "b": "SLA contractual",
+        "c": "MTTR",
+        "d": "KPI general"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 106,
+      "unidad": "UT6",
+      "enunciado": "¿Qué significa el acrónimo LOTO en prevención de riesgos?",
+      "opciones": {
+        "a": "Line Of Technical Output",
+        "b": "Local Operations Testing Order",
+        "c": "Level Of Total Operation",
+        "d": "Lock-Out Tag-Out"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 107,
+      "unidad": "UT6",
+      "enunciado": "¿Qué técnica de mejora continua se aplica al orden y limpieza?",
+      "opciones": {
+        "a": "Six Sigma",
+        "b": "Kaizen 7",
+        "c": "5S",
+        "d": "Poka-Yoke"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 108,
+      "unidad": "UT6",
+      "enunciado": "¿Qué norma regula la protección contra descargas electrostáticas?",
+      "opciones": {
+        "a": "EN 60903",
+        "b": "EN 149",
+        "c": "EN 374",
+        "d": "IEC 61340"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 109,
+      "unidad": "UT6",
+      "enunciado": "¿Qué norma regula los guantes dieléctricos?",
+      "opciones": {
+        "a": "EN 374",
+        "b": "EN 60903",
+        "c": "ISO 45001",
+        "d": "IEC 61340"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 110,
+      "unidad": "UT6",
+      "enunciado": "¿Qué método de sanitización se prefiere en SSD/NVMe con soporte fabricante?",
+      "opciones": {
+        "a": "Clear",
+        "b": "Destroy",
+        "c": "Compresión",
+        "d": "Purge"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 111,
+      "unidad": "UT6",
+      "enunciado": "¿Qué debe incluir un contrato con un gestor RAEE?",
+      "opciones": {
+        "a": "Planos de las instalaciones",
+        "b": "Certificado de destrucción o reciclado",
+        "c": "Número de empleados",
+        "d": "Nombre comercial del gestor"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 112,
+      "unidad": "UT6",
+      "enunciado": "¿Qué procedimiento garantiza la ausencia de tensión antes de intervenir?",
+      "opciones": {
+        "a": "Procedimiento RAEE",
+        "b": "LOTO",
+        "c": "Checklist de limpieza",
+        "d": "Control de acceso"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 113,
+      "unidad": "UT6",
+      "enunciado": "¿Qué método de sanitización aplica borrado lógico en HDD?",
+      "opciones": {
+        "a": "Destroy",
+        "b": "Purge",
+        "c": "Format rápido",
+        "d": "Clear"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 114,
+      "unidad": "UT6",
+      "enunciado": "¿Qué norma regula las mascarillas FFP2/FFP3?",
+      "opciones": {
+        "a": "EN 60903",
+        "b": "EN 149",
+        "c": "EN 374",
+        "d": "ISO 45001"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 115,
+      "unidad": "UT6",
+      "enunciado": "¿Qué normativa establece sistemas de gestión de seguridad y salud laboral?",
+      "opciones": {
+        "a": "NIST SP 800-88",
+        "b": "ISO 45001",
+        "c": "IEC 60364",
+        "d": "ISO 14001"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 116,
+      "unidad": "UT6",
+      "enunciado": "¿Qué significa el acrónimo RAEE?",
+      "opciones": {
+        "a": "Residuos de Aparatos Eléctricos y Electrónicos",
+        "b": "Requisitos de Almacenamiento Ecológico",
+        "c": "Registro Ambiental Europeo de Energía",
+        "d": "Reglamento de Activos Eléctricos Especiales"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 117,
+      "unidad": "UT6",
+      "enunciado": "¿Qué documento sirve para cuantificar riesgos con probabilidad y severidad?",
+      "opciones": {
+        "a": "Acta de reunión",
+        "b": "Manual de usuario",
+        "c": "Matriz de riesgos",
+        "d": "Hoja de inventario"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 118,
+      "unidad": "UT6",
+      "enunciado": "¿Qué acción corresponde a la “S” de Clasificar en el programa 5S?",
+      "opciones": {
+        "a": "Separar lo necesario de lo innecesario",
+        "b": "Simular incidencias",
+        "c": "Señalizar pasillos de evacuación",
+        "d": "Sustituir hardware"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 119,
+      "unidad": "UT6",
+      "enunciado": "¿Qué EPI es esencial para manipulación de baterías Li-ion dañadas?",
+      "opciones": {
+        "a": "Tapones auditivos",
+        "b": "Guantes químicos y pantalla facial",
+        "c": "Casco de seguridad",
+        "d": "Chaleco reflectante"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 120,
+      "unidad": "UT6",
+      "enunciado": "¿Qué riesgo se asocia a la manipulación de PCBs sin protección?",
+      "opciones": {
+        "a": "Exposición a radiación ionizante",
+        "b": "Descargas electrostáticas (ESD)",
+        "c": "Riesgo biológico",
+        "d": "Vibraciones mecánicas"
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}
